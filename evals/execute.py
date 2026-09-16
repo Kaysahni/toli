@@ -49,7 +49,7 @@ def invoke(prompt, cwd, extra, events, budget):
            "--verbose", "--max-budget-usd", str(budget)] + ISOLATION + extra
     env = {k: v for k, v in os.environ.items() if k not in SCRUB}
     r = subprocess.run(cmd, input=prompt, capture_output=True, text=True,
-                       cwd=cwd, env=env, timeout=3600)
+                       cwd=cwd, env=env, timeout=7200)
     evs = [json.loads(l) for l in r.stdout.splitlines() if l.strip().startswith("{")]
     with open(events, "a") as f:
         f.writelines(json.dumps(e) + "\n" for e in evs)
