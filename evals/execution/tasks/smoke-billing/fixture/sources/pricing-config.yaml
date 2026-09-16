@@ -1,0 +1,3 @@
+plans:
+  starter: {seats: 3, price_usd: 19}
+  growth: {seats: 20, price_usd: 79}
