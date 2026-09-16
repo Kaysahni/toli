@@ -1,0 +1,49 @@
+# Germany launch: one-time entry cost estimate
+# Prepared by: Marta Szymańska (Localization PM), reviewed by Rasmus Okafor-Lind (FP&A)
+# Version: 3 (2026-06-16). v2 had the help center at the old per-word rate.
+# All amounts USD, at June 2026 planning rates.
+
+market: DE
+currency: USD
+version: 3
+
+line_items:
+  - id: de-01
+    item: App UI translation (iOS, Android, web, desktop), approx 11,200 strings
+    vendor: Wortgut Sprachdienste
+    amount: 41000
+  - id: de-02
+    item: Help center translation, 398 articles
+    vendor: Wortgut Sprachdienste
+    note: separate SOW from de-01, quoted per article
+    amount: 36400
+  - id: de-03
+    item: Transactional and billing emails, legal pages, in-app onboarding copy
+    vendor: in-house (German-speaking contractor, 3 months)
+    amount: 21000
+  - id: de-04
+    item: SEPA direct debit integration and VAT invoice changes
+    vendor: internal payments team (backfill contractor)
+    amount: 58000
+  - id: de-05
+    item: Legal and tax setup (entity registration, tax advisor, privacy review)
+    amount: 27000
+  - id: de-06
+    item: Contracted German-language support, first 6 months, 2 agents
+    vendor: Kundenwerk Service GmbH
+    amount: 55000
+  - id: de-07
+    item: Launch marketing (university seeding, freelancer associations, paid social)
+    amount: 80000
+
+# - id: de-08
+#   item: Frankfurt hosting region build-out
+#   amount: 120000
+#   note: removed in v2, counsel says EU region is enough (March memo)
+
+total_one_time: 318400
+
+assumptions:
+  - No German-specific hosting. Existing EU region (Dublin) is used.
+  - Support contract beyond month 6 is ongoing cost, not included.
+  - Launch marketing excludes the FY2027 always-on paid budget.

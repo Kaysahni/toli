@@ -1,0 +1,30 @@
+BILLING & PAYMENTS QUICK REFERENCE (Customer Care)
+rev. 2026-05-11
+
+Payment channels
+  Portal / app ........ card or bank, posts same day
+  IVR 1-800-555-0165 .. card or bank, posts next business day
+  Mail lockbox ........ 3 to 5 business days to post
+  Agent office ........ posts when agent sweeps, usually next day
+
+Fees
+  Returned payment ... $25
+  Installment fee .... $3 two pay / $2 monthly
+  Reinstatement ...... none
+
+Grace and cancellation
+  - The billing system sends a reminder 5 days after the due date.
+  - If still unpaid, MC-CX-05 (notice of cancellation for nonpayment) generates automatically.
+  - If payment in full arrives before the cancellation effective date, the policy stays in force, no lapse.
+  - After cancellation, reinstatement within 30 days is allowed once per policy term if there were no losses during the lapse. Needs team lead approval.
+
+Escrow
+  Mortgagee billed policies: we bill the mortgage company 60 days before renewal. If they haven't paid 10 days before renewal, send the "Escrow Not Received" email to the insured.
+
+Refunds
+  Refunds of unearned premium go out within 15 business days of cancellation, to the original payment method or by check.
+
+Common mistakes
+  - Don't take a card payment over $2,000, it will decline.
+  - Don't promise a refund date.
+  - Don't remove the late fee without a reason code.

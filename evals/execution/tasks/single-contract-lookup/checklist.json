@@ -1,0 +1,148 @@
+{
+  "id": "single-contract-lookup",
+  "company": "Brackenford Holdings",
+  "category": "single",
+  "held_out": false,
+  "summary": "Find the without-cause termination notice for the Kestrel Freight MSA as changed by Amendment No. 2 (90 days, not the original 60), apply the MSA's notice and day-counting rules, and give the latest receipt date for a December 31, 2026 exit (October 2, 2026) and the required form of notice.",
+  "findings": [
+    {
+      "id": "F1",
+      "what": "The without-cause notice period is 90 days, because Amendment No. 2 (effective July 15, 2025) deleted and replaced MSA Section 15.1, which originally said 60 days.",
+      "evidence": [
+        {
+          "file": "contracts/BH-2023-004-A2 signed.md",
+          "quote": "Either Party may terminate this Agreement without cause by giving the other Party at least ninety (90) days' prior written notice."
+        },
+        {
+          "file": "contracts/BH-2023-004-A2 signed.md",
+          "quote": "Section 15.1 of the Agreement is deleted in its entirety and replaced with the following:"
+        }
+      ],
+      "counts_if": "The answer states the notice period is at least 90 days and attributes it to the amendment (Amendment No. 2) rather than the original MSA text."
+    },
+    {
+      "id": "F2",
+      "what": "For a December 31, 2026 termination date, notice must be received by Kestrel no later than October 2, 2026. Notice is effective on receipt, the day of receipt is not counted and the termination day is counted (Oct 3 to Dec 31 is 90 days). The termination date must be the last day of a month, which December 31 satisfies.",
+      "evidence": [
+        {
+          "file": "contracts/BH-2023-004_kestrel-freight-msa.md",
+          "quote": "A notice is effective when received at the address above, as shown by the courier's or postal service's delivery record, or on refusal of delivery."
+        },
+        {
+          "file": "contracts/BH-2023-004_kestrel-freight-msa.md",
+          "quote": "the day on which the notice becomes effective is not counted and the day of the event is counted."
+        },
+        {
+          "file": "contracts/BH-2023-004-A2 signed.md",
+          "quote": "The notice must state the termination date, which must fall on the last day of a calendar month and may not be earlier than the end of that notice period."
+        }
+      ],
+      "counts_if": "The answer gives October 2, 2026 as the latest date the notice must be received (or effective). An answer giving October 1, 2026 as a deliberately conservative target still counts if it is not presented as a later deadline; any date after October 2, 2026, or a date framed only as when the notice is sent by mail, does not count."
+    },
+    {
+      "id": "F3",
+      "what": "Form of notice: in writing, delivered by hand, overnight courier or certified mail (email alone is not effective for termination), addressed to Kestrel Freight Services, Inc., 1180 Harbor Line Road, Dunlow, Attention: Director of Contracts, and stating the termination date.",
+      "evidence": [
+        {
+          "file": "contracts/BH-2023-004_kestrel-freight-msa.md",
+          "quote": "A notice of termination, non-renewal or breach sent only by email is not effective, although operational communications under a SOW may be sent by email."
+        },
+        {
+          "file": "contracts/BH-2023-004_kestrel-freight-msa.md",
+          "quote": "Attention: Director of Contracts"
+        }
+      ],
+      "counts_if": "The answer says the notice must be written and delivered by hand, courier or certified mail (or says email alone is not enough), and that it must state the termination date. Naming the Kestrel notice address or Director of Contracts is expected but not required on its own."
+    }
+  ],
+  "exclusions": [
+    {
+      "id": "X1",
+      "what": "The original MSA Section 15.1 notice period of 60 days (which would give a November 1, 2026 deadline).",
+      "evidence": [
+        {
+          "file": "contracts/BH-2023-004_kestrel-freight-msa.md",
+          "quote": "Either Party may terminate this Agreement at any time without cause by giving the other Party not less than sixty (60) days' prior written notice."
+        }
+      ],
+      "why_not": "Amendment No. 2 deleted and replaced Section 15.1 with a 90 day period. Relying on 60 days would produce a late, ineffective notice."
+    },
+    {
+      "id": "X2",
+      "what": "The Dunlow warehouse lease with Kestrel Freight Properties LLC, whose early termination option requires 180 days' notice plus a termination fee.",
+      "evidence": [
+        {
+          "file": "contracts/kestrel_dunlow_warehouse_lease_2022.md",
+          "quote": "by giving Landlord written notice at least one hundred eighty (180) days before the Early Termination Date, accompanied by payment of fifty percent (50%) of the Termination Fee."
+        }
+      ],
+      "why_not": "It is a different contract (a lease with a Kestrel affiliate), not the master services agreement, and the lease says it is independent of any services arrangement."
+    },
+    {
+      "id": "X3",
+      "what": "Termination for cause under MSA Section 15.2 (30 day cure period after notice of material breach).",
+      "evidence": [
+        {
+          "file": "contracts/BH-2023-004_kestrel-freight-msa.md",
+          "quote": "fails to cure the breach within thirty (30) days after receiving written notice describing the breach in reasonable detail."
+        }
+      ],
+      "why_not": "The question is about termination without cause. Amendment No. 2 expressly leaves Section 15.2 unchanged."
+    },
+    {
+      "id": "X4",
+      "what": "Non-renewal notice under MSA Section 3.2 (60 days before the end of the current term).",
+      "evidence": [
+        {
+          "file": "contracts/BH-2023-004_kestrel-freight-msa.md",
+          "quote": "unless either Party gives written notice of non-renewal at least sixty (60) days before the end of the Initial Term or the then-current Renewal Term."
+        }
+      ],
+      "why_not": "The current Renewal Term runs March 1, 2026 to February 28, 2027, so non-renewal cannot produce a December 31, 2026 exit. It is not termination without cause."
+    },
+    {
+      "id": "X5",
+      "what": "The Ardent Line freight brokerage agreement's 30 day with-or-without-cause termination right.",
+      "evidence": [
+        {
+          "file": "contracts/ardent-line-freight-brokerage-agreement.md",
+          "quote": "Either party may terminate this Agreement at any time, with or without cause, by giving thirty (30) days' written notice to the other party."
+        }
+      ],
+      "why_not": "A different freight provider's contract, not the Kestrel Freight MSA."
+    },
+    {
+      "id": "X6",
+      "what": "The Altamira Cloud 'Master Services Agreement' early termination on 120 days' notice.",
+      "evidence": [
+        {
+          "file": "contracts/altamira-cloud-hosting-msa.md",
+          "quote": "Client may end an Order Form before the end of its subscription term by giving Altamira 120 days' written notice."
+        }
+      ],
+      "why_not": "A cloud hosting MSA with a different counterparty, not Kestrel."
+    },
+    {
+      "id": "X7",
+      "what": "The Tilbury Grove sublease early termination effective December 31, 2026 with notice by March 31, 2026.",
+      "evidence": [
+        {
+          "file": "contracts/sublease_floor6_tilbury-grove.md",
+          "quote": "Subtenant may terminate this Sublease effective as of December 31, 2026 (the \"Early Termination Date\") by giving Sublandlord written notice on or before March 31, 2026"
+        }
+      ],
+      "why_not": "An unrelated year-end 2026 deadline in a sublease where Brackenford is sublandlord; nothing to do with Kestrel."
+    }
+  ],
+  "answer": {
+    "value": "At least 90 days' prior written notice under MSA Section 15.1 as replaced by Amendment No. 2. For a December 31, 2026 termination, the notice must be received by Kestrel no later than October 2, 2026, delivered by hand, courier or certified mail (not email alone) to the Director of Contracts, stating December 31, 2026 as the termination date.",
+    "derivation": "MSA BH-2023-004 Section 15.1 originally required 60 days. Amendment No. 2 (effective July 15, 2025) replaced it with at least 90 days and requires a month-end termination date stated in the notice. MSA Section 19.3 makes notice effective on receipt and Section 19.4 excludes the receipt day and includes the event day. Counting back 90 days from December 31, 2026 gives October 2, 2026 (October 3 through December 31 is 90 days). Section 19.1 bars email-only termination notices.",
+    "counts_if": "States 90 days from the amendment and October 2, 2026 as the latest receipt date (October 1 acceptable only as an explicitly conservative target)."
+  },
+  "mistakes_that_matter": [
+    "Using the original 60 day period and a November 1, 2026 (or any post October 2) deadline, which makes the notice late and leaves the MSA running into 2027.",
+    "Citing the warehouse lease's 180 day early termination terms as the MSA's terms, or telling the COO that terminating the MSA also ends the lease.",
+    "Advising that the notice can be sent by email, or treating the deadline as a mailing date rather than the date Kestrel must receive it.",
+    "Proposing a termination date that is not the last day of a calendar month."
+  ]
+}

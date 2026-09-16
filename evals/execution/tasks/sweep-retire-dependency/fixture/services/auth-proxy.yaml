@@ -1,0 +1,19 @@
+# auth-proxy: terminates SSO for internal tools
+# owner: Platform Security
+image: registry.tesselwick.internal/security/auth-proxy:1.22.1
+replicas: 3
+oidc:
+  issuer: https://auth.tesselwick.internal
+  client_id: internal-tools
+  scopes: [openid, email, groups]
+upstreams:
+  dispatch-console: http://dispatch-console.dispatch.svc:8080
+  billing-export: http://billing-export.finance.svc:8080
+  claims-intake: http://claims-intake.claims.svc:8080
+  grafana: http://grafana.obs.svc:3000
+session:
+  cookie_domain: .tools.tesselwick.internal
+  max_age_hours: 10
+allowed_groups:
+  - tw-staff
+  - tw-contractors-ops

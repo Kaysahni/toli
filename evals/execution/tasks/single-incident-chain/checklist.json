@@ -1,0 +1,224 @@
+{
+  "id": "single-incident-chain",
+  "company": "Juniper Vale Bank",
+  "category": "single",
+  "held_out": false,
+  "summary": "Reconstruct why the September 3 nightly statement emails never went out across the mail relay, message queue, batch scheduler and statement renderer logs; a good answer gives the causal chain in order with log evidence and names the relay certificate rotation that served an incomplete chain (missing intermediate) as the root cause.",
+  "findings": [
+    {
+      "id": "F1",
+      "what": "Change CHG-4471 rotated the outbound mail relay TLS certificate. The calendar gives 21:10 ET on Sep 2, which is 01:10 UTC on Sep 3, matching the relay log reload. The new certificate was loaded with a chain of length 1 instead of 2, i.e. the intermediate (JVB Issuing CA G3 chain) was not served.",
+      "evidence": [
+        {
+          "file": "changes.md",
+          "quote": "Reload quillmail TLS on mx-relay01 at 21:10."
+        },
+        {
+          "file": "logs/mail-relay/mx-relay01.log",
+          "quote": "2026-09-03T01:10:04.120Z mx-relay01 quillmail/tlsmgr[1874]: certificate chain length 1 (previous 2)"
+        }
+      ],
+      "counts_if": "Answer identifies the relay certificate rotation (CHG-4471) at about 01:10 UTC / 21:10 ET as the start, and says the new certificate was deployed without the intermediate / with an incomplete chain (chain length 1 vs 2)."
+    },
+    {
+      "id": "F2",
+      "what": "From 01:12 UTC the mailer workers (mailer-1, mailer-2) that consume the email queues can no longer complete STARTTLS with the relay: the relay sees unknown_ca alerts and the consumers report x509 certificate signed by unknown authority. Other relay clients and the ops-jump01 post check still succeed, which is why the change looked fine.",
+      "evidence": [
+        {
+          "file": "logs/mail-relay/mx-relay01.log",
+          "quote": "2026-09-03T01:12:47.530Z mx-relay01 quillmail/smtpd[2211]: TLS handshake failed from mailer-1.jvb.internal[10.40.12.21]: peer sent alert unknown_ca (48)"
+        },
+        {
+          "file": "logs/message-queue/lanternq-cluster.jsonl",
+          "quote": "\"last_error\": \"smtp starttls mx-relay.jvb.internal:587: x509: certificate signed by unknown authority\""
+        },
+        {
+          "file": "alerts.csv",
+          "quote": "A-77339,NotifyDeadLetterNonEmpty,warning,message-queue,notify.email.dlq,2026-09-03 01:52:40,,open,dead letter queue depth above 0"
+        }
+      ],
+      "counts_if": "Answer says the mailers could not send because TLS to the relay failed certificate verification (unknown CA / untrusted certificate) after the rotation. Grading note (accepted, not required): also noting that the notify.email.send queue failed the same way (first unknown authority error 01:12:48, a message dead-lettered at 01:52, alert A-77339 NotifyDeadLetterNonEmpty still open) strengthens the answer, as does saying the outage was still unresolved by morning (mailer handshakes still failing at 08:54)."
+    },
+    {
+      "id": "F3",
+      "what": "Statement messages published by the renderer from 01:30 UTC are never acknowledged; the stmt.email.send queue policy retries without limit, so messages are redelivered over and over and the queue backs up (ack_rate 0, ready count climbing to about 36,000).",
+      "evidence": [
+        {
+          "file": "logs/message-queue/lanternq-cluster.jsonl",
+          "quote": "{\"ts\": \"2026-09-03T01:31:40.662Z\", \"node\": \"lq-2\", \"level\": \"warn\", \"msg\": \"message redelivered\", \"queue\": \"stmt.email.send\", \"consumer\": \"mailer-2\", \"attempt\": 3,"
+        },
+        {
+          "file": "logs/message-queue/lanternq-cluster.jsonl",
+          "quote": "\"max_delivery_attempts\": \"unlimited\""
+        }
+      ],
+      "counts_if": "Answer says the failed sends were retried/requeued so stmt.email.send accumulated messages (nothing acknowledged) instead of draining."
+    },
+    {
+      "id": "F4",
+      "what": "At 02:47:13 UTC broker node lq-2 hit its memory high watermark (the backlog of PDF-carrying messages) and blocked the renderer's publishing connection; the renderer logs the block and stops at 36,114 of 41,862 statements.",
+      "evidence": [
+        {
+          "file": "logs/message-queue/lanternq-cluster.jsonl",
+          "quote": "\"msg\": \"memory high watermark reached, blocking publishers\""
+        },
+        {
+          "file": "logs/statement-renderer/stmt-render.log",
+          "quote": "time=2026-09-03T02:47:14.019Z level=warn component=publisher msg=\"broker blocked connection\" reason=\"resource alarm: memory\" conn=stmt-render@bat-app04:51344"
+        }
+      ],
+      "counts_if": "Answer links the queue backlog to a broker memory alarm around 02:47 UTC that blocked the renderer from publishing, stalling the batch."
+    },
+    {
+      "id": "F5",
+      "what": "With progress stuck at 36114/41862, the Tidewell job STMT_NIGHTLY (run 88213, maxrun 3h from 01:30) exceeded its maximum runtime at 04:30 UTC and was sent SIGTERM; STMT_ARCHIVE_PUSH was skipped.",
+      "evidence": [
+        {
+          "file": "logs/batch-scheduler/tidewell.log",
+          "quote": "[2026-09-03 04:30:00 UTC] ERROR job=STMT_NIGHTLY run=88213 exceeded maxrun 3h00m, sending SIGTERM to pid 40517"
+        }
+      ],
+      "counts_if": "Answer says the scheduler killed/timed out the statement job at 04:30 UTC because it exceeded its 3 hour max runtime while blocked."
+    },
+    {
+      "id": "F6",
+      "what": "On SIGTERM the renderer aborted, marked batch B-20260903 FAILED and, per its on_abort=purge_outbound setting, purged the 36,114 queued statement emails, so none were delivered (delivered_confirmed=0).",
+      "evidence": [
+        {
+          "file": "logs/statement-renderer/stmt-render.log",
+          "quote": "time=2026-09-03T04:30:04.006Z level=error component=batch msg=\"batch failed\" batch=B-20260903 state=FAILED reason=terminated published=36114 purged=36114 delivered_confirmed=0"
+        },
+        {
+          "file": "logs/message-queue/lanternq-cluster.jsonl",
+          "quote": "\"msg\": \"queue purged\", \"queue\": \"stmt.email.send\", \"messages\": 36114"
+        }
+      ],
+      "counts_if": "Answer says the renderer marked the batch failed and the queued messages were purged, so zero statement emails were sent (not a partial send)."
+    }
+  ],
+  "exclusions": [
+    {
+      "id": "X1",
+      "what": "PDF signing latency spike and hsm-a failover on the renderer (alert A-77338), from planned HSM maintenance CHG-4472.",
+      "evidence": [
+        {
+          "file": "alerts.csv",
+          "quote": "A-77338,RendererSigningLatencyHigh,warning,statement-renderer,bat-app04,2026-09-03 01:41:30,2026-09-03 01:58:30,auto,PDF signing p95 above 1500 ms"
+        },
+        {
+          "file": "logs/statement-renderer/stmt-render.log",
+          "quote": "msg=\"hsm-a returned 503 maintenance, failing over\" target=hsm-b.jvb.internal"
+        }
+      ],
+      "why_not": "Planned maintenance; signing only slowed for 17 minutes, auto-resolved at 01:58, and rendering and publishing continued at full rate afterwards until the broker block at 02:47."
+    },
+    {
+      "id": "X2",
+      "what": "Lanternq peer lq-3 unreachable at 23:48 UTC on Sep 2 (alert A-77335).",
+      "evidence": [
+        {
+          "file": "alerts.csv",
+          "quote": "A-77335,LanternqPeerUnreachable,critical,message-queue,lq-3,2026-09-02 23:48:32,2026-09-02 23:51:10,auto,cluster peer lq-3 missed heartbeats for 30s"
+        }
+      ],
+      "why_not": "A switch link flap on a different node that recovered in under 3 minutes, before the rotation and before the batch started; the statement queue lives on lq-2."
+    },
+    {
+      "id": "X3",
+      "what": "GL_RECON job failure at 02:00 UTC.",
+      "evidence": [
+        {
+          "file": "logs/batch-scheduler/tidewell.log",
+          "quote": "[2026-09-03 02:00:41 UTC] ERROR job=GL_RECON run=88106 stderr: input file /data/inbound/gl/GLX_20260902.dat not found"
+        }
+      ],
+      "why_not": "Unrelated general ledger job waiting on a late input file; its retry succeeded at 02:49 and it has no dependency relationship with STMT_NIGHTLY."
+    },
+    {
+      "id": "X4",
+      "what": "CHG-4466 Tidewell scheduler agent patch listed for Sep 2 22:00 ET.",
+      "evidence": [
+        {
+          "file": "changes.md",
+          "quote": "**CHG-4466** · Tidewell scheduler: patch agents on bat-app01 to bat-app04 to 5.2.1"
+        }
+      ],
+      "why_not": "It was postponed to Sep 10 and never happened, so it cannot explain the scheduler timeout."
+    },
+    {
+      "id": "X5",
+      "what": "CHG-4473 branch DNS forwarder replacement and CHG-4464 cards-default TTL change on the same day.",
+      "evidence": [
+        {
+          "file": "changes.md",
+          "quote": "- Affects: branch LAN name resolution only. Data center resolvers unchanged."
+        },
+        {
+          "file": "changes.md",
+          "quote": "- Affects: queues bound to `cards-default` only (card authorization events). No other policies touched."
+        }
+      ],
+      "why_not": "Changes on other systems/scopes: branch DNS does not serve the data center batch path, and the TTL change only touched the card authorization policy, not stmt.email.send."
+    },
+    {
+      "id": "X6",
+      "what": "Relay spool disk above 80% at 03:20 UTC (alert A-77343) and other relay noise (dnsbl timeouts, printer relay rejects).",
+      "evidence": [
+        {
+          "file": "alerts.csv",
+          "quote": "A-77343,RelaySpoolDiskHigh,warning,mail-relay,mx-relay01,2026-09-03 03:20:00,2026-09-03 03:42:30,auto,/var/spool/quillmail above 80%"
+        }
+      ],
+      "why_not": "Happens every night around 03:20 (same alert on Sep 2 when statements went out fine) and clears after log compression; it started long after sends were already failing."
+    },
+    {
+      "id": "X7",
+      "what": "Lanternq management listener certificate expiring soon (alert A-77297, queue log warning).",
+      "evidence": [
+        {
+          "file": "alerts.csv",
+          "quote": "A-77297,LanternqMgmtCertExpiry,warning,message-queue,lq-2,2026-08-30 06:00:00,,open,management listener certificate expires in 45 days"
+        }
+      ],
+      "why_not": "A certificate that has not expired, on the broker's management listener, not the relay certificate the mailers failed to verify."
+    },
+    {
+      "id": "X8",
+      "what": "Renderer warnings: deprecated footer template, font fallback, GC pauses, accounts skipped for no email on file.",
+      "evidence": [
+        {
+          "file": "logs/statement-renderer/stmt-render.log",
+          "quote": "msg=\"template footer_v6 is deprecated, footer_v7 available\" template=retail_monthly"
+        }
+      ],
+      "why_not": "Normal per-account and JVM noise, unrelated to publishing."
+    },
+    {
+      "id": "X9",
+      "what": "CHG-4476 data warehouse partition change with a 01:00 to 01:15 window on Sep 3, which lines up with the 01:10 failures only if the ET window is misread as UTC.",
+      "evidence": [
+        {
+          "file": "changes.md",
+          "quote": "**CHG-4476** · Data warehouse: add nightly partition for `txn_fact_2026_09`"
+        },
+        {
+          "file": "changes.md",
+          "quote": "**All times below are US Eastern (EDT, UTC-4) unless stated otherwise.**"
+        }
+      ],
+      "why_not": "The window is 01:00 to 01:15 ET, which is 05:00 to 05:15 UTC, after the batch had already failed; it is also on the data warehouse, not in the statement email path."
+    }
+  ],
+  "answer": {
+    "value": "Root cause: CHG-4471, the TLS certificate rotation on outbound mail relay mx-relay01 at 01:10 UTC (21:10 ET Sep 2), installed the new certificate without its intermediate (chain length 1 instead of 2). The mailer workers could not verify it (unknown CA), so every statement email failed, was retried without limit, backed up stmt.email.send until broker lq-2 hit its memory alarm at 02:47 and blocked the renderer, the scheduler killed STMT_NIGHTLY at its 3 hour maxrun at 04:30, and the renderer failed the batch and purged all 36,114 queued emails.",
+    "derivation": "changes.md places the relay reload at 21:10 ET = 01:10 UTC; the relay log shows chain length 1 (previous 2) at 01:10:04 and the first mailer unknown_ca failure at 01:12:47; the queue log shows x509 unknown authority redeliveries with unlimited attempts, a memory watermark block of stmt-render at 02:47:13 and a purge of 36114 messages at 04:30:03; the renderer log shows the block at 02:47:14 and the FAILED batch with delivered_confirmed=0; the scheduler log shows maxrun exceeded at 04:30:00. The ops-jump01 post check and other relay clients still succeeding explain why the rotation was marked Completed.",
+    "counts_if": "Names the relay certificate rotation with an incomplete chain / missing intermediate (not merely 'the relay' or 'the queue memory alarm' or 'the scheduler timeout') as root cause."
+  },
+  "mistakes_that_matter": [
+    "Naming the queue memory alarm, the scheduler maxrun timeout or the renderer failure as the root cause; they are downstream symptoms and fixing them (raising the watermark or maxrun) would not have sent a single email.",
+    "Blaming the HSM signing latency, the lq-3 peer flap, GL_RECON or the postponed Tidewell patch.",
+    "Saying some statement emails went out (partial send); all 36,114 published messages were purged and the remaining 5,748 were never rendered.",
+    "Misreading the change calendar times as UTC and concluding the rotation happened hours away from the failures, or ruling it out because its post check passed.",
+    "Recommending a rerun without fixing the relay certificate chain, which would fail the same way."
+  ]
+}

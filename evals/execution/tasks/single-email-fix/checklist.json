@@ -1,0 +1,123 @@
+{
+  "id": "single-email-fix",
+  "company": "Lumen Harrow",
+  "category": "single",
+  "held_out": false,
+  "summary": "Correct a member email about a price change against the approved fact sheet and make it plainer; a good answer fixes the wrong effective date, the wrong Dedicated Desk price and the invented rate-lock condition, leaves the true but surprising statements alone, and adds nothing that is not in the fact sheet.",
+  "findings": [
+    {
+      "id": "F1",
+      "what": "Effective date is wrong: the email says 1 October 2026, the fact sheet says 1 November 2026.",
+      "evidence": [
+        {
+          "file": "draft-email.md",
+          "quote": "we will be adjusting our prices for billing cycles starting on or after 1 October 2026"
+        },
+        {
+          "file": "fact-sheet.md",
+          "quote": "New prices apply to billing cycles starting on or after 1 November 2026."
+        }
+      ],
+      "counts_if": "The corrected email states the new prices apply from billing cycles starting on or after 1 November 2026 (and no longer says 1 October for the start of the new prices)."
+    },
+    {
+      "id": "F2",
+      "what": "Dedicated Desk new price is wrong: the email says $455, the fact sheet says $445.",
+      "evidence": [
+        {
+          "file": "draft-email.md",
+          "quote": "Dedicated Desk: $410 per month today, moving to $455 per month"
+        },
+        {
+          "file": "fact-sheet.md",
+          "quote": "| Dedicated Desk (monthly) | $410 | $445 |"
+        }
+      ],
+      "counts_if": "The corrected email gives the new Dedicated Desk price as $445 per month."
+    },
+    {
+      "id": "F3",
+      "what": "Rate-lock condition is wrong: the email adds an exception for members of more than two years; the fact sheet says annual billing by 15 October is the only way and there is no length-of-membership exception.",
+      "evidence": [
+        {
+          "file": "draft-email.md",
+          "quote": "or if you have been a member with us for more than two years, you will keep your current monthly rate for 12 months."
+        },
+        {
+          "file": "fact-sheet.md",
+          "quote": "This is the only way to keep the current price."
+        }
+      ],
+      "counts_if": "The corrected email removes the two-year membership exception and states that switching to annual billing on or before 15 October 2026 keeps the current rate for 12 months. The word 'only' is not required."
+    }
+  ],
+  "exclusions": [
+    {
+      "id": "X1",
+      "what": "The Day Pass price going down from $35 to $30 looks like a mistake in a price increase email.",
+      "evidence": [
+        {
+          "file": "draft-email.md",
+          "quote": "Day Pass: moving from $35 to $30"
+        },
+        {
+          "file": "fact-sheet.md",
+          "quote": "| Day Pass | $35 | $30 |"
+        }
+      ],
+      "why_not": "It matches the fact sheet. Changing it to an increase, or removing it, would introduce an error."
+    },
+    {
+      "id": "X2",
+      "what": "The cancellation deadline of 1 October 2026 looks like it should move to 1 November once the effective date is corrected.",
+      "evidence": [
+        {
+          "file": "draft-email.md",
+          "quote": "if you give notice on or before 1 October 2026, you will not be charged the new price."
+        },
+        {
+          "file": "fact-sheet.md",
+          "quote": "A member who gives notice on or before 1 October 2026 will leave before the new price starts and will not be charged it."
+        }
+      ],
+      "why_not": "1 October is correct: with 30 days notice, leaving before the 1 November start requires notice by 1 October."
+    },
+    {
+      "id": "X3",
+      "what": "The 15 October 2026 annual billing deadline sits in the same sentence as the wrong condition.",
+      "evidence": [
+        {
+          "file": "draft-email.md",
+          "quote": "If you switch to annual billing on or before 15 October 2026"
+        },
+        {
+          "file": "fact-sheet.md",
+          "quote": "Members who switch to annual billing on or before 15 October 2026 keep their current monthly rate for 12 months from the date they switch."
+        }
+      ],
+      "why_not": "The date is right; only the added two-year exception is wrong. Changing the date would introduce an error."
+    },
+    {
+      "id": "X4",
+      "what": "The internal history of the last price change (March 2024, Flex Desk $220 to $240).",
+      "evidence": [
+        {
+          "file": "fact-sheet.md",
+          "quote": "The last price change was in March 2024, when Flex Desk went from $220 to $240."
+        }
+      ],
+      "why_not": "Marked internal only; it is not missing from the email and must not be added to it."
+    }
+  ],
+  "answer": null,
+  "mistakes_that_matter": [
+    "Introducing any claim not in the fact sheet (for example a discount, a new deadline, a promise of individual pricing, or a reason for the change the fact sheet does not give)",
+    "Leaving any of the three errors in place, especially the two-year membership exception, which promises members a price lock that does not exist",
+    "Changing a correct fact while editing (Day Pass decrease, 1 October cancellation notice date, 15 October annual billing deadline, Private Office unchanged, meeting room hours)",
+    "Adding the internal March 2024 price history to the member email",
+    "Dropping required facts while making the email plainer (effective date, any plan price, the rate-lock option, the cancellation option, the contact address)"
+  ],
+  "grading_notes": [
+    "Also acceptable, not required: rewording the 'loyal members' framing sentence, and adding 'from the date they switch' to the 12 month rate lock."
+  ]
+}

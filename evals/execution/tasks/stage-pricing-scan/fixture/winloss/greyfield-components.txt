@@ -1,0 +1,19 @@
+From: Jonas Veld <jonas.veld@ferrowind.example>
+To: winloss@ferrowind.example
+Cc: Nadia Kurz <nadia.kurz@ferrowind.example>
+Date: Tue, 7 Jul 2026 09:41:30 +0100
+Subject: Loss: Greyfield Components
+
+Short one.
+
+Greyfield (precision parts manufacturer, 3 plants) picked Brisklane over us on Friday.
+
+Their plan was 8 people building dashboards and around 150 people on the shop floor and in quality reading them on wall screens and tablets. With Brisklane they pay for the 8 editors only; the other 150 are free viewers. With us every one of those tablet users is a seat.
+
+Product-wise they told me it was close and that they actually preferred our scheduled reports. Their plant director, Uwe Hartigan, said "we'd buy yours if we only had to pay for the builders."
+
+Reason: seat price (per-seat charges for view-only users).
+
+Nadia, cc'ing you because this is the second one against Brisklane in two months.
+
+Jonas

@@ -1,0 +1,24 @@
+CALL SUMMARY (auto-generated, edited by CSM)
+Account: Greyloch Manufacturing
+Meeting: Q3 business review
+Date: 2026-07-22, 45 min
+Speakers: Ruth Okafor (Pinmoor CSM), Helen Szabo (Greyloch HR Director), Bart Nowak (Greyloch Payroll Lead)
+
+KEY MOMENTS
+
+[04:12] Ruth reviewed adoption: 96% of 640 employees active in the last 30 days. Time Off requests up 20% since they turned on the mobile app.
+
+[09:40] Bart raised the payroll integration. Quote from transcript: "Tallybook has kicked back our file twice now with a mapping error, and both times it was the morning payroll was due." He said the error references code 412 and his workaround is to export manually and upload the file into Tallybook himself.
+
+[14:05] Ruth confirmed there is an open engineering issue for Tallybook mapping failures after the July release.
+
+[21:30] Helen on performance reviews: they launched the mid-year cycle on July 1 and then legal asked them to reword the question about attendance. Quote from transcript: "The template was locked the second we launched, so we either live with the wording or throw away two weeks of responses." They chose to leave it and send a clarifying email to all managers.
+
+[29:00] Discussion of next year: Greyloch is opening a second plant in 2027, would add about 150 employees.
+
+[38:20] Helen asked whether Pinmoor could support shift differentials in Time Off. Ruth to check.
+
+ACTION ITEMS
+- Ruth: share Tallybook issue status weekly until resolved
+- Ruth: log feature feedback on editing launched review cycles
+- Helen: send org structure for new plant when available

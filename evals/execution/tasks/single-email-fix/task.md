@@ -1,0 +1,1 @@
+Can you fix anything wrong in this email against the fact sheet and make it plainer before I send it to members this afternoon? It's the price change announcement in draft-email.md, and the fact sheet is fact-sheet.md. Finance signed off on the fact sheet, so that's what the email has to match. Send me back the corrected email ready to paste.

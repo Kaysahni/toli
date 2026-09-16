@@ -1,0 +1,14 @@
+partner_id,partner_name,country,integration_type,direction,tesselwick_endpoint,auth,status,owner_team,technical_contact,last_reviewed,notes
+P-0042,Hallmyr Retail AB,SE,shipment booking,inbound,api.tesselwick.example/partners/v3/shipments,oauth2 client credentials,active,Partner Integrations,Mikkel Brandt,2026-05-14,Peak season volume doubles in November
+P-0057,Brodal Timber AS,NO,rate quote,inbound,api.tesselwick.example/partners/v3/quote,oauth2 client credentials,active,Partner Integrations,Mikkel Brandt,2026-04-02,
+P-0063,Kestenholm Paper GmbH,DE,EDI 214 status,outbound,sftp.tesselwick.example/out/kestenholm,ssh key,active,Partner Integrations,Lea Vogt,2026-02-19,Status files every 30 min
+P-0071,Fjellmark Freight,NO,rate quote,inbound,routecalc-v1.core.tesselwick.internal/quote (allowlisted IP range),static api key,terminated 2026-04-30,Partner Integrations,Mikkel Brandt,2026-05-02,Contract ended; firewall rule removal ticket NET-2340
+P-0078,Oskarsvik Dairy,SE,proof of delivery,outbound,webhook to partner,hmac,active,Partner Integrations,Lea Vogt,2026-06-11,
+P-0084,Tarnby Components A/S,DK,shipment booking,inbound,api.tesselwick.example/partners/v3/shipments,oauth2 client credentials,pilot,Partner Integrations,Lea Vogt,2026-08-27,Pilot through end of October
+P-0090,Norrbeck Haulage,SE,subcontracted lane pricing,inbound,routecalc-v1.core.tesselwick.internal/quote/bulk (allowlisted IP range),static api key,active,Partner Integrations,Mikkel Brandt,2026-01-09,Their TMS vendor has not scheduled a move to the v3 partner API
+P-0093,Vesterland Cold Chain,DK,temperature telemetry,inbound,mqtt.tesselwick.example:8883,mtls,active,Fleet Data,Jonas Reinholt,2026-07-30,Reefer probes only
+P-0101,Grenholt Building Supply,SE,invoice delivery,outbound,erp-bridge (EDIFACT INVOIC),as2,active,Finance Engineering,Ulla Berg,2026-03-03,
+P-0112,Sorrell Maritime,FI,ferry slot booking,outbound,partner API,api key,active,Network Planning,Ingrid Solberg,2026-06-20,Turku and Kapellskar crossings
+P-0118,Lindqvarn Mills,SE,lane cache feed,inbound,routecache.core.tesselwick.internal/v1/lanes (read only),static api key,active,Platform Performance,Signe Halvorsen,2026-08-01,Reads cached lane durations for their own planning screen
+P-0120,Ebbesen Transport,DK,capacity offers,inbound,api.tesselwick.example/partners/v3/capacity,oauth2 client credentials,active,Dispatch Platform,Rafaela Monteiro,2026-07-08,
+P-0126,Moravik Chemicals,NO,dangerous goods docs,outbound,sftp.tesselwick.example/out/moravik,ssh key,onboarding,Trade Compliance Engineering,Elif Kaya,2026-09-01,ADR documentation in Norwegian and English

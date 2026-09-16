@@ -1,0 +1,769 @@
+{"ts": "2026-09-01T23:00:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 5, "unacked": 5, "publish_rate": 0.7, "ack_rate": 2.6}
+{"ts": "2026-09-01T23:00:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.26, "ack_rate": 0.03, "redeliver_rate": 0.0}
+{"ts": "2026-09-01T23:00:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-01T23:00:00.378Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 29, "unacked": 17, "publish_rate": 29.3, "ack_rate": 27.6}
+{"ts": "2026-09-01T23:15:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 2, "unacked": 4, "publish_rate": 4.2, "ack_rate": 5.5}
+{"ts": "2026-09-01T23:15:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.15, "ack_rate": 0.17, "redeliver_rate": 0.0}
+{"ts": "2026-09-01T23:15:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-01T23:15:00.406Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 12, "unacked": 20, "publish_rate": 15.6, "ack_rate": 24.2}
+{"ts": "2026-09-01T23:30:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 1, "unacked": 5, "publish_rate": 2.3, "ack_rate": 2.3}
+{"ts": "2026-09-01T23:30:00.006Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 11, "unacked": 3, "publish_rate": 14.5, "ack_rate": 24.0}
+{"ts": "2026-09-01T23:30:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.02, "ack_rate": 0.38, "redeliver_rate": 0.0}
+{"ts": "2026-09-01T23:30:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-01T23:45:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 12, "unacked": 1, "publish_rate": 5.5, "ack_rate": 4.2}
+{"ts": "2026-09-01T23:45:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.29, "ack_rate": 0.03, "redeliver_rate": 0.0}
+{"ts": "2026-09-01T23:45:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-01T23:45:00.025Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 36, "unacked": 17, "publish_rate": 17.7, "ack_rate": 22.9}
+{"ts": "2026-09-02T00:00:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 2, "unacked": 4, "publish_rate": 2.9, "ack_rate": 5.3}
+{"ts": "2026-09-02T00:00:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.11, "ack_rate": 0.14, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T00:00:00.012Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 36, "unacked": 9, "publish_rate": 12.2, "ack_rate": 13.9}
+{"ts": "2026-09-02T00:00:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T00:05:00.597Z", "node": "lq-1", "level": "warn", "msg": "disk free below advisory", "free_gib": 12.4, "advisory_gib": 15}
+{"ts": "2026-09-02T00:15:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 4, "unacked": 1, "publish_rate": 5.5, "ack_rate": 3.9}
+{"ts": "2026-09-02T00:15:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.07, "ack_rate": 0.21, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T00:15:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T00:15:00.748Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 22, "unacked": 12, "publish_rate": 14.6, "ack_rate": 6.2}
+{"ts": "2026-09-02T00:30:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 7, "unacked": 1, "publish_rate": 3.8, "ack_rate": 2.8}
+{"ts": "2026-09-02T00:30:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.34, "ack_rate": 0.15, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T00:30:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T00:30:00.231Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 30, "unacked": 4, "publish_rate": 9.6, "ack_rate": 20.4}
+{"ts": "2026-09-02T00:45:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 5, "unacked": 0, "publish_rate": 0.8, "ack_rate": 4.1}
+{"ts": "2026-09-02T00:45:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.13, "ack_rate": 0.08, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T00:45:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T00:45:00.372Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 29, "unacked": 0, "publish_rate": 14.3, "ack_rate": 19.0}
+{"ts": "2026-09-02T01:00:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 0, "unacked": 2, "publish_rate": 4.0, "ack_rate": 4.4}
+{"ts": "2026-09-02T01:00:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.03, "ack_rate": 0.2, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T01:00:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T01:00:00.398Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 4, "unacked": 2, "publish_rate": 5.4, "ack_rate": 28.4}
+{"ts": "2026-09-02T01:15:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 2, "unacked": 8, "publish_rate": 5.4, "ack_rate": 1.2}
+{"ts": "2026-09-02T01:15:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.02, "ack_rate": 0.1, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T01:15:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T01:15:00.825Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 19, "unacked": 14, "publish_rate": 15.2, "ack_rate": 18.7}
+{"ts": "2026-09-02T01:30:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 0, "unacked": 1, "publish_rate": 3.2, "ack_rate": 0.8}
+{"ts": "2026-09-02T01:30:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.27, "ack_rate": 0.29, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T01:30:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 35, "unacked": 16, "publish_rate": 8.1, "ack_rate": 7.3, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T01:30:00.037Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 27, "unacked": 0, "publish_rate": 6.3, "ack_rate": 25.7}
+{"ts": "2026-09-02T01:30:09.141Z", "node": "lq-2", "level": "info", "msg": "queue policy applied", "queue": "stmt.email.send", "policy": "stmt-outbound", "max_delivery_attempts": "unlimited", "requeue_backoff": "5s"}
+{"ts": "2026-09-02T01:35:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 10, "unacked": 0, "publish_rate": 1.3, "ack_rate": 3.7}
+{"ts": "2026-09-02T01:35:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.27, "ack_rate": 0.28, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T01:35:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 57, "unacked": 16, "publish_rate": 8.2, "ack_rate": 7.3, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T01:35:00.813Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 8, "unacked": 0, "publish_rate": 29.8, "ack_rate": 13.6}
+{"ts": "2026-09-02T01:40:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 8, "unacked": 5, "publish_rate": 4.8, "ack_rate": 5.0}
+{"ts": "2026-09-02T01:40:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.33, "ack_rate": 0.12, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T01:40:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 33, "unacked": 16, "publish_rate": 8.3, "ack_rate": 7.4, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T01:40:00.354Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 25, "unacked": 1, "publish_rate": 22.3, "ack_rate": 14.6}
+{"ts": "2026-09-02T01:45:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 10, "unacked": 5, "publish_rate": 5.3, "ack_rate": 4.9}
+{"ts": "2026-09-02T01:45:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.32, "ack_rate": 0.25, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T01:45:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 19, "unacked": 16, "publish_rate": 7.7, "ack_rate": 7.3, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T01:45:00.756Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 16, "unacked": 14, "publish_rate": 5.0, "ack_rate": 16.0}
+{"ts": "2026-09-02T01:50:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 9, "unacked": 7, "publish_rate": 5.7, "ack_rate": 5.4}
+{"ts": "2026-09-02T01:50:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.12, "ack_rate": 0.32, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T01:50:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 36, "unacked": 16, "publish_rate": 7.4, "ack_rate": 8.3, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T01:50:00.018Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 0, "unacked": 4, "publish_rate": 6.5, "ack_rate": 6.9}
+{"ts": "2026-09-02T01:55:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 4, "unacked": 6, "publish_rate": 5.6, "ack_rate": 2.9}
+{"ts": "2026-09-02T01:55:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.1, "ack_rate": 0.04, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T01:55:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 23, "unacked": 16, "publish_rate": 7.8, "ack_rate": 7.5, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T01:55:00.427Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 26, "unacked": 1, "publish_rate": 6.5, "ack_rate": 23.7}
+{"ts": "2026-09-02T02:00:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 1, "unacked": 2, "publish_rate": 5.1, "ack_rate": 4.2}
+{"ts": "2026-09-02T02:00:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.32, "ack_rate": 0.3, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T02:00:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 37, "unacked": 16, "publish_rate": 7.8, "ack_rate": 8.4, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T02:00:00.358Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 36, "unacked": 20, "publish_rate": 24.1, "ack_rate": 19.7}
+{"ts": "2026-09-02T02:05:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 0, "unacked": 4, "publish_rate": 3.8, "ack_rate": 2.2}
+{"ts": "2026-09-02T02:05:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.05, "ack_rate": 0.16, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T02:05:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 54, "unacked": 16, "publish_rate": 7.4, "ack_rate": 8.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T02:05:00.835Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 12, "unacked": 7, "publish_rate": 5.2, "ack_rate": 9.1}
+{"ts": "2026-09-02T02:10:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 8, "unacked": 4, "publish_rate": 0.2, "ack_rate": 5.9}
+{"ts": "2026-09-02T02:10:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.39, "ack_rate": 0.15, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T02:10:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 44, "unacked": 16, "publish_rate": 7.3, "ack_rate": 7.4, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T02:10:00.300Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 28, "unacked": 18, "publish_rate": 24.3, "ack_rate": 20.3}
+{"ts": "2026-09-02T02:15:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 4, "unacked": 8, "publish_rate": 4.8, "ack_rate": 5.7}
+{"ts": "2026-09-02T02:15:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.35, "ack_rate": 0.27, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T02:15:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 37, "unacked": 16, "publish_rate": 7.3, "ack_rate": 7.9, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T02:15:00.353Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 27, "unacked": 17, "publish_rate": 13.0, "ack_rate": 15.3}
+{"ts": "2026-09-02T02:20:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 4, "unacked": 1, "publish_rate": 5.1, "ack_rate": 4.5}
+{"ts": "2026-09-02T02:20:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.24, "ack_rate": 0.22, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T02:20:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 3, "unacked": 16, "publish_rate": 8.0, "ack_rate": 7.3, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T02:20:00.412Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 10, "unacked": 2, "publish_rate": 20.1, "ack_rate": 27.7}
+{"ts": "2026-09-02T02:25:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 9, "unacked": 2, "publish_rate": 1.2, "ack_rate": 4.6}
+{"ts": "2026-09-02T02:25:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.21, "ack_rate": 0.27, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T02:25:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 2, "unacked": 16, "publish_rate": 7.9, "ack_rate": 7.4, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T02:25:00.802Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 38, "unacked": 17, "publish_rate": 16.8, "ack_rate": 22.6}
+{"ts": "2026-09-02T02:30:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 4, "unacked": 4, "publish_rate": 2.3, "ack_rate": 3.9}
+{"ts": "2026-09-02T02:30:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.08, "ack_rate": 0.17, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T02:30:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 34, "unacked": 16, "publish_rate": 7.5, "ack_rate": 7.4, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T02:30:00.828Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 15, "unacked": 5, "publish_rate": 3.8, "ack_rate": 25.1}
+{"ts": "2026-09-02T02:35:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 4, "unacked": 2, "publish_rate": 5.8, "ack_rate": 1.4}
+{"ts": "2026-09-02T02:35:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.21, "ack_rate": 0.4, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T02:35:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 26, "unacked": 16, "publish_rate": 7.3, "ack_rate": 7.2, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T02:35:00.776Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 35, "unacked": 17, "publish_rate": 15.8, "ack_rate": 5.8}
+{"ts": "2026-09-02T02:40:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 6, "unacked": 7, "publish_rate": 3.9, "ack_rate": 1.0}
+{"ts": "2026-09-02T02:40:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.27, "ack_rate": 0.12, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T02:40:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 31, "unacked": 16, "publish_rate": 7.3, "ack_rate": 8.1, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T02:40:00.739Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 39, "unacked": 6, "publish_rate": 5.4, "ack_rate": 21.4}
+{"ts": "2026-09-02T02:45:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 1, "unacked": 3, "publish_rate": 1.3, "ack_rate": 0.4}
+{"ts": "2026-09-02T02:45:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.18, "ack_rate": 0.37, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T02:45:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 5, "unacked": 16, "publish_rate": 8.3, "ack_rate": 7.8, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T02:45:00.385Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 18, "unacked": 20, "publish_rate": 8.4, "ack_rate": 25.4}
+{"ts": "2026-09-02T02:50:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 11, "unacked": 4, "publish_rate": 5.5, "ack_rate": 3.9}
+{"ts": "2026-09-02T02:50:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.11, "ack_rate": 0.08, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T02:50:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 60, "unacked": 16, "publish_rate": 7.7, "ack_rate": 8.3, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T02:50:00.488Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 3, "unacked": 0, "publish_rate": 19.3, "ack_rate": 13.7}
+{"ts": "2026-09-02T02:55:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 5, "unacked": 3, "publish_rate": 6.0, "ack_rate": 2.3}
+{"ts": "2026-09-02T02:55:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.35, "ack_rate": 0.31, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T02:55:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 20, "unacked": 16, "publish_rate": 7.8, "ack_rate": 7.6, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T02:55:00.406Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 20, "unacked": 14, "publish_rate": 16.7, "ack_rate": 17.0}
+{"ts": "2026-09-02T03:00:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 11, "unacked": 4, "publish_rate": 4.3, "ack_rate": 3.6}
+{"ts": "2026-09-02T03:00:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.2, "ack_rate": 0.37, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T03:00:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 53, "unacked": 16, "publish_rate": 8.1, "ack_rate": 7.2, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T03:00:00.948Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 19, "unacked": 11, "publish_rate": 15.8, "ack_rate": 3.6}
+{"ts": "2026-09-02T03:05:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 0, "unacked": 2, "publish_rate": 0.9, "ack_rate": 5.6}
+{"ts": "2026-09-02T03:05:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.11, "ack_rate": 0.14, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T03:05:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 7, "unacked": 16, "publish_rate": 7.6, "ack_rate": 7.8, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T03:05:00.227Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 23, "unacked": 17, "publish_rate": 28.9, "ack_rate": 23.4}
+{"ts": "2026-09-02T03:10:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 9, "unacked": 1, "publish_rate": 0.7, "ack_rate": 3.1}
+{"ts": "2026-09-02T03:10:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.09, "ack_rate": 0.17, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T03:10:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T03:10:00.713Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 40, "unacked": 10, "publish_rate": 27.5, "ack_rate": 12.8}
+{"ts": "2026-09-02T03:25:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 7, "unacked": 0, "publish_rate": 1.8, "ack_rate": 4.4}
+{"ts": "2026-09-02T03:25:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.25, "ack_rate": 0.1, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T03:25:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T03:25:00.210Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 12, "unacked": 7, "publish_rate": 19.1, "ack_rate": 24.3}
+{"ts": "2026-09-02T03:40:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 4, "unacked": 5, "publish_rate": 3.7, "ack_rate": 2.5}
+{"ts": "2026-09-02T03:40:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.19, "ack_rate": 0.03, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T03:40:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T03:40:00.611Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 11, "unacked": 13, "publish_rate": 26.4, "ack_rate": 23.9}
+{"ts": "2026-09-02T03:55:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 3, "unacked": 3, "publish_rate": 1.1, "ack_rate": 4.7}
+{"ts": "2026-09-02T03:55:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.14, "ack_rate": 0.07, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T03:55:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T03:55:00.641Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 8, "unacked": 19, "publish_rate": 19.2, "ack_rate": 26.7}
+{"ts": "2026-09-02T04:10:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 11, "unacked": 8, "publish_rate": 5.9, "ack_rate": 3.7}
+{"ts": "2026-09-02T04:10:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.03, "ack_rate": 0.05, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T04:10:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T04:10:00.307Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 9, "unacked": 2, "publish_rate": 15.7, "ack_rate": 16.5}
+{"ts": "2026-09-02T04:25:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 5, "unacked": 0, "publish_rate": 0.2, "ack_rate": 1.4}
+{"ts": "2026-09-02T04:25:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.1, "ack_rate": 0.02, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T04:25:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T04:25:00.484Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 22, "unacked": 17, "publish_rate": 29.1, "ack_rate": 16.2}
+{"ts": "2026-09-02T04:40:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 0, "unacked": 0, "publish_rate": 4.8, "ack_rate": 2.9}
+{"ts": "2026-09-02T04:40:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.39, "ack_rate": 0.28, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T04:40:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T04:40:00.737Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 16, "unacked": 13, "publish_rate": 26.0, "ack_rate": 21.1}
+{"ts": "2026-09-02T04:55:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 4, "unacked": 2, "publish_rate": 4.2, "ack_rate": 1.8}
+{"ts": "2026-09-02T04:55:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.34, "ack_rate": 0.17, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T04:55:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T04:55:00.412Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 7, "unacked": 9, "publish_rate": 27.3, "ack_rate": 12.7}
+{"ts": "2026-09-02T05:10:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 3, "unacked": 7, "publish_rate": 2.1, "ack_rate": 3.9}
+{"ts": "2026-09-02T05:10:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.02, "ack_rate": 0.14, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T05:10:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T05:10:00.280Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 31, "unacked": 18, "publish_rate": 23.0, "ack_rate": 17.1}
+{"ts": "2026-09-02T05:25:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 11, "unacked": 2, "publish_rate": 4.6, "ack_rate": 4.0}
+{"ts": "2026-09-02T05:25:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.29, "ack_rate": 0.37, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T05:25:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T05:25:00.392Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 22, "unacked": 19, "publish_rate": 15.8, "ack_rate": 29.1}
+{"ts": "2026-09-02T05:40:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 4, "unacked": 5, "publish_rate": 3.3, "ack_rate": 1.0}
+{"ts": "2026-09-02T05:40:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.13, "ack_rate": 0.28, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T05:40:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T05:40:00.121Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 1, "unacked": 16, "publish_rate": 20.3, "ack_rate": 17.8}
+{"ts": "2026-09-02T05:55:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 7, "unacked": 7, "publish_rate": 1.3, "ack_rate": 6.0}
+{"ts": "2026-09-02T05:55:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.18, "ack_rate": 0.21, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T05:55:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T05:55:00.865Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 18, "unacked": 9, "publish_rate": 12.0, "ack_rate": 27.8}
+{"ts": "2026-09-02T06:00:00.656Z", "node": "lq-2", "level": "warn", "msg": "management listener certificate expires soon", "days_remaining": 42}
+{"ts": "2026-09-02T06:10:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 11, "unacked": 7, "publish_rate": 3.2, "ack_rate": 5.0}
+{"ts": "2026-09-02T06:10:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.38, "ack_rate": 0.24, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T06:10:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T06:10:00.857Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 28, "unacked": 18, "publish_rate": 8.5, "ack_rate": 23.3}
+{"ts": "2026-09-02T06:14:00.502Z", "node": "lq-1", "level": "info", "msg": "disk free above advisory after segment compaction", "free_gib": 18.9, "advisory_gib": 15}
+{"ts": "2026-09-02T06:25:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 10, "unacked": 5, "publish_rate": 3.2, "ack_rate": 0.9}
+{"ts": "2026-09-02T06:25:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.39, "ack_rate": 0.17, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T06:25:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T06:25:00.978Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 40, "unacked": 15, "publish_rate": 12.2, "ack_rate": 3.2}
+{"ts": "2026-09-02T06:40:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 3, "unacked": 4, "publish_rate": 3.9, "ack_rate": 4.8}
+{"ts": "2026-09-02T06:40:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.32, "ack_rate": 0.11, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T06:40:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T06:40:00.803Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 25, "unacked": 11, "publish_rate": 11.3, "ack_rate": 21.0}
+{"ts": "2026-09-02T06:55:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 11, "unacked": 8, "publish_rate": 1.8, "ack_rate": 1.9}
+{"ts": "2026-09-02T06:55:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.12, "ack_rate": 0.23, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T06:55:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T06:55:00.116Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 29, "unacked": 6, "publish_rate": 14.9, "ack_rate": 3.0}
+{"ts": "2026-09-02T07:10:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 10, "unacked": 8, "publish_rate": 0.2, "ack_rate": 2.0}
+{"ts": "2026-09-02T07:10:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.33, "ack_rate": 0.19, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T07:10:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T07:10:00.440Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 24, "unacked": 15, "publish_rate": 10.7, "ack_rate": 24.6}
+{"ts": "2026-09-02T07:25:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 6, "unacked": 2, "publish_rate": 4.3, "ack_rate": 3.8}
+{"ts": "2026-09-02T07:25:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.03, "ack_rate": 0.33, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T07:25:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T07:25:00.304Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 25, "unacked": 13, "publish_rate": 13.1, "ack_rate": 9.9}
+{"ts": "2026-09-02T07:40:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 12, "unacked": 0, "publish_rate": 4.1, "ack_rate": 3.3}
+{"ts": "2026-09-02T07:40:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.38, "ack_rate": 0.11, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T07:40:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T07:40:00.881Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 10, "unacked": 16, "publish_rate": 22.8, "ack_rate": 17.6}
+{"ts": "2026-09-02T07:55:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 5, "unacked": 1, "publish_rate": 1.1, "ack_rate": 1.2}
+{"ts": "2026-09-02T07:55:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.14, "ack_rate": 0.25, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T07:55:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T07:55:00.489Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 28, "unacked": 10, "publish_rate": 10.2, "ack_rate": 15.2}
+{"ts": "2026-09-02T08:10:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 1, "unacked": 6, "publish_rate": 0.3, "ack_rate": 5.7}
+{"ts": "2026-09-02T08:10:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.03, "ack_rate": 0.35, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T08:10:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T08:10:00.083Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 25, "unacked": 9, "publish_rate": 25.4, "ack_rate": 24.1}
+{"ts": "2026-09-02T08:25:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 9, "unacked": 8, "publish_rate": 4.0, "ack_rate": 1.6}
+{"ts": "2026-09-02T08:25:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.15, "ack_rate": 0.28, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T08:25:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T08:25:00.602Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 26, "unacked": 16, "publish_rate": 4.2, "ack_rate": 19.1}
+{"ts": "2026-09-02T08:40:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 11, "unacked": 0, "publish_rate": 3.1, "ack_rate": 4.2}
+{"ts": "2026-09-02T08:40:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.29, "ack_rate": 0.05, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T08:40:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T08:40:00.194Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 0, "unacked": 4, "publish_rate": 22.7, "ack_rate": 25.2}
+{"ts": "2026-09-02T08:55:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 3, "unacked": 2, "publish_rate": 4.2, "ack_rate": 3.7}
+{"ts": "2026-09-02T08:55:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.04, "ack_rate": 0.25, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T08:55:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T08:55:00.052Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 36, "unacked": 11, "publish_rate": 30.0, "ack_rate": 3.4}
+{"ts": "2026-09-02T09:10:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 11, "unacked": 4, "publish_rate": 2.2, "ack_rate": 0.4}
+{"ts": "2026-09-02T09:10:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.01, "ack_rate": 0.22, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T09:10:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T09:10:00.739Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 5, "unacked": 7, "publish_rate": 6.7, "ack_rate": 25.4}
+{"ts": "2026-09-02T09:25:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 10, "unacked": 7, "publish_rate": 3.0, "ack_rate": 4.5}
+{"ts": "2026-09-02T09:25:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.29, "ack_rate": 0.01, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T09:25:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T09:25:00.986Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 11, "unacked": 17, "publish_rate": 26.6, "ack_rate": 6.4}
+{"ts": "2026-09-02T09:40:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 3, "unacked": 6, "publish_rate": 4.3, "ack_rate": 1.8}
+{"ts": "2026-09-02T09:40:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.25, "ack_rate": 0.27, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T09:40:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T09:40:00.426Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 4, "unacked": 12, "publish_rate": 22.0, "ack_rate": 24.8}
+{"ts": "2026-09-02T09:55:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 8, "unacked": 0, "publish_rate": 2.3, "ack_rate": 2.6}
+{"ts": "2026-09-02T09:55:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.38, "ack_rate": 0.05, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T09:55:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T09:55:00.110Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 27, "unacked": 4, "publish_rate": 18.9, "ack_rate": 20.1}
+{"ts": "2026-09-02T10:10:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 12, "unacked": 0, "publish_rate": 5.4, "ack_rate": 1.7}
+{"ts": "2026-09-02T10:10:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.08, "ack_rate": 0.37, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T10:10:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T10:10:00.307Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 29, "unacked": 16, "publish_rate": 20.2, "ack_rate": 3.0}
+{"ts": "2026-09-02T10:25:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 10, "unacked": 0, "publish_rate": 3.4, "ack_rate": 1.1}
+{"ts": "2026-09-02T10:25:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.09, "ack_rate": 0.05, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T10:25:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T10:25:00.067Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 39, "unacked": 13, "publish_rate": 14.4, "ack_rate": 4.9}
+{"ts": "2026-09-02T10:40:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 12, "unacked": 4, "publish_rate": 5.3, "ack_rate": 5.4}
+{"ts": "2026-09-02T10:40:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.18, "ack_rate": 0.24, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T10:40:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T10:40:00.692Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 19, "unacked": 1, "publish_rate": 25.6, "ack_rate": 7.2}
+{"ts": "2026-09-02T10:55:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 7, "unacked": 8, "publish_rate": 4.9, "ack_rate": 5.5}
+{"ts": "2026-09-02T10:55:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.06, "ack_rate": 0.1, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T10:55:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T10:55:00.886Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 33, "unacked": 18, "publish_rate": 11.0, "ack_rate": 25.5}
+{"ts": "2026-09-02T11:10:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 10, "unacked": 8, "publish_rate": 6.0, "ack_rate": 0.5}
+{"ts": "2026-09-02T11:10:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.33, "ack_rate": 0.1, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T11:10:00.012Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 13, "unacked": 0, "publish_rate": 24.9, "ack_rate": 22.4}
+{"ts": "2026-09-02T11:10:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T11:25:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 2, "unacked": 2, "publish_rate": 5.7, "ack_rate": 1.3}
+{"ts": "2026-09-02T11:25:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.01, "ack_rate": 0.34, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T11:25:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T11:25:00.354Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 25, "unacked": 0, "publish_rate": 24.7, "ack_rate": 5.3}
+{"ts": "2026-09-02T11:40:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 3, "unacked": 1, "publish_rate": 1.3, "ack_rate": 3.9}
+{"ts": "2026-09-02T11:40:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.25, "ack_rate": 0.16, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T11:40:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T11:40:00.089Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 32, "unacked": 2, "publish_rate": 6.0, "ack_rate": 22.1}
+{"ts": "2026-09-02T11:55:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 11, "unacked": 2, "publish_rate": 1.1, "ack_rate": 4.0}
+{"ts": "2026-09-02T11:55:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.11, "ack_rate": 0.4, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T11:55:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T11:55:00.401Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 21, "unacked": 1, "publish_rate": 19.8, "ack_rate": 16.0}
+{"ts": "2026-09-02T12:10:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 11, "unacked": 7, "publish_rate": 4.8, "ack_rate": 5.9}
+{"ts": "2026-09-02T12:10:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.15, "ack_rate": 0.13, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T12:10:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T12:10:00.040Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 11, "unacked": 13, "publish_rate": 23.6, "ack_rate": 19.4}
+{"ts": "2026-09-02T12:25:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 11, "unacked": 6, "publish_rate": 5.9, "ack_rate": 3.5}
+{"ts": "2026-09-02T12:25:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.21, "ack_rate": 0.26, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T12:25:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T12:25:00.724Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 12, "unacked": 8, "publish_rate": 6.5, "ack_rate": 5.0}
+{"ts": "2026-09-02T12:40:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 1, "unacked": 1, "publish_rate": 1.2, "ack_rate": 3.5}
+{"ts": "2026-09-02T12:40:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.16, "ack_rate": 0.13, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T12:40:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T12:40:00.443Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 36, "unacked": 17, "publish_rate": 7.8, "ack_rate": 4.0}
+{"ts": "2026-09-02T12:55:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 7, "unacked": 7, "publish_rate": 3.3, "ack_rate": 4.9}
+{"ts": "2026-09-02T12:55:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.07, "ack_rate": 0.37, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T12:55:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T12:55:00.291Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 0, "unacked": 20, "publish_rate": 16.9, "ack_rate": 3.8}
+{"ts": "2026-09-02T13:10:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 0, "unacked": 1, "publish_rate": 3.6, "ack_rate": 4.8}
+{"ts": "2026-09-02T13:10:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.36, "ack_rate": 0.21, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T13:10:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T13:10:00.882Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 0, "unacked": 6, "publish_rate": 17.6, "ack_rate": 22.6}
+{"ts": "2026-09-02T13:25:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 6, "unacked": 4, "publish_rate": 4.1, "ack_rate": 5.5}
+{"ts": "2026-09-02T13:25:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.32, "ack_rate": 0.02, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T13:25:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T13:25:00.886Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 8, "unacked": 0, "publish_rate": 5.4, "ack_rate": 9.1}
+{"ts": "2026-09-02T13:40:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 0, "unacked": 3, "publish_rate": 1.1, "ack_rate": 1.5}
+{"ts": "2026-09-02T13:40:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.17, "ack_rate": 0.19, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T13:40:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T13:40:00.406Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 30, "unacked": 5, "publish_rate": 5.4, "ack_rate": 18.1}
+{"ts": "2026-09-02T13:55:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 3, "unacked": 7, "publish_rate": 2.7, "ack_rate": 1.8}
+{"ts": "2026-09-02T13:55:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.29, "ack_rate": 0.18, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T13:55:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T13:55:00.611Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 3, "unacked": 5, "publish_rate": 14.3, "ack_rate": 28.9}
+{"ts": "2026-09-02T14:10:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 11, "unacked": 8, "publish_rate": 2.5, "ack_rate": 4.0}
+{"ts": "2026-09-02T14:10:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.36, "ack_rate": 0.29, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T14:10:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T14:10:00.292Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 23, "unacked": 2, "publish_rate": 11.9, "ack_rate": 12.7}
+{"ts": "2026-09-02T14:12:00.981Z", "node": "lq-1", "level": "info", "msg": "policy updated", "policy": "cards-default", "by": "lqadmin", "change": "message_ttl 3600000 -> 1800000"}
+{"ts": "2026-09-02T14:25:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 10, "unacked": 7, "publish_rate": 1.0, "ack_rate": 0.6}
+{"ts": "2026-09-02T14:25:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.06, "ack_rate": 0.02, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T14:25:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T14:25:00.472Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 35, "unacked": 8, "publish_rate": 15.5, "ack_rate": 23.0}
+{"ts": "2026-09-02T14:40:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 4, "unacked": 3, "publish_rate": 3.1, "ack_rate": 1.0}
+{"ts": "2026-09-02T14:40:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.17, "ack_rate": 0.08, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T14:40:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T14:40:00.468Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 7, "unacked": 19, "publish_rate": 12.4, "ack_rate": 9.8}
+{"ts": "2026-09-02T14:55:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 10, "unacked": 2, "publish_rate": 0.9, "ack_rate": 5.0}
+{"ts": "2026-09-02T14:55:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.12, "ack_rate": 0.14, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T14:55:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T14:55:00.057Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 37, "unacked": 16, "publish_rate": 16.5, "ack_rate": 8.9}
+{"ts": "2026-09-02T14:55:31.775Z", "node": "lq-1", "level": "warn", "msg": "consumer heartbeat timeout, cancelling", "queue": "cards.auth.events", "consumer": "cardsvc-6"}
+{"ts": "2026-09-02T15:10:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 4, "unacked": 0, "publish_rate": 4.5, "ack_rate": 3.9}
+{"ts": "2026-09-02T15:10:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.06, "ack_rate": 0.12, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T15:10:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T15:10:00.373Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 2, "unacked": 19, "publish_rate": 14.2, "ack_rate": 21.1}
+{"ts": "2026-09-02T15:25:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 11, "unacked": 4, "publish_rate": 0.7, "ack_rate": 4.6}
+{"ts": "2026-09-02T15:25:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.34, "ack_rate": 0.36, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T15:25:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T15:25:00.778Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 16, "unacked": 9, "publish_rate": 20.3, "ack_rate": 20.3}
+{"ts": "2026-09-02T15:28:29.052Z", "node": "lq-1", "level": "warn", "msg": "consumer heartbeat timeout, cancelling", "queue": "cards.auth.events", "consumer": "cardsvc-8"}
+{"ts": "2026-09-02T15:40:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 5, "unacked": 0, "publish_rate": 3.5, "ack_rate": 3.2}
+{"ts": "2026-09-02T15:40:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.08, "ack_rate": 0.09, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T15:40:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T15:40:00.127Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 25, "unacked": 19, "publish_rate": 17.7, "ack_rate": 21.9}
+{"ts": "2026-09-02T15:55:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 1, "unacked": 6, "publish_rate": 5.1, "ack_rate": 0.3}
+{"ts": "2026-09-02T15:55:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.15, "ack_rate": 0.08, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T15:55:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T15:55:00.566Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 13, "unacked": 2, "publish_rate": 29.0, "ack_rate": 5.3}
+{"ts": "2026-09-02T16:10:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 0, "unacked": 3, "publish_rate": 4.1, "ack_rate": 2.0}
+{"ts": "2026-09-02T16:10:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.04, "ack_rate": 0.07, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T16:10:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T16:10:00.838Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 32, "unacked": 6, "publish_rate": 12.9, "ack_rate": 13.3}
+{"ts": "2026-09-02T16:25:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 3, "unacked": 7, "publish_rate": 3.5, "ack_rate": 1.1}
+{"ts": "2026-09-02T16:25:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.06, "ack_rate": 0.03, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T16:25:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T16:25:00.561Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 36, "unacked": 12, "publish_rate": 10.9, "ack_rate": 6.5}
+{"ts": "2026-09-02T16:40:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 3, "unacked": 7, "publish_rate": 1.2, "ack_rate": 3.3}
+{"ts": "2026-09-02T16:40:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.36, "ack_rate": 0.18, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T16:40:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T16:40:00.777Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 23, "unacked": 11, "publish_rate": 15.1, "ack_rate": 23.9}
+{"ts": "2026-09-02T16:55:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 9, "unacked": 2, "publish_rate": 1.6, "ack_rate": 2.7}
+{"ts": "2026-09-02T16:55:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.28, "ack_rate": 0.14, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T16:55:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T16:55:00.988Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 9, "unacked": 15, "publish_rate": 16.4, "ack_rate": 15.8}
+{"ts": "2026-09-02T17:10:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 7, "unacked": 0, "publish_rate": 1.1, "ack_rate": 2.0}
+{"ts": "2026-09-02T17:10:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.07, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T17:10:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T17:10:00.343Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 12, "unacked": 12, "publish_rate": 21.0, "ack_rate": 3.8}
+{"ts": "2026-09-02T17:25:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 5, "unacked": 7, "publish_rate": 0.8, "ack_rate": 4.3}
+{"ts": "2026-09-02T17:25:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.03, "ack_rate": 0.37, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T17:25:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T17:25:00.076Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 36, "unacked": 19, "publish_rate": 25.7, "ack_rate": 25.5}
+{"ts": "2026-09-02T17:40:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 12, "unacked": 5, "publish_rate": 2.7, "ack_rate": 5.2}
+{"ts": "2026-09-02T17:40:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.07, "ack_rate": 0.38, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T17:40:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T17:40:00.660Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 0, "unacked": 8, "publish_rate": 23.7, "ack_rate": 11.0}
+{"ts": "2026-09-02T17:55:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 2, "unacked": 2, "publish_rate": 0.5, "ack_rate": 5.7}
+{"ts": "2026-09-02T17:55:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.19, "ack_rate": 0.3, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T17:55:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T17:55:00.414Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 25, "unacked": 4, "publish_rate": 5.7, "ack_rate": 12.4}
+{"ts": "2026-09-02T18:10:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 11, "unacked": 2, "publish_rate": 1.2, "ack_rate": 4.6}
+{"ts": "2026-09-02T18:10:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.36, "ack_rate": 0.22, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T18:10:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T18:10:00.620Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 9, "unacked": 8, "publish_rate": 12.9, "ack_rate": 10.6}
+{"ts": "2026-09-02T18:25:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 7, "unacked": 6, "publish_rate": 0.4, "ack_rate": 4.8}
+{"ts": "2026-09-02T18:25:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.15, "ack_rate": 0.13, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T18:25:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T18:25:00.876Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 17, "unacked": 3, "publish_rate": 5.7, "ack_rate": 16.7}
+{"ts": "2026-09-02T18:40:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 6, "unacked": 0, "publish_rate": 2.4, "ack_rate": 4.2}
+{"ts": "2026-09-02T18:40:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.24, "ack_rate": 0.4, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T18:40:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T18:40:00.370Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 30, "unacked": 10, "publish_rate": 19.7, "ack_rate": 15.1}
+{"ts": "2026-09-02T18:55:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 12, "unacked": 1, "publish_rate": 3.6, "ack_rate": 3.3}
+{"ts": "2026-09-02T18:55:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.24, "ack_rate": 0.19, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T18:55:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T18:55:00.321Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 20, "unacked": 20, "publish_rate": 8.0, "ack_rate": 7.0}
+{"ts": "2026-09-02T19:10:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 1, "unacked": 5, "publish_rate": 0.9, "ack_rate": 2.7}
+{"ts": "2026-09-02T19:10:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.08, "ack_rate": 0.03, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T19:10:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T19:10:00.843Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 27, "unacked": 15, "publish_rate": 26.8, "ack_rate": 9.6}
+{"ts": "2026-09-02T19:25:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 6, "unacked": 8, "publish_rate": 2.1, "ack_rate": 3.8}
+{"ts": "2026-09-02T19:25:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.1, "ack_rate": 0.31, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T19:25:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T19:25:00.653Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 15, "unacked": 7, "publish_rate": 8.3, "ack_rate": 15.0}
+{"ts": "2026-09-02T19:40:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 4, "unacked": 8, "publish_rate": 3.9, "ack_rate": 1.8}
+{"ts": "2026-09-02T19:40:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.24, "ack_rate": 0.01, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T19:40:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T19:40:00.237Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 34, "unacked": 4, "publish_rate": 7.0, "ack_rate": 26.4}
+{"ts": "2026-09-02T19:49:11.351Z", "node": "lq-1", "level": "warn", "msg": "consumer heartbeat timeout, cancelling", "queue": "cards.auth.events", "consumer": "cardsvc-4"}
+{"ts": "2026-09-02T19:55:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 5, "unacked": 7, "publish_rate": 0.6, "ack_rate": 3.4}
+{"ts": "2026-09-02T19:55:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.27, "ack_rate": 0.11, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T19:55:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T19:55:00.892Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 2, "unacked": 10, "publish_rate": 27.6, "ack_rate": 14.2}
+{"ts": "2026-09-02T20:10:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 4, "unacked": 2, "publish_rate": 4.4, "ack_rate": 3.1}
+{"ts": "2026-09-02T20:10:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.12, "ack_rate": 0.29, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T20:10:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T20:10:00.136Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 10, "unacked": 13, "publish_rate": 5.7, "ack_rate": 9.4}
+{"ts": "2026-09-02T20:25:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 4, "unacked": 1, "publish_rate": 0.2, "ack_rate": 5.0}
+{"ts": "2026-09-02T20:25:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.24, "ack_rate": 0.3, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T20:25:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T20:25:00.423Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 38, "unacked": 17, "publish_rate": 6.4, "ack_rate": 5.8}
+{"ts": "2026-09-02T20:40:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 5, "unacked": 6, "publish_rate": 3.8, "ack_rate": 1.2}
+{"ts": "2026-09-02T20:40:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.07, "ack_rate": 0.39, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T20:40:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T20:40:00.680Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 40, "unacked": 10, "publish_rate": 27.8, "ack_rate": 5.6}
+{"ts": "2026-09-02T20:43:07.012Z", "node": "lq-1", "level": "warn", "msg": "consumer heartbeat timeout, cancelling", "queue": "cards.auth.events", "consumer": "cardsvc-6"}
+{"ts": "2026-09-02T20:46:20.052Z", "node": "lq-1", "level": "warn", "msg": "consumer heartbeat timeout, cancelling", "queue": "cards.auth.events", "consumer": "cardsvc-6"}
+{"ts": "2026-09-02T20:55:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 0, "unacked": 1, "publish_rate": 0.7, "ack_rate": 2.3}
+{"ts": "2026-09-02T20:55:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.26, "ack_rate": 0.4, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T20:55:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T20:55:00.789Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 35, "unacked": 16, "publish_rate": 18.0, "ack_rate": 26.5}
+{"ts": "2026-09-02T21:10:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 0, "unacked": 0, "publish_rate": 2.5, "ack_rate": 2.1}
+{"ts": "2026-09-02T21:10:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.22, "ack_rate": 0.32, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T21:10:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T21:10:00.623Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 34, "unacked": 13, "publish_rate": 22.9, "ack_rate": 14.7}
+{"ts": "2026-09-02T21:25:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 4, "unacked": 5, "publish_rate": 0.4, "ack_rate": 4.0}
+{"ts": "2026-09-02T21:25:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.19, "ack_rate": 0.23, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T21:25:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T21:25:00.296Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 15, "unacked": 4, "publish_rate": 18.1, "ack_rate": 26.8}
+{"ts": "2026-09-02T21:40:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 9, "unacked": 2, "publish_rate": 5.8, "ack_rate": 4.5}
+{"ts": "2026-09-02T21:40:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.08, "ack_rate": 0.15, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T21:40:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T21:40:00.633Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 40, "unacked": 15, "publish_rate": 27.9, "ack_rate": 19.1}
+{"ts": "2026-09-02T21:55:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 8, "unacked": 0, "publish_rate": 2.7, "ack_rate": 3.4}
+{"ts": "2026-09-02T21:55:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.17, "ack_rate": 0.35, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T21:55:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T21:55:00.752Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 3, "unacked": 9, "publish_rate": 7.4, "ack_rate": 24.4}
+{"ts": "2026-09-02T22:10:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 11, "unacked": 4, "publish_rate": 5.2, "ack_rate": 5.1}
+{"ts": "2026-09-02T22:10:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.38, "ack_rate": 0.2, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T22:10:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T22:10:00.019Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 40, "unacked": 15, "publish_rate": 25.0, "ack_rate": 12.4}
+{"ts": "2026-09-02T22:25:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 11, "unacked": 5, "publish_rate": 5.5, "ack_rate": 5.2}
+{"ts": "2026-09-02T22:25:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.2, "ack_rate": 0.22, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T22:25:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T22:25:00.408Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 36, "unacked": 2, "publish_rate": 18.1, "ack_rate": 24.7}
+{"ts": "2026-09-02T22:40:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 6, "unacked": 2, "publish_rate": 2.7, "ack_rate": 2.4}
+{"ts": "2026-09-02T22:40:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.28, "ack_rate": 0.31, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T22:40:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T22:40:00.583Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 39, "unacked": 11, "publish_rate": 20.4, "ack_rate": 4.3}
+{"ts": "2026-09-02T22:55:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 10, "unacked": 3, "publish_rate": 3.7, "ack_rate": 1.1}
+{"ts": "2026-09-02T22:55:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.17, "ack_rate": 0.25, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T22:55:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T22:55:00.690Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 26, "unacked": 16, "publish_rate": 19.7, "ack_rate": 18.6}
+{"ts": "2026-09-02T23:10:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 9, "unacked": 5, "publish_rate": 3.9, "ack_rate": 3.2}
+{"ts": "2026-09-02T23:10:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.2, "ack_rate": 0.04, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T23:10:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T23:10:00.286Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 35, "unacked": 13, "publish_rate": 23.6, "ack_rate": 16.2}
+{"ts": "2026-09-02T23:25:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 5, "unacked": 1, "publish_rate": 2.6, "ack_rate": 3.2}
+{"ts": "2026-09-02T23:25:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.34, "ack_rate": 0.17, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T23:25:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T23:25:00.258Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 0, "unacked": 16, "publish_rate": 12.9, "ack_rate": 9.0}
+{"ts": "2026-09-02T23:40:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 1, "unacked": 7, "publish_rate": 1.5, "ack_rate": 0.4}
+{"ts": "2026-09-02T23:40:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.39, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T23:40:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T23:40:00.402Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 12, "unacked": 9, "publish_rate": 8.9, "ack_rate": 21.6}
+{"ts": "2026-09-02T23:48:02.771Z", "node": "lq-1", "level": "error", "msg": "peer unreachable", "peer": "lq-3", "detail": "no heartbeat for 30s"}
+{"ts": "2026-09-02T23:48:03.572Z", "node": "lq-2", "level": "error", "msg": "peer unreachable", "peer": "lq-3", "detail": "no heartbeat for 30s"}
+{"ts": "2026-09-02T23:50:57.746Z", "node": "lq-3", "level": "info", "msg": "rejoined cluster", "after": "top-of-rack switch tor-b7 link restored"}
+{"ts": "2026-09-02T23:51:10.826Z", "node": "lq-1", "level": "info", "msg": "cluster healthy", "members": ["lq-1", "lq-2", "lq-3"]}
+{"ts": "2026-09-02T23:55:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 5, "unacked": 8, "publish_rate": 1.9, "ack_rate": 4.0}
+{"ts": "2026-09-02T23:55:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.35, "ack_rate": 0.03, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T23:55:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-02T23:55:00.765Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 3, "unacked": 5, "publish_rate": 11.9, "ack_rate": 6.0}
+{"ts": "2026-09-03T00:05:00.760Z", "node": "lq-1", "level": "warn", "msg": "disk free below advisory", "free_gib": 12.1, "advisory_gib": 15}
+{"ts": "2026-09-03T00:10:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 11, "unacked": 2, "publish_rate": 1.1, "ack_rate": 5.8}
+{"ts": "2026-09-03T00:10:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.14, "ack_rate": 0.02, "redeliver_rate": 0.0}
+{"ts": "2026-09-03T00:10:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-03T00:10:00.637Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 30, "unacked": 10, "publish_rate": 4.3, "ack_rate": 13.4}
+{"ts": "2026-09-03T00:25:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 10, "unacked": 1, "publish_rate": 3.6, "ack_rate": 1.2}
+{"ts": "2026-09-03T00:25:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.31, "ack_rate": 0.33, "redeliver_rate": 0.0}
+{"ts": "2026-09-03T00:25:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-03T00:25:00.087Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 34, "unacked": 0, "publish_rate": 3.2, "ack_rate": 29.7}
+{"ts": "2026-09-03T00:40:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 9, "unacked": 4, "publish_rate": 2.6, "ack_rate": 6.0}
+{"ts": "2026-09-03T00:40:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.14, "ack_rate": 0.2, "redeliver_rate": 0.0}
+{"ts": "2026-09-03T00:40:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-03T00:40:00.676Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 27, "unacked": 2, "publish_rate": 12.4, "ack_rate": 16.3}
+{"ts": "2026-09-03T00:55:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 0, "unacked": 0, "publish_rate": 5.2, "ack_rate": 4.4}
+{"ts": "2026-09-03T00:55:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.05, "ack_rate": 0.03, "redeliver_rate": 0.0}
+{"ts": "2026-09-03T00:55:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-03T00:55:00.798Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 13, "unacked": 16, "publish_rate": 3.3, "ack_rate": 25.1}
+{"ts": "2026-09-03T01:10:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 1, "unacked": 5, "publish_rate": 4.4, "ack_rate": 0.5}
+{"ts": "2026-09-03T01:10:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.15, "ack_rate": 0.31, "redeliver_rate": 0.0}
+{"ts": "2026-09-03T01:10:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-03T01:10:00.795Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 36, "unacked": 19, "publish_rate": 8.5, "ack_rate": 21.8}
+{"ts": "2026-09-03T01:12:48.004Z", "node": "lq-2", "level": "info", "msg": "tracing sample", "queue": "notify.email.send", "note": "consumer reports errors via nack header x-last-error"}
+{"ts": "2026-09-03T01:12:48.987Z", "node": "lq-2", "level": "warn", "msg": "message redelivered", "queue": "notify.email.send", "consumer": "mailer-1", "attempt": 2, "last_error": "smtp starttls mx-relay.jvb.internal:587: x509: certificate signed by unknown authority"}
+{"ts": "2026-09-03T01:17:22.584Z", "node": "lq-2", "level": "warn", "msg": "message redelivered", "queue": "notify.email.send", "consumer": "mailer-2", "attempt": 7, "last_error": "smtp starttls mx-relay.jvb.internal:587: x509: certificate signed by unknown authority"}
+{"ts": "2026-09-03T01:20:40.790Z", "node": "lq-2", "level": "warn", "msg": "message redelivered", "queue": "notify.email.send", "consumer": "mailer-2", "attempt": 5, "last_error": "smtp starttls mx-relay.jvb.internal:587: x509: certificate signed by unknown authority"}
+{"ts": "2026-09-03T01:24:52.362Z", "node": "lq-2", "level": "warn", "msg": "message redelivered", "queue": "notify.email.send", "consumer": "mailer-2", "attempt": 6, "last_error": "smtp starttls mx-relay.jvb.internal:587: x509: certificate signed by unknown authority"}
+{"ts": "2026-09-03T01:25:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 9, "unacked": 7, "publish_rate": 0.6, "ack_rate": 4.8}
+{"ts": "2026-09-03T01:25:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 3, "unacked": 1, "publish_rate": 0.04, "ack_rate": 0.0, "redeliver_rate": 0.09}
+{"ts": "2026-09-03T01:25:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-03T01:25:00.092Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 0, "unacked": 20, "publish_rate": 23.1, "ack_rate": 26.5}
+{"ts": "2026-09-03T01:27:58.724Z", "node": "lq-2", "level": "warn", "msg": "message redelivered", "queue": "notify.email.send", "consumer": "mailer-1", "attempt": 3, "last_error": "smtp starttls mx-relay.jvb.internal:587: x509: certificate signed by unknown authority"}
+{"ts": "2026-09-03T01:30:09.997Z", "node": "lq-2", "level": "info", "msg": "queue policy applied", "queue": "stmt.email.send", "policy": "stmt-outbound", "max_delivery_attempts": "unlimited", "requeue_backoff": "5s"}
+{"ts": "2026-09-03T01:30:20.576Z", "node": "lq-2", "level": "info", "msg": "memory", "used_gib": 0.21, "watermark_gib": 2.6}
+{"ts": "2026-09-03T01:31:40.662Z", "node": "lq-2", "level": "warn", "msg": "message redelivered", "queue": "stmt.email.send", "consumer": "mailer-2", "attempt": 3, "last_error": "smtp starttls mx-relay.jvb.internal:587: x509: certificate signed by unknown authority"}
+{"ts": "2026-09-03T01:31:56.479Z", "node": "lq-2", "level": "warn", "msg": "message redelivered", "queue": "notify.email.send", "consumer": "mailer-1", "attempt": 3, "last_error": "smtp starttls mx-relay.jvb.internal:587: x509: certificate signed by unknown authority"}
+{"ts": "2026-09-03T01:40:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 4, "unacked": 5, "publish_rate": 1.2, "ack_rate": 5.4}
+{"ts": "2026-09-03T01:40:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 5, "unacked": 1, "publish_rate": 0.01, "ack_rate": 0.0, "redeliver_rate": 0.02}
+{"ts": "2026-09-03T01:40:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 4692, "unacked": 16, "publish_rate": 7.6, "ack_rate": 0.0, "redeliver_rate": 10.7}
+{"ts": "2026-09-03T01:40:00.146Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 23, "unacked": 7, "publish_rate": 25.1, "ack_rate": 3.7}
+{"ts": "2026-09-03T01:40:20.277Z", "node": "lq-2", "level": "info", "msg": "memory", "used_gib": 0.53, "watermark_gib": 2.6}
+{"ts": "2026-09-03T01:40:45.411Z", "node": "lq-2", "level": "warn", "msg": "message redelivered", "queue": "stmt.email.send", "consumer": "mailer-1", "attempt": 39, "last_error": "smtp starttls mx-relay.jvb.internal:587: x509: certificate signed by unknown authority"}
+{"ts": "2026-09-03T01:45:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 5, "unacked": 1, "publish_rate": 4.0, "ack_rate": 0.9}
+{"ts": "2026-09-03T01:45:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 6, "unacked": 1, "publish_rate": 0.02, "ack_rate": 0.0, "redeliver_rate": 0.1}
+{"ts": "2026-09-03T01:45:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 5683, "unacked": 16, "publish_rate": 2.0, "ack_rate": 0.0, "redeliver_rate": 10.8}
+{"ts": "2026-09-03T01:45:00.897Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 29, "unacked": 13, "publish_rate": 24.4, "ack_rate": 29.5}
+{"ts": "2026-09-03T01:50:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 7, "unacked": 4, "publish_rate": 4.5, "ack_rate": 3.1}
+{"ts": "2026-09-03T01:50:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 6, "unacked": 1, "publish_rate": 0.17, "ack_rate": 0.0, "redeliver_rate": 0.09}
+{"ts": "2026-09-03T01:50:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 6303, "unacked": 16, "publish_rate": 1.8, "ack_rate": 0.0, "redeliver_rate": 11.1}
+{"ts": "2026-09-03T01:50:00.036Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 7, "unacked": 6, "publish_rate": 6.2, "ack_rate": 30.0}
+{"ts": "2026-09-03T01:50:04.813Z", "node": "lq-2", "level": "warn", "msg": "message redelivered", "queue": "stmt.email.send", "consumer": "mailer-2", "attempt": 59, "last_error": "smtp starttls mx-relay.jvb.internal:587: x509: certificate signed by unknown authority"}
+{"ts": "2026-09-03T01:50:20.632Z", "node": "lq-2", "level": "info", "msg": "memory", "used_gib": 0.63, "watermark_gib": 2.6}
+{"ts": "2026-09-03T01:52:31.340Z", "node": "lq-2", "level": "warn", "msg": "message dead-lettered", "queue": "notify.email.send", "dlq": "notify.email.dlq", "attempts": 8, "reason": "max delivery attempts (8) reached"}
+{"ts": "2026-09-03T01:55:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 2, "unacked": 4, "publish_rate": 0.2, "ack_rate": 1.5}
+{"ts": "2026-09-03T01:55:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 7, "unacked": 1, "publish_rate": 0.14, "ack_rate": 0.0, "redeliver_rate": 0.08}
+{"ts": "2026-09-03T01:55:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 6923, "unacked": 16, "publish_rate": 2.3, "ack_rate": 0.0, "redeliver_rate": 12.1}
+{"ts": "2026-09-03T01:55:00.658Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 26, "unacked": 4, "publish_rate": 28.2, "ack_rate": 20.2}
+{"ts": "2026-09-03T01:58:08.823Z", "node": "lq-2", "level": "warn", "msg": "message redelivered", "queue": "stmt.email.send", "consumer": "mailer-1", "attempt": 30, "last_error": "smtp starttls mx-relay.jvb.internal:587: x509: certificate signed by unknown authority"}
+{"ts": "2026-09-03T02:00:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 0, "unacked": 6, "publish_rate": 2.1, "ack_rate": 0.3}
+{"ts": "2026-09-03T02:00:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 8, "unacked": 1, "publish_rate": 0.06, "ack_rate": 0.0, "redeliver_rate": 0.1}
+{"ts": "2026-09-03T02:00:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 8465, "unacked": 16, "publish_rate": 9.9, "ack_rate": 0.0, "redeliver_rate": 11.1}
+{"ts": "2026-09-03T02:00:00.464Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 8, "unacked": 13, "publish_rate": 24.2, "ack_rate": 6.7}
+{"ts": "2026-09-03T02:00:20.732Z", "node": "lq-2", "level": "info", "msg": "memory", "used_gib": 0.79, "watermark_gib": 2.6}
+{"ts": "2026-09-03T02:05:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 12, "unacked": 3, "publish_rate": 0.3, "ack_rate": 0.6}
+{"ts": "2026-09-03T02:05:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 9, "unacked": 1, "publish_rate": 0.12, "ack_rate": 0.0, "redeliver_rate": 0.07}
+{"ts": "2026-09-03T02:05:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 11391, "unacked": 16, "publish_rate": 9.7, "ack_rate": 0.0, "redeliver_rate": 14.3}
+{"ts": "2026-09-03T02:05:00.427Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 31, "unacked": 3, "publish_rate": 6.3, "ack_rate": 14.5}
+{"ts": "2026-09-03T02:10:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 1, "unacked": 7, "publish_rate": 5.1, "ack_rate": 2.9}
+{"ts": "2026-09-03T02:10:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 9, "unacked": 1, "publish_rate": 0.09, "ack_rate": 0.0, "redeliver_rate": 0.1}
+{"ts": "2026-09-03T02:10:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 14317, "unacked": 16, "publish_rate": 9.1, "ack_rate": 0.0, "redeliver_rate": 12.1}
+{"ts": "2026-09-03T02:10:00.504Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 10, "unacked": 17, "publish_rate": 11.9, "ack_rate": 10.6}
+{"ts": "2026-09-03T02:10:20.506Z", "node": "lq-2", "level": "info", "msg": "memory", "used_gib": 1.18, "watermark_gib": 2.6}
+{"ts": "2026-09-03T02:11:10.731Z", "node": "lq-2", "level": "warn", "msg": "message redelivered", "queue": "stmt.email.send", "consumer": "mailer-1", "attempt": 16, "last_error": "smtp starttls mx-relay.jvb.internal:587: x509: certificate signed by unknown authority"}
+{"ts": "2026-09-03T02:15:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 12, "unacked": 5, "publish_rate": 1.3, "ack_rate": 2.7}
+{"ts": "2026-09-03T02:15:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 10, "unacked": 1, "publish_rate": 0.39, "ack_rate": 0.0, "redeliver_rate": 0.07}
+{"ts": "2026-09-03T02:15:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 17243, "unacked": 16, "publish_rate": 8.7, "ack_rate": 0.0, "redeliver_rate": 12.1}
+{"ts": "2026-09-03T02:15:00.961Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 30, "unacked": 16, "publish_rate": 17.2, "ack_rate": 23.9}
+{"ts": "2026-09-03T02:18:59.897Z", "node": "lq-2", "level": "warn", "msg": "message redelivered", "queue": "stmt.email.send", "consumer": "mailer-2", "attempt": 59, "last_error": "smtp starttls mx-relay.jvb.internal:587: x509: certificate signed by unknown authority"}
+{"ts": "2026-09-03T02:20:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 3, "unacked": 1, "publish_rate": 2.2, "ack_rate": 5.6}
+{"ts": "2026-09-03T02:20:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 11, "unacked": 1, "publish_rate": 0.29, "ack_rate": 0.0, "redeliver_rate": 0.04}
+{"ts": "2026-09-03T02:20:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 20170, "unacked": 16, "publish_rate": 8.4, "ack_rate": 0.0, "redeliver_rate": 14.4}
+{"ts": "2026-09-03T02:20:00.135Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 10, "unacked": 14, "publish_rate": 14.9, "ack_rate": 7.4}
+{"ts": "2026-09-03T02:20:20.215Z", "node": "lq-2", "level": "info", "msg": "memory", "used_gib": 1.57, "watermark_gib": 2.6}
+{"ts": "2026-09-03T02:25:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 5, "unacked": 7, "publish_rate": 4.5, "ack_rate": 2.2}
+{"ts": "2026-09-03T02:25:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 12, "unacked": 1, "publish_rate": 0.11, "ack_rate": 0.0, "redeliver_rate": 0.04}
+{"ts": "2026-09-03T02:25:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 23096, "unacked": 16, "publish_rate": 9.3, "ack_rate": 0.0, "redeliver_rate": 12.0}
+{"ts": "2026-09-03T02:25:00.333Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 25, "unacked": 18, "publish_rate": 30.0, "ack_rate": 23.5}
+{"ts": "2026-09-03T02:30:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 12, "unacked": 8, "publish_rate": 3.1, "ack_rate": 3.4}
+{"ts": "2026-09-03T02:30:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 12, "unacked": 1, "publish_rate": 0.17, "ack_rate": 0.0, "redeliver_rate": 0.02}
+{"ts": "2026-09-03T02:30:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 26022, "unacked": 16, "publish_rate": 7.6, "ack_rate": 0.0, "redeliver_rate": 11.3}
+{"ts": "2026-09-03T02:30:00.489Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 7, "unacked": 5, "publish_rate": 7.9, "ack_rate": 5.3}
+{"ts": "2026-09-03T02:30:20.933Z", "node": "lq-2", "level": "info", "msg": "memory", "used_gib": 1.96, "watermark_gib": 2.6}
+{"ts": "2026-09-03T02:33:49.474Z", "node": "lq-2", "level": "warn", "msg": "message redelivered", "queue": "stmt.email.send", "consumer": "mailer-2", "attempt": 47, "last_error": "smtp starttls mx-relay.jvb.internal:587: x509: certificate signed by unknown authority"}
+{"ts": "2026-09-03T02:35:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 5, "unacked": 3, "publish_rate": 0.5, "ack_rate": 0.8}
+{"ts": "2026-09-03T02:35:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 13, "unacked": 1, "publish_rate": 0.4, "ack_rate": 0.0, "redeliver_rate": 0.1}
+{"ts": "2026-09-03T02:35:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 28948, "unacked": 16, "publish_rate": 9.3, "ack_rate": 0.0, "redeliver_rate": 13.0}
+{"ts": "2026-09-03T02:35:00.394Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 11, "unacked": 7, "publish_rate": 16.3, "ack_rate": 3.4}
+{"ts": "2026-09-03T02:40:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 12, "unacked": 1, "publish_rate": 0.7, "ack_rate": 1.7}
+{"ts": "2026-09-03T02:40:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 14, "unacked": 1, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.05}
+{"ts": "2026-09-03T02:40:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 31874, "unacked": 16, "publish_rate": 9.5, "ack_rate": 0.0, "redeliver_rate": 12.6}
+{"ts": "2026-09-03T02:40:00.863Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 0, "unacked": 3, "publish_rate": 3.4, "ack_rate": 9.8}
+{"ts": "2026-09-03T02:40:20.606Z", "node": "lq-2", "level": "info", "msg": "memory", "used_gib": 2.35, "watermark_gib": 2.6}
+{"ts": "2026-09-03T02:42:12.771Z", "node": "lq-2", "level": "warn", "msg": "message redelivered", "queue": "stmt.email.send", "consumer": "mailer-2", "attempt": 29, "last_error": "smtp starttls mx-relay.jvb.internal:587: x509: certificate signed by unknown authority"}
+{"ts": "2026-09-03T02:45:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 12, "unacked": 6, "publish_rate": 1.5, "ack_rate": 4.7}
+{"ts": "2026-09-03T02:45:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 15, "unacked": 1, "publish_rate": 0.11, "ack_rate": 0.0, "redeliver_rate": 0.1}
+{"ts": "2026-09-03T02:45:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 34800, "unacked": 16, "publish_rate": 7.9, "ack_rate": 0.0, "redeliver_rate": 14.8}
+{"ts": "2026-09-03T02:45:00.264Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 35, "unacked": 1, "publish_rate": 25.4, "ack_rate": 14.0}
+{"ts": "2026-09-03T02:47:13.402Z", "node": "lq-2", "level": "warn", "msg": "memory high watermark reached, blocking publishers", "used_gib": 2.61, "watermark_gib": 2.6}
+{"ts": "2026-09-03T02:47:13.405Z", "node": "lq-2", "level": "warn", "msg": "connection blocked", "connection": "stmt-render@bat-app04:51344", "reason": "resource alarm: memory"}
+{"ts": "2026-09-03T02:49:38.266Z", "node": "lq-2", "level": "warn", "msg": "message redelivered", "queue": "stmt.email.send", "consumer": "mailer-2", "attempt": 27, "last_error": "smtp starttls mx-relay.jvb.internal:587: x509: certificate signed by unknown authority"}
+{"ts": "2026-09-03T02:50:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 1, "unacked": 6, "publish_rate": 0.7, "ack_rate": 0.7}
+{"ts": "2026-09-03T02:50:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 15, "unacked": 1, "publish_rate": 0.37, "ack_rate": 0.0, "redeliver_rate": 0.09}
+{"ts": "2026-09-03T02:50:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 36098, "unacked": 16, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 14.6}
+{"ts": "2026-09-03T02:50:00.614Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 22, "unacked": 7, "publish_rate": 13.2, "ack_rate": 26.9}
+{"ts": "2026-09-03T02:50:20.747Z", "node": "lq-2", "level": "info", "msg": "memory", "used_gib": 2.61, "watermark_gib": 2.6}
+{"ts": "2026-09-03T02:55:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 3, "unacked": 4, "publish_rate": 4.4, "ack_rate": 3.1}
+{"ts": "2026-09-03T02:55:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 16, "unacked": 1, "publish_rate": 0.33, "ack_rate": 0.0, "redeliver_rate": 0.09}
+{"ts": "2026-09-03T02:55:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 36098, "unacked": 16, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 12.5}
+{"ts": "2026-09-03T02:55:00.913Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 37, "unacked": 8, "publish_rate": 23.9, "ack_rate": 4.1}
+{"ts": "2026-09-03T03:00:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 9, "unacked": 1, "publish_rate": 4.4, "ack_rate": 0.4}
+{"ts": "2026-09-03T03:00:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 17, "unacked": 1, "publish_rate": 0.26, "ack_rate": 0.0, "redeliver_rate": 0.04}
+{"ts": "2026-09-03T03:00:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 36098, "unacked": 16, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 12.4}
+{"ts": "2026-09-03T03:00:00.767Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 9, "unacked": 20, "publish_rate": 29.7, "ack_rate": 25.5}
+{"ts": "2026-09-03T03:00:20.385Z", "node": "lq-2", "level": "info", "msg": "memory", "used_gib": 2.61, "watermark_gib": 2.6}
+{"ts": "2026-09-03T03:00:55.010Z", "node": "lq-2", "level": "warn", "msg": "message redelivered", "queue": "stmt.email.send", "consumer": "mailer-1", "attempt": 50, "last_error": "smtp starttls mx-relay.jvb.internal:587: x509: certificate signed by unknown authority"}
+{"ts": "2026-09-03T03:05:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 3, "unacked": 1, "publish_rate": 1.8, "ack_rate": 4.2}
+{"ts": "2026-09-03T03:05:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 18, "unacked": 1, "publish_rate": 0.01, "ack_rate": 0.0, "redeliver_rate": 0.04}
+{"ts": "2026-09-03T03:05:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 36098, "unacked": 16, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 11.3}
+{"ts": "2026-09-03T03:05:00.372Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 31, "unacked": 20, "publish_rate": 28.7, "ack_rate": 16.4}
+{"ts": "2026-09-03T03:07:13.352Z", "node": "lq-2", "level": "warn", "msg": "memory alarm still active", "used_gib": 2.61, "blocked_connections": 1}
+{"ts": "2026-09-03T03:10:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 10, "unacked": 0, "publish_rate": 4.1, "ack_rate": 2.4}
+{"ts": "2026-09-03T03:10:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 18, "unacked": 1, "publish_rate": 0.35, "ack_rate": 0.0, "redeliver_rate": 0.08}
+{"ts": "2026-09-03T03:10:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 36098, "unacked": 16, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 12.4}
+{"ts": "2026-09-03T03:10:00.211Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 0, "unacked": 16, "publish_rate": 13.5, "ack_rate": 22.6}
+{"ts": "2026-09-03T03:10:20.950Z", "node": "lq-2", "level": "info", "msg": "memory", "used_gib": 2.61, "watermark_gib": 2.6}
+{"ts": "2026-09-03T03:11:00.816Z", "node": "lq-2", "level": "warn", "msg": "message redelivered", "queue": "stmt.email.send", "consumer": "mailer-1", "attempt": 56, "last_error": "smtp starttls mx-relay.jvb.internal:587: x509: certificate signed by unknown authority"}
+{"ts": "2026-09-03T03:15:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 6, "unacked": 3, "publish_rate": 3.4, "ack_rate": 4.1}
+{"ts": "2026-09-03T03:15:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 19, "unacked": 1, "publish_rate": 0.08, "ack_rate": 0.0, "redeliver_rate": 0.01}
+{"ts": "2026-09-03T03:15:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 36098, "unacked": 16, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 13.4}
+{"ts": "2026-09-03T03:15:00.427Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 26, "unacked": 16, "publish_rate": 15.2, "ack_rate": 16.7}
+{"ts": "2026-09-03T03:19:28.420Z", "node": "lq-1", "level": "warn", "msg": "consumer heartbeat timeout, cancelling", "queue": "cards.auth.events", "consumer": "cardsvc-7"}
+{"ts": "2026-09-03T03:20:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 9, "unacked": 0, "publish_rate": 3.1, "ack_rate": 0.7}
+{"ts": "2026-09-03T03:20:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 20, "unacked": 1, "publish_rate": 0.11, "ack_rate": 0.0, "redeliver_rate": 0.05}
+{"ts": "2026-09-03T03:20:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 36098, "unacked": 16, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 11.1}
+{"ts": "2026-09-03T03:20:00.688Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 11, "unacked": 17, "publish_rate": 11.0, "ack_rate": 5.9}
+{"ts": "2026-09-03T03:20:20.619Z", "node": "lq-2", "level": "info", "msg": "memory", "used_gib": 2.61, "watermark_gib": 2.6}
+{"ts": "2026-09-03T03:23:15.609Z", "node": "lq-2", "level": "warn", "msg": "message redelivered", "queue": "stmt.email.send", "consumer": "mailer-1", "attempt": 40, "last_error": "smtp starttls mx-relay.jvb.internal:587: x509: certificate signed by unknown authority"}
+{"ts": "2026-09-03T03:25:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 8, "unacked": 0, "publish_rate": 3.0, "ack_rate": 3.0}
+{"ts": "2026-09-03T03:25:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 21, "unacked": 1, "publish_rate": 0.29, "ack_rate": 0.0, "redeliver_rate": 0.06}
+{"ts": "2026-09-03T03:25:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 36098, "unacked": 16, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 12.7}
+{"ts": "2026-09-03T03:25:00.718Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 36, "unacked": 2, "publish_rate": 4.8, "ack_rate": 26.5}
+{"ts": "2026-09-03T03:27:13.378Z", "node": "lq-2", "level": "warn", "msg": "memory alarm still active", "used_gib": 2.61, "blocked_connections": 1}
+{"ts": "2026-09-03T03:30:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 4, "unacked": 8, "publish_rate": 3.2, "ack_rate": 5.9}
+{"ts": "2026-09-03T03:30:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 21, "unacked": 1, "publish_rate": 0.39, "ack_rate": 0.0, "redeliver_rate": 0.1}
+{"ts": "2026-09-03T03:30:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 36098, "unacked": 16, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 13.1}
+{"ts": "2026-09-03T03:30:00.208Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 1, "unacked": 2, "publish_rate": 6.9, "ack_rate": 4.7}
+{"ts": "2026-09-03T03:30:20.197Z", "node": "lq-2", "level": "info", "msg": "memory", "used_gib": 2.61, "watermark_gib": 2.6}
+{"ts": "2026-09-03T03:35:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 9, "unacked": 6, "publish_rate": 2.9, "ack_rate": 1.3}
+{"ts": "2026-09-03T03:35:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 22, "unacked": 1, "publish_rate": 0.07, "ack_rate": 0.0, "redeliver_rate": 0.02}
+{"ts": "2026-09-03T03:35:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 36098, "unacked": 16, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 14.7}
+{"ts": "2026-09-03T03:35:00.120Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 25, "unacked": 7, "publish_rate": 14.0, "ack_rate": 25.3}
+{"ts": "2026-09-03T03:37:09.676Z", "node": "lq-2", "level": "warn", "msg": "message redelivered", "queue": "stmt.email.send", "consumer": "mailer-1", "attempt": 7, "last_error": "smtp starttls mx-relay.jvb.internal:587: x509: certificate signed by unknown authority"}
+{"ts": "2026-09-03T03:40:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 12, "unacked": 8, "publish_rate": 3.9, "ack_rate": 4.4}
+{"ts": "2026-09-03T03:40:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 23, "unacked": 1, "publish_rate": 0.33, "ack_rate": 0.0, "redeliver_rate": 0.08}
+{"ts": "2026-09-03T03:40:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 36098, "unacked": 16, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 12.6}
+{"ts": "2026-09-03T03:40:00.560Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 1, "unacked": 14, "publish_rate": 15.5, "ack_rate": 26.9}
+{"ts": "2026-09-03T03:40:20.828Z", "node": "lq-2", "level": "info", "msg": "memory", "used_gib": 2.61, "watermark_gib": 2.6}
+{"ts": "2026-09-03T03:45:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 9, "unacked": 1, "publish_rate": 2.2, "ack_rate": 3.1}
+{"ts": "2026-09-03T03:45:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 24, "unacked": 1, "publish_rate": 0.09, "ack_rate": 0.0, "redeliver_rate": 0.09}
+{"ts": "2026-09-03T03:45:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 36098, "unacked": 16, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 12.9}
+{"ts": "2026-09-03T03:45:00.726Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 7, "unacked": 7, "publish_rate": 4.5, "ack_rate": 19.0}
+{"ts": "2026-09-03T03:46:53.859Z", "node": "lq-2", "level": "warn", "msg": "message redelivered", "queue": "stmt.email.send", "consumer": "mailer-2", "attempt": 15, "last_error": "smtp starttls mx-relay.jvb.internal:587: x509: certificate signed by unknown authority"}
+{"ts": "2026-09-03T03:47:13.793Z", "node": "lq-2", "level": "warn", "msg": "memory alarm still active", "used_gib": 2.61, "blocked_connections": 1}
+{"ts": "2026-09-03T03:50:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 7, "unacked": 0, "publish_rate": 1.3, "ack_rate": 1.7}
+{"ts": "2026-09-03T03:50:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 24, "unacked": 1, "publish_rate": 0.35, "ack_rate": 0.0, "redeliver_rate": 0.09}
+{"ts": "2026-09-03T03:50:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 36098, "unacked": 16, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 13.8}
+{"ts": "2026-09-03T03:50:00.399Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 33, "unacked": 18, "publish_rate": 19.7, "ack_rate": 10.6}
+{"ts": "2026-09-03T03:50:20.478Z", "node": "lq-2", "level": "info", "msg": "memory", "used_gib": 2.61, "watermark_gib": 2.6}
+{"ts": "2026-09-03T03:55:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 12, "unacked": 5, "publish_rate": 0.4, "ack_rate": 3.3}
+{"ts": "2026-09-03T03:55:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 25, "unacked": 1, "publish_rate": 0.35, "ack_rate": 0.0, "redeliver_rate": 0.1}
+{"ts": "2026-09-03T03:55:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 36098, "unacked": 16, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 12.1}
+{"ts": "2026-09-03T03:55:00.794Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 6, "unacked": 17, "publish_rate": 4.1, "ack_rate": 5.6}
+{"ts": "2026-09-03T04:00:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 4, "unacked": 1, "publish_rate": 5.7, "ack_rate": 1.5}
+{"ts": "2026-09-03T04:00:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 26, "unacked": 1, "publish_rate": 0.16, "ack_rate": 0.0, "redeliver_rate": 0.07}
+{"ts": "2026-09-03T04:00:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 36098, "unacked": 16, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 14.7}
+{"ts": "2026-09-03T04:00:00.783Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 33, "unacked": 4, "publish_rate": 10.0, "ack_rate": 22.7}
+{"ts": "2026-09-03T04:00:20.960Z", "node": "lq-2", "level": "info", "msg": "memory", "used_gib": 2.61, "watermark_gib": 2.6}
+{"ts": "2026-09-03T04:01:36.988Z", "node": "lq-2", "level": "warn", "msg": "message redelivered", "queue": "stmt.email.send", "consumer": "mailer-2", "attempt": 8, "last_error": "smtp starttls mx-relay.jvb.internal:587: x509: certificate signed by unknown authority"}
+{"ts": "2026-09-03T04:05:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 12, "unacked": 4, "publish_rate": 5.8, "ack_rate": 1.2}
+{"ts": "2026-09-03T04:05:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 27, "unacked": 1, "publish_rate": 0.04, "ack_rate": 0.0, "redeliver_rate": 0.02}
+{"ts": "2026-09-03T04:05:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 36098, "unacked": 16, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 13.2}
+{"ts": "2026-09-03T04:05:00.723Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 8, "unacked": 12, "publish_rate": 14.9, "ack_rate": 22.6}
+{"ts": "2026-09-03T04:07:13.869Z", "node": "lq-2", "level": "warn", "msg": "memory alarm still active", "used_gib": 2.61, "blocked_connections": 1}
+{"ts": "2026-09-03T04:10:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 0, "unacked": 8, "publish_rate": 1.7, "ack_rate": 1.6}
+{"ts": "2026-09-03T04:10:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 27, "unacked": 1, "publish_rate": 0.12, "ack_rate": 0.0, "redeliver_rate": 0.05}
+{"ts": "2026-09-03T04:10:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 36098, "unacked": 16, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 10.8}
+{"ts": "2026-09-03T04:10:00.708Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 4, "unacked": 13, "publish_rate": 9.6, "ack_rate": 6.6}
+{"ts": "2026-09-03T04:10:20.565Z", "node": "lq-2", "level": "info", "msg": "memory", "used_gib": 2.61, "watermark_gib": 2.6}
+{"ts": "2026-09-03T04:15:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 2, "unacked": 8, "publish_rate": 4.3, "ack_rate": 5.5}
+{"ts": "2026-09-03T04:15:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 28, "unacked": 1, "publish_rate": 0.36, "ack_rate": 0.0, "redeliver_rate": 0.1}
+{"ts": "2026-09-03T04:15:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 36098, "unacked": 16, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 11.7}
+{"ts": "2026-09-03T04:15:00.715Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 2, "unacked": 10, "publish_rate": 17.2, "ack_rate": 23.4}
+{"ts": "2026-09-03T04:15:36.600Z", "node": "lq-2", "level": "warn", "msg": "message redelivered", "queue": "stmt.email.send", "consumer": "mailer-2", "attempt": 32, "last_error": "smtp starttls mx-relay.jvb.internal:587: x509: certificate signed by unknown authority"}
+{"ts": "2026-09-03T04:20:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 9, "unacked": 8, "publish_rate": 4.5, "ack_rate": 3.6}
+{"ts": "2026-09-03T04:20:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 29, "unacked": 1, "publish_rate": 0.13, "ack_rate": 0.0, "redeliver_rate": 0.03}
+{"ts": "2026-09-03T04:20:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 36098, "unacked": 16, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 11.0}
+{"ts": "2026-09-03T04:20:00.646Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 33, "unacked": 15, "publish_rate": 6.9, "ack_rate": 24.3}
+{"ts": "2026-09-03T04:20:20.295Z", "node": "lq-2", "level": "info", "msg": "memory", "used_gib": 2.61, "watermark_gib": 2.6}
+{"ts": "2026-09-03T04:23:33.447Z", "node": "lq-2", "level": "warn", "msg": "message redelivered", "queue": "stmt.email.send", "consumer": "mailer-1", "attempt": 6, "last_error": "smtp starttls mx-relay.jvb.internal:587: x509: certificate signed by unknown authority"}
+{"ts": "2026-09-03T04:25:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 0, "unacked": 0, "publish_rate": 4.5, "ack_rate": 5.7}
+{"ts": "2026-09-03T04:25:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 30, "unacked": 1, "publish_rate": 0.3, "ack_rate": 0.0, "redeliver_rate": 0.08}
+{"ts": "2026-09-03T04:25:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 36098, "unacked": 16, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 11.4}
+{"ts": "2026-09-03T04:25:00.898Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 35, "unacked": 7, "publish_rate": 13.0, "ack_rate": 29.2}
+{"ts": "2026-09-03T04:27:13.770Z", "node": "lq-2", "level": "warn", "msg": "memory alarm still active", "used_gib": 2.61, "blocked_connections": 1}
+{"ts": "2026-09-03T04:30:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 8, "unacked": 6, "publish_rate": 0.8, "ack_rate": 3.1}
+{"ts": "2026-09-03T04:30:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 30, "unacked": 1, "publish_rate": 0.21, "ack_rate": 0.0, "redeliver_rate": 0.02}
+{"ts": "2026-09-03T04:30:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 36098, "unacked": 16, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 13.5}
+{"ts": "2026-09-03T04:30:00.682Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 33, "unacked": 4, "publish_rate": 25.5, "ack_rate": 5.0}
+{"ts": "2026-09-03T04:30:03.117Z", "node": "lq-2", "level": "info", "msg": "queue purged", "queue": "stmt.email.send", "messages": 36114, "requested_by": "stmt-render@bat-app04"}
+{"ts": "2026-09-03T04:30:04.180Z", "node": "lq-2", "level": "info", "msg": "memory alarm cleared, unblocking publishers", "used_gib": 0.22, "watermark_gib": 2.6}
+{"ts": "2026-09-03T04:30:05.285Z", "node": "lq-2", "level": "info", "msg": "connection closed", "connection": "stmt-render@bat-app04:51344"}
+{"ts": "2026-09-03T04:30:20.085Z", "node": "lq-2", "level": "info", "msg": "memory", "used_gib": 0.21, "watermark_gib": 2.6}
+{"ts": "2026-09-03T04:35:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 7, "unacked": 6, "publish_rate": 5.6, "ack_rate": 3.5}
+{"ts": "2026-09-03T04:35:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 31, "unacked": 1, "publish_rate": 0.01, "ack_rate": 0.0, "redeliver_rate": 0.03}
+{"ts": "2026-09-03T04:35:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-03T04:35:00.037Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 28, "unacked": 0, "publish_rate": 23.3, "ack_rate": 13.4}
+{"ts": "2026-09-03T04:40:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 12, "unacked": 4, "publish_rate": 2.6, "ack_rate": 2.5}
+{"ts": "2026-09-03T04:40:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 32, "unacked": 1, "publish_rate": 0.1, "ack_rate": 0.0, "redeliver_rate": 0.09}
+{"ts": "2026-09-03T04:40:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-03T04:40:00.486Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 27, "unacked": 9, "publish_rate": 20.6, "ack_rate": 4.4}
+{"ts": "2026-09-03T04:55:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 1, "unacked": 8, "publish_rate": 0.4, "ack_rate": 0.2}
+{"ts": "2026-09-03T04:55:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 34, "unacked": 1, "publish_rate": 0.12, "ack_rate": 0.0, "redeliver_rate": 0.01}
+{"ts": "2026-09-03T04:55:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-03T04:55:00.194Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 39, "unacked": 16, "publish_rate": 11.0, "ack_rate": 10.0}
+{"ts": "2026-09-03T05:10:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 12, "unacked": 5, "publish_rate": 3.1, "ack_rate": 4.7}
+{"ts": "2026-09-03T05:10:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 36, "unacked": 1, "publish_rate": 0.12, "ack_rate": 0.0, "redeliver_rate": 0.08}
+{"ts": "2026-09-03T05:10:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-03T05:10:00.063Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 10, "unacked": 13, "publish_rate": 13.8, "ack_rate": 12.5}
+{"ts": "2026-09-03T05:25:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 2, "unacked": 8, "publish_rate": 1.9, "ack_rate": 5.3}
+{"ts": "2026-09-03T05:25:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 39, "unacked": 1, "publish_rate": 0.12, "ack_rate": 0.0, "redeliver_rate": 0.02}
+{"ts": "2026-09-03T05:25:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-03T05:25:00.251Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 6, "unacked": 3, "publish_rate": 26.0, "ack_rate": 5.4}
+{"ts": "2026-09-03T05:40:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 0, "unacked": 3, "publish_rate": 0.9, "ack_rate": 3.3}
+{"ts": "2026-09-03T05:40:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 41, "unacked": 1, "publish_rate": 0.02, "ack_rate": 0.0, "redeliver_rate": 0.03}
+{"ts": "2026-09-03T05:40:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-03T05:40:00.929Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 20, "unacked": 2, "publish_rate": 20.2, "ack_rate": 7.0}
+{"ts": "2026-09-03T05:55:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 3, "unacked": 1, "publish_rate": 3.5, "ack_rate": 3.6}
+{"ts": "2026-09-03T05:55:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 43, "unacked": 1, "publish_rate": 0.08, "ack_rate": 0.0, "redeliver_rate": 0.04}
+{"ts": "2026-09-03T05:55:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-03T05:55:00.460Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 24, "unacked": 6, "publish_rate": 14.1, "ack_rate": 11.4}
+{"ts": "2026-09-03T06:00:00.951Z", "node": "lq-2", "level": "warn", "msg": "management listener certificate expires soon", "days_remaining": 41}
+{"ts": "2026-09-03T06:10:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 7, "unacked": 5, "publish_rate": 1.9, "ack_rate": 5.8}
+{"ts": "2026-09-03T06:10:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 45, "unacked": 1, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.02}
+{"ts": "2026-09-03T06:10:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-03T06:10:00.142Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 2, "unacked": 19, "publish_rate": 28.6, "ack_rate": 23.4}
+{"ts": "2026-09-03T06:11:00.949Z", "node": "lq-1", "level": "info", "msg": "disk free above advisory after segment compaction", "free_gib": 18.6, "advisory_gib": 15}
+{"ts": "2026-09-03T06:25:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 2, "unacked": 5, "publish_rate": 0.4, "ack_rate": 3.0}
+{"ts": "2026-09-03T06:25:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 48, "unacked": 1, "publish_rate": 0.14, "ack_rate": 0.0, "redeliver_rate": 0.02}
+{"ts": "2026-09-03T06:25:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-03T06:25:00.562Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 22, "unacked": 18, "publish_rate": 12.9, "ack_rate": 21.4}
+{"ts": "2026-09-03T06:40:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 0, "unacked": 2, "publish_rate": 3.7, "ack_rate": 1.0}
+{"ts": "2026-09-03T06:40:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 50, "unacked": 1, "publish_rate": 0.13, "ack_rate": 0.0, "redeliver_rate": 0.09}
+{"ts": "2026-09-03T06:40:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-03T06:40:00.148Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 13, "unacked": 2, "publish_rate": 14.1, "ack_rate": 23.9}
+{"ts": "2026-09-03T06:55:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 2, "unacked": 3, "publish_rate": 4.2, "ack_rate": 1.2}
+{"ts": "2026-09-03T06:55:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 52, "unacked": 1, "publish_rate": 0.28, "ack_rate": 0.0, "redeliver_rate": 0.06}
+{"ts": "2026-09-03T06:55:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-03T06:55:00.723Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 8, "unacked": 18, "publish_rate": 28.8, "ack_rate": 14.9}
+{"ts": "2026-09-03T07:10:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 6, "unacked": 8, "publish_rate": 5.5, "ack_rate": 4.1}
+{"ts": "2026-09-03T07:10:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 54, "unacked": 1, "publish_rate": 0.31, "ack_rate": 0.0, "redeliver_rate": 0.07}
+{"ts": "2026-09-03T07:10:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-03T07:10:00.968Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 24, "unacked": 15, "publish_rate": 19.6, "ack_rate": 28.8}
+{"ts": "2026-09-03T07:25:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 1, "unacked": 5, "publish_rate": 5.4, "ack_rate": 4.3}
+{"ts": "2026-09-03T07:25:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 57, "unacked": 1, "publish_rate": 0.32, "ack_rate": 0.0, "redeliver_rate": 0.03}
+{"ts": "2026-09-03T07:25:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-03T07:25:00.509Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 5, "unacked": 4, "publish_rate": 6.6, "ack_rate": 15.8}
+{"ts": "2026-09-03T07:40:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 7, "unacked": 6, "publish_rate": 0.6, "ack_rate": 1.3}
+{"ts": "2026-09-03T07:40:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 59, "unacked": 1, "publish_rate": 0.23, "ack_rate": 0.0, "redeliver_rate": 0.07}
+{"ts": "2026-09-03T07:40:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-03T07:40:00.425Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 30, "unacked": 12, "publish_rate": 22.0, "ack_rate": 11.6}
+{"ts": "2026-09-03T07:55:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 5, "unacked": 7, "publish_rate": 2.3, "ack_rate": 1.4}
+{"ts": "2026-09-03T07:55:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 61, "unacked": 1, "publish_rate": 0.29, "ack_rate": 0.0, "redeliver_rate": 0.08}
+{"ts": "2026-09-03T07:55:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-03T07:55:00.859Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 14, "unacked": 20, "publish_rate": 26.3, "ack_rate": 13.7}
+{"ts": "2026-09-03T08:10:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 1, "unacked": 6, "publish_rate": 4.8, "ack_rate": 3.6}
+{"ts": "2026-09-03T08:10:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 63, "unacked": 1, "publish_rate": 0.05, "ack_rate": 0.0, "redeliver_rate": 0.02}
+{"ts": "2026-09-03T08:10:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-03T08:10:00.124Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 13, "unacked": 1, "publish_rate": 5.6, "ack_rate": 11.8}
+{"ts": "2026-09-03T08:25:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 4, "unacked": 1, "publish_rate": 1.0, "ack_rate": 0.8}
+{"ts": "2026-09-03T08:25:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 66, "unacked": 1, "publish_rate": 0.12, "ack_rate": 0.0, "redeliver_rate": 0.09}
+{"ts": "2026-09-03T08:25:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-03T08:25:00.072Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 3, "unacked": 1, "publish_rate": 24.1, "ack_rate": 27.0}
+{"ts": "2026-09-03T08:40:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 7, "unacked": 2, "publish_rate": 3.7, "ack_rate": 5.2}
+{"ts": "2026-09-03T08:40:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 68, "unacked": 1, "publish_rate": 0.31, "ack_rate": 0.0, "redeliver_rate": 0.04}
+{"ts": "2026-09-03T08:40:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-03T08:40:00.608Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 36, "unacked": 6, "publish_rate": 19.2, "ack_rate": 14.1}
+{"ts": "2026-09-03T08:55:00.005Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "ledger.posting", "ready": 10, "unacked": 3, "publish_rate": 4.6, "ack_rate": 2.0}
+{"ts": "2026-09-03T08:55:00.009Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "notify.email.send", "ready": 70, "unacked": 1, "publish_rate": 0.39, "ack_rate": 0.0, "redeliver_rate": 0.07}
+{"ts": "2026-09-03T08:55:00.012Z", "node": "lq-2", "level": "info", "msg": "queue stats", "queue": "stmt.email.send", "ready": 0, "unacked": 0, "publish_rate": 0.0, "ack_rate": 0.0, "redeliver_rate": 0.0}
+{"ts": "2026-09-03T08:55:00.707Z", "node": "lq-1", "level": "info", "msg": "queue stats", "queue": "cards.auth.events", "ready": 13, "unacked": 18, "publish_rate": 15.0, "ack_rate": 7.0}

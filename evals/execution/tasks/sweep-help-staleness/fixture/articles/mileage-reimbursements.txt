@@ -1,0 +1,30 @@
+MILEAGE REIMBURSEMENTS
+Help Center > Payroll > Reimbursements
+Last updated 2025-10-21 | Priya Ramaswamy
+
+If your team drives their own cars for work, you can reimburse them through payroll. Reimbursements aren't wages, so as long as you follow an accountable plan they aren't taxed.
+
+What counts as an accountable plan
+  - The mileage has a business purpose.
+  - The employee reports it within a reasonable time (most companies use 30 or 60 days).
+  - The reimbursement doesn't exceed the standard mileage rate, or the employee returns any excess.
+
+If you pay a flat car allowance without asking for mileage logs, that is not an accountable plan, and the allowance is taxable wages. Add it as an earning, not a reimbursement.
+
+Adding a mileage reimbursement to payroll
+  1. Start your regular payroll.
+  2. On the hours and earnings screen, click the employee's row and choose Add reimbursement.
+  3. Pick Mileage.
+  4. Enter the number of miles. Halvard multiplies by the rate you set in Settings > Reimbursements.
+  5. Add a note (for example, "Client visits, Oct 6 to Oct 17").
+
+The amount is added to net pay after taxes.
+
+Setting your rate
+  Go to Settings > Reimbursements. You can enter any rate up to the standard rate published for the year. When the new rate is published each year, update it here; Halvard does not change it for you, because some companies choose a lower rate.
+
+Letting employees submit mileage
+  On Core and Plus, employees can submit mileage from the mobile app. Requests appear under Payroll > Reimbursement requests. Once you accept a request, it is added to the next regular payroll automatically.
+
+Receipts and logs
+  Keep mileage logs for at least three years. Employees can attach a log file to requests in the app. If you add reimbursements yourself, keep the logs somewhere your accountant can find them.

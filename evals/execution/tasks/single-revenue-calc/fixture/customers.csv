@@ -1,0 +1,35 @@
+customer_id,name,region,country,billing_currency,account_manager,customer_since,notes
+C-1001,Brasserie Lune Verte,EU,FR,EUR,Odile Marchetti,2019-05-14,
+C-1002,Kochwerk Haldenberg GmbH,EU,DE,EUR,Odile Marchetti,2020-02-03,
+C-1003,Pantry & Pike Restaurants,NA,US,USD,Deshawn Albright,2018-11-20,
+C-1004,Molinar Hospitality Group,NA,US,USD,Deshawn Albright,2021-07-09,
+C-1005,Fjordkök Grossist AB,EU,SE,SEK,Ingrid Solvang,2022-03-28,
+C-1006,Tallow Street Canteens Ltd,UK,GB,GBP,Priya Wexford,2020-09-15,
+C-1007,Casa Ortelia Catering,EU,ES,EUR,Odile Marchetti,2023-01-10,
+C-1008,Bluegum Kitchen Co,APAC,AU,USD,Marcus Teal,2021-04-22,Invoiced in USD per master agreement
+C-1009,Vandermolen Horeca BV,EU,NL,EUR,Ingrid Solvang,2019-08-01,
+C-1010,Northgale Bakeries,NA,CA,USD,Deshawn Albright,2022-06-17,
+C-1011,Osteria Pellandi Srl,EU,IT,EUR,Odile Marchetti,2024-02-05,
+C-1012,Harbour Lane Hotels plc,UK,GB,GBP,Priya Wexford,2018-03-12,
+C-1013,Skarvik Storkök AB,EU,SE,SEK,Ingrid Solvang,2023-10-30,
+C-1014,Redfern Campus Dining,NA,US,USD,Deshawn Albright,2020-01-27,Net 45 terms
+C-1015,Maison Béraud Traiteur,EU,BE,EUR,Odile Marchetti,2021-11-08,
+C-1016,Kinsale Quay Kitchens,EU,IE,GBP,Priya Wexford,2022-08-19,Bills in GBP at customer request
+C-1017,Sakuragi Food Service,APAC,JP,USD,Marcus Teal,2023-05-02,
+C-1018,Copper Kettle Diners,NA,US,USD,Luis Ferrante,2019-12-11,
+C-1019,Grünhof Kantinen AG,EU,AT,EUR,Ingrid Solvang,2020-04-06,
+C-1020,Wexmoor School Meals Trust,UK,GB,GBP,Priya Wexford,2021-02-24,
+C-1021,Adelmar Cruise Provisioning,EU,PT,USD,Odile Marchetti,2024-06-13,USD pricing agreed for fleet contract
+C-1022,Prairie Oak Steakhouses,NA,US,USD,Luis Ferrante,2018-07-30,
+C-1023,Lindqvist Bageri,EU,DK,EUR,Ingrid Solvang,2025-01-15,
+C-1024,Pacifica Resort Holdings,LATAM,MX,USD,Luis Ferrante,2022-09-05,
+C-1025,Aldersgate Pub Company,UK,GB,GBP,Priya Wexford,2019-03-18,
+C-1026,Tamsin Row Patisserie,NA,US,USD,Deshawn Albright,2025-03-03,
+C-1027,Harrowgate Catering Group,EU,NL,EUR,Ingrid Solvang,2021-10-04,Region changed from UK to EU on 2026-04-01 when the account moved to the Netherlands subsidiary; billing currency changed from GBP to EUR on the same date
+C-1028,Kowhai Bay Hospitality,APAC,NZ,USD,Marcus Teal,2024-08-26,
+C-1029,Rialto Verde Pizzerie,EU,IT,EUR,Odile Marchetti,2023-03-21,
+C-1030,Stonebridge Care Homes,UK,GB,GBP,Priya Wexford,2020-10-12,
+C-1031,Big Sky Commissary,NA,US,USD,Luis Ferrante,2021-05-06,
+C-1032,Hautvilliers Hôtellerie,EU,FR,EUR,Odile Marchetti,2022-12-01,
+C-1033,Andes Norte Cocinas,LATAM,CL,USD,Luis Ferrante,2025-05-19,
+C-1034,Beacon Hill Test Kitchen,NA,US,USD,Deshawn Albright,2024-11-11,"Trade show sample account, low volume"

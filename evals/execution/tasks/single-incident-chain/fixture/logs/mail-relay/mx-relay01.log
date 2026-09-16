@@ -1,0 +1,1180 @@
+2026-09-01T23:00:03.801Z mx-relay01 quillmail/housekeep[1702]: log file reopened after rotation
+2026-09-01T23:10:25.104Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-01T23:10:25.144Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-2.jvb.internal[10.40.12.22] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-01T23:10:25.324Z mx-relay01 quillmail/smtpd[2211]: BC88E8DF4: queued from=<noreply@notify.junipervale.example> size=5570 nrcpt=1
+2026-09-01T23:10:26.031Z mx-relay01 quillmail/smtp[3120]: BC88E8DF4: to=<1e260ea@harbormail.example> relay=in.harbormail.example:25 delay=0.64 status=sent (250 accepted)
+2026-09-01T23:16:07.128Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-01T23:16:07.168Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-1.jvb.internal[10.40.12.21] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-01T23:16:07.348Z mx-relay01 quillmail/smtpd[2211]: F8178A395: queued from=<noreply@notify.junipervale.example> size=7266 nrcpt=1
+2026-09-01T23:16:09.137Z mx-relay01 quillmail/smtp[3120]: F8178A395: to=<f12be51@tallowpost.example> relay=in.tallowpost.example:25 delay=0.62 status=sent (250 accepted)
+2026-09-01T23:30:54.160Z mx-relay01 quillmail/smtpd[2211]: connect from fraud-notify02.jvb.internal[10.40.18.5]
+2026-09-01T23:30:54.200Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from fraud-notify02.jvb.internal[10.40.18.5] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-01T23:30:54.380Z mx-relay01 quillmail/smtpd[2211]: AFEC017A5: queued from=<fraud-alerts@junipervale.example> size=5114 nrcpt=1
+2026-09-01T23:30:55.385Z mx-relay01 quillmail/smtp[3120]: AFEC017A5: to=<571c6a4@ostlermail.example> relay=in.ostlermail.example:25 delay=0.74 status=sent (250 accepted)
+2026-09-01T23:33:38.171Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-01T23:33:38.211Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-1.jvb.internal[10.40.12.21] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-01T23:33:38.391Z mx-relay01 quillmail/smtpd[2211]: 42001F6B7: queued from=<noreply@notify.junipervale.example> size=4686 nrcpt=1
+2026-09-01T23:33:39.547Z mx-relay01 quillmail/smtp[3120]: 42001F6B7: to=<b5fce4e@ostlermail.example> relay=in.ostlermail.example:25 delay=1.88 status=sent (250 accepted)
+2026-09-01T23:41:35.838Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-01T23:41:35.878Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-2.jvb.internal[10.40.12.22] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-01T23:41:36.058Z mx-relay01 quillmail/smtpd[2211]: 4D531024A: queued from=<noreply@notify.junipervale.example> size=4754 nrcpt=1
+2026-09-01T23:41:37.756Z mx-relay01 quillmail/smtp[3120]: 4D531024A: to=<52d0780@tallowpost.example> relay=in.tallowpost.example:25 delay=1.44 status=sent (250 accepted)
+2026-09-01T23:53:12.329Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-01T23:53:12.369Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-1.jvb.internal[10.40.12.21] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-01T23:53:12.549Z mx-relay01 quillmail/smtpd[2211]: F34258184: queued from=<noreply@notify.junipervale.example> size=5360 nrcpt=1
+2026-09-01T23:53:13.322Z mx-relay01 quillmail/smtp[3120]: F34258184: to=<719bbff@quarrynet.example> relay=in.quarrynet.example:25 delay=1.87 status=sent (250 accepted)
+2026-09-02T00:07:44.135Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-02T00:07:44.175Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-2.jvb.internal[10.40.12.22] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T00:07:44.355Z mx-relay01 quillmail/smtpd[2211]: 138A8A712: queued from=<noreply@notify.junipervale.example> size=4057 nrcpt=1
+2026-09-02T00:07:45.472Z mx-relay01 quillmail/smtp[3120]: 138A8A712: to=<5761300@harbormail.example> relay=in.harbormail.example:25 delay=0.65 status=sent (250 accepted)
+2026-09-02T00:10:47.895Z mx-relay01 quillmail/smtpd[2211]: connect from itsm-core.jvb.internal[10.40.9.14]
+2026-09-02T00:10:47.935Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from itsm-core.jvb.internal[10.40.9.14] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T00:10:48.115Z mx-relay01 quillmail/smtpd[2211]: A1FC08343: queued from=<servicedesk@junipervale.example> size=4933 nrcpt=1
+2026-09-02T00:10:49.691Z mx-relay01 quillmail/smtp[3120]: A1FC08343: to=<c04bef4@tallowpost.example> relay=in.tallowpost.example:25 delay=0.99 status=sent (250 accepted)
+2026-09-02T00:20:08.218Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-02T00:20:08.258Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-1.jvb.internal[10.40.12.21] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T00:20:08.438Z mx-relay01 quillmail/smtpd[2211]: 73A119957: queued from=<noreply@notify.junipervale.example> size=6816 nrcpt=1
+2026-09-02T00:20:09.136Z mx-relay01 quillmail/smtp[3120]: 73A119957: to=<10aa02b@quarrynet.example> relay=in.quarrynet.example:25 delay=1.04 status=sent (250 accepted)
+2026-09-02T00:35:03.739Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-02T00:35:03.779Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-1.jvb.internal[10.40.12.21] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T00:35:03.959Z mx-relay01 quillmail/smtpd[2211]: 9D37508B6: queued from=<noreply@notify.junipervale.example> size=5696 nrcpt=1
+2026-09-02T00:35:05.376Z mx-relay01 quillmail/smtp[3120]: 9D37508B6: to=<3c5eb23@tallowpost.example> relay=in.tallowpost.example:25 delay=1.15 status=sent (250 accepted)
+2026-09-02T00:35:10.965Z mx-relay01 quillmail/smtpd[2211]: connect from peoplehub-app1.jvb.internal[10.40.30.8]
+2026-09-02T00:35:11.005Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from peoplehub-app1.jvb.internal[10.40.30.8] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T00:35:11.185Z mx-relay01 quillmail/smtpd[2211]: BBFDF9E5F: queued from=<hr-notices@junipervale.example> size=4158 nrcpt=1
+2026-09-02T00:35:13.124Z mx-relay01 quillmail/smtp[3120]: BBFDF9E5F: to=<cdc07eb@greyfinch.example> relay=in.greyfinch.example:25 delay=0.80 status=sent (250 accepted)
+2026-09-02T00:45:09.568Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-02T00:45:09.608Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-2.jvb.internal[10.40.12.22] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T00:45:09.788Z mx-relay01 quillmail/smtpd[2211]: CC9FE7E26: queued from=<noreply@notify.junipervale.example> size=6326 nrcpt=1
+2026-09-02T00:45:10.367Z mx-relay01 quillmail/smtp[3120]: CC9FE7E26: to=<d692c73@harbormail.example> relay=in.harbormail.example:25 delay=0.71 status=sent (250 accepted)
+2026-09-02T00:57:35.871Z mx-relay01 quillmail/smtpd[2211]: warning: dnsbl lookup timed out for 198.51.100.107 (list=blk.greyfinch.example)
+2026-09-02T01:00:46.658Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-02T01:00:46.698Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-2.jvb.internal[10.40.12.22] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T01:00:46.878Z mx-relay01 quillmail/smtpd[2211]: 13EB9BA80: queued from=<noreply@notify.junipervale.example> size=4992 nrcpt=1
+2026-09-02T01:00:47.308Z mx-relay01 quillmail/smtp[3120]: 13EB9BA80: to=<7b0f376@greyfinch.example> relay=in.greyfinch.example:25 delay=1.23 status=sent (250 accepted)
+2026-09-02T01:02:08.711Z mx-relay01 quillmail/smtpd[2211]: connect from peoplehub-app1.jvb.internal[10.40.30.8]
+2026-09-02T01:02:08.751Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from peoplehub-app1.jvb.internal[10.40.30.8] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T01:02:08.931Z mx-relay01 quillmail/smtpd[2211]: 9CF1192D6: queued from=<hr-notices@junipervale.example> size=7235 nrcpt=1
+2026-09-02T01:02:09.374Z mx-relay01 quillmail/smtp[3120]: 9CF1192D6: to=<252afd9@quarrynet.example> relay=in.quarrynet.example:25 delay=1.36 status=sent (250 accepted)
+2026-09-02T01:14:56.553Z mx-relay01 quillmail/smtpd[2211]: warning: dnsbl lookup timed out for 198.51.100.31 (list=blk.greyfinch.example)
+2026-09-02T01:16:54.208Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-02T01:16:54.248Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-2.jvb.internal[10.40.12.22] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T01:16:54.428Z mx-relay01 quillmail/smtpd[2211]: 5A4ED5585: queued from=<noreply@notify.junipervale.example> size=8560 nrcpt=1
+2026-09-02T01:16:54.914Z mx-relay01 quillmail/smtp[3120]: 5A4ED5585: to=<8a0a0fe@quarrynet.example> relay=in.quarrynet.example:25 delay=1.89 status=sent (250 accepted)
+2026-09-02T01:23:11.252Z mx-relay01 quillmail/smtpd[2211]: connect from peoplehub-app1.jvb.internal[10.40.30.8]
+2026-09-02T01:23:11.292Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from peoplehub-app1.jvb.internal[10.40.30.8] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T01:23:11.472Z mx-relay01 quillmail/smtpd[2211]: 3513E7CF2: queued from=<hr-notices@junipervale.example> size=7561 nrcpt=1
+2026-09-02T01:23:13.228Z mx-relay01 quillmail/smtp[3120]: 3513E7CF2: to=<b69a9bc@harbormail.example> relay=in.harbormail.example:25 delay=2.07 status=sent (250 accepted)
+2026-09-02T01:27:29.775Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-02T01:27:29.815Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-2.jvb.internal[10.40.12.22] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T01:27:29.995Z mx-relay01 quillmail/smtpd[2211]: 97CF6E899: queued from=<noreply@notify.junipervale.example> size=8605 nrcpt=1
+2026-09-02T01:27:30.690Z mx-relay01 quillmail/smtp[3120]: 97CF6E899: to=<c7d0269@ostlermail.example> relay=in.ostlermail.example:25 delay=2.15 status=sent (250 accepted)
+2026-09-02T01:41:10.929Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-02T01:41:10.969Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-1.jvb.internal[10.40.12.21] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T01:41:11.149Z mx-relay01 quillmail/smtpd[2211]: 6662640FA: queued from=<statements@notify.junipervale.example> size=65502 nrcpt=1
+2026-09-02T01:41:12.942Z mx-relay01 quillmail/smtp[3120]: 6662640FA: to=<83dee29@quarrynet.example> relay=in.quarrynet.example:25 delay=2.00 status=sent (250 accepted)
+2026-09-02T01:41:15.558Z mx-relay01 quillmail/smtpd[2211]: rate-limited logging: 18227 similar session records suppressed in last 600s
+2026-09-02T01:43:16.200Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-02T01:43:16.240Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-1.jvb.internal[10.40.12.21] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T01:43:16.420Z mx-relay01 quillmail/smtpd[2211]: A2A6E4A84: queued from=<noreply@notify.junipervale.example> size=4442 nrcpt=1
+2026-09-02T01:43:17.408Z mx-relay01 quillmail/smtp[3120]: A2A6E4A84: to=<f867813@tallowpost.example> relay=in.tallowpost.example:25 delay=1.19 status=sent (250 accepted)
+2026-09-02T01:50:52.769Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-02T01:50:52.809Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-2.jvb.internal[10.40.12.22] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T01:50:52.989Z mx-relay01 quillmail/smtpd[2211]: D4B1DFFA6: queued from=<noreply@notify.junipervale.example> size=7291 nrcpt=1
+2026-09-02T01:50:54.851Z mx-relay01 quillmail/smtp[3120]: D4B1DFFA6: to=<e6fb7e8@harbormail.example> relay=in.harbormail.example:25 delay=1.34 status=sent (250 accepted)
+2026-09-02T01:51:10.162Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-02T01:51:10.202Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-2.jvb.internal[10.40.12.22] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T01:51:10.382Z mx-relay01 quillmail/smtpd[2211]: 6B2C0C3FF: queued from=<statements@notify.junipervale.example> size=85322 nrcpt=1
+2026-09-02T01:51:11.502Z mx-relay01 quillmail/smtp[3120]: 6B2C0C3FF: to=<f87d7b3@ostlermail.example> relay=in.ostlermail.example:25 delay=1.88 status=sent (250 accepted)
+2026-09-02T01:51:15.332Z mx-relay01 quillmail/smtpd[2211]: rate-limited logging: 17106 similar session records suppressed in last 600s
+2026-09-02T02:01:10.030Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-02T02:01:10.070Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-1.jvb.internal[10.40.12.21] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T02:01:10.250Z mx-relay01 quillmail/smtpd[2211]: F8C2758E1: queued from=<statements@notify.junipervale.example> size=79051 nrcpt=1
+2026-09-02T02:01:10.992Z mx-relay01 quillmail/smtp[3120]: F8C2758E1: to=<2786cde@quarrynet.example> relay=in.quarrynet.example:25 delay=2.09 status=sent (250 accepted)
+2026-09-02T02:01:15.718Z mx-relay01 quillmail/smtpd[2211]: rate-limited logging: 19295 similar session records suppressed in last 600s
+2026-09-02T02:02:00.443Z mx-relay01 quillmail/smtpd[2211]: connect from peoplehub-app1.jvb.internal[10.40.30.8]
+2026-09-02T02:02:00.483Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from peoplehub-app1.jvb.internal[10.40.30.8] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T02:02:00.663Z mx-relay01 quillmail/smtpd[2211]: C8D164235: queued from=<hr-notices@junipervale.example> size=8203 nrcpt=1
+2026-09-02T02:02:01.891Z mx-relay01 quillmail/smtp[3120]: C8D164235: to=<d2eec31@ostlermail.example> relay=in.ostlermail.example:25 delay=1.56 status=sent (250 accepted)
+2026-09-02T02:03:57.510Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-02T02:03:57.550Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-1.jvb.internal[10.40.12.21] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T02:03:57.730Z mx-relay01 quillmail/smtpd[2211]: FCFF4B833: queued from=<noreply@notify.junipervale.example> size=5258 nrcpt=1
+2026-09-02T02:03:58.668Z mx-relay01 quillmail/smtp[3120]: FCFF4B833: to=<3aa9afb@quarrynet.example> relay=in.quarrynet.example:25 delay=2.22 status=sent (250 accepted)
+2026-09-02T02:11:10.659Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-02T02:11:10.699Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-2.jvb.internal[10.40.12.22] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T02:11:10.879Z mx-relay01 quillmail/smtpd[2211]: 6F1C49349: queued from=<statements@notify.junipervale.example> size=62362 nrcpt=1
+2026-09-02T02:11:12.506Z mx-relay01 quillmail/smtp[3120]: 6F1C49349: to=<6e7e612@greyfinch.example> relay=in.greyfinch.example:25 delay=1.50 status=sent (250 accepted)
+2026-09-02T02:11:15.291Z mx-relay01 quillmail/smtpd[2211]: rate-limited logging: 19542 similar session records suppressed in last 600s
+2026-09-02T02:18:30.086Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-02T02:18:30.126Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-2.jvb.internal[10.40.12.22] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T02:18:30.306Z mx-relay01 quillmail/smtpd[2211]: A101012EC: queued from=<noreply@notify.junipervale.example> size=8455 nrcpt=1
+2026-09-02T02:18:31.915Z mx-relay01 quillmail/smtp[3120]: A101012EC: to=<e02daea@tallowpost.example> relay=in.tallowpost.example:25 delay=0.75 status=sent (250 accepted)
+2026-09-02T02:21:10.155Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-02T02:21:10.195Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-2.jvb.internal[10.40.12.22] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T02:21:10.375Z mx-relay01 quillmail/smtpd[2211]: B09630651: queued from=<statements@notify.junipervale.example> size=74936 nrcpt=1
+2026-09-02T02:21:12.436Z mx-relay01 quillmail/smtp[3120]: B09630651: to=<85192f9@ostlermail.example> relay=in.ostlermail.example:25 delay=1.50 status=sent (250 accepted)
+2026-09-02T02:21:15.282Z mx-relay01 quillmail/smtpd[2211]: rate-limited logging: 19257 similar session records suppressed in last 600s
+2026-09-02T02:31:10.158Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-02T02:31:10.198Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-2.jvb.internal[10.40.12.22] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T02:31:10.378Z mx-relay01 quillmail/smtpd[2211]: EAAA0C3CA: queued from=<statements@notify.junipervale.example> size=80157 nrcpt=1
+2026-09-02T02:31:11.866Z mx-relay01 quillmail/smtp[3120]: EAAA0C3CA: to=<e0e46d4@ostlermail.example> relay=in.ostlermail.example:25 delay=0.63 status=sent (250 accepted)
+2026-09-02T02:31:15.501Z mx-relay01 quillmail/smtpd[2211]: rate-limited logging: 19386 similar session records suppressed in last 600s
+2026-09-02T02:34:58.928Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-02T02:34:58.968Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-2.jvb.internal[10.40.12.22] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T02:34:59.148Z mx-relay01 quillmail/smtpd[2211]: EE648BCFA: queued from=<noreply@notify.junipervale.example> size=7326 nrcpt=1
+2026-09-02T02:34:59.706Z mx-relay01 quillmail/smtp[3120]: EE648BCFA: to=<8654807@quarrynet.example> relay=in.quarrynet.example:25 delay=1.10 status=sent (250 accepted)
+2026-09-02T02:41:10.400Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-02T02:41:10.440Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-1.jvb.internal[10.40.12.21] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T02:41:10.620Z mx-relay01 quillmail/smtpd[2211]: 268DC53D8: queued from=<statements@notify.junipervale.example> size=67862 nrcpt=1
+2026-09-02T02:41:12.154Z mx-relay01 quillmail/smtp[3120]: 268DC53D8: to=<5381f9e@ostlermail.example> relay=in.ostlermail.example:25 delay=2.15 status=sent (250 accepted)
+2026-09-02T02:41:15.083Z mx-relay01 quillmail/smtpd[2211]: rate-limited logging: 17237 similar session records suppressed in last 600s
+2026-09-02T02:41:49.364Z mx-relay01 quillmail/smtpd[2211]: connect from peoplehub-app1.jvb.internal[10.40.30.8]
+2026-09-02T02:41:49.404Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from peoplehub-app1.jvb.internal[10.40.30.8] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T02:41:49.584Z mx-relay01 quillmail/smtpd[2211]: F98CCB8E6: queued from=<hr-notices@junipervale.example> size=8157 nrcpt=1
+2026-09-02T02:41:51.441Z mx-relay01 quillmail/smtp[3120]: F98CCB8E6: to=<9b45ae3@harbormail.example> relay=in.harbormail.example:25 delay=2.18 status=sent (250 accepted)
+2026-09-02T02:47:23.316Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-02T02:47:23.356Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-1.jvb.internal[10.40.12.21] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T02:47:23.536Z mx-relay01 quillmail/smtpd[2211]: 8634DD7B3: queued from=<noreply@notify.junipervale.example> size=4043 nrcpt=1
+2026-09-02T02:47:25.338Z mx-relay01 quillmail/smtp[3120]: 8634DD7B3: to=<0029a43@tallowpost.example> relay=in.tallowpost.example:25 delay=1.34 status=sent (250 accepted)
+2026-09-02T02:51:10.644Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-02T02:51:10.684Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-1.jvb.internal[10.40.12.21] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T02:51:10.864Z mx-relay01 quillmail/smtpd[2211]: A9B7A1885: queued from=<statements@notify.junipervale.example> size=84522 nrcpt=1
+2026-09-02T02:51:12.689Z mx-relay01 quillmail/smtp[3120]: A9B7A1885: to=<f1de0c5@quarrynet.example> relay=in.quarrynet.example:25 delay=0.74 status=sent (250 accepted)
+2026-09-02T02:51:15.590Z mx-relay01 quillmail/smtpd[2211]: rate-limited logging: 17346 similar session records suppressed in last 600s
+2026-09-02T03:00:14.916Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-02T03:00:14.956Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-2.jvb.internal[10.40.12.22] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T03:00:15.136Z mx-relay01 quillmail/smtpd[2211]: 516653D9F: queued from=<noreply@notify.junipervale.example> size=6256 nrcpt=1
+2026-09-02T03:00:17.148Z mx-relay01 quillmail/smtp[3120]: 516653D9F: to=<59fbbee@greyfinch.example> relay=in.greyfinch.example:25 delay=1.01 status=sent (250 accepted)
+2026-09-02T03:01:10.300Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-02T03:01:10.340Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-2.jvb.internal[10.40.12.22] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T03:01:10.520Z mx-relay01 quillmail/smtpd[2211]: 6C73B2555: queued from=<statements@notify.junipervale.example> size=81584 nrcpt=1
+2026-09-02T03:01:12.513Z mx-relay01 quillmail/smtp[3120]: 6C73B2555: to=<8b9cf07@tallowpost.example> relay=in.tallowpost.example:25 delay=1.95 status=sent (250 accepted)
+2026-09-02T03:01:15.292Z mx-relay01 quillmail/smtpd[2211]: rate-limited logging: 19208 similar session records suppressed in last 600s
+2026-09-02T03:06:33.498Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-02T03:06:33.538Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-2.jvb.internal[10.40.12.22] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T03:06:33.718Z mx-relay01 quillmail/smtpd[2211]: D1011C3DB: queued from=<noreply@notify.junipervale.example> size=6199 nrcpt=1
+2026-09-02T03:06:34.213Z mx-relay01 quillmail/smtp[3120]: D1011C3DB: to=<a188312@quarrynet.example> relay=in.quarrynet.example:25 delay=2.23 status=sent (250 accepted)
+2026-09-02T03:11:16.344Z mx-relay01 quillmail/smtpd[2211]: warning: dnsbl lookup timed out for 198.51.100.206 (list=blk.greyfinch.example)
+2026-09-02T03:18:40.855Z mx-relay01 quillmail/housekeep[1702]: warning: spool filesystem /var/spool/quillmail at 82% (threshold 80%)
+2026-09-02T03:19:18.632Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-02T03:19:18.672Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-1.jvb.internal[10.40.12.21] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T03:19:18.852Z mx-relay01 quillmail/smtpd[2211]: 3C183B7B3: queued from=<noreply@notify.junipervale.example> size=8000 nrcpt=1
+2026-09-02T03:19:20.183Z mx-relay01 quillmail/smtp[3120]: 3C183B7B3: to=<72344e8@harbormail.example> relay=in.harbormail.example:25 delay=1.92 status=sent (250 accepted)
+2026-09-02T03:20:04.946Z mx-relay01 quillmail/smtpd[2211]: connect from fraud-notify02.jvb.internal[10.40.18.5]
+2026-09-02T03:20:04.986Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from fraud-notify02.jvb.internal[10.40.18.5] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T03:20:05.166Z mx-relay01 quillmail/smtpd[2211]: D53CE7E58: queued from=<fraud-alerts@junipervale.example> size=7534 nrcpt=1
+2026-09-02T03:20:06.867Z mx-relay01 quillmail/smtp[3120]: D53CE7E58: to=<536b4d9@quarrynet.example> relay=in.quarrynet.example:25 delay=0.90 status=sent (250 accepted)
+2026-09-02T03:36:21.626Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-02T03:36:21.666Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-2.jvb.internal[10.40.12.22] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T03:36:21.846Z mx-relay01 quillmail/smtpd[2211]: 9DC047205: queued from=<noreply@notify.junipervale.example> size=8682 nrcpt=1
+2026-09-02T03:36:22.620Z mx-relay01 quillmail/smtp[3120]: 9DC047205: to=<8d5d91e@greyfinch.example> relay=in.greyfinch.example:25 delay=0.96 status=sent (250 accepted)
+2026-09-02T03:40:18.748Z mx-relay01 quillmail/smtpd[2211]: connect from peoplehub-app1.jvb.internal[10.40.30.8]
+2026-09-02T03:40:18.788Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from peoplehub-app1.jvb.internal[10.40.30.8] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T03:40:18.968Z mx-relay01 quillmail/smtpd[2211]: F7599B451: queued from=<hr-notices@junipervale.example> size=7720 nrcpt=1
+2026-09-02T03:40:20.919Z mx-relay01 quillmail/smtp[3120]: F7599B451: to=<22d1f5d@greyfinch.example> relay=in.greyfinch.example:25 delay=0.92 status=sent (250 accepted)
+2026-09-02T03:41:02.908Z mx-relay01 quillmail/housekeep[1702]: spool filesystem /var/spool/quillmail at 64% after log compression
+2026-09-02T03:41:53.011Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-02T03:41:53.051Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-2.jvb.internal[10.40.12.22] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T03:41:53.231Z mx-relay01 quillmail/smtpd[2211]: 07C690C2D: queued from=<noreply@notify.junipervale.example> size=4255 nrcpt=1
+2026-09-02T03:41:53.889Z mx-relay01 quillmail/smtp[3120]: 07C690C2D: to=<7d22168@quarrynet.example> relay=in.quarrynet.example:25 delay=0.81 status=sent (250 accepted)
+2026-09-02T03:57:19.593Z mx-relay01 quillmail/smtpd[2211]: connect from itsm-core.jvb.internal[10.40.9.14]
+2026-09-02T03:57:19.633Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from itsm-core.jvb.internal[10.40.9.14] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T03:57:19.813Z mx-relay01 quillmail/smtpd[2211]: 6EF33BD25: queued from=<servicedesk@junipervale.example> size=6813 nrcpt=1
+2026-09-02T03:57:21.130Z mx-relay01 quillmail/smtp[3120]: 6EF33BD25: to=<1597a2a@harbormail.example> relay=in.harbormail.example:25 delay=0.60 status=sent (250 accepted)
+2026-09-02T03:59:28.195Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-02T03:59:28.235Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-1.jvb.internal[10.40.12.21] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T03:59:28.415Z mx-relay01 quillmail/smtpd[2211]: BFDA07694: queued from=<noreply@notify.junipervale.example> size=8730 nrcpt=1
+2026-09-02T03:59:28.805Z mx-relay01 quillmail/smtp[3120]: BFDA07694: to=<07dc6e8@tallowpost.example> relay=in.tallowpost.example:25 delay=1.07 status=sent (250 accepted)
+2026-09-02T04:12:50.571Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-02T04:12:50.611Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-2.jvb.internal[10.40.12.22] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T04:12:50.791Z mx-relay01 quillmail/smtpd[2211]: E2562D0BE: queued from=<noreply@notify.junipervale.example> size=8061 nrcpt=1
+2026-09-02T04:12:51.404Z mx-relay01 quillmail/smtp[3120]: E2562D0BE: to=<9111c2f@tallowpost.example> relay=in.tallowpost.example:25 delay=0.51 status=sent (250 accepted)
+2026-09-02T04:22:49.994Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-02T04:22:50.034Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-1.jvb.internal[10.40.12.21] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T04:22:50.214Z mx-relay01 quillmail/smtpd[2211]: DD0E1F7D7: queued from=<noreply@notify.junipervale.example> size=7934 nrcpt=1
+2026-09-02T04:22:51.872Z mx-relay01 quillmail/smtp[3120]: DD0E1F7D7: to=<a992d3e@tallowpost.example> relay=in.tallowpost.example:25 delay=0.61 status=sent (250 accepted)
+2026-09-02T04:34:55.852Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-02T04:34:55.892Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-2.jvb.internal[10.40.12.22] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T04:34:56.072Z mx-relay01 quillmail/smtpd[2211]: D8EB1797A: queued from=<noreply@notify.junipervale.example> size=7138 nrcpt=1
+2026-09-02T04:34:57.386Z mx-relay01 quillmail/smtp[3120]: D8EB1797A: to=<35a4724@ostlermail.example> relay=in.ostlermail.example:25 delay=0.83 status=sent (250 accepted)
+2026-09-02T04:37:07.625Z mx-relay01 quillmail/smtpd[2211]: connect from itsm-core.jvb.internal[10.40.9.14]
+2026-09-02T04:37:07.665Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from itsm-core.jvb.internal[10.40.9.14] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T04:37:07.845Z mx-relay01 quillmail/smtpd[2211]: 21D334CB9: queued from=<servicedesk@junipervale.example> size=3796 nrcpt=1
+2026-09-02T04:37:08.281Z mx-relay01 quillmail/smtp[3120]: 21D334CB9: to=<5f9b74d@harbormail.example> relay=in.harbormail.example:25 delay=1.51 status=sent (250 accepted)
+2026-09-02T04:51:18.118Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-02T04:51:18.158Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-1.jvb.internal[10.40.12.21] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T04:51:18.338Z mx-relay01 quillmail/smtpd[2211]: A2DE66585: queued from=<noreply@notify.junipervale.example> size=6928 nrcpt=1
+2026-09-02T04:51:20.102Z mx-relay01 quillmail/smtp[3120]: A2DE66585: to=<2d6856b@greyfinch.example> relay=in.greyfinch.example:25 delay=0.89 status=sent (250 accepted)
+2026-09-02T05:03:34.299Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-02T05:03:34.339Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-2.jvb.internal[10.40.12.22] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T05:03:34.519Z mx-relay01 quillmail/smtpd[2211]: 1001E8D5D: queued from=<noreply@notify.junipervale.example> size=9028 nrcpt=1
+2026-09-02T05:03:35.770Z mx-relay01 quillmail/smtp[3120]: 1001E8D5D: to=<2e73c17@tallowpost.example> relay=in.tallowpost.example:25 delay=0.71 status=sent (250 accepted)
+2026-09-02T05:11:21.097Z mx-relay01 quillmail/smtpd[2211]: connect from itsm-core.jvb.internal[10.40.9.14]
+2026-09-02T05:11:21.137Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from itsm-core.jvb.internal[10.40.9.14] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T05:11:21.317Z mx-relay01 quillmail/smtpd[2211]: 4B2636422: queued from=<servicedesk@junipervale.example> size=4481 nrcpt=1
+2026-09-02T05:11:23.032Z mx-relay01 quillmail/smtp[3120]: 4B2636422: to=<a5bf886@harbormail.example> relay=in.harbormail.example:25 delay=1.26 status=sent (250 accepted)
+2026-09-02T05:17:04.557Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-02T05:17:04.597Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-2.jvb.internal[10.40.12.22] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T05:17:04.777Z mx-relay01 quillmail/smtpd[2211]: 82ABE500D: queued from=<noreply@notify.junipervale.example> size=7884 nrcpt=1
+2026-09-02T05:17:05.673Z mx-relay01 quillmail/smtp[3120]: 82ABE500D: to=<1968bcf@greyfinch.example> relay=in.greyfinch.example:25 delay=0.58 status=sent (250 accepted)
+2026-09-02T05:27:48.066Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-02T05:27:48.106Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-2.jvb.internal[10.40.12.22] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T05:27:48.286Z mx-relay01 quillmail/smtpd[2211]: A9DD2B6B9: queued from=<noreply@notify.junipervale.example> size=3826 nrcpt=1
+2026-09-02T05:27:49.422Z mx-relay01 quillmail/smtp[3120]: A9DD2B6B9: to=<cdf42a1@tallowpost.example> relay=in.tallowpost.example:25 delay=2.27 status=sent (250 accepted)
+2026-09-02T05:39:30.642Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-02T05:39:30.682Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-1.jvb.internal[10.40.12.21] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T05:39:30.862Z mx-relay01 quillmail/smtpd[2211]: 580C97175: queued from=<noreply@notify.junipervale.example> size=3875 nrcpt=1
+2026-09-02T05:39:31.333Z mx-relay01 quillmail/smtp[3120]: 580C97175: to=<57054cf@ostlermail.example> relay=in.ostlermail.example:25 delay=1.33 status=sent (250 accepted)
+2026-09-02T05:42:39.826Z mx-relay01 quillmail/smtpd[2211]: connect from fraud-notify02.jvb.internal[10.40.18.5]
+2026-09-02T05:42:39.866Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from fraud-notify02.jvb.internal[10.40.18.5] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T05:42:40.046Z mx-relay01 quillmail/smtpd[2211]: 06603A239: queued from=<fraud-alerts@junipervale.example> size=3705 nrcpt=1
+2026-09-02T05:42:41.319Z mx-relay01 quillmail/smtp[3120]: 06603A239: to=<99346e3@ostlermail.example> relay=in.ostlermail.example:25 delay=1.73 status=sent (250 accepted)
+2026-09-02T05:46:45.661Z mx-relay01 quillmail/smtpd[2211]: NOQUEUE: reject: RCPT from printer-3f.jvb.internal[10.40.77.3]: 554 5.7.1 relay access denied
+2026-09-02T05:48:56.117Z mx-relay01 quillmail/smtpd[2211]: warning: dnsbl lookup timed out for 198.51.100.165 (list=blk.greyfinch.example)
+2026-09-02T05:56:20.237Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-02T05:56:20.277Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-2.jvb.internal[10.40.12.22] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T05:56:20.457Z mx-relay01 quillmail/smtpd[2211]: 8B7B1388E: queued from=<noreply@notify.junipervale.example> size=4502 nrcpt=1
+2026-09-02T05:56:21.887Z mx-relay01 quillmail/smtp[3120]: 8B7B1388E: to=<df3a024@ostlermail.example> relay=in.ostlermail.example:25 delay=1.25 status=sent (250 accepted)
+2026-09-02T06:00:40.819Z mx-relay01 quillmail/smtpd[2211]: NOQUEUE: reject: RCPT from printer-3f.jvb.internal[10.40.77.3]: 554 5.7.1 relay access denied
+2026-09-02T06:01:07.193Z mx-relay01 quillmail/smtpd[2211]: connect from fraud-notify02.jvb.internal[10.40.18.5]
+2026-09-02T06:01:07.233Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from fraud-notify02.jvb.internal[10.40.18.5] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T06:01:07.413Z mx-relay01 quillmail/smtpd[2211]: 686296B90: queued from=<fraud-alerts@junipervale.example> size=6253 nrcpt=1
+2026-09-02T06:01:09.096Z mx-relay01 quillmail/smtp[3120]: 686296B90: to=<cd7fe30@tallowpost.example> relay=in.tallowpost.example:25 delay=1.73 status=sent (250 accepted)
+2026-09-02T06:14:35.415Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-02T06:14:35.455Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-1.jvb.internal[10.40.12.21] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T06:14:35.635Z mx-relay01 quillmail/smtpd[2211]: 2B5FDC665: queued from=<noreply@notify.junipervale.example> size=4556 nrcpt=1
+2026-09-02T06:14:36.607Z mx-relay01 quillmail/smtp[3120]: 2B5FDC665: to=<d9ba980@quarrynet.example> relay=in.quarrynet.example:25 delay=2.26 status=sent (250 accepted)
+2026-09-02T06:20:26.510Z mx-relay01 quillmail/smtpd[2211]: connect from itsm-core.jvb.internal[10.40.9.14]
+2026-09-02T06:20:26.550Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from itsm-core.jvb.internal[10.40.9.14] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T06:20:26.730Z mx-relay01 quillmail/smtpd[2211]: B22134A4A: queued from=<servicedesk@junipervale.example> size=5603 nrcpt=1
+2026-09-02T06:20:27.378Z mx-relay01 quillmail/smtp[3120]: B22134A4A: to=<0832b7e@quarrynet.example> relay=in.quarrynet.example:25 delay=2.30 status=sent (250 accepted)
+2026-09-02T06:25:44.076Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-02T06:25:44.116Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-2.jvb.internal[10.40.12.22] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T06:25:44.296Z mx-relay01 quillmail/smtpd[2211]: 2FD69E27B: queued from=<noreply@notify.junipervale.example> size=8053 nrcpt=1
+2026-09-02T06:25:46.324Z mx-relay01 quillmail/smtp[3120]: 2FD69E27B: to=<c944528@ostlermail.example> relay=in.ostlermail.example:25 delay=1.16 status=sent (250 accepted)
+2026-09-02T06:36:21.022Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-02T06:36:21.062Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-2.jvb.internal[10.40.12.22] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T06:36:21.242Z mx-relay01 quillmail/smtpd[2211]: DA1EAE17F: queued from=<noreply@notify.junipervale.example> size=4375 nrcpt=1
+2026-09-02T06:36:23.105Z mx-relay01 quillmail/smtp[3120]: DA1EAE17F: to=<2441149@ostlermail.example> relay=in.ostlermail.example:25 delay=1.63 status=sent (250 accepted)
+2026-09-02T06:50:16.484Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-02T06:50:16.524Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-2.jvb.internal[10.40.12.22] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T06:50:16.704Z mx-relay01 quillmail/smtpd[2211]: F79B14030: queued from=<noreply@notify.junipervale.example> size=7755 nrcpt=1
+2026-09-02T06:50:17.333Z mx-relay01 quillmail/smtp[3120]: F79B14030: to=<7847211@quarrynet.example> relay=in.quarrynet.example:25 delay=0.69 status=sent (250 accepted)
+2026-09-02T06:55:20.081Z mx-relay01 quillmail/smtpd[2211]: connect from fraud-notify02.jvb.internal[10.40.18.5]
+2026-09-02T06:55:20.121Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from fraud-notify02.jvb.internal[10.40.18.5] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T06:55:20.301Z mx-relay01 quillmail/smtpd[2211]: 5BAF6B4A6: queued from=<fraud-alerts@junipervale.example> size=5418 nrcpt=1
+2026-09-02T06:55:20.820Z mx-relay01 quillmail/smtp[3120]: 5BAF6B4A6: to=<e8977a5@quarrynet.example> relay=in.quarrynet.example:25 delay=0.71 status=sent (250 accepted)
+2026-09-02T06:55:38.935Z mx-relay01 quillmail/smtpd[2211]: warning: dnsbl lookup timed out for 198.51.100.26 (list=blk.greyfinch.example)
+2026-09-02T07:01:25.453Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-02T07:01:25.493Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-2.jvb.internal[10.40.12.22] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T07:01:25.673Z mx-relay01 quillmail/smtpd[2211]: 5D03F3B42: queued from=<noreply@notify.junipervale.example> size=5616 nrcpt=1
+2026-09-02T07:01:26.564Z mx-relay01 quillmail/smtp[3120]: 5D03F3B42: to=<c103719@tallowpost.example> relay=in.tallowpost.example:25 delay=0.72 status=sent (250 accepted)
+2026-09-02T07:10:43.834Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-02T07:10:43.874Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-1.jvb.internal[10.40.12.21] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T07:10:44.054Z mx-relay01 quillmail/smtpd[2211]: 5EEADFE7F: queued from=<noreply@notify.junipervale.example> size=5410 nrcpt=1
+2026-09-02T07:10:45.925Z mx-relay01 quillmail/smtp[3120]: 5EEADFE7F: to=<5c847da@quarrynet.example> relay=in.quarrynet.example:25 delay=1.41 status=sent (250 accepted)
+2026-09-02T07:21:05.418Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-02T07:21:05.458Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-2.jvb.internal[10.40.12.22] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T07:21:05.638Z mx-relay01 quillmail/smtpd[2211]: B3DE2D684: queued from=<noreply@notify.junipervale.example> size=7638 nrcpt=1
+2026-09-02T07:21:07.815Z mx-relay01 quillmail/smtp[3120]: B3DE2D684: to=<670132e@greyfinch.example> relay=in.greyfinch.example:25 delay=1.31 status=sent (250 accepted)
+2026-09-02T07:27:58.295Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-02T07:27:58.335Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-1.jvb.internal[10.40.12.21] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T07:27:58.515Z mx-relay01 quillmail/smtpd[2211]: 26350267F: queued from=<noreply@notify.junipervale.example> size=6914 nrcpt=1
+2026-09-02T07:27:58.959Z mx-relay01 quillmail/smtp[3120]: 26350267F: to=<01df69a@ostlermail.example> relay=in.ostlermail.example:25 delay=1.98 status=sent (250 accepted)
+2026-09-02T07:35:06.804Z mx-relay01 quillmail/smtpd[2211]: connect from itsm-core.jvb.internal[10.40.9.14]
+2026-09-02T07:35:06.844Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from itsm-core.jvb.internal[10.40.9.14] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T07:35:07.024Z mx-relay01 quillmail/smtpd[2211]: 7E82DA6ED: queued from=<servicedesk@junipervale.example> size=5115 nrcpt=1
+2026-09-02T07:35:08.180Z mx-relay01 quillmail/smtp[3120]: 7E82DA6ED: to=<5270890@greyfinch.example> relay=in.greyfinch.example:25 delay=2.15 status=sent (250 accepted)
+2026-09-02T07:45:39.501Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-02T07:45:39.541Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-2.jvb.internal[10.40.12.22] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T07:45:39.721Z mx-relay01 quillmail/smtpd[2211]: BDC1DB62B: queued from=<noreply@notify.junipervale.example> size=4123 nrcpt=1
+2026-09-02T07:45:40.248Z mx-relay01 quillmail/smtp[3120]: BDC1DB62B: to=<c18584f@quarrynet.example> relay=in.quarrynet.example:25 delay=0.91 status=sent (250 accepted)
+2026-09-02T07:58:16.745Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-02T07:58:16.785Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-1.jvb.internal[10.40.12.21] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T07:58:16.965Z mx-relay01 quillmail/smtpd[2211]: 6205E2E71: queued from=<noreply@notify.junipervale.example> size=5439 nrcpt=1
+2026-09-02T07:58:17.584Z mx-relay01 quillmail/smtp[3120]: 6205E2E71: to=<7228b37@greyfinch.example> relay=in.greyfinch.example:25 delay=2.11 status=sent (250 accepted)
+2026-09-02T08:12:41.786Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-02T08:12:41.826Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-1.jvb.internal[10.40.12.21] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T08:12:42.006Z mx-relay01 quillmail/smtpd[2211]: CB15C9DF3: queued from=<noreply@notify.junipervale.example> size=7061 nrcpt=1
+2026-09-02T08:12:42.415Z mx-relay01 quillmail/smtp[3120]: CB15C9DF3: to=<1b96acc@ostlermail.example> relay=in.ostlermail.example:25 delay=1.92 status=sent (250 accepted)
+2026-09-02T08:12:43.201Z mx-relay01 quillmail/smtpd[2211]: NOQUEUE: reject: RCPT from printer-3f.jvb.internal[10.40.77.3]: 554 5.7.1 relay access denied
+2026-09-02T08:12:59.351Z mx-relay01 quillmail/smtpd[2211]: connect from peoplehub-app1.jvb.internal[10.40.30.8]
+2026-09-02T08:12:59.391Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from peoplehub-app1.jvb.internal[10.40.30.8] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T08:12:59.571Z mx-relay01 quillmail/smtpd[2211]: E2AB911E6: queued from=<hr-notices@junipervale.example> size=5762 nrcpt=1
+2026-09-02T08:13:01.140Z mx-relay01 quillmail/smtp[3120]: E2AB911E6: to=<2bb6f3d@quarrynet.example> relay=in.quarrynet.example:25 delay=1.38 status=sent (250 accepted)
+2026-09-02T08:18:14.321Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-02T08:18:14.361Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-1.jvb.internal[10.40.12.21] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T08:18:14.541Z mx-relay01 quillmail/smtpd[2211]: 62CDB2127: queued from=<noreply@notify.junipervale.example> size=5241 nrcpt=1
+2026-09-02T08:18:16.030Z mx-relay01 quillmail/smtp[3120]: 62CDB2127: to=<98b7523@tallowpost.example> relay=in.tallowpost.example:25 delay=1.42 status=sent (250 accepted)
+2026-09-02T08:25:17.860Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-02T08:25:17.900Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-1.jvb.internal[10.40.12.21] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T08:25:18.080Z mx-relay01 quillmail/smtpd[2211]: F4CDD62E4: queued from=<noreply@notify.junipervale.example> size=6201 nrcpt=1
+2026-09-02T08:25:19.214Z mx-relay01 quillmail/smtp[3120]: F4CDD62E4: to=<b69fb95@quarrynet.example> relay=in.quarrynet.example:25 delay=0.66 status=sent (250 accepted)
+2026-09-02T08:27:59.867Z mx-relay01 quillmail/smtpd[2211]: connect from fraud-notify02.jvb.internal[10.40.18.5]
+2026-09-02T08:27:59.907Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from fraud-notify02.jvb.internal[10.40.18.5] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T08:28:00.087Z mx-relay01 quillmail/smtpd[2211]: C8A036D9A: queued from=<fraud-alerts@junipervale.example> size=6254 nrcpt=1
+2026-09-02T08:28:01.490Z mx-relay01 quillmail/smtp[3120]: C8A036D9A: to=<ef81ab6@ostlermail.example> relay=in.ostlermail.example:25 delay=1.19 status=sent (250 accepted)
+2026-09-02T08:31:58.585Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-02T08:31:58.625Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-1.jvb.internal[10.40.12.21] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T08:31:58.805Z mx-relay01 quillmail/smtpd[2211]: 306730100: queued from=<noreply@notify.junipervale.example> size=5455 nrcpt=1
+2026-09-02T08:31:59.837Z mx-relay01 quillmail/smtp[3120]: 306730100: to=<b994d0d@quarrynet.example> relay=in.quarrynet.example:25 delay=1.54 status=sent (250 accepted)
+2026-09-02T08:38:50.121Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-02T08:38:50.161Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-1.jvb.internal[10.40.12.21] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T08:38:50.341Z mx-relay01 quillmail/smtpd[2211]: FFA1DE5FA: queued from=<noreply@notify.junipervale.example> size=5208 nrcpt=1
+2026-09-02T08:38:51.065Z mx-relay01 quillmail/smtp[3120]: FFA1DE5FA: to=<5d83579@tallowpost.example> relay=in.tallowpost.example:25 delay=0.99 status=sent (250 accepted)
+2026-09-02T08:43:46.359Z mx-relay01 quillmail/smtpd[2211]: connect from itsm-core.jvb.internal[10.40.9.14]
+2026-09-02T08:43:46.399Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from itsm-core.jvb.internal[10.40.9.14] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T08:43:46.579Z mx-relay01 quillmail/smtpd[2211]: 0CE5D0F72: queued from=<servicedesk@junipervale.example> size=5987 nrcpt=1
+2026-09-02T08:43:47.206Z mx-relay01 quillmail/smtp[3120]: 0CE5D0F72: to=<ae0d1ce@quarrynet.example> relay=in.quarrynet.example:25 delay=1.93 status=sent (250 accepted)
+2026-09-02T08:49:29.066Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-02T08:49:29.106Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-2.jvb.internal[10.40.12.22] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T08:49:29.286Z mx-relay01 quillmail/smtpd[2211]: 8963C6C96: queued from=<noreply@notify.junipervale.example> size=5563 nrcpt=1
+2026-09-02T08:49:31.366Z mx-relay01 quillmail/smtp[3120]: 8963C6C96: to=<c325a7d@quarrynet.example> relay=in.quarrynet.example:25 delay=1.76 status=sent (250 accepted)
+2026-09-02T08:59:34.170Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-02T08:59:34.210Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-2.jvb.internal[10.40.12.22] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T08:59:34.390Z mx-relay01 quillmail/smtpd[2211]: A582270B4: queued from=<noreply@notify.junipervale.example> size=8099 nrcpt=1
+2026-09-02T08:59:35.917Z mx-relay01 quillmail/smtp[3120]: A582270B4: to=<b80f045@tallowpost.example> relay=in.tallowpost.example:25 delay=1.70 status=sent (250 accepted)
+2026-09-02T09:05:07.617Z mx-relay01 quillmail/smtpd[2211]: connect from peoplehub-app1.jvb.internal[10.40.30.8]
+2026-09-02T09:05:07.657Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from peoplehub-app1.jvb.internal[10.40.30.8] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T09:05:07.837Z mx-relay01 quillmail/smtpd[2211]: 6706746AD: queued from=<hr-notices@junipervale.example> size=5374 nrcpt=1
+2026-09-02T09:05:08.977Z mx-relay01 quillmail/smtp[3120]: 6706746AD: to=<fcf5950@greyfinch.example> relay=in.greyfinch.example:25 delay=0.70 status=sent (250 accepted)
+2026-09-02T09:09:31.489Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-02T09:09:31.529Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-2.jvb.internal[10.40.12.22] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T09:09:31.709Z mx-relay01 quillmail/smtpd[2211]: 8FB0FD651: queued from=<noreply@notify.junipervale.example> size=5282 nrcpt=1
+2026-09-02T09:09:32.115Z mx-relay01 quillmail/smtp[3120]: 8FB0FD651: to=<1fd69d5@harbormail.example> relay=in.harbormail.example:25 delay=1.34 status=sent (250 accepted)
+2026-09-02T09:22:41.820Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-02T09:22:41.860Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-2.jvb.internal[10.40.12.22] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T09:22:42.040Z mx-relay01 quillmail/smtpd[2211]: 8870DFD5D: queued from=<noreply@notify.junipervale.example> size=6483 nrcpt=1
+2026-09-02T09:22:44.160Z mx-relay01 quillmail/smtp[3120]: 8870DFD5D: to=<3f81bb8@greyfinch.example> relay=in.greyfinch.example:25 delay=1.69 status=sent (250 accepted)
+2026-09-02T09:28:18.755Z mx-relay01 quillmail/smtpd[2211]: connect from fraud-notify02.jvb.internal[10.40.18.5]
+2026-09-02T09:28:18.795Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from fraud-notify02.jvb.internal[10.40.18.5] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T09:28:18.975Z mx-relay01 quillmail/smtpd[2211]: F77574FCF: queued from=<fraud-alerts@junipervale.example> size=5105 nrcpt=1
+2026-09-02T09:28:20.614Z mx-relay01 quillmail/smtp[3120]: F77574FCF: to=<6814e59@tallowpost.example> relay=in.tallowpost.example:25 delay=0.99 status=sent (250 accepted)
+2026-09-02T09:38:16.176Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-02T09:38:16.216Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-1.jvb.internal[10.40.12.21] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T09:38:16.396Z mx-relay01 quillmail/smtpd[2211]: B2A274D07: queued from=<noreply@notify.junipervale.example> size=4511 nrcpt=1
+2026-09-02T09:38:18.290Z mx-relay01 quillmail/smtp[3120]: B2A274D07: to=<75120bc@quarrynet.example> relay=in.quarrynet.example:25 delay=2.23 status=sent (250 accepted)
+2026-09-02T09:44:17.306Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-02T09:44:17.346Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-2.jvb.internal[10.40.12.22] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T09:44:17.526Z mx-relay01 quillmail/smtpd[2211]: F07C0532B: queued from=<noreply@notify.junipervale.example> size=6058 nrcpt=1
+2026-09-02T09:44:19.350Z mx-relay01 quillmail/smtp[3120]: F07C0532B: to=<67b58f5@ostlermail.example> relay=in.ostlermail.example:25 delay=1.08 status=sent (250 accepted)
+2026-09-02T09:45:57.002Z mx-relay01 quillmail/smtpd[2211]: connect from fraud-notify02.jvb.internal[10.40.18.5]
+2026-09-02T09:45:57.042Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from fraud-notify02.jvb.internal[10.40.18.5] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T09:45:57.222Z mx-relay01 quillmail/smtpd[2211]: 0F87FCA94: queued from=<fraud-alerts@junipervale.example> size=3955 nrcpt=1
+2026-09-02T09:45:58.004Z mx-relay01 quillmail/smtp[3120]: 0F87FCA94: to=<ec2256c@quarrynet.example> relay=in.quarrynet.example:25 delay=1.33 status=sent (250 accepted)
+2026-09-02T09:58:19.652Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-02T09:58:19.692Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-1.jvb.internal[10.40.12.21] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T09:58:19.872Z mx-relay01 quillmail/smtpd[2211]: DF4A18811: queued from=<noreply@notify.junipervale.example> size=3401 nrcpt=1
+2026-09-02T09:58:20.984Z mx-relay01 quillmail/smtp[3120]: DF4A18811: to=<91930ac@tallowpost.example> relay=in.tallowpost.example:25 delay=0.80 status=sent (250 accepted)
+2026-09-02T10:07:15.797Z mx-relay01 quillmail/smtpd[2211]: connect from itsm-core.jvb.internal[10.40.9.14]
+2026-09-02T10:07:15.837Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from itsm-core.jvb.internal[10.40.9.14] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T10:07:16.017Z mx-relay01 quillmail/smtpd[2211]: 96F278992: queued from=<servicedesk@junipervale.example> size=4126 nrcpt=1
+2026-09-02T10:07:17.824Z mx-relay01 quillmail/smtp[3120]: 96F278992: to=<26198d9@ostlermail.example> relay=in.ostlermail.example:25 delay=1.43 status=sent (250 accepted)
+2026-09-02T10:10:13.924Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-02T10:10:13.964Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-1.jvb.internal[10.40.12.21] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T10:10:14.144Z mx-relay01 quillmail/smtpd[2211]: 430C0C7A1: queued from=<noreply@notify.junipervale.example> size=8932 nrcpt=1
+2026-09-02T10:10:15.911Z mx-relay01 quillmail/smtp[3120]: 430C0C7A1: to=<6d08cfa@ostlermail.example> relay=in.ostlermail.example:25 delay=1.22 status=sent (250 accepted)
+2026-09-02T10:18:44.676Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-02T10:18:44.716Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-1.jvb.internal[10.40.12.21] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T10:18:44.896Z mx-relay01 quillmail/smtpd[2211]: 32D3C3C6B: queued from=<noreply@notify.junipervale.example> size=7136 nrcpt=1
+2026-09-02T10:18:46.347Z mx-relay01 quillmail/smtp[3120]: 32D3C3C6B: to=<15f7c9b@harbormail.example> relay=in.harbormail.example:25 delay=2.27 status=sent (250 accepted)
+2026-09-02T10:27:09.728Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-02T10:27:09.768Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-2.jvb.internal[10.40.12.22] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T10:27:09.948Z mx-relay01 quillmail/smtpd[2211]: 9D1D4158A: queued from=<noreply@notify.junipervale.example> size=8338 nrcpt=1
+2026-09-02T10:27:12.046Z mx-relay01 quillmail/smtp[3120]: 9D1D4158A: to=<3d2ff28@greyfinch.example> relay=in.greyfinch.example:25 delay=1.32 status=sent (250 accepted)
+2026-09-02T10:44:29.741Z mx-relay01 quillmail/smtpd[2211]: connect from itsm-core.jvb.internal[10.40.9.14]
+2026-09-02T10:44:29.781Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from itsm-core.jvb.internal[10.40.9.14] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T10:44:29.961Z mx-relay01 quillmail/smtpd[2211]: B7D3B9AC6: queued from=<servicedesk@junipervale.example> size=8775 nrcpt=1
+2026-09-02T10:44:30.683Z mx-relay01 quillmail/smtp[3120]: B7D3B9AC6: to=<47a7169@tallowpost.example> relay=in.tallowpost.example:25 delay=1.75 status=sent (250 accepted)
+2026-09-02T10:45:28.060Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-02T10:45:28.100Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-1.jvb.internal[10.40.12.21] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T10:45:28.280Z mx-relay01 quillmail/smtpd[2211]: B57AB0CD6: queued from=<noreply@notify.junipervale.example> size=3450 nrcpt=1
+2026-09-02T10:45:29.216Z mx-relay01 quillmail/smtp[3120]: B57AB0CD6: to=<b3713ad@ostlermail.example> relay=in.ostlermail.example:25 delay=2.00 status=sent (250 accepted)
+2026-09-02T10:55:44.660Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-02T10:55:44.700Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-1.jvb.internal[10.40.12.21] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T10:55:44.880Z mx-relay01 quillmail/smtpd[2211]: 6C517A846: queued from=<noreply@notify.junipervale.example> size=4837 nrcpt=1
+2026-09-02T10:55:45.429Z mx-relay01 quillmail/smtp[3120]: 6C517A846: to=<4cb43b5@quarrynet.example> relay=in.quarrynet.example:25 delay=0.91 status=sent (250 accepted)
+2026-09-02T11:02:13.770Z mx-relay01 quillmail/smtpd[2211]: warning: TLS handshake failed from vulnscan-02.jvb.internal[10.40.250.6]: no shared cipher
+2026-09-02T11:02:14.397Z mx-relay01 quillmail/smtpd[2211]: warning: TLS handshake failed from vulnscan-02.jvb.internal[10.40.250.6]: unsupported protocol SSLv3
+2026-09-02T11:03:10.913Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-02T11:03:10.953Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-2.jvb.internal[10.40.12.22] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T11:03:11.133Z mx-relay01 quillmail/smtpd[2211]: E8589B394: queued from=<noreply@notify.junipervale.example> size=3903 nrcpt=1
+2026-09-02T11:03:12.095Z mx-relay01 quillmail/smtp[3120]: E8589B394: to=<6a7637b@harbormail.example> relay=in.harbormail.example:25 delay=1.94 status=sent (250 accepted)
+2026-09-02T11:08:17.594Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-02T11:08:17.634Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-2.jvb.internal[10.40.12.22] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T11:08:17.814Z mx-relay01 quillmail/smtpd[2211]: 1309E9B1D: queued from=<noreply@notify.junipervale.example> size=4539 nrcpt=1
+2026-09-02T11:08:18.526Z mx-relay01 quillmail/smtp[3120]: 1309E9B1D: to=<91ba9e5@quarrynet.example> relay=in.quarrynet.example:25 delay=0.80 status=sent (250 accepted)
+2026-09-02T11:14:41.404Z mx-relay01 quillmail/smtpd[2211]: connect from peoplehub-app1.jvb.internal[10.40.30.8]
+2026-09-02T11:14:41.444Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from peoplehub-app1.jvb.internal[10.40.30.8] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T11:14:41.624Z mx-relay01 quillmail/smtpd[2211]: 1A07B62FA: queued from=<hr-notices@junipervale.example> size=8133 nrcpt=1
+2026-09-02T11:14:42.597Z mx-relay01 quillmail/smtp[3120]: 1A07B62FA: to=<8a8ee57@greyfinch.example> relay=in.greyfinch.example:25 delay=1.23 status=sent (250 accepted)
+2026-09-02T11:16:45.303Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-02T11:16:45.343Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-2.jvb.internal[10.40.12.22] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T11:16:45.523Z mx-relay01 quillmail/smtpd[2211]: 7A2FCA98C: queued from=<noreply@notify.junipervale.example> size=4349 nrcpt=1
+2026-09-02T11:16:46.522Z mx-relay01 quillmail/smtp[3120]: 7A2FCA98C: to=<2c30489@tallowpost.example> relay=in.tallowpost.example:25 delay=0.95 status=sent (250 accepted)
+2026-09-02T11:28:55.334Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-02T11:28:55.374Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-1.jvb.internal[10.40.12.21] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T11:28:55.554Z mx-relay01 quillmail/smtpd[2211]: 7F3674C7B: queued from=<noreply@notify.junipervale.example> size=7231 nrcpt=1
+2026-09-02T11:28:56.926Z mx-relay01 quillmail/smtp[3120]: 7F3674C7B: to=<ea56b75@quarrynet.example> relay=in.quarrynet.example:25 delay=1.56 status=sent (250 accepted)
+2026-09-02T11:44:07.290Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-02T11:44:07.330Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-1.jvb.internal[10.40.12.21] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T11:44:07.510Z mx-relay01 quillmail/smtpd[2211]: 507A091E9: queued from=<noreply@notify.junipervale.example> size=4963 nrcpt=1
+2026-09-02T11:44:09.445Z mx-relay01 quillmail/smtp[3120]: 507A091E9: to=<73ad28e@harbormail.example> relay=in.harbormail.example:25 delay=0.93 status=sent (250 accepted)
+2026-09-02T11:53:07.204Z mx-relay01 quillmail/smtpd[2211]: connect from peoplehub-app1.jvb.internal[10.40.30.8]
+2026-09-02T11:53:07.244Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from peoplehub-app1.jvb.internal[10.40.30.8] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T11:53:07.424Z mx-relay01 quillmail/smtpd[2211]: D1A09162B: queued from=<hr-notices@junipervale.example> size=5945 nrcpt=1
+2026-09-02T11:53:08.802Z mx-relay01 quillmail/smtp[3120]: D1A09162B: to=<83b7da3@quarrynet.example> relay=in.quarrynet.example:25 delay=2.16 status=sent (250 accepted)
+2026-09-02T11:55:29.758Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-02T11:55:29.798Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-1.jvb.internal[10.40.12.21] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T11:55:29.978Z mx-relay01 quillmail/smtpd[2211]: CB5DF7243: queued from=<noreply@notify.junipervale.example> size=4467 nrcpt=1
+2026-09-02T11:55:30.766Z mx-relay01 quillmail/smtp[3120]: CB5DF7243: to=<27cce70@quarrynet.example> relay=in.quarrynet.example:25 delay=2.24 status=sent (250 accepted)
+2026-09-02T12:10:40.472Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-02T12:10:40.512Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-2.jvb.internal[10.40.12.22] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T12:10:40.692Z mx-relay01 quillmail/smtpd[2211]: 7034E199F: queued from=<noreply@notify.junipervale.example> size=8064 nrcpt=1
+2026-09-02T12:10:41.145Z mx-relay01 quillmail/smtp[3120]: 7034E199F: to=<c27d4bb@greyfinch.example> relay=in.greyfinch.example:25 delay=0.92 status=sent (250 accepted)
+2026-09-02T12:10:51.972Z mx-relay01 quillmail/smtpd[2211]: connect from itsm-core.jvb.internal[10.40.9.14]
+2026-09-02T12:10:52.012Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from itsm-core.jvb.internal[10.40.9.14] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T12:10:52.192Z mx-relay01 quillmail/smtpd[2211]: D9517AF55: queued from=<servicedesk@junipervale.example> size=8714 nrcpt=1
+2026-09-02T12:10:52.885Z mx-relay01 quillmail/smtp[3120]: D9517AF55: to=<4243949@harbormail.example> relay=in.harbormail.example:25 delay=0.59 status=sent (250 accepted)
+2026-09-02T12:15:52.266Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-02T12:15:52.306Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-1.jvb.internal[10.40.12.21] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T12:15:52.486Z mx-relay01 quillmail/smtpd[2211]: 06740597A: queued from=<noreply@notify.junipervale.example> size=4225 nrcpt=1
+2026-09-02T12:15:53.535Z mx-relay01 quillmail/smtp[3120]: 06740597A: to=<6c8075a@greyfinch.example> relay=in.greyfinch.example:25 delay=1.84 status=sent (250 accepted)
+2026-09-02T12:30:27.430Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-02T12:30:27.470Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-1.jvb.internal[10.40.12.21] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T12:30:27.650Z mx-relay01 quillmail/smtpd[2211]: B105FFD58: queued from=<noreply@notify.junipervale.example> size=3337 nrcpt=1
+2026-09-02T12:30:28.089Z mx-relay01 quillmail/smtp[3120]: B105FFD58: to=<2ea9fa5@harbormail.example> relay=in.harbormail.example:25 delay=0.73 status=sent (250 accepted)
+2026-09-02T12:31:44.075Z mx-relay01 quillmail/smtpd[2211]: connect from fraud-notify02.jvb.internal[10.40.18.5]
+2026-09-02T12:31:44.115Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from fraud-notify02.jvb.internal[10.40.18.5] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T12:31:44.295Z mx-relay01 quillmail/smtpd[2211]: 71B4331AF: queued from=<fraud-alerts@junipervale.example> size=7837 nrcpt=1
+2026-09-02T12:31:44.747Z mx-relay01 quillmail/smtp[3120]: 71B4331AF: to=<5072b0d@harbormail.example> relay=in.harbormail.example:25 delay=0.51 status=sent (250 accepted)
+2026-09-02T12:39:37.834Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-02T12:39:37.874Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-1.jvb.internal[10.40.12.21] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T12:39:38.054Z mx-relay01 quillmail/smtpd[2211]: E217D6AD6: queued from=<noreply@notify.junipervale.example> size=6504 nrcpt=1
+2026-09-02T12:39:38.934Z mx-relay01 quillmail/smtp[3120]: E217D6AD6: to=<88f2c9b@quarrynet.example> relay=in.quarrynet.example:25 delay=2.24 status=sent (250 accepted)
+2026-09-02T12:53:33.168Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-02T12:53:33.208Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-2.jvb.internal[10.40.12.22] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T12:53:33.388Z mx-relay01 quillmail/smtpd[2211]: 955DC34AE: queued from=<noreply@notify.junipervale.example> size=7743 nrcpt=1
+2026-09-02T12:53:35.401Z mx-relay01 quillmail/smtp[3120]: 955DC34AE: to=<f30277e@ostlermail.example> relay=in.ostlermail.example:25 delay=1.81 status=sent (250 accepted)
+2026-09-02T12:57:19.216Z mx-relay01 quillmail/smtpd[2211]: connect from peoplehub-app1.jvb.internal[10.40.30.8]
+2026-09-02T12:57:19.256Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from peoplehub-app1.jvb.internal[10.40.30.8] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T12:57:19.436Z mx-relay01 quillmail/smtpd[2211]: FA080B422: queued from=<hr-notices@junipervale.example> size=8044 nrcpt=1
+2026-09-02T12:57:19.920Z mx-relay01 quillmail/smtp[3120]: FA080B422: to=<cdef45b@greyfinch.example> relay=in.greyfinch.example:25 delay=1.57 status=sent (250 accepted)
+2026-09-02T12:59:03.880Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-02T12:59:03.920Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-2.jvb.internal[10.40.12.22] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T12:59:04.100Z mx-relay01 quillmail/smtpd[2211]: 0E424B511: queued from=<noreply@notify.junipervale.example> size=3268 nrcpt=1
+2026-09-02T12:59:05.471Z mx-relay01 quillmail/smtp[3120]: 0E424B511: to=<1dc0b95@tallowpost.example> relay=in.tallowpost.example:25 delay=0.71 status=sent (250 accepted)
+2026-09-02T13:05:05.812Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-02T13:05:05.852Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-1.jvb.internal[10.40.12.21] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T13:05:06.032Z mx-relay01 quillmail/smtpd[2211]: 9666772FF: queued from=<noreply@notify.junipervale.example> size=7195 nrcpt=1
+2026-09-02T13:05:06.924Z mx-relay01 quillmail/smtp[3120]: 9666772FF: to=<5e566fd@greyfinch.example> relay=in.greyfinch.example:25 delay=0.84 status=sent (250 accepted)
+2026-09-02T13:13:30.143Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-02T13:13:30.183Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-1.jvb.internal[10.40.12.21] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T13:13:30.363Z mx-relay01 quillmail/smtpd[2211]: B0A9A8B88: queued from=<noreply@notify.junipervale.example> size=7659 nrcpt=1
+2026-09-02T13:13:32.138Z mx-relay01 quillmail/smtp[3120]: B0A9A8B88: to=<7e3c0ce@quarrynet.example> relay=in.quarrynet.example:25 delay=2.23 status=sent (250 accepted)
+2026-09-02T13:19:04.399Z mx-relay01 quillmail/smtpd[2211]: warning: dnsbl lookup timed out for 198.51.100.125 (list=blk.greyfinch.example)
+2026-09-02T13:19:27.266Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-02T13:19:27.306Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-2.jvb.internal[10.40.12.22] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T13:19:27.486Z mx-relay01 quillmail/smtpd[2211]: C5EF1A194: queued from=<noreply@notify.junipervale.example> size=6559 nrcpt=1
+2026-09-02T13:19:29.004Z mx-relay01 quillmail/smtp[3120]: C5EF1A194: to=<96f63b1@harbormail.example> relay=in.harbormail.example:25 delay=1.51 status=sent (250 accepted)
+2026-09-02T13:25:50.387Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-02T13:25:50.427Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-1.jvb.internal[10.40.12.21] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T13:25:50.607Z mx-relay01 quillmail/smtpd[2211]: DE04E9DA5: queued from=<noreply@notify.junipervale.example> size=6602 nrcpt=1
+2026-09-02T13:25:52.601Z mx-relay01 quillmail/smtp[3120]: DE04E9DA5: to=<484a845@greyfinch.example> relay=in.greyfinch.example:25 delay=0.71 status=sent (250 accepted)
+2026-09-02T13:37:01.164Z mx-relay01 quillmail/smtpd[2211]: connect from fraud-notify02.jvb.internal[10.40.18.5]
+2026-09-02T13:37:01.204Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from fraud-notify02.jvb.internal[10.40.18.5] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T13:37:01.384Z mx-relay01 quillmail/smtpd[2211]: B88265B73: queued from=<fraud-alerts@junipervale.example> size=3791 nrcpt=1
+2026-09-02T13:37:03.410Z mx-relay01 quillmail/smtp[3120]: B88265B73: to=<c2c705b@quarrynet.example> relay=in.quarrynet.example:25 delay=2.01 status=sent (250 accepted)
+2026-09-02T13:41:17.542Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-02T13:41:17.582Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-2.jvb.internal[10.40.12.22] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T13:41:17.762Z mx-relay01 quillmail/smtpd[2211]: A155949E8: queued from=<noreply@notify.junipervale.example> size=6678 nrcpt=1
+2026-09-02T13:41:18.580Z mx-relay01 quillmail/smtp[3120]: A155949E8: to=<00ad0a1@greyfinch.example> relay=in.greyfinch.example:25 delay=0.95 status=sent (250 accepted)
+2026-09-02T13:54:28.369Z mx-relay01 quillmail/smtpd[2211]: connect from peoplehub-app1.jvb.internal[10.40.30.8]
+2026-09-02T13:54:28.409Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from peoplehub-app1.jvb.internal[10.40.30.8] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T13:54:28.589Z mx-relay01 quillmail/smtpd[2211]: 18E47665F: queued from=<hr-notices@junipervale.example> size=4244 nrcpt=1
+2026-09-02T13:54:30.411Z mx-relay01 quillmail/smtp[3120]: 18E47665F: to=<1828538@greyfinch.example> relay=in.greyfinch.example:25 delay=1.89 status=sent (250 accepted)
+2026-09-02T13:56:31.231Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-02T13:56:31.271Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-2.jvb.internal[10.40.12.22] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T13:56:31.451Z mx-relay01 quillmail/smtpd[2211]: 21D54D170: queued from=<noreply@notify.junipervale.example> size=4493 nrcpt=1
+2026-09-02T13:56:32.347Z mx-relay01 quillmail/smtp[3120]: 21D54D170: to=<674b9ef@tallowpost.example> relay=in.tallowpost.example:25 delay=0.79 status=sent (250 accepted)
+2026-09-02T14:04:18.434Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-02T14:04:18.474Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-1.jvb.internal[10.40.12.21] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T14:04:18.654Z mx-relay01 quillmail/smtpd[2211]: 69E13D715: queued from=<noreply@notify.junipervale.example> size=3219 nrcpt=1
+2026-09-02T14:04:20.408Z mx-relay01 quillmail/smtp[3120]: 69E13D715: to=<86c4f0f@greyfinch.example> relay=in.greyfinch.example:25 delay=2.17 status=sent (250 accepted)
+2026-09-02T14:09:41.562Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-02T14:09:41.602Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-2.jvb.internal[10.40.12.22] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T14:09:41.782Z mx-relay01 quillmail/smtpd[2211]: 8B9EB9C78: queued from=<noreply@notify.junipervale.example> size=9048 nrcpt=1
+2026-09-02T14:09:43.573Z mx-relay01 quillmail/smtp[3120]: 8B9EB9C78: to=<d503f4a@ostlermail.example> relay=in.ostlermail.example:25 delay=1.24 status=sent (250 accepted)
+2026-09-02T14:26:46.061Z mx-relay01 quillmail/smtpd[2211]: connect from itsm-core.jvb.internal[10.40.9.14]
+2026-09-02T14:26:46.101Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from itsm-core.jvb.internal[10.40.9.14] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T14:26:46.281Z mx-relay01 quillmail/smtpd[2211]: 6276BB14F: queued from=<servicedesk@junipervale.example> size=7477 nrcpt=1
+2026-09-02T14:26:47.512Z mx-relay01 quillmail/smtp[3120]: 6276BB14F: to=<7cd8628@harbormail.example> relay=in.harbormail.example:25 delay=0.96 status=sent (250 accepted)
+2026-09-02T14:26:55.111Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-02T14:26:55.151Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-1.jvb.internal[10.40.12.21] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T14:26:55.331Z mx-relay01 quillmail/smtpd[2211]: FB63DA4DF: queued from=<noreply@notify.junipervale.example> size=4268 nrcpt=1
+2026-09-02T14:26:56.088Z mx-relay01 quillmail/smtp[3120]: FB63DA4DF: to=<33cd41f@greyfinch.example> relay=in.greyfinch.example:25 delay=1.54 status=sent (250 accepted)
+2026-09-02T14:38:02.631Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-02T14:38:02.671Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-2.jvb.internal[10.40.12.22] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T14:38:02.851Z mx-relay01 quillmail/smtpd[2211]: 8B7C5F6DB: queued from=<noreply@notify.junipervale.example> size=7980 nrcpt=1
+2026-09-02T14:38:03.476Z mx-relay01 quillmail/smtp[3120]: 8B7C5F6DB: to=<be0d0b5@quarrynet.example> relay=in.quarrynet.example:25 delay=1.02 status=sent (250 accepted)
+2026-09-02T14:44:26.268Z mx-relay01 quillmail/smtpd[2211]: connect from fraud-notify02.jvb.internal[10.40.18.5]
+2026-09-02T14:44:26.308Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from fraud-notify02.jvb.internal[10.40.18.5] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T14:44:26.488Z mx-relay01 quillmail/smtpd[2211]: EC34B1196: queued from=<fraud-alerts@junipervale.example> size=4521 nrcpt=1
+2026-09-02T14:44:27.618Z mx-relay01 quillmail/smtp[3120]: EC34B1196: to=<6aa22a5@greyfinch.example> relay=in.greyfinch.example:25 delay=0.87 status=sent (250 accepted)
+2026-09-02T14:48:39.160Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-02T14:48:39.200Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-2.jvb.internal[10.40.12.22] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T14:48:39.380Z mx-relay01 quillmail/smtpd[2211]: 6349445BF: queued from=<noreply@notify.junipervale.example> size=6713 nrcpt=1
+2026-09-02T14:48:40.894Z mx-relay01 quillmail/smtp[3120]: 6349445BF: to=<6041302@ostlermail.example> relay=in.ostlermail.example:25 delay=0.79 status=sent (250 accepted)
+2026-09-02T14:50:17.746Z mx-relay01 quillmail/smtpd[2211]: NOQUEUE: reject: RCPT from printer-3f.jvb.internal[10.40.77.3]: 554 5.7.1 relay access denied
+2026-09-02T15:02:19.933Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-02T15:02:19.973Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-1.jvb.internal[10.40.12.21] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T15:02:20.153Z mx-relay01 quillmail/smtpd[2211]: 3A9660AF7: queued from=<noreply@notify.junipervale.example> size=7164 nrcpt=1
+2026-09-02T15:02:21.616Z mx-relay01 quillmail/smtp[3120]: 3A9660AF7: to=<784ef57@quarrynet.example> relay=in.quarrynet.example:25 delay=0.85 status=sent (250 accepted)
+2026-09-02T15:05:17.099Z mx-relay01 quillmail/smtpd[2211]: connect from itsm-core.jvb.internal[10.40.9.14]
+2026-09-02T15:05:17.139Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from itsm-core.jvb.internal[10.40.9.14] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T15:05:17.319Z mx-relay01 quillmail/smtpd[2211]: 89FD1A790: queued from=<servicedesk@junipervale.example> size=8084 nrcpt=1
+2026-09-02T15:05:18.852Z mx-relay01 quillmail/smtp[3120]: 89FD1A790: to=<620979c@harbormail.example> relay=in.harbormail.example:25 delay=2.12 status=sent (250 accepted)
+2026-09-02T15:09:37.313Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-02T15:09:37.353Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-1.jvb.internal[10.40.12.21] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T15:09:37.533Z mx-relay01 quillmail/smtpd[2211]: 51F8E29C9: queued from=<noreply@notify.junipervale.example> size=5547 nrcpt=1
+2026-09-02T15:09:39.681Z mx-relay01 quillmail/smtp[3120]: 51F8E29C9: to=<9c4ff93@harbormail.example> relay=in.harbormail.example:25 delay=1.68 status=sent (250 accepted)
+2026-09-02T15:24:00.896Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-02T15:24:00.936Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-2.jvb.internal[10.40.12.22] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T15:24:01.116Z mx-relay01 quillmail/smtpd[2211]: 6F5F14D57: queued from=<noreply@notify.junipervale.example> size=3527 nrcpt=1
+2026-09-02T15:24:01.879Z mx-relay01 quillmail/smtp[3120]: 6F5F14D57: to=<925cdaf@harbormail.example> relay=in.harbormail.example:25 delay=1.34 status=sent (250 accepted)
+2026-09-02T15:30:51.101Z mx-relay01 quillmail/smtpd[2211]: connect from itsm-core.jvb.internal[10.40.9.14]
+2026-09-02T15:30:51.141Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from itsm-core.jvb.internal[10.40.9.14] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T15:30:51.321Z mx-relay01 quillmail/smtpd[2211]: 73020EE2C: queued from=<servicedesk@junipervale.example> size=8943 nrcpt=1
+2026-09-02T15:30:52.929Z mx-relay01 quillmail/smtp[3120]: 73020EE2C: to=<ed3f574@harbormail.example> relay=in.harbormail.example:25 delay=1.23 status=sent (250 accepted)
+2026-09-02T15:32:17.046Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-02T15:32:17.086Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-2.jvb.internal[10.40.12.22] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T15:32:17.266Z mx-relay01 quillmail/smtpd[2211]: A70CD674E: queued from=<noreply@notify.junipervale.example> size=5449 nrcpt=1
+2026-09-02T15:32:18.272Z mx-relay01 quillmail/smtp[3120]: A70CD674E: to=<4130701@tallowpost.example> relay=in.tallowpost.example:25 delay=1.94 status=sent (250 accepted)
+2026-09-02T15:41:09.501Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-02T15:41:09.541Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-1.jvb.internal[10.40.12.21] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T15:41:09.721Z mx-relay01 quillmail/smtpd[2211]: 06C362EB2: queued from=<noreply@notify.junipervale.example> size=8409 nrcpt=1
+2026-09-02T15:41:10.340Z mx-relay01 quillmail/smtp[3120]: 06C362EB2: to=<01c3d0b@quarrynet.example> relay=in.quarrynet.example:25 delay=0.56 status=sent (250 accepted)
+2026-09-02T15:46:46.628Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-02T15:46:46.668Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-1.jvb.internal[10.40.12.21] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T15:46:46.848Z mx-relay01 quillmail/smtpd[2211]: CE67CA3B0: queued from=<noreply@notify.junipervale.example> size=8147 nrcpt=1
+2026-09-02T15:46:49.016Z mx-relay01 quillmail/smtp[3120]: CE67CA3B0: to=<e83e4d1@harbormail.example> relay=in.harbormail.example:25 delay=1.97 status=sent (250 accepted)
+2026-09-02T15:56:19.335Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-02T15:56:19.375Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-1.jvb.internal[10.40.12.21] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T15:56:19.555Z mx-relay01 quillmail/smtpd[2211]: F8650DBF6: queued from=<noreply@notify.junipervale.example> size=4079 nrcpt=1
+2026-09-02T15:56:21.068Z mx-relay01 quillmail/smtp[3120]: F8650DBF6: to=<2639105@harbormail.example> relay=in.harbormail.example:25 delay=2.06 status=sent (250 accepted)
+2026-09-02T16:01:01.398Z mx-relay01 quillmail/smtpd[2211]: connect from itsm-core.jvb.internal[10.40.9.14]
+2026-09-02T16:01:01.438Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from itsm-core.jvb.internal[10.40.9.14] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T16:01:01.618Z mx-relay01 quillmail/smtpd[2211]: 4DD79DE17: queued from=<servicedesk@junipervale.example> size=8054 nrcpt=1
+2026-09-02T16:01:02.540Z mx-relay01 quillmail/smtp[3120]: 4DD79DE17: to=<06f5816@ostlermail.example> relay=in.ostlermail.example:25 delay=1.97 status=sent (250 accepted)
+2026-09-02T16:03:55.545Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-02T16:03:55.585Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-1.jvb.internal[10.40.12.21] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T16:03:55.765Z mx-relay01 quillmail/smtpd[2211]: 77B8ECE97: queued from=<noreply@notify.junipervale.example> size=5904 nrcpt=1
+2026-09-02T16:03:56.592Z mx-relay01 quillmail/smtp[3120]: 77B8ECE97: to=<b709add@harbormail.example> relay=in.harbormail.example:25 delay=2.03 status=sent (250 accepted)
+2026-09-02T16:18:03.448Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-02T16:18:03.488Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-2.jvb.internal[10.40.12.22] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T16:18:03.668Z mx-relay01 quillmail/smtpd[2211]: BF29F9625: queued from=<noreply@notify.junipervale.example> size=5897 nrcpt=1
+2026-09-02T16:18:05.273Z mx-relay01 quillmail/smtp[3120]: BF29F9625: to=<a2b79fd@quarrynet.example> relay=in.quarrynet.example:25 delay=1.48 status=sent (250 accepted)
+2026-09-02T16:23:34.836Z mx-relay01 quillmail/smtpd[2211]: NOQUEUE: reject: RCPT from printer-3f.jvb.internal[10.40.77.3]: 554 5.7.1 relay access denied
+2026-09-02T16:25:28.926Z mx-relay01 quillmail/smtpd[2211]: connect from fraud-notify02.jvb.internal[10.40.18.5]
+2026-09-02T16:25:28.966Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from fraud-notify02.jvb.internal[10.40.18.5] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T16:25:29.146Z mx-relay01 quillmail/smtpd[2211]: 3AD1CD67D: queued from=<fraud-alerts@junipervale.example> size=3826 nrcpt=1
+2026-09-02T16:25:30.904Z mx-relay01 quillmail/smtp[3120]: 3AD1CD67D: to=<8095f23@harbormail.example> relay=in.harbormail.example:25 delay=1.85 status=sent (250 accepted)
+2026-09-02T16:31:44.237Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-02T16:31:44.277Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-1.jvb.internal[10.40.12.21] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T16:31:44.457Z mx-relay01 quillmail/smtpd[2211]: 76EFBF871: queued from=<noreply@notify.junipervale.example> size=8115 nrcpt=1
+2026-09-02T16:31:46.074Z mx-relay01 quillmail/smtp[3120]: 76EFBF871: to=<ee416e7@ostlermail.example> relay=in.ostlermail.example:25 delay=1.30 status=sent (250 accepted)
+2026-09-02T16:40:00.440Z mx-relay01 quillmail/qmgr[1990]: deferred queue: 3 messages older than 4h (harbormail.example greylisting)
+2026-09-02T16:44:45.277Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-02T16:44:45.317Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-1.jvb.internal[10.40.12.21] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T16:44:45.497Z mx-relay01 quillmail/smtpd[2211]: A6E18D11F: queued from=<noreply@notify.junipervale.example> size=8980 nrcpt=1
+2026-09-02T16:44:47.040Z mx-relay01 quillmail/smtp[3120]: A6E18D11F: to=<9fdd96d@quarrynet.example> relay=in.quarrynet.example:25 delay=1.91 status=sent (250 accepted)
+2026-09-02T16:47:43.135Z mx-relay01 quillmail/smtpd[2211]: connect from itsm-core.jvb.internal[10.40.9.14]
+2026-09-02T16:47:43.175Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from itsm-core.jvb.internal[10.40.9.14] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T16:47:43.355Z mx-relay01 quillmail/smtpd[2211]: 971A65799: queued from=<servicedesk@junipervale.example> size=8199 nrcpt=1
+2026-09-02T16:47:45.199Z mx-relay01 quillmail/smtp[3120]: 971A65799: to=<e456908@ostlermail.example> relay=in.ostlermail.example:25 delay=0.87 status=sent (250 accepted)
+2026-09-02T16:54:00.832Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-02T16:54:00.872Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-2.jvb.internal[10.40.12.22] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T16:54:01.052Z mx-relay01 quillmail/smtpd[2211]: 316D148D9: queued from=<noreply@notify.junipervale.example> size=5737 nrcpt=1
+2026-09-02T16:54:02.465Z mx-relay01 quillmail/smtp[3120]: 316D148D9: to=<a2ef050@harbormail.example> relay=in.harbormail.example:25 delay=1.43 status=sent (250 accepted)
+2026-09-02T17:01:07.303Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-02T17:01:07.343Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-2.jvb.internal[10.40.12.22] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T17:01:07.523Z mx-relay01 quillmail/smtpd[2211]: F0E6E8E4C: queued from=<noreply@notify.junipervale.example> size=5383 nrcpt=1
+2026-09-02T17:01:07.927Z mx-relay01 quillmail/smtp[3120]: F0E6E8E4C: to=<f649739@tallowpost.example> relay=in.tallowpost.example:25 delay=1.16 status=sent (250 accepted)
+2026-09-02T17:06:07.369Z mx-relay01 quillmail/smtpd[2211]: connect from itsm-core.jvb.internal[10.40.9.14]
+2026-09-02T17:06:07.409Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from itsm-core.jvb.internal[10.40.9.14] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T17:06:07.589Z mx-relay01 quillmail/smtpd[2211]: F2EC14B55: queued from=<servicedesk@junipervale.example> size=3576 nrcpt=1
+2026-09-02T17:06:08.727Z mx-relay01 quillmail/smtp[3120]: F2EC14B55: to=<1af3f10@quarrynet.example> relay=in.quarrynet.example:25 delay=2.14 status=sent (250 accepted)
+2026-09-02T17:18:36.951Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-02T17:18:36.991Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-1.jvb.internal[10.40.12.21] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T17:18:37.171Z mx-relay01 quillmail/smtpd[2211]: 6D696AAD7: queued from=<noreply@notify.junipervale.example> size=4736 nrcpt=1
+2026-09-02T17:18:38.948Z mx-relay01 quillmail/smtp[3120]: 6D696AAD7: to=<067d5f8@ostlermail.example> relay=in.ostlermail.example:25 delay=1.69 status=sent (250 accepted)
+2026-09-02T17:25:36.651Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-02T17:25:36.691Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-2.jvb.internal[10.40.12.22] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T17:25:36.871Z mx-relay01 quillmail/smtpd[2211]: 9D30430D5: queued from=<noreply@notify.junipervale.example> size=5353 nrcpt=1
+2026-09-02T17:25:38.181Z mx-relay01 quillmail/smtp[3120]: 9D30430D5: to=<71927e2@tallowpost.example> relay=in.tallowpost.example:25 delay=0.88 status=sent (250 accepted)
+2026-09-02T17:39:16.294Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-02T17:39:16.334Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-1.jvb.internal[10.40.12.21] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T17:39:16.514Z mx-relay01 quillmail/smtpd[2211]: 386A3FA12: queued from=<noreply@notify.junipervale.example> size=5150 nrcpt=1
+2026-09-02T17:39:17.035Z mx-relay01 quillmail/smtp[3120]: 386A3FA12: to=<bed6c4f@tallowpost.example> relay=in.tallowpost.example:25 delay=0.96 status=sent (250 accepted)
+2026-09-02T17:43:51.237Z mx-relay01 quillmail/smtpd[2211]: connect from itsm-core.jvb.internal[10.40.9.14]
+2026-09-02T17:43:51.277Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from itsm-core.jvb.internal[10.40.9.14] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T17:43:51.457Z mx-relay01 quillmail/smtpd[2211]: 80DA3A7F9: queued from=<servicedesk@junipervale.example> size=4860 nrcpt=1
+2026-09-02T17:43:52.796Z mx-relay01 quillmail/smtp[3120]: 80DA3A7F9: to=<74790b9@tallowpost.example> relay=in.tallowpost.example:25 delay=1.41 status=sent (250 accepted)
+2026-09-02T17:53:24.595Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-02T17:53:24.635Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-1.jvb.internal[10.40.12.21] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T17:53:24.815Z mx-relay01 quillmail/smtpd[2211]: B06D06E55: queued from=<noreply@notify.junipervale.example> size=7237 nrcpt=1
+2026-09-02T17:53:25.219Z mx-relay01 quillmail/smtp[3120]: B06D06E55: to=<3d6a126@tallowpost.example> relay=in.tallowpost.example:25 delay=1.64 status=sent (250 accepted)
+2026-09-02T17:59:15.488Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-02T17:59:15.528Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-2.jvb.internal[10.40.12.22] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T17:59:15.708Z mx-relay01 quillmail/smtpd[2211]: 94FB63DD9: queued from=<noreply@notify.junipervale.example> size=5646 nrcpt=1
+2026-09-02T17:59:17.768Z mx-relay01 quillmail/smtp[3120]: 94FB63DD9: to=<882d229@tallowpost.example> relay=in.tallowpost.example:25 delay=1.20 status=sent (250 accepted)
+2026-09-02T18:08:28.645Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-02T18:08:28.685Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-1.jvb.internal[10.40.12.21] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T18:08:28.865Z mx-relay01 quillmail/smtpd[2211]: 2B3A1F21F: queued from=<noreply@notify.junipervale.example> size=6377 nrcpt=1
+2026-09-02T18:08:29.634Z mx-relay01 quillmail/smtp[3120]: 2B3A1F21F: to=<7cdf560@harbormail.example> relay=in.harbormail.example:25 delay=0.84 status=sent (250 accepted)
+2026-09-02T18:15:35.147Z mx-relay01 quillmail/smtpd[2211]: warning: dnsbl lookup timed out for 198.51.100.74 (list=blk.greyfinch.example)
+2026-09-02T18:16:30.569Z mx-relay01 quillmail/smtpd[2211]: connect from peoplehub-app1.jvb.internal[10.40.30.8]
+2026-09-02T18:16:30.609Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from peoplehub-app1.jvb.internal[10.40.30.8] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T18:16:30.789Z mx-relay01 quillmail/smtpd[2211]: BE22E7634: queued from=<hr-notices@junipervale.example> size=6821 nrcpt=1
+2026-09-02T18:16:31.519Z mx-relay01 quillmail/smtp[3120]: BE22E7634: to=<4f75ed9@harbormail.example> relay=in.harbormail.example:25 delay=1.00 status=sent (250 accepted)
+2026-09-02T18:26:03.313Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-02T18:26:03.353Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-2.jvb.internal[10.40.12.22] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T18:26:03.533Z mx-relay01 quillmail/smtpd[2211]: CEF5E7533: queued from=<noreply@notify.junipervale.example> size=8418 nrcpt=1
+2026-09-02T18:26:05.096Z mx-relay01 quillmail/smtp[3120]: CEF5E7533: to=<6b207a0@ostlermail.example> relay=in.ostlermail.example:25 delay=1.99 status=sent (250 accepted)
+2026-09-02T18:39:42.551Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-02T18:39:42.591Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-2.jvb.internal[10.40.12.22] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T18:39:42.771Z mx-relay01 quillmail/smtpd[2211]: FC19E5403: queued from=<noreply@notify.junipervale.example> size=8160 nrcpt=1
+2026-09-02T18:39:43.836Z mx-relay01 quillmail/smtp[3120]: FC19E5403: to=<2c3c99e@tallowpost.example> relay=in.tallowpost.example:25 delay=0.85 status=sent (250 accepted)
+2026-09-02T18:51:22.186Z mx-relay01 quillmail/smtpd[2211]: connect from fraud-notify02.jvb.internal[10.40.18.5]
+2026-09-02T18:51:22.226Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from fraud-notify02.jvb.internal[10.40.18.5] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T18:51:22.406Z mx-relay01 quillmail/smtpd[2211]: 74EA55405: queued from=<fraud-alerts@junipervale.example> size=3908 nrcpt=1
+2026-09-02T18:51:23.306Z mx-relay01 quillmail/smtp[3120]: 74EA55405: to=<21bccd7@tallowpost.example> relay=in.tallowpost.example:25 delay=0.86 status=sent (250 accepted)
+2026-09-02T18:52:13.256Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-02T18:52:13.296Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-2.jvb.internal[10.40.12.22] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T18:52:13.476Z mx-relay01 quillmail/smtpd[2211]: ABE14CC77: queued from=<noreply@notify.junipervale.example> size=5962 nrcpt=1
+2026-09-02T18:52:15.105Z mx-relay01 quillmail/smtp[3120]: ABE14CC77: to=<5019d4d@tallowpost.example> relay=in.tallowpost.example:25 delay=0.55 status=sent (250 accepted)
+2026-09-02T19:07:29.394Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-02T19:07:29.434Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-2.jvb.internal[10.40.12.22] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T19:07:29.614Z mx-relay01 quillmail/smtpd[2211]: 3B8FFDCB1: queued from=<noreply@notify.junipervale.example> size=4871 nrcpt=1
+2026-09-02T19:07:30.448Z mx-relay01 quillmail/smtp[3120]: 3B8FFDCB1: to=<e3d5a8f@ostlermail.example> relay=in.ostlermail.example:25 delay=0.55 status=sent (250 accepted)
+2026-09-02T19:20:29.147Z mx-relay01 quillmail/smtpd[2211]: connect from peoplehub-app1.jvb.internal[10.40.30.8]
+2026-09-02T19:20:29.187Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from peoplehub-app1.jvb.internal[10.40.30.8] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T19:20:29.367Z mx-relay01 quillmail/smtpd[2211]: EC8D05666: queued from=<hr-notices@junipervale.example> size=3802 nrcpt=1
+2026-09-02T19:20:30.323Z mx-relay01 quillmail/smtp[3120]: EC8D05666: to=<def9a25@greyfinch.example> relay=in.greyfinch.example:25 delay=0.78 status=sent (250 accepted)
+2026-09-02T19:21:37.588Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-02T19:21:37.628Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-1.jvb.internal[10.40.12.21] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T19:21:37.808Z mx-relay01 quillmail/smtpd[2211]: D48EF5A23: queued from=<noreply@notify.junipervale.example> size=6872 nrcpt=1
+2026-09-02T19:21:38.858Z mx-relay01 quillmail/smtp[3120]: D48EF5A23: to=<d8307f1@tallowpost.example> relay=in.tallowpost.example:25 delay=1.76 status=sent (250 accepted)
+2026-09-02T19:35:12.720Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-02T19:35:12.760Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-1.jvb.internal[10.40.12.21] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T19:35:12.940Z mx-relay01 quillmail/smtpd[2211]: 6992C0109: queued from=<noreply@notify.junipervale.example> size=6176 nrcpt=1
+2026-09-02T19:35:13.671Z mx-relay01 quillmail/smtp[3120]: 6992C0109: to=<3ed0bbc@greyfinch.example> relay=in.greyfinch.example:25 delay=2.05 status=sent (250 accepted)
+2026-09-02T19:35:34.439Z mx-relay01 quillmail/smtpd[2211]: connect from itsm-core.jvb.internal[10.40.9.14]
+2026-09-02T19:35:34.479Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from itsm-core.jvb.internal[10.40.9.14] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T19:35:34.659Z mx-relay01 quillmail/smtpd[2211]: 81962DC24: queued from=<servicedesk@junipervale.example> size=8748 nrcpt=1
+2026-09-02T19:35:35.892Z mx-relay01 quillmail/smtp[3120]: 81962DC24: to=<6999947@greyfinch.example> relay=in.greyfinch.example:25 delay=1.59 status=sent (250 accepted)
+2026-09-02T19:42:51.469Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-02T19:42:51.509Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-2.jvb.internal[10.40.12.22] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T19:42:51.689Z mx-relay01 quillmail/smtpd[2211]: 5E8B7E9CE: queued from=<noreply@notify.junipervale.example> size=6394 nrcpt=1
+2026-09-02T19:42:53.344Z mx-relay01 quillmail/smtp[3120]: 5E8B7E9CE: to=<5a2ed84@harbormail.example> relay=in.harbormail.example:25 delay=2.15 status=sent (250 accepted)
+2026-09-02T19:51:18.229Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-02T19:51:18.269Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-1.jvb.internal[10.40.12.21] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T19:51:18.449Z mx-relay01 quillmail/smtpd[2211]: 224B46E1E: queued from=<noreply@notify.junipervale.example> size=8633 nrcpt=1
+2026-09-02T19:51:18.855Z mx-relay01 quillmail/smtp[3120]: 224B46E1E: to=<c18b784@ostlermail.example> relay=in.ostlermail.example:25 delay=1.50 status=sent (250 accepted)
+2026-09-02T19:59:27.926Z mx-relay01 quillmail/smtpd[2211]: warning: dnsbl lookup timed out for 198.51.100.140 (list=blk.greyfinch.example)
+2026-09-02T20:03:10.858Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-02T20:03:10.898Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-1.jvb.internal[10.40.12.21] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T20:03:11.078Z mx-relay01 quillmail/smtpd[2211]: CC92D2CA3: queued from=<noreply@notify.junipervale.example> size=4054 nrcpt=1
+2026-09-02T20:03:12.878Z mx-relay01 quillmail/smtp[3120]: CC92D2CA3: to=<64d9357@harbormail.example> relay=in.harbormail.example:25 delay=1.14 status=sent (250 accepted)
+2026-09-02T20:12:14.434Z mx-relay01 quillmail/smtpd[2211]: connect from itsm-core.jvb.internal[10.40.9.14]
+2026-09-02T20:12:14.474Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from itsm-core.jvb.internal[10.40.9.14] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T20:12:14.654Z mx-relay01 quillmail/smtpd[2211]: 6373F2332: queued from=<servicedesk@junipervale.example> size=5981 nrcpt=1
+2026-09-02T20:12:16.816Z mx-relay01 quillmail/smtp[3120]: 6373F2332: to=<1b72576@quarrynet.example> relay=in.quarrynet.example:25 delay=0.87 status=sent (250 accepted)
+2026-09-02T20:18:29.472Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-02T20:18:29.512Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-2.jvb.internal[10.40.12.22] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T20:18:29.692Z mx-relay01 quillmail/smtpd[2211]: E86F61D2A: queued from=<noreply@notify.junipervale.example> size=4761 nrcpt=1
+2026-09-02T20:18:30.836Z mx-relay01 quillmail/smtp[3120]: E86F61D2A: to=<068b280@tallowpost.example> relay=in.tallowpost.example:25 delay=1.94 status=sent (250 accepted)
+2026-09-02T20:24:23.954Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-02T20:24:23.994Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-2.jvb.internal[10.40.12.22] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T20:24:24.174Z mx-relay01 quillmail/smtpd[2211]: EB4D6621F: queued from=<noreply@notify.junipervale.example> size=8734 nrcpt=1
+2026-09-02T20:24:26.017Z mx-relay01 quillmail/smtp[3120]: EB4D6621F: to=<3da4590@tallowpost.example> relay=in.tallowpost.example:25 delay=0.66 status=sent (250 accepted)
+2026-09-02T20:39:04.939Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-02T20:39:04.979Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-1.jvb.internal[10.40.12.21] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T20:39:05.159Z mx-relay01 quillmail/smtpd[2211]: 19C3C4399: queued from=<noreply@notify.junipervale.example> size=6736 nrcpt=1
+2026-09-02T20:39:06.392Z mx-relay01 quillmail/smtp[3120]: 19C3C4399: to=<c81454f@tallowpost.example> relay=in.tallowpost.example:25 delay=0.99 status=sent (250 accepted)
+2026-09-02T20:47:53.298Z mx-relay01 quillmail/smtpd[2211]: connect from itsm-core.jvb.internal[10.40.9.14]
+2026-09-02T20:47:53.338Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from itsm-core.jvb.internal[10.40.9.14] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T20:47:53.518Z mx-relay01 quillmail/smtpd[2211]: DE3B6D667: queued from=<servicedesk@junipervale.example> size=6355 nrcpt=1
+2026-09-02T20:47:54.645Z mx-relay01 quillmail/smtp[3120]: DE3B6D667: to=<7fd0d76@greyfinch.example> relay=in.greyfinch.example:25 delay=1.87 status=sent (250 accepted)
+2026-09-02T20:52:59.869Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-02T20:52:59.909Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-2.jvb.internal[10.40.12.22] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T20:53:00.089Z mx-relay01 quillmail/smtpd[2211]: 5BCFE5AE8: queued from=<noreply@notify.junipervale.example> size=6511 nrcpt=1
+2026-09-02T20:53:01.719Z mx-relay01 quillmail/smtp[3120]: 5BCFE5AE8: to=<800445d@ostlermail.example> relay=in.ostlermail.example:25 delay=1.52 status=sent (250 accepted)
+2026-09-02T21:00:00.567Z mx-relay01 quillmail/qmgr[1990]: deferred queue: 0 messages
+2026-09-02T21:00:59.124Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-02T21:00:59.164Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-2.jvb.internal[10.40.12.22] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T21:00:59.344Z mx-relay01 quillmail/smtpd[2211]: 50A2C1A0E: queued from=<noreply@notify.junipervale.example> size=3684 nrcpt=1
+2026-09-02T21:01:00.030Z mx-relay01 quillmail/smtp[3120]: 50A2C1A0E: to=<26272ca@greyfinch.example> relay=in.greyfinch.example:25 delay=2.22 status=sent (250 accepted)
+2026-09-02T21:14:59.264Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-02T21:14:59.304Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-2.jvb.internal[10.40.12.22] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T21:14:59.484Z mx-relay01 quillmail/smtpd[2211]: AFD533D78: queued from=<noreply@notify.junipervale.example> size=6190 nrcpt=1
+2026-09-02T21:15:01.612Z mx-relay01 quillmail/smtp[3120]: AFD533D78: to=<a93ab3e@ostlermail.example> relay=in.ostlermail.example:25 delay=1.12 status=sent (250 accepted)
+2026-09-02T21:15:51.336Z mx-relay01 quillmail/smtpd[2211]: connect from peoplehub-app1.jvb.internal[10.40.30.8]
+2026-09-02T21:15:51.376Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from peoplehub-app1.jvb.internal[10.40.30.8] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T21:15:51.556Z mx-relay01 quillmail/smtpd[2211]: 92A7698CC: queued from=<hr-notices@junipervale.example> size=5046 nrcpt=1
+2026-09-02T21:15:52.938Z mx-relay01 quillmail/smtp[3120]: 92A7698CC: to=<19f7402@greyfinch.example> relay=in.greyfinch.example:25 delay=1.47 status=sent (250 accepted)
+2026-09-02T21:24:36.357Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-02T21:24:36.397Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-1.jvb.internal[10.40.12.21] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T21:24:36.577Z mx-relay01 quillmail/smtpd[2211]: 0E00FAD06: queued from=<noreply@notify.junipervale.example> size=4498 nrcpt=1
+2026-09-02T21:24:38.479Z mx-relay01 quillmail/smtp[3120]: 0E00FAD06: to=<610093b@greyfinch.example> relay=in.greyfinch.example:25 delay=1.85 status=sent (250 accepted)
+2026-09-02T21:33:51.675Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-02T21:33:51.715Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-1.jvb.internal[10.40.12.21] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T21:33:51.895Z mx-relay01 quillmail/smtpd[2211]: 95EFC0995: queued from=<noreply@notify.junipervale.example> size=8149 nrcpt=1
+2026-09-02T21:33:53.227Z mx-relay01 quillmail/smtp[3120]: 95EFC0995: to=<bb1ffcc@harbormail.example> relay=in.harbormail.example:25 delay=0.81 status=sent (250 accepted)
+2026-09-02T21:40:26.578Z mx-relay01 quillmail/smtpd[2211]: connect from itsm-core.jvb.internal[10.40.9.14]
+2026-09-02T21:40:26.618Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from itsm-core.jvb.internal[10.40.9.14] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T21:40:26.798Z mx-relay01 quillmail/smtpd[2211]: 99A64B875: queued from=<servicedesk@junipervale.example> size=5018 nrcpt=1
+2026-09-02T21:40:28.428Z mx-relay01 quillmail/smtp[3120]: 99A64B875: to=<6d1a719@quarrynet.example> relay=in.quarrynet.example:25 delay=0.69 status=sent (250 accepted)
+2026-09-02T21:47:25.868Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-02T21:47:25.908Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-1.jvb.internal[10.40.12.21] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T21:47:26.088Z mx-relay01 quillmail/smtpd[2211]: 1B54DC432: queued from=<noreply@notify.junipervale.example> size=4035 nrcpt=1
+2026-09-02T21:47:26.528Z mx-relay01 quillmail/smtp[3120]: 1B54DC432: to=<cd87fb2@greyfinch.example> relay=in.greyfinch.example:25 delay=0.62 status=sent (250 accepted)
+2026-09-02T22:02:54.002Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-02T22:02:54.042Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-1.jvb.internal[10.40.12.21] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T22:02:54.222Z mx-relay01 quillmail/smtpd[2211]: 49A3A1550: queued from=<noreply@notify.junipervale.example> size=5491 nrcpt=1
+2026-09-02T22:02:56.235Z mx-relay01 quillmail/smtp[3120]: 49A3A1550: to=<3eeaeb8@tallowpost.example> relay=in.tallowpost.example:25 delay=2.11 status=sent (250 accepted)
+2026-09-02T22:13:04.888Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-02T22:13:04.928Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-2.jvb.internal[10.40.12.22] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T22:13:05.108Z mx-relay01 quillmail/smtpd[2211]: 8149588FC: queued from=<noreply@notify.junipervale.example> size=6865 nrcpt=1
+2026-09-02T22:13:07.075Z mx-relay01 quillmail/smtp[3120]: 8149588FC: to=<b840dcb@ostlermail.example> relay=in.ostlermail.example:25 delay=2.15 status=sent (250 accepted)
+2026-09-02T22:14:54.033Z mx-relay01 quillmail/smtpd[2211]: connect from fraud-notify02.jvb.internal[10.40.18.5]
+2026-09-02T22:14:54.073Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from fraud-notify02.jvb.internal[10.40.18.5] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T22:14:54.253Z mx-relay01 quillmail/smtpd[2211]: 75F1B32FE: queued from=<fraud-alerts@junipervale.example> size=5949 nrcpt=1
+2026-09-02T22:14:55.497Z mx-relay01 quillmail/smtp[3120]: 75F1B32FE: to=<268793d@quarrynet.example> relay=in.quarrynet.example:25 delay=1.52 status=sent (250 accepted)
+2026-09-02T22:22:32.902Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-02T22:22:32.942Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-2.jvb.internal[10.40.12.22] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T22:22:33.122Z mx-relay01 quillmail/smtpd[2211]: 3AC1F72CD: queued from=<noreply@notify.junipervale.example> size=3499 nrcpt=1
+2026-09-02T22:22:34.876Z mx-relay01 quillmail/smtp[3120]: 3AC1F72CD: to=<04e4427@quarrynet.example> relay=in.quarrynet.example:25 delay=1.00 status=sent (250 accepted)
+2026-09-02T22:28:21.476Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-02T22:28:21.516Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-1.jvb.internal[10.40.12.21] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T22:28:21.696Z mx-relay01 quillmail/smtpd[2211]: D7B77A5EE: queued from=<noreply@notify.junipervale.example> size=6798 nrcpt=1
+2026-09-02T22:28:23.019Z mx-relay01 quillmail/smtp[3120]: D7B77A5EE: to=<26f3ff8@tallowpost.example> relay=in.tallowpost.example:25 delay=1.89 status=sent (250 accepted)
+2026-09-02T22:32:01.610Z mx-relay01 quillmail/smtpd[2211]: connect from fraud-notify02.jvb.internal[10.40.18.5]
+2026-09-02T22:32:01.650Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from fraud-notify02.jvb.internal[10.40.18.5] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T22:32:01.830Z mx-relay01 quillmail/smtpd[2211]: C0826C046: queued from=<fraud-alerts@junipervale.example> size=3602 nrcpt=1
+2026-09-02T22:32:03.960Z mx-relay01 quillmail/smtp[3120]: C0826C046: to=<c7bbd3e@tallowpost.example> relay=in.tallowpost.example:25 delay=1.32 status=sent (250 accepted)
+2026-09-02T22:43:10.883Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-02T22:43:10.923Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-1.jvb.internal[10.40.12.21] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T22:43:11.103Z mx-relay01 quillmail/smtpd[2211]: E1D8D3194: queued from=<noreply@notify.junipervale.example> size=7928 nrcpt=1
+2026-09-02T22:43:11.890Z mx-relay01 quillmail/smtp[3120]: E1D8D3194: to=<3ee62f1@ostlermail.example> relay=in.ostlermail.example:25 delay=0.59 status=sent (250 accepted)
+2026-09-02T22:53:07.382Z mx-relay01 quillmail/smtpd[2211]: connect from peoplehub-app1.jvb.internal[10.40.30.8]
+2026-09-02T22:53:07.422Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from peoplehub-app1.jvb.internal[10.40.30.8] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T22:53:07.602Z mx-relay01 quillmail/smtpd[2211]: 69110FBC0: queued from=<hr-notices@junipervale.example> size=6036 nrcpt=1
+2026-09-02T22:53:09.014Z mx-relay01 quillmail/smtp[3120]: 69110FBC0: to=<4fe9c5a@quarrynet.example> relay=in.quarrynet.example:25 delay=0.91 status=sent (250 accepted)
+2026-09-02T22:55:50.322Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-02T22:55:50.362Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-1.jvb.internal[10.40.12.21] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T22:55:50.542Z mx-relay01 quillmail/smtpd[2211]: 54C101C8E: queued from=<noreply@notify.junipervale.example> size=8834 nrcpt=1
+2026-09-02T22:55:52.296Z mx-relay01 quillmail/smtp[3120]: 54C101C8E: to=<c0a5af8@harbormail.example> relay=in.harbormail.example:25 delay=0.70 status=sent (250 accepted)
+2026-09-02T22:56:35.967Z mx-relay01 quillmail/smtpd[2211]: warning: dnsbl lookup timed out for 198.51.100.94 (list=blk.greyfinch.example)
+2026-09-02T23:01:36.725Z mx-relay01 quillmail/smtpd[2211]: warning: dnsbl lookup timed out for 198.51.100.73 (list=blk.greyfinch.example)
+2026-09-02T23:03:13.303Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-02T23:03:13.343Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-2.jvb.internal[10.40.12.22] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T23:03:13.523Z mx-relay01 quillmail/smtpd[2211]: 571245FD8: queued from=<noreply@notify.junipervale.example> size=3429 nrcpt=1
+2026-09-02T23:03:14.962Z mx-relay01 quillmail/smtp[3120]: 571245FD8: to=<3cf33ab@quarrynet.example> relay=in.quarrynet.example:25 delay=1.10 status=sent (250 accepted)
+2026-09-02T23:09:14.957Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-02T23:09:14.997Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-1.jvb.internal[10.40.12.21] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T23:09:15.177Z mx-relay01 quillmail/smtpd[2211]: 2C860281D: queued from=<noreply@notify.junipervale.example> size=3840 nrcpt=1
+2026-09-02T23:09:15.664Z mx-relay01 quillmail/smtp[3120]: 2C860281D: to=<f4d5a43@ostlermail.example> relay=in.ostlermail.example:25 delay=1.68 status=sent (250 accepted)
+2026-09-02T23:19:36.523Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-02T23:19:36.563Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-2.jvb.internal[10.40.12.22] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T23:19:36.743Z mx-relay01 quillmail/smtpd[2211]: BF40CD0CC: queued from=<noreply@notify.junipervale.example> size=4318 nrcpt=1
+2026-09-02T23:19:37.997Z mx-relay01 quillmail/smtp[3120]: BF40CD0CC: to=<3c3d69b@tallowpost.example> relay=in.tallowpost.example:25 delay=1.80 status=sent (250 accepted)
+2026-09-02T23:27:14.058Z mx-relay01 quillmail/smtpd[2211]: connect from itsm-core.jvb.internal[10.40.9.14]
+2026-09-02T23:27:14.098Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from itsm-core.jvb.internal[10.40.9.14] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T23:27:14.278Z mx-relay01 quillmail/smtpd[2211]: 2B7D457F3: queued from=<servicedesk@junipervale.example> size=5199 nrcpt=1
+2026-09-02T23:27:15.820Z mx-relay01 quillmail/smtp[3120]: 2B7D457F3: to=<62defa0@tallowpost.example> relay=in.tallowpost.example:25 delay=1.05 status=sent (250 accepted)
+2026-09-02T23:35:15.655Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-02T23:35:15.695Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-1.jvb.internal[10.40.12.21] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T23:35:15.875Z mx-relay01 quillmail/smtpd[2211]: DB7CAFA1D: queued from=<noreply@notify.junipervale.example> size=5000 nrcpt=1
+2026-09-02T23:35:16.680Z mx-relay01 quillmail/smtp[3120]: DB7CAFA1D: to=<8079880@greyfinch.example> relay=in.greyfinch.example:25 delay=1.23 status=sent (250 accepted)
+2026-09-02T23:40:21.532Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-02T23:40:21.572Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-2.jvb.internal[10.40.12.22] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T23:40:21.752Z mx-relay01 quillmail/smtpd[2211]: 3E79E613F: queued from=<noreply@notify.junipervale.example> size=4817 nrcpt=1
+2026-09-02T23:40:23.376Z mx-relay01 quillmail/smtp[3120]: 3E79E613F: to=<c49db4c@greyfinch.example> relay=in.greyfinch.example:25 delay=1.15 status=sent (250 accepted)
+2026-09-02T23:44:33.183Z mx-relay01 quillmail/smtpd[2211]: connect from fraud-notify02.jvb.internal[10.40.18.5]
+2026-09-02T23:44:33.223Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from fraud-notify02.jvb.internal[10.40.18.5] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T23:44:33.403Z mx-relay01 quillmail/smtpd[2211]: 11D2A3094: queued from=<fraud-alerts@junipervale.example> size=3247 nrcpt=1
+2026-09-02T23:44:34.175Z mx-relay01 quillmail/smtp[3120]: 11D2A3094: to=<ae26eea@quarrynet.example> relay=in.quarrynet.example:25 delay=2.27 status=sent (250 accepted)
+2026-09-02T23:54:16.141Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-02T23:54:16.181Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-2.jvb.internal[10.40.12.22] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-02T23:54:16.361Z mx-relay01 quillmail/smtpd[2211]: 87D5E0F71: queued from=<noreply@notify.junipervale.example> size=8962 nrcpt=1
+2026-09-02T23:54:17.365Z mx-relay01 quillmail/smtp[3120]: 87D5E0F71: to=<3aca2ec@ostlermail.example> relay=in.ostlermail.example:25 delay=1.30 status=sent (250 accepted)
+2026-09-03T00:06:07.909Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-03T00:06:07.949Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-2.jvb.internal[10.40.12.22] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-03T00:06:08.129Z mx-relay01 quillmail/smtpd[2211]: EAF2A8943: queued from=<noreply@notify.junipervale.example> size=3854 nrcpt=1
+2026-09-03T00:06:10.118Z mx-relay01 quillmail/smtp[3120]: EAF2A8943: to=<97b166a@ostlermail.example> relay=in.ostlermail.example:25 delay=2.16 status=sent (250 accepted)
+2026-09-03T00:13:08.639Z mx-relay01 quillmail/smtpd[2211]: connect from fraud-notify02.jvb.internal[10.40.18.5]
+2026-09-03T00:13:08.679Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from fraud-notify02.jvb.internal[10.40.18.5] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-03T00:13:08.859Z mx-relay01 quillmail/smtpd[2211]: 8B493AC5C: queued from=<fraud-alerts@junipervale.example> size=8031 nrcpt=1
+2026-09-03T00:13:09.672Z mx-relay01 quillmail/smtp[3120]: 8B493AC5C: to=<30e0910@quarrynet.example> relay=in.quarrynet.example:25 delay=1.98 status=sent (250 accepted)
+2026-09-03T00:18:25.957Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-03T00:18:25.997Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-2.jvb.internal[10.40.12.22] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-03T00:18:26.177Z mx-relay01 quillmail/smtpd[2211]: 2843B8629: queued from=<noreply@notify.junipervale.example> size=4056 nrcpt=1
+2026-09-03T00:18:26.634Z mx-relay01 quillmail/smtp[3120]: 2843B8629: to=<cbcd1e4@quarrynet.example> relay=in.quarrynet.example:25 delay=0.99 status=sent (250 accepted)
+2026-09-03T00:28:37.296Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-03T00:28:37.336Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-2.jvb.internal[10.40.12.22] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-03T00:28:37.516Z mx-relay01 quillmail/smtpd[2211]: EF8C86316: queued from=<noreply@notify.junipervale.example> size=6030 nrcpt=1
+2026-09-03T00:28:38.240Z mx-relay01 quillmail/smtp[3120]: EF8C86316: to=<4d76caf@ostlermail.example> relay=in.ostlermail.example:25 delay=2.13 status=sent (250 accepted)
+2026-09-03T00:38:44.885Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-03T00:38:44.925Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-2.jvb.internal[10.40.12.22] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-03T00:38:45.105Z mx-relay01 quillmail/smtpd[2211]: E6B10E968: queued from=<noreply@notify.junipervale.example> size=5813 nrcpt=1
+2026-09-03T00:38:45.976Z mx-relay01 quillmail/smtp[3120]: E6B10E968: to=<d2fa4bb@tallowpost.example> relay=in.tallowpost.example:25 delay=2.30 status=sent (250 accepted)
+2026-09-03T00:49:42.870Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-03T00:49:42.910Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-1.jvb.internal[10.40.12.21] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-03T00:49:43.090Z mx-relay01 quillmail/smtpd[2211]: F4A025496: queued from=<noreply@notify.junipervale.example> size=7405 nrcpt=1
+2026-09-03T00:49:43.865Z mx-relay01 quillmail/smtp[3120]: F4A025496: to=<2f5d5c9@quarrynet.example> relay=in.quarrynet.example:25 delay=1.19 status=sent (250 accepted)
+2026-09-03T00:51:12.884Z mx-relay01 quillmail/smtpd[2211]: connect from itsm-core.jvb.internal[10.40.9.14]
+2026-09-03T00:51:12.924Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from itsm-core.jvb.internal[10.40.9.14] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-03T00:51:13.104Z mx-relay01 quillmail/smtpd[2211]: BAEDB4DC2: queued from=<servicedesk@junipervale.example> size=4242 nrcpt=1
+2026-09-03T00:51:13.913Z mx-relay01 quillmail/smtp[3120]: BAEDB4DC2: to=<fcbdcae@ostlermail.example> relay=in.ostlermail.example:25 delay=1.89 status=sent (250 accepted)
+2026-09-03T01:05:33.409Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-03T01:05:33.449Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from mailer-2.jvb.internal[10.40.12.22] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-03T01:05:33.629Z mx-relay01 quillmail/smtpd[2211]: EEEBEE744: queued from=<noreply@notify.junipervale.example> size=8275 nrcpt=1
+2026-09-03T01:05:34.043Z mx-relay01 quillmail/smtp[3120]: EEEBEE744: to=<6018985@harbormail.example> relay=in.harbormail.example:25 delay=1.61 status=sent (250 accepted)
+2026-09-03T01:10:02.497Z mx-relay01 quillmail/tlsmgr[1874]: SIGHUP received, reloading TLS material
+2026-09-03T01:10:04.118Z mx-relay01 quillmail/tlsmgr[1874]: loaded server certificate /etc/quillmail/tls/relay.pem subject=CN=mx-relay.jvb.internal issuer=CN=JVB Issuing CA G3 notAfter=2027-09-02
+2026-09-03T01:10:04.120Z mx-relay01 quillmail/tlsmgr[1874]: certificate chain length 1 (previous 2)
+2026-09-03T01:10:05.343Z mx-relay01 quillmail/tlsmgr[1874]: TLS reload complete, new sessions use updated material
+2026-09-03T01:10:22.007Z mx-relay01 quillmail/smtpd[2211]: connect from ops-jump01.jvb.internal[10.40.2.10]
+2026-09-03T01:10:22.058Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from ops-jump01.jvb.internal[10.40.2.10] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-03T01:10:24.522Z mx-relay01 quillmail/smtpd[2211]: disconnect from ops-jump01.jvb.internal[10.40.2.10] ehlo=2 starttls=1 quit=1
+2026-09-03T01:12:47.499Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-03T01:12:47.530Z mx-relay01 quillmail/smtpd[2211]: TLS handshake failed from mailer-1.jvb.internal[10.40.12.21]: peer sent alert unknown_ca (48)
+2026-09-03T01:12:47.600Z mx-relay01 quillmail/smtpd[2211]: lost connection after STARTTLS from mailer-1.jvb.internal[10.40.12.21]
+2026-09-03T01:17:02.025Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-03T01:17:02.056Z mx-relay01 quillmail/smtpd[2211]: TLS handshake failed from mailer-2.jvb.internal[10.40.12.22]: peer sent alert unknown_ca (48)
+2026-09-03T01:17:02.058Z mx-relay01 quillmail/smtpd[2211]: lost connection after STARTTLS from mailer-2.jvb.internal[10.40.12.22]
+2026-09-03T01:19:51.502Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-03T01:19:51.533Z mx-relay01 quillmail/smtpd[2211]: TLS handshake failed from mailer-2.jvb.internal[10.40.12.22]: peer sent alert unknown_ca (48)
+2026-09-03T01:19:51.535Z mx-relay01 quillmail/smtpd[2211]: lost connection after STARTTLS from mailer-2.jvb.internal[10.40.12.22]
+2026-09-03T01:22:26.919Z mx-relay01 quillmail/smtpd[2211]: connect from peoplehub-app1.jvb.internal[10.40.30.8]
+2026-09-03T01:22:26.959Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from peoplehub-app1.jvb.internal[10.40.30.8] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-03T01:22:27.139Z mx-relay01 quillmail/smtpd[2211]: 9F5930011: queued from=<hr-notices@junipervale.example> size=8969 nrcpt=1
+2026-09-03T01:22:28.308Z mx-relay01 quillmail/smtp[3120]: 9F5930011: to=<f5e2e2c@tallowpost.example> relay=in.tallowpost.example:25 delay=2.27 status=sent (250 accepted)
+2026-09-03T01:23:48.646Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-03T01:23:48.677Z mx-relay01 quillmail/smtpd[2211]: TLS handshake failed from mailer-1.jvb.internal[10.40.12.21]: peer sent alert unknown_ca (48)
+2026-09-03T01:23:48.679Z mx-relay01 quillmail/smtpd[2211]: lost connection after STARTTLS from mailer-1.jvb.internal[10.40.12.21]
+2026-09-03T01:24:53.779Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-03T01:24:53.810Z mx-relay01 quillmail/smtpd[2211]: TLS handshake failed from mailer-2.jvb.internal[10.40.12.22]: peer sent alert unknown_ca (48)
+2026-09-03T01:24:53.812Z mx-relay01 quillmail/smtpd[2211]: lost connection after STARTTLS from mailer-2.jvb.internal[10.40.12.22]
+2026-09-03T01:26:46.937Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-03T01:26:46.968Z mx-relay01 quillmail/smtpd[2211]: TLS handshake failed from mailer-2.jvb.internal[10.40.12.22]: peer sent alert unknown_ca (48)
+2026-09-03T01:26:46.970Z mx-relay01 quillmail/smtpd[2211]: lost connection after STARTTLS from mailer-2.jvb.internal[10.40.12.22]
+2026-09-03T01:27:24.052Z mx-relay01 quillmail/smtpd[2211]: warning: dnsbl lookup timed out for 198.51.100.53 (list=blk.greyfinch.example)
+2026-09-03T01:28:16.581Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-03T01:28:16.612Z mx-relay01 quillmail/smtpd[2211]: TLS handshake failed from mailer-2.jvb.internal[10.40.12.22]: peer sent alert unknown_ca (48)
+2026-09-03T01:28:16.614Z mx-relay01 quillmail/smtpd[2211]: lost connection after STARTTLS from mailer-2.jvb.internal[10.40.12.22]
+2026-09-03T01:31:13.214Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-03T01:31:13.245Z mx-relay01 quillmail/smtpd[2211]: TLS handshake failed from mailer-1.jvb.internal[10.40.12.21]: peer sent alert unknown_ca (48)
+2026-09-03T01:31:13.247Z mx-relay01 quillmail/smtpd[2211]: lost connection after STARTTLS from mailer-1.jvb.internal[10.40.12.21]
+2026-09-03T01:36:02.531Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-03T01:36:02.562Z mx-relay01 quillmail/smtpd[2211]: TLS handshake failed from mailer-1.jvb.internal[10.40.12.21]: peer sent alert unknown_ca (48)
+2026-09-03T01:36:02.564Z mx-relay01 quillmail/smtpd[2211]: lost connection after STARTTLS from mailer-1.jvb.internal[10.40.12.21]
+2026-09-03T01:36:06.995Z mx-relay01 quillmail/smtpd[2211]: rate-limited logging: 9669 similar session records suppressed in last 300s
+2026-09-03T01:40:08.335Z mx-relay01 quillmail/smtpd[2211]: connect from fraud-notify02.jvb.internal[10.40.18.5]
+2026-09-03T01:40:08.375Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from fraud-notify02.jvb.internal[10.40.18.5] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-03T01:40:08.555Z mx-relay01 quillmail/smtpd[2211]: B5EB32AA6: queued from=<fraud-alerts@junipervale.example> size=6512 nrcpt=1
+2026-09-03T01:40:09.500Z mx-relay01 quillmail/smtp[3120]: B5EB32AA6: to=<b806ad1@ostlermail.example> relay=in.ostlermail.example:25 delay=1.48 status=sent (250 accepted)
+2026-09-03T01:41:02.042Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-03T01:41:02.073Z mx-relay01 quillmail/smtpd[2211]: TLS handshake failed from mailer-1.jvb.internal[10.40.12.21]: peer sent alert unknown_ca (48)
+2026-09-03T01:41:02.075Z mx-relay01 quillmail/smtpd[2211]: lost connection after STARTTLS from mailer-1.jvb.internal[10.40.12.21]
+2026-09-03T01:41:06.209Z mx-relay01 quillmail/smtpd[2211]: rate-limited logging: 10071 similar session records suppressed in last 300s
+2026-09-03T01:46:02.711Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-03T01:46:02.742Z mx-relay01 quillmail/smtpd[2211]: TLS handshake failed from mailer-2.jvb.internal[10.40.12.22]: peer sent alert unknown_ca (48)
+2026-09-03T01:46:02.744Z mx-relay01 quillmail/smtpd[2211]: lost connection after STARTTLS from mailer-2.jvb.internal[10.40.12.22]
+2026-09-03T01:46:06.284Z mx-relay01 quillmail/smtpd[2211]: rate-limited logging: 12090 similar session records suppressed in last 300s
+2026-09-03T01:51:02.558Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-03T01:51:02.589Z mx-relay01 quillmail/smtpd[2211]: TLS handshake failed from mailer-2.jvb.internal[10.40.12.22]: peer sent alert unknown_ca (48)
+2026-09-03T01:51:02.591Z mx-relay01 quillmail/smtpd[2211]: lost connection after STARTTLS from mailer-2.jvb.internal[10.40.12.22]
+2026-09-03T01:51:06.124Z mx-relay01 quillmail/smtpd[2211]: rate-limited logging: 10374 similar session records suppressed in last 300s
+2026-09-03T01:56:02.391Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-03T01:56:02.422Z mx-relay01 quillmail/smtpd[2211]: TLS handshake failed from mailer-2.jvb.internal[10.40.12.22]: peer sent alert unknown_ca (48)
+2026-09-03T01:56:02.424Z mx-relay01 quillmail/smtpd[2211]: lost connection after STARTTLS from mailer-2.jvb.internal[10.40.12.22]
+2026-09-03T01:56:06.745Z mx-relay01 quillmail/smtpd[2211]: rate-limited logging: 10810 similar session records suppressed in last 300s
+2026-09-03T02:00:19.300Z mx-relay01 quillmail/smtpd[2211]: connect from itsm-core.jvb.internal[10.40.9.14]
+2026-09-03T02:00:19.340Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from itsm-core.jvb.internal[10.40.9.14] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-03T02:00:19.520Z mx-relay01 quillmail/smtpd[2211]: 861640F7D: queued from=<servicedesk@junipervale.example> size=8923 nrcpt=1
+2026-09-03T02:00:19.977Z mx-relay01 quillmail/smtp[3120]: 861640F7D: to=<863fb2b@quarrynet.example> relay=in.quarrynet.example:25 delay=1.69 status=sent (250 accepted)
+2026-09-03T02:01:02.345Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-03T02:01:02.376Z mx-relay01 quillmail/smtpd[2211]: TLS handshake failed from mailer-2.jvb.internal[10.40.12.22]: peer sent alert unknown_ca (48)
+2026-09-03T02:01:02.378Z mx-relay01 quillmail/smtpd[2211]: lost connection after STARTTLS from mailer-2.jvb.internal[10.40.12.22]
+2026-09-03T02:01:06.982Z mx-relay01 quillmail/smtpd[2211]: rate-limited logging: 10581 similar session records suppressed in last 300s
+2026-09-03T02:06:02.767Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-03T02:06:02.798Z mx-relay01 quillmail/smtpd[2211]: TLS handshake failed from mailer-2.jvb.internal[10.40.12.22]: peer sent alert unknown_ca (48)
+2026-09-03T02:06:02.800Z mx-relay01 quillmail/smtpd[2211]: lost connection after STARTTLS from mailer-2.jvb.internal[10.40.12.22]
+2026-09-03T02:06:06.527Z mx-relay01 quillmail/smtpd[2211]: rate-limited logging: 11967 similar session records suppressed in last 300s
+2026-09-03T02:11:02.709Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-03T02:11:02.740Z mx-relay01 quillmail/smtpd[2211]: TLS handshake failed from mailer-1.jvb.internal[10.40.12.21]: peer sent alert unknown_ca (48)
+2026-09-03T02:11:02.742Z mx-relay01 quillmail/smtpd[2211]: lost connection after STARTTLS from mailer-1.jvb.internal[10.40.12.21]
+2026-09-03T02:11:06.925Z mx-relay01 quillmail/smtpd[2211]: rate-limited logging: 11589 similar session records suppressed in last 300s
+2026-09-03T02:16:02.240Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-03T02:16:02.271Z mx-relay01 quillmail/smtpd[2211]: TLS handshake failed from mailer-2.jvb.internal[10.40.12.22]: peer sent alert unknown_ca (48)
+2026-09-03T02:16:02.273Z mx-relay01 quillmail/smtpd[2211]: lost connection after STARTTLS from mailer-2.jvb.internal[10.40.12.22]
+2026-09-03T02:16:06.168Z mx-relay01 quillmail/smtpd[2211]: rate-limited logging: 10307 similar session records suppressed in last 300s
+2026-09-03T02:21:02.271Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-03T02:21:02.302Z mx-relay01 quillmail/smtpd[2211]: TLS handshake failed from mailer-1.jvb.internal[10.40.12.21]: peer sent alert unknown_ca (48)
+2026-09-03T02:21:02.304Z mx-relay01 quillmail/smtpd[2211]: lost connection after STARTTLS from mailer-1.jvb.internal[10.40.12.21]
+2026-09-03T02:21:06.729Z mx-relay01 quillmail/smtpd[2211]: rate-limited logging: 11084 similar session records suppressed in last 300s
+2026-09-03T02:23:22.728Z mx-relay01 quillmail/smtpd[2211]: connect from peoplehub-app1.jvb.internal[10.40.30.8]
+2026-09-03T02:23:22.768Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from peoplehub-app1.jvb.internal[10.40.30.8] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-03T02:23:22.948Z mx-relay01 quillmail/smtpd[2211]: 78A7D690D: queued from=<hr-notices@junipervale.example> size=3891 nrcpt=1
+2026-09-03T02:23:24.061Z mx-relay01 quillmail/smtp[3120]: 78A7D690D: to=<0267732@quarrynet.example> relay=in.quarrynet.example:25 delay=2.21 status=sent (250 accepted)
+2026-09-03T02:26:02.807Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-03T02:26:02.838Z mx-relay01 quillmail/smtpd[2211]: TLS handshake failed from mailer-2.jvb.internal[10.40.12.22]: peer sent alert unknown_ca (48)
+2026-09-03T02:26:02.840Z mx-relay01 quillmail/smtpd[2211]: lost connection after STARTTLS from mailer-2.jvb.internal[10.40.12.22]
+2026-09-03T02:26:06.181Z mx-relay01 quillmail/smtpd[2211]: rate-limited logging: 11697 similar session records suppressed in last 300s
+2026-09-03T02:31:02.969Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-03T02:31:03.002Z mx-relay01 quillmail/smtpd[2211]: lost connection after STARTTLS from mailer-1.jvb.internal[10.40.12.21]
+2026-09-03T02:31:03.895Z mx-relay01 quillmail/smtpd[2211]: TLS handshake failed from mailer-1.jvb.internal[10.40.12.21]: peer sent alert unknown_ca (48)
+2026-09-03T02:31:06.317Z mx-relay01 quillmail/smtpd[2211]: rate-limited logging: 9545 similar session records suppressed in last 300s
+2026-09-03T02:36:02.613Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-03T02:36:02.644Z mx-relay01 quillmail/smtpd[2211]: TLS handshake failed from mailer-2.jvb.internal[10.40.12.22]: peer sent alert unknown_ca (48)
+2026-09-03T02:36:02.646Z mx-relay01 quillmail/smtpd[2211]: lost connection after STARTTLS from mailer-2.jvb.internal[10.40.12.22]
+2026-09-03T02:36:06.178Z mx-relay01 quillmail/smtpd[2211]: rate-limited logging: 10210 similar session records suppressed in last 300s
+2026-09-03T02:41:02.930Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-03T02:41:02.961Z mx-relay01 quillmail/smtpd[2211]: TLS handshake failed from mailer-2.jvb.internal[10.40.12.22]: peer sent alert unknown_ca (48)
+2026-09-03T02:41:02.963Z mx-relay01 quillmail/smtpd[2211]: lost connection after STARTTLS from mailer-2.jvb.internal[10.40.12.22]
+2026-09-03T02:41:06.310Z mx-relay01 quillmail/smtpd[2211]: rate-limited logging: 9706 similar session records suppressed in last 300s
+2026-09-03T02:46:02.185Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-03T02:46:02.216Z mx-relay01 quillmail/smtpd[2211]: TLS handshake failed from mailer-1.jvb.internal[10.40.12.21]: peer sent alert unknown_ca (48)
+2026-09-03T02:46:02.218Z mx-relay01 quillmail/smtpd[2211]: lost connection after STARTTLS from mailer-1.jvb.internal[10.40.12.21]
+2026-09-03T02:46:06.688Z mx-relay01 quillmail/smtpd[2211]: rate-limited logging: 10974 similar session records suppressed in last 300s
+2026-09-03T02:47:06.852Z mx-relay01 quillmail/smtpd[2211]: connect from fraud-notify02.jvb.internal[10.40.18.5]
+2026-09-03T02:47:06.892Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from fraud-notify02.jvb.internal[10.40.18.5] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-03T02:47:07.072Z mx-relay01 quillmail/smtpd[2211]: 5050589D4: queued from=<fraud-alerts@junipervale.example> size=9090 nrcpt=1
+2026-09-03T02:47:07.753Z mx-relay01 quillmail/smtp[3120]: 5050589D4: to=<6452231@harbormail.example> relay=in.harbormail.example:25 delay=1.96 status=sent (250 accepted)
+2026-09-03T02:51:02.425Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-03T02:51:02.456Z mx-relay01 quillmail/smtpd[2211]: TLS handshake failed from mailer-1.jvb.internal[10.40.12.21]: peer sent alert unknown_ca (48)
+2026-09-03T02:51:02.458Z mx-relay01 quillmail/smtpd[2211]: lost connection after STARTTLS from mailer-1.jvb.internal[10.40.12.21]
+2026-09-03T02:51:06.952Z mx-relay01 quillmail/smtpd[2211]: rate-limited logging: 10823 similar session records suppressed in last 300s
+2026-09-03T02:56:02.024Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-03T02:56:02.055Z mx-relay01 quillmail/smtpd[2211]: TLS handshake failed from mailer-2.jvb.internal[10.40.12.22]: peer sent alert unknown_ca (48)
+2026-09-03T02:56:02.057Z mx-relay01 quillmail/smtpd[2211]: lost connection after STARTTLS from mailer-2.jvb.internal[10.40.12.22]
+2026-09-03T02:56:06.185Z mx-relay01 quillmail/smtpd[2211]: rate-limited logging: 11566 similar session records suppressed in last 300s
+2026-09-03T03:01:02.236Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-03T03:01:02.267Z mx-relay01 quillmail/smtpd[2211]: TLS handshake failed from mailer-1.jvb.internal[10.40.12.21]: peer sent alert unknown_ca (48)
+2026-09-03T03:01:02.269Z mx-relay01 quillmail/smtpd[2211]: lost connection after STARTTLS from mailer-1.jvb.internal[10.40.12.21]
+2026-09-03T03:01:06.679Z mx-relay01 quillmail/smtpd[2211]: rate-limited logging: 11940 similar session records suppressed in last 300s
+2026-09-03T03:06:02.956Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-03T03:06:02.987Z mx-relay01 quillmail/smtpd[2211]: TLS handshake failed from mailer-1.jvb.internal[10.40.12.21]: peer sent alert unknown_ca (48)
+2026-09-03T03:06:02.989Z mx-relay01 quillmail/smtpd[2211]: lost connection after STARTTLS from mailer-1.jvb.internal[10.40.12.21]
+2026-09-03T03:06:06.980Z mx-relay01 quillmail/smtpd[2211]: rate-limited logging: 11129 similar session records suppressed in last 300s
+2026-09-03T03:11:02.988Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-03T03:11:03.019Z mx-relay01 quillmail/smtpd[2211]: TLS handshake failed from mailer-1.jvb.internal[10.40.12.21]: peer sent alert unknown_ca (48)
+2026-09-03T03:11:03.021Z mx-relay01 quillmail/smtpd[2211]: lost connection after STARTTLS from mailer-1.jvb.internal[10.40.12.21]
+2026-09-03T03:11:06.711Z mx-relay01 quillmail/smtpd[2211]: rate-limited logging: 11411 similar session records suppressed in last 300s
+2026-09-03T03:16:02.803Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-03T03:16:02.834Z mx-relay01 quillmail/smtpd[2211]: TLS handshake failed from mailer-1.jvb.internal[10.40.12.21]: peer sent alert unknown_ca (48)
+2026-09-03T03:16:02.836Z mx-relay01 quillmail/smtpd[2211]: lost connection after STARTTLS from mailer-1.jvb.internal[10.40.12.21]
+2026-09-03T03:16:06.950Z mx-relay01 quillmail/smtpd[2211]: rate-limited logging: 9707 similar session records suppressed in last 300s
+2026-09-03T03:16:43.063Z mx-relay01 quillmail/smtpd[2211]: warning: dnsbl lookup timed out for 198.51.100.106 (list=blk.greyfinch.example)
+2026-09-03T03:19:55.118Z mx-relay01 quillmail/housekeep[1702]: warning: spool filesystem /var/spool/quillmail at 81% (threshold 80%)
+2026-09-03T03:21:02.865Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-03T03:21:02.896Z mx-relay01 quillmail/smtpd[2211]: TLS handshake failed from mailer-1.jvb.internal[10.40.12.21]: peer sent alert unknown_ca (48)
+2026-09-03T03:21:02.898Z mx-relay01 quillmail/smtpd[2211]: lost connection after STARTTLS from mailer-1.jvb.internal[10.40.12.21]
+2026-09-03T03:21:06.874Z mx-relay01 quillmail/smtpd[2211]: rate-limited logging: 9963 similar session records suppressed in last 300s
+2026-09-03T03:26:02.410Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-03T03:26:02.441Z mx-relay01 quillmail/smtpd[2211]: TLS handshake failed from mailer-2.jvb.internal[10.40.12.22]: peer sent alert unknown_ca (48)
+2026-09-03T03:26:02.443Z mx-relay01 quillmail/smtpd[2211]: lost connection after STARTTLS from mailer-2.jvb.internal[10.40.12.22]
+2026-09-03T03:26:06.704Z mx-relay01 quillmail/smtpd[2211]: rate-limited logging: 9743 similar session records suppressed in last 300s
+2026-09-03T03:26:09.309Z mx-relay01 quillmail/smtpd[2211]: connect from peoplehub-app1.jvb.internal[10.40.30.8]
+2026-09-03T03:26:09.349Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from peoplehub-app1.jvb.internal[10.40.30.8] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-03T03:26:09.529Z mx-relay01 quillmail/smtpd[2211]: F2540876D: queued from=<hr-notices@junipervale.example> size=7420 nrcpt=1
+2026-09-03T03:26:11.061Z mx-relay01 quillmail/smtp[3120]: F2540876D: to=<ea03dfb@quarrynet.example> relay=in.quarrynet.example:25 delay=0.71 status=sent (250 accepted)
+2026-09-03T03:31:02.848Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-03T03:31:02.879Z mx-relay01 quillmail/smtpd[2211]: TLS handshake failed from mailer-2.jvb.internal[10.40.12.22]: peer sent alert unknown_ca (48)
+2026-09-03T03:31:02.881Z mx-relay01 quillmail/smtpd[2211]: lost connection after STARTTLS from mailer-2.jvb.internal[10.40.12.22]
+2026-09-03T03:31:06.085Z mx-relay01 quillmail/smtpd[2211]: rate-limited logging: 10294 similar session records suppressed in last 300s
+2026-09-03T03:36:02.215Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-03T03:36:02.246Z mx-relay01 quillmail/smtpd[2211]: TLS handshake failed from mailer-1.jvb.internal[10.40.12.21]: peer sent alert unknown_ca (48)
+2026-09-03T03:36:02.248Z mx-relay01 quillmail/smtpd[2211]: lost connection after STARTTLS from mailer-1.jvb.internal[10.40.12.21]
+2026-09-03T03:36:06.319Z mx-relay01 quillmail/smtpd[2211]: rate-limited logging: 11650 similar session records suppressed in last 300s
+2026-09-03T03:41:02.030Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-03T03:41:02.061Z mx-relay01 quillmail/smtpd[2211]: TLS handshake failed from mailer-1.jvb.internal[10.40.12.21]: peer sent alert unknown_ca (48)
+2026-09-03T03:41:02.063Z mx-relay01 quillmail/smtpd[2211]: lost connection after STARTTLS from mailer-1.jvb.internal[10.40.12.21]
+2026-09-03T03:41:06.996Z mx-relay01 quillmail/smtpd[2211]: rate-limited logging: 12186 similar session records suppressed in last 300s
+2026-09-03T03:42:10.091Z mx-relay01 quillmail/housekeep[1702]: spool filesystem /var/spool/quillmail at 63% after log compression
+2026-09-03T03:46:02.208Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-03T03:46:02.239Z mx-relay01 quillmail/smtpd[2211]: TLS handshake failed from mailer-2.jvb.internal[10.40.12.22]: peer sent alert unknown_ca (48)
+2026-09-03T03:46:02.241Z mx-relay01 quillmail/smtpd[2211]: lost connection after STARTTLS from mailer-2.jvb.internal[10.40.12.22]
+2026-09-03T03:46:06.114Z mx-relay01 quillmail/smtpd[2211]: rate-limited logging: 11720 similar session records suppressed in last 300s
+2026-09-03T03:51:02.828Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-03T03:51:02.859Z mx-relay01 quillmail/smtpd[2211]: TLS handshake failed from mailer-1.jvb.internal[10.40.12.21]: peer sent alert unknown_ca (48)
+2026-09-03T03:51:02.861Z mx-relay01 quillmail/smtpd[2211]: lost connection after STARTTLS from mailer-1.jvb.internal[10.40.12.21]
+2026-09-03T03:51:06.480Z mx-relay01 quillmail/smtpd[2211]: rate-limited logging: 12272 similar session records suppressed in last 300s
+2026-09-03T03:56:02.840Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-03T03:56:02.871Z mx-relay01 quillmail/smtpd[2211]: TLS handshake failed from mailer-2.jvb.internal[10.40.12.22]: peer sent alert unknown_ca (48)
+2026-09-03T03:56:02.873Z mx-relay01 quillmail/smtpd[2211]: lost connection after STARTTLS from mailer-2.jvb.internal[10.40.12.22]
+2026-09-03T03:56:06.584Z mx-relay01 quillmail/smtpd[2211]: rate-limited logging: 10808 similar session records suppressed in last 300s
+2026-09-03T03:58:02.496Z mx-relay01 quillmail/smtpd[2211]: connect from peoplehub-app1.jvb.internal[10.40.30.8]
+2026-09-03T03:58:02.536Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from peoplehub-app1.jvb.internal[10.40.30.8] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-03T03:58:02.716Z mx-relay01 quillmail/smtpd[2211]: CAF190A85: queued from=<hr-notices@junipervale.example> size=3595 nrcpt=1
+2026-09-03T03:58:04.265Z mx-relay01 quillmail/smtp[3120]: CAF190A85: to=<dfd2294@tallowpost.example> relay=in.tallowpost.example:25 delay=1.86 status=sent (250 accepted)
+2026-09-03T04:01:02.994Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-03T04:01:03.025Z mx-relay01 quillmail/smtpd[2211]: TLS handshake failed from mailer-1.jvb.internal[10.40.12.21]: peer sent alert unknown_ca (48)
+2026-09-03T04:01:03.027Z mx-relay01 quillmail/smtpd[2211]: lost connection after STARTTLS from mailer-1.jvb.internal[10.40.12.21]
+2026-09-03T04:01:06.674Z mx-relay01 quillmail/smtpd[2211]: rate-limited logging: 10872 similar session records suppressed in last 300s
+2026-09-03T04:06:02.096Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-03T04:06:02.127Z mx-relay01 quillmail/smtpd[2211]: TLS handshake failed from mailer-1.jvb.internal[10.40.12.21]: peer sent alert unknown_ca (48)
+2026-09-03T04:06:02.129Z mx-relay01 quillmail/smtpd[2211]: lost connection after STARTTLS from mailer-1.jvb.internal[10.40.12.21]
+2026-09-03T04:06:06.121Z mx-relay01 quillmail/smtpd[2211]: rate-limited logging: 11154 similar session records suppressed in last 300s
+2026-09-03T04:11:02.290Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-03T04:11:02.321Z mx-relay01 quillmail/smtpd[2211]: TLS handshake failed from mailer-1.jvb.internal[10.40.12.21]: peer sent alert unknown_ca (48)
+2026-09-03T04:11:02.323Z mx-relay01 quillmail/smtpd[2211]: lost connection after STARTTLS from mailer-1.jvb.internal[10.40.12.21]
+2026-09-03T04:11:06.117Z mx-relay01 quillmail/smtpd[2211]: rate-limited logging: 12380 similar session records suppressed in last 300s
+2026-09-03T04:16:02.943Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-03T04:16:02.974Z mx-relay01 quillmail/smtpd[2211]: TLS handshake failed from mailer-1.jvb.internal[10.40.12.21]: peer sent alert unknown_ca (48)
+2026-09-03T04:16:02.976Z mx-relay01 quillmail/smtpd[2211]: lost connection after STARTTLS from mailer-1.jvb.internal[10.40.12.21]
+2026-09-03T04:16:06.419Z mx-relay01 quillmail/smtpd[2211]: rate-limited logging: 10134 similar session records suppressed in last 300s
+2026-09-03T04:21:02.954Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-03T04:21:02.985Z mx-relay01 quillmail/smtpd[2211]: TLS handshake failed from mailer-2.jvb.internal[10.40.12.22]: peer sent alert unknown_ca (48)
+2026-09-03T04:21:02.987Z mx-relay01 quillmail/smtpd[2211]: lost connection after STARTTLS from mailer-2.jvb.internal[10.40.12.22]
+2026-09-03T04:21:06.635Z mx-relay01 quillmail/smtpd[2211]: rate-limited logging: 11272 similar session records suppressed in last 300s
+2026-09-03T04:26:02.958Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-03T04:26:02.989Z mx-relay01 quillmail/smtpd[2211]: TLS handshake failed from mailer-1.jvb.internal[10.40.12.21]: peer sent alert unknown_ca (48)
+2026-09-03T04:26:02.991Z mx-relay01 quillmail/smtpd[2211]: lost connection after STARTTLS from mailer-1.jvb.internal[10.40.12.21]
+2026-09-03T04:26:06.228Z mx-relay01 quillmail/smtpd[2211]: rate-limited logging: 10832 similar session records suppressed in last 300s
+2026-09-03T04:33:20.872Z mx-relay01 quillmail/smtpd[2211]: connect from fraud-notify02.jvb.internal[10.40.18.5]
+2026-09-03T04:33:20.912Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from fraud-notify02.jvb.internal[10.40.18.5] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-03T04:33:21.092Z mx-relay01 quillmail/smtpd[2211]: DEA0295D5: queued from=<fraud-alerts@junipervale.example> size=7418 nrcpt=1
+2026-09-03T04:33:21.674Z mx-relay01 quillmail/smtp[3120]: DEA0295D5: to=<7a3be03@tallowpost.example> relay=in.tallowpost.example:25 delay=2.26 status=sent (250 accepted)
+2026-09-03T04:45:48.333Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-03T04:45:48.364Z mx-relay01 quillmail/smtpd[2211]: TLS handshake failed from mailer-2.jvb.internal[10.40.12.22]: peer sent alert unknown_ca (48)
+2026-09-03T04:45:48.366Z mx-relay01 quillmail/smtpd[2211]: lost connection after STARTTLS from mailer-2.jvb.internal[10.40.12.22]
+2026-09-03T05:00:19.259Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-03T05:00:19.290Z mx-relay01 quillmail/smtpd[2211]: TLS handshake failed from mailer-2.jvb.internal[10.40.12.22]: peer sent alert unknown_ca (48)
+2026-09-03T05:00:19.292Z mx-relay01 quillmail/smtpd[2211]: lost connection after STARTTLS from mailer-2.jvb.internal[10.40.12.22]
+2026-09-03T05:05:38.198Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-03T05:05:38.229Z mx-relay01 quillmail/smtpd[2211]: TLS handshake failed from mailer-2.jvb.internal[10.40.12.22]: peer sent alert unknown_ca (48)
+2026-09-03T05:05:38.231Z mx-relay01 quillmail/smtpd[2211]: lost connection after STARTTLS from mailer-2.jvb.internal[10.40.12.22]
+2026-09-03T05:11:36.128Z mx-relay01 quillmail/smtpd[2211]: connect from fraud-notify02.jvb.internal[10.40.18.5]
+2026-09-03T05:11:36.168Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from fraud-notify02.jvb.internal[10.40.18.5] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-03T05:11:36.348Z mx-relay01 quillmail/smtpd[2211]: 434C61C45: queued from=<fraud-alerts@junipervale.example> size=4341 nrcpt=1
+2026-09-03T05:11:37.254Z mx-relay01 quillmail/smtp[3120]: 434C61C45: to=<9976cc7@ostlermail.example> relay=in.ostlermail.example:25 delay=0.76 status=sent (250 accepted)
+2026-09-03T05:12:24.834Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-03T05:12:24.865Z mx-relay01 quillmail/smtpd[2211]: TLS handshake failed from mailer-2.jvb.internal[10.40.12.22]: peer sent alert unknown_ca (48)
+2026-09-03T05:12:24.867Z mx-relay01 quillmail/smtpd[2211]: lost connection after STARTTLS from mailer-2.jvb.internal[10.40.12.22]
+2026-09-03T05:19:40.245Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-03T05:19:40.276Z mx-relay01 quillmail/smtpd[2211]: TLS handshake failed from mailer-1.jvb.internal[10.40.12.21]: peer sent alert unknown_ca (48)
+2026-09-03T05:19:40.278Z mx-relay01 quillmail/smtpd[2211]: lost connection after STARTTLS from mailer-1.jvb.internal[10.40.12.21]
+2026-09-03T05:27:00.343Z mx-relay01 quillmail/smtpd[2211]: connect from peoplehub-app1.jvb.internal[10.40.30.8]
+2026-09-03T05:27:00.383Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from peoplehub-app1.jvb.internal[10.40.30.8] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-03T05:27:00.563Z mx-relay01 quillmail/smtpd[2211]: 552EAD776: queued from=<hr-notices@junipervale.example> size=7891 nrcpt=1
+2026-09-03T05:27:01.597Z mx-relay01 quillmail/smtp[3120]: 552EAD776: to=<0bdd44e@tallowpost.example> relay=in.tallowpost.example:25 delay=0.98 status=sent (250 accepted)
+2026-09-03T05:27:15.438Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-03T05:27:15.469Z mx-relay01 quillmail/smtpd[2211]: TLS handshake failed from mailer-2.jvb.internal[10.40.12.22]: peer sent alert unknown_ca (48)
+2026-09-03T05:27:15.471Z mx-relay01 quillmail/smtpd[2211]: lost connection after STARTTLS from mailer-2.jvb.internal[10.40.12.22]
+2026-09-03T05:38:07.727Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-03T05:38:07.758Z mx-relay01 quillmail/smtpd[2211]: TLS handshake failed from mailer-1.jvb.internal[10.40.12.21]: peer sent alert unknown_ca (48)
+2026-09-03T05:38:07.760Z mx-relay01 quillmail/smtpd[2211]: lost connection after STARTTLS from mailer-1.jvb.internal[10.40.12.21]
+2026-09-03T05:43:25.560Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-03T05:43:25.591Z mx-relay01 quillmail/smtpd[2211]: TLS handshake failed from mailer-2.jvb.internal[10.40.12.22]: peer sent alert unknown_ca (48)
+2026-09-03T05:43:25.593Z mx-relay01 quillmail/smtpd[2211]: lost connection after STARTTLS from mailer-2.jvb.internal[10.40.12.22]
+2026-09-03T05:45:27.534Z mx-relay01 quillmail/smtpd[2211]: connect from fraud-notify02.jvb.internal[10.40.18.5]
+2026-09-03T05:45:27.574Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from fraud-notify02.jvb.internal[10.40.18.5] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-03T05:45:27.754Z mx-relay01 quillmail/smtpd[2211]: DF3B5B781: queued from=<fraud-alerts@junipervale.example> size=5214 nrcpt=1
+2026-09-03T05:45:29.680Z mx-relay01 quillmail/smtp[3120]: DF3B5B781: to=<8c96e3a@greyfinch.example> relay=in.greyfinch.example:25 delay=1.78 status=sent (250 accepted)
+2026-09-03T05:56:27.568Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-03T05:56:27.599Z mx-relay01 quillmail/smtpd[2211]: TLS handshake failed from mailer-1.jvb.internal[10.40.12.21]: peer sent alert unknown_ca (48)
+2026-09-03T05:56:27.601Z mx-relay01 quillmail/smtpd[2211]: lost connection after STARTTLS from mailer-1.jvb.internal[10.40.12.21]
+2026-09-03T06:03:51.225Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-03T06:03:51.256Z mx-relay01 quillmail/smtpd[2211]: TLS handshake failed from mailer-2.jvb.internal[10.40.12.22]: peer sent alert unknown_ca (48)
+2026-09-03T06:03:51.258Z mx-relay01 quillmail/smtpd[2211]: lost connection after STARTTLS from mailer-2.jvb.internal[10.40.12.22]
+2026-09-03T06:07:59.833Z mx-relay01 quillmail/smtpd[2211]: connect from peoplehub-app1.jvb.internal[10.40.30.8]
+2026-09-03T06:07:59.873Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from peoplehub-app1.jvb.internal[10.40.30.8] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-03T06:08:00.053Z mx-relay01 quillmail/smtpd[2211]: 8680DC8D7: queued from=<hr-notices@junipervale.example> size=6137 nrcpt=1
+2026-09-03T06:08:00.610Z mx-relay01 quillmail/smtp[3120]: 8680DC8D7: to=<6878e67@harbormail.example> relay=in.harbormail.example:25 delay=1.67 status=sent (250 accepted)
+2026-09-03T06:11:14.713Z mx-relay01 quillmail/smtpd[2211]: warning: dnsbl lookup timed out for 198.51.100.29 (list=blk.greyfinch.example)
+2026-09-03T06:13:08.593Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-03T06:13:08.624Z mx-relay01 quillmail/smtpd[2211]: TLS handshake failed from mailer-2.jvb.internal[10.40.12.22]: peer sent alert unknown_ca (48)
+2026-09-03T06:13:08.626Z mx-relay01 quillmail/smtpd[2211]: lost connection after STARTTLS from mailer-2.jvb.internal[10.40.12.22]
+2026-09-03T06:15:20.448Z mx-relay01 quillmail/smtpd[2211]: warning: dnsbl lookup timed out for 198.51.100.169 (list=blk.greyfinch.example)
+2026-09-03T06:20:14.126Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-03T06:20:14.157Z mx-relay01 quillmail/smtpd[2211]: TLS handshake failed from mailer-1.jvb.internal[10.40.12.21]: peer sent alert unknown_ca (48)
+2026-09-03T06:20:14.159Z mx-relay01 quillmail/smtpd[2211]: lost connection after STARTTLS from mailer-1.jvb.internal[10.40.12.21]
+2026-09-03T06:23:45.760Z mx-relay01 quillmail/smtpd[2211]: connect from fraud-notify02.jvb.internal[10.40.18.5]
+2026-09-03T06:23:45.800Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from fraud-notify02.jvb.internal[10.40.18.5] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-03T06:23:45.980Z mx-relay01 quillmail/smtpd[2211]: FA1797212: queued from=<fraud-alerts@junipervale.example> size=4234 nrcpt=1
+2026-09-03T06:23:46.489Z mx-relay01 quillmail/smtp[3120]: FA1797212: to=<42731e4@harbormail.example> relay=in.harbormail.example:25 delay=1.78 status=sent (250 accepted)
+2026-09-03T06:32:08.093Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-03T06:32:08.124Z mx-relay01 quillmail/smtpd[2211]: TLS handshake failed from mailer-1.jvb.internal[10.40.12.21]: peer sent alert unknown_ca (48)
+2026-09-03T06:32:08.126Z mx-relay01 quillmail/smtpd[2211]: lost connection after STARTTLS from mailer-1.jvb.internal[10.40.12.21]
+2026-09-03T06:40:49.915Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-03T06:40:49.946Z mx-relay01 quillmail/smtpd[2211]: TLS handshake failed from mailer-2.jvb.internal[10.40.12.22]: peer sent alert unknown_ca (48)
+2026-09-03T06:40:49.948Z mx-relay01 quillmail/smtpd[2211]: lost connection after STARTTLS from mailer-2.jvb.internal[10.40.12.22]
+2026-09-03T06:53:38.990Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-03T06:53:39.021Z mx-relay01 quillmail/smtpd[2211]: TLS handshake failed from mailer-2.jvb.internal[10.40.12.22]: peer sent alert unknown_ca (48)
+2026-09-03T06:53:39.023Z mx-relay01 quillmail/smtpd[2211]: lost connection after STARTTLS from mailer-2.jvb.internal[10.40.12.22]
+2026-09-03T06:58:40.012Z mx-relay01 quillmail/smtpd[2211]: connect from fraud-notify02.jvb.internal[10.40.18.5]
+2026-09-03T06:58:40.052Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from fraud-notify02.jvb.internal[10.40.18.5] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-03T06:58:40.232Z mx-relay01 quillmail/smtpd[2211]: B89511455: queued from=<fraud-alerts@junipervale.example> size=8248 nrcpt=1
+2026-09-03T06:58:42.257Z mx-relay01 quillmail/smtp[3120]: B89511455: to=<37ec86a@ostlermail.example> relay=in.ostlermail.example:25 delay=1.11 status=sent (250 accepted)
+2026-09-03T07:02:59.939Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-03T07:02:59.970Z mx-relay01 quillmail/smtpd[2211]: TLS handshake failed from mailer-1.jvb.internal[10.40.12.21]: peer sent alert unknown_ca (48)
+2026-09-03T07:02:59.972Z mx-relay01 quillmail/smtpd[2211]: lost connection after STARTTLS from mailer-1.jvb.internal[10.40.12.21]
+2026-09-03T07:14:06.036Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-03T07:14:06.067Z mx-relay01 quillmail/smtpd[2211]: TLS handshake failed from mailer-1.jvb.internal[10.40.12.21]: peer sent alert unknown_ca (48)
+2026-09-03T07:14:06.069Z mx-relay01 quillmail/smtpd[2211]: lost connection after STARTTLS from mailer-1.jvb.internal[10.40.12.21]
+2026-09-03T07:14:11.915Z mx-relay01 quillmail/smtpd[2211]: connect from fraud-notify02.jvb.internal[10.40.18.5]
+2026-09-03T07:14:11.955Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from fraud-notify02.jvb.internal[10.40.18.5] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-03T07:14:12.135Z mx-relay01 quillmail/smtpd[2211]: B37890EF7: queued from=<fraud-alerts@junipervale.example> size=8099 nrcpt=1
+2026-09-03T07:14:13.714Z mx-relay01 quillmail/smtp[3120]: B37890EF7: to=<1da9110@ostlermail.example> relay=in.ostlermail.example:25 delay=1.44 status=sent (250 accepted)
+2026-09-03T07:18:37.685Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-03T07:18:37.716Z mx-relay01 quillmail/smtpd[2211]: TLS handshake failed from mailer-1.jvb.internal[10.40.12.21]: peer sent alert unknown_ca (48)
+2026-09-03T07:18:37.718Z mx-relay01 quillmail/smtpd[2211]: lost connection after STARTTLS from mailer-1.jvb.internal[10.40.12.21]
+2026-09-03T07:32:19.177Z mx-relay01 quillmail/smtpd[2211]: connect from itsm-core.jvb.internal[10.40.9.14]
+2026-09-03T07:32:19.217Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from itsm-core.jvb.internal[10.40.9.14] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-03T07:32:19.397Z mx-relay01 quillmail/smtpd[2211]: 07C4BECAE: queued from=<servicedesk@junipervale.example> size=7689 nrcpt=1
+2026-09-03T07:32:20.178Z mx-relay01 quillmail/smtp[3120]: 07C4BECAE: to=<6f2a42a@quarrynet.example> relay=in.quarrynet.example:25 delay=2.00 status=sent (250 accepted)
+2026-09-03T07:33:14.601Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-03T07:33:14.632Z mx-relay01 quillmail/smtpd[2211]: TLS handshake failed from mailer-2.jvb.internal[10.40.12.22]: peer sent alert unknown_ca (48)
+2026-09-03T07:33:14.634Z mx-relay01 quillmail/smtpd[2211]: lost connection after STARTTLS from mailer-2.jvb.internal[10.40.12.22]
+2026-09-03T07:36:50.718Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-03T07:36:50.749Z mx-relay01 quillmail/smtpd[2211]: TLS handshake failed from mailer-2.jvb.internal[10.40.12.22]: peer sent alert unknown_ca (48)
+2026-09-03T07:36:50.751Z mx-relay01 quillmail/smtpd[2211]: lost connection after STARTTLS from mailer-2.jvb.internal[10.40.12.22]
+2026-09-03T07:45:15.772Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-03T07:45:15.803Z mx-relay01 quillmail/smtpd[2211]: TLS handshake failed from mailer-2.jvb.internal[10.40.12.22]: peer sent alert unknown_ca (48)
+2026-09-03T07:45:15.805Z mx-relay01 quillmail/smtpd[2211]: lost connection after STARTTLS from mailer-2.jvb.internal[10.40.12.22]
+2026-09-03T07:49:51.301Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-03T07:49:51.332Z mx-relay01 quillmail/smtpd[2211]: TLS handshake failed from mailer-1.jvb.internal[10.40.12.21]: peer sent alert unknown_ca (48)
+2026-09-03T07:49:51.334Z mx-relay01 quillmail/smtpd[2211]: lost connection after STARTTLS from mailer-1.jvb.internal[10.40.12.21]
+2026-09-03T07:55:18.890Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-03T07:55:18.921Z mx-relay01 quillmail/smtpd[2211]: TLS handshake failed from mailer-1.jvb.internal[10.40.12.21]: peer sent alert unknown_ca (48)
+2026-09-03T07:55:18.923Z mx-relay01 quillmail/smtpd[2211]: lost connection after STARTTLS from mailer-1.jvb.internal[10.40.12.21]
+2026-09-03T08:07:52.028Z mx-relay01 quillmail/smtpd[2211]: connect from peoplehub-app1.jvb.internal[10.40.30.8]
+2026-09-03T08:07:52.068Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from peoplehub-app1.jvb.internal[10.40.30.8] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-03T08:07:52.248Z mx-relay01 quillmail/smtpd[2211]: 8442DE2C1: queued from=<hr-notices@junipervale.example> size=6110 nrcpt=1
+2026-09-03T08:07:53.710Z mx-relay01 quillmail/smtp[3120]: 8442DE2C1: to=<acd60b0@harbormail.example> relay=in.harbormail.example:25 delay=1.44 status=sent (250 accepted)
+2026-09-03T08:08:31.833Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-2.jvb.internal[10.40.12.22]
+2026-09-03T08:08:31.864Z mx-relay01 quillmail/smtpd[2211]: TLS handshake failed from mailer-2.jvb.internal[10.40.12.22]: peer sent alert unknown_ca (48)
+2026-09-03T08:08:31.866Z mx-relay01 quillmail/smtpd[2211]: lost connection after STARTTLS from mailer-2.jvb.internal[10.40.12.22]
+2026-09-03T08:21:49.714Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-03T08:21:49.745Z mx-relay01 quillmail/smtpd[2211]: TLS handshake failed from mailer-1.jvb.internal[10.40.12.21]: peer sent alert unknown_ca (48)
+2026-09-03T08:21:49.747Z mx-relay01 quillmail/smtpd[2211]: lost connection after STARTTLS from mailer-1.jvb.internal[10.40.12.21]
+2026-09-03T08:26:56.945Z mx-relay01 quillmail/smtpd[2211]: connect from itsm-core.jvb.internal[10.40.9.14]
+2026-09-03T08:26:56.985Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from itsm-core.jvb.internal[10.40.9.14] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-03T08:26:57.165Z mx-relay01 quillmail/smtpd[2211]: 7E4ADFE2C: queued from=<servicedesk@junipervale.example> size=4449 nrcpt=1
+2026-09-03T08:26:58.027Z mx-relay01 quillmail/smtp[3120]: 7E4ADFE2C: to=<bc7ce35@greyfinch.example> relay=in.greyfinch.example:25 delay=0.58 status=sent (250 accepted)
+2026-09-03T08:28:25.877Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-03T08:28:25.908Z mx-relay01 quillmail/smtpd[2211]: TLS handshake failed from mailer-1.jvb.internal[10.40.12.21]: peer sent alert unknown_ca (48)
+2026-09-03T08:28:25.910Z mx-relay01 quillmail/smtpd[2211]: lost connection after STARTTLS from mailer-1.jvb.internal[10.40.12.21]
+2026-09-03T08:41:51.428Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-03T08:41:51.459Z mx-relay01 quillmail/smtpd[2211]: TLS handshake failed from mailer-1.jvb.internal[10.40.12.21]: peer sent alert unknown_ca (48)
+2026-09-03T08:41:51.461Z mx-relay01 quillmail/smtpd[2211]: lost connection after STARTTLS from mailer-1.jvb.internal[10.40.12.21]
+2026-09-03T08:50:15.017Z mx-relay01 quillmail/smtpd[2211]: connect from fraud-notify02.jvb.internal[10.40.18.5]
+2026-09-03T08:50:15.057Z mx-relay01 quillmail/smtpd[2211]: STARTTLS ok from fraud-notify02.jvb.internal[10.40.18.5] proto=TLSv1.3 cipher=TLS_AES_256_GCM_SHA384
+2026-09-03T08:50:15.237Z mx-relay01 quillmail/smtpd[2211]: F3488DAFB: queued from=<fraud-alerts@junipervale.example> size=5328 nrcpt=1
+2026-09-03T08:50:15.679Z mx-relay01 quillmail/smtp[3120]: F3488DAFB: to=<9dba17c@tallowpost.example> relay=in.tallowpost.example:25 delay=0.71 status=sent (250 accepted)
+2026-09-03T08:54:50.753Z mx-relay01 quillmail/smtpd[2211]: connect from mailer-1.jvb.internal[10.40.12.21]
+2026-09-03T08:54:50.784Z mx-relay01 quillmail/smtpd[2211]: TLS handshake failed from mailer-1.jvb.internal[10.40.12.21]: peer sent alert unknown_ca (48)
+2026-09-03T08:54:50.786Z mx-relay01 quillmail/smtpd[2211]: lost connection after STARTTLS from mailer-1.jvb.internal[10.40.12.21]

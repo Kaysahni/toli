@@ -1,0 +1,18 @@
+FROM: facilities@lumenharrow.example
+TO: all-staff@lumenharrow.example
+DATE: 11 September 2026
+SUBJECT: Network maintenance, Calder Mill, Sunday night
+
+Hi all,
+
+Heads up that our network provider (Brightspan) is swapping the core switch at Calder Mill overnight on Sunday 20 September, between 11pm and 3am. Wifi and wired connections on all floors will drop for up to 40 minutes somewhere in that window.
+
+Almost nobody is in the building at that time, but a couple of the night owls on the second floor have asked before, so front desk please mention it to anyone booked late on Sunday. The sign for the lift lobby is printed and sitting in the facilities tray.
+
+Harrow Yard and Fenwick Lane are not affected.
+
+If anything is still down on Monday morning, call the Brightspan fault line (the number is on the laminated card in the comms cupboard) and then message me.
+
+Thanks,
+Rowan Achebe
+Facilities

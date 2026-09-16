@@ -1,0 +1,12 @@
+# weather-feed: pulls road weather warnings and exposes them per region
+# owner: Platform (Arvid Sundqvist)
+name: weather-feed
+image: registry.tesselwick.internal/platform/weather-feed:0.9.12
+poll_interval_minutes: 10
+sources:
+  - name: nordic-road-met
+    url: https://roadmet.example/api/warnings
+  - name: de-strassenwetter
+    url: https://strassenwetter.example/feed.json
+regions: [SE-N, SE-M, SE-S, NO-E, NO-W, DK, DE-N]
+severity_floor: amber

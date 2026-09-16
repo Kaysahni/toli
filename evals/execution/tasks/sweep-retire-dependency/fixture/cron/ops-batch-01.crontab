@@ -1,0 +1,29 @@
+# crontab export
+# host: ops-batch-01.ops.tesselwick.internal
+# user: svc-lanes
+# exported: 2026-09-07 06:00 UTC by cron-inventory
+# owner of this crontab: Network Planning (Ingrid Solberg)
+SHELL=/bin/bash
+MAILTO=netplan-alerts@tesselwick.example
+PATH=/usr/local/bin:/usr/bin:/bin:/opt/tesselwick/bin
+
+# m h dom mon dow command
+
+# nightly lane statistics
+05 1 * * * /opt/tesselwick/jobs/lane_stats.py --date yesterday >> /var/log/tw/lane_stats.log 2>&1
+
+# ferry timetable refresh (Sorrell Maritime publishes on Sundays)
+30 22 * * 0 /opt/tesselwick/jobs/ferry_timetables.sh >> /var/log/tw/ferry.log 2>&1
+
+# spot rate pull for tomorrow's planning, weekdays
+40 3 * * 1-5 /opt/tesselwick/jobs/pull_spot_rates.py --routing https://routecalc-v1.core.tesselwick.internal/quote/bulk --out /opt/tesselwick/jobs/state/spot >> /var/log/tw/spot_rates.log 2>&1
+
+# pre-quote the top Monday lanes (disabled 2026-02-11 by JK, replaced by the warm_quotes_v2 line below)
+#10 4 * * 1 /opt/tesselwick/jobs/warm_quotes.sh https://routecalc-v1.core.tesselwick.internal/quote/bulk >> /var/log/tw/warm_quotes.log 2>&1
+10 4 * * 1 /opt/tesselwick/jobs/warm_quotes_v2.sh https://routecalc.core.tesselwick.internal/v2/quote/bulk >> /var/log/tw/warm_quotes.log 2>&1
+
+# clean temp
+15 6 * * * find /tmp -maxdepth 1 -name 'lanes-*' -mtime +2 -exec rm -rf {} + 2>/dev/null
+
+# cert renewal check
+0 7 * * * /opt/tesselwick/bin/certrenew --quiet >> /var/log/tw/certrenew.log 2>&1

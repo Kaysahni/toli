@@ -1,0 +1,27 @@
+Slack export: #growth-next-market
+Exported 2026-08-05 by duc.anh.vo (range: 2026-05-12 to 2026-06-16)
+
+[2026-05-12 09:14] tobias.renner: Feldhaus sent the Germany draft. Base case 4,300 paying at month 12, EUR 7.49. They think all three segments are reachable
+[2026-05-12 09:16] gabriel.moura: nice. Mirante is ~3 weeks behind on Brazil
+[2026-05-12 09:31] sayaka.lindqvist: Kasumi Japan report is due 20th. early numbers look big
+[2026-05-12 10:02] rasmus.ol: reminder that new market models should use 64% contribution margin until I say otherwise
+[2026-05-12 10:03] tobias.renner: 👍
+[2026-05-14 16:45] marta.s: DE localization v2 is in the folder. Dropped the Frankfurt hosting line since legal said EU region is fine
+[2026-05-20 11:20] sayaka.lindqvist: Kasumi final is in. Base 5,200 paying at JPY 1,080 = $7.20. They also modeled a scenario where Kumonote goes free, 3,000 paying. They put that at ~30% likely
+[2026-05-20 11:22] haruki.b: Kumonote has been "about to go freemium" since 2019 lol
+[2026-05-20 11:23] sayaka.lindqvist: fair
+[2026-05-21 08:55] ilse.m: Please don't start ranking countries until all three reports and the survey are in. I'll send the criteria once leadership agrees them.
+[2026-05-28 14:10] joaquim.ferraz: Lusófona quote for Brazil came in, $64k. Cheapest of three bids
+[2026-06-05 17:02] gabriel.moura: Mirante Brazil final: 4,700 paying at $4.60. Only students are a clear yes for them, indie pros "unclear", small teams weak
+[2026-06-09 10:40] sayaka.lindqvist: Japan cost estimate done, $336k
+[2026-06-12 15:31] joaquim.ferraz: Brazil entry cost estimate v1 is up: $305k total
+[2026-06-12 15:48] haruki.b: ran quick paybacks at 64%. Japan base ≈ 14.0 months, Germany waiting on Marta's v3, Brazil 305k / (4700 × 4.60 × 0.64) ≈ 22 months
+[2026-06-12 15:49] haruki.b: Brazil looks out tbh
+[2026-06-12 15:52] gabriel.moura: 😞 the student opportunity is so good though
+[2026-06-12 15:53] ilse.m: Criteria first, conclusions second. Thanks.
+[2026-06-15 09:05] duc.anh.vo: survey partials are high in BR, lots of people quitting right after the price question. Full file after field closes mid July
+[2026-06-15 09:07] tobias.renner: is that normal?
+[2026-06-15 09:12] duc.anh.vo: for BR mobile panels, yes. Tallow says it's the panel, not us
+[2026-06-16 13:30] marta.s: DE estimate is at v3 now (help center rate fix), $318.4k
+[2026-06-16 13:44] tobias.renner: so Germany is ~13 to 14 months, clean on legal, and Feldhaus says 3 of 3 segments. Feels like the front runner
+[2026-06-16 13:45] sayaka.lindqvist: Japan is shorter on base case 👀

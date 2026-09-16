@@ -1,0 +1,871 @@
+response_id,started_at,country,seg_code,role_text,status,q7_pay_intent,q3_current_tool,q12_open_comment
+VR-26827,2026-06-08 08:29,JP,S3,small law firm (9),complete,3,none,need offline mode
+VR-26780,2026-06-08 10:25,BR,S1,MBA student,complete,1,shared docs,only if cheaper than current tool
+VR-26689,2026-06-08 10:34,DE,S1,exchange student,complete,5,office suite notes,need it in my language
+VR-26230,2026-06-08 10:49,DE,S2,freelance developer,complete,1,Notiztafel,want export to PDF
+VR-26453,2026-06-08 10:59,JP,S3,research group of 7,complete,3,Notes app that came with phone,want export to PDF
+VR-26045,2026-06-08 11:16,BR,S2,self-employed architect,partial,3,shared docs,
+VR-26796,2026-06-08 11:25,BR,S2,illustrator,complete,3,email to self,price matters most
+VR-26852,2026-06-08 13:44,JP,S2,"tax advisor, own practice",complete,1,paper notebook,price matters most
+VR-26155,2026-06-08 14:13,JP,S2,"sole trader, bookkeeping",complete,3,Kumonote,
+VR-26829,2026-06-08 14:41,JP,S3,"startup, 12 staff",complete,4,Notes app that came with phone,
+VR-26330,2026-06-08 15:09,BR,S3,"engineering consultancy, 11",complete,1,spreadsheet,only if cheaper than current tool
+VR-26177,2026-06-08 15:43,BR,S3,"marketing studio, 3 people",complete,1,WhatsApp notes to self,want export to PDF
+VR-26126,2026-06-08 15:45,DE,S1,"undergrad, history",complete,2,paper notebook,team sharing is key for us
+VR-26091,2026-06-08 18:53,BR,S2,photographer,complete,2,Cadernia,
+VR-26146,2026-06-08 20:47,BR,S1,nursing student,complete,4,WhatsApp notes to self,
+VR-26721,2026-06-08 23:21,JP,S2,self-employed architect,complete,2,shared docs,want export to PDF
+VR-26405,2026-06-08 23:45,BR,S1,MBA student,complete,3,,
+VR-26567,2026-06-09 02:31,JP,S2,freelance developer,complete,4,Kumonote,love the web clipper idea
+VR-26274,2026-06-09 02:41,DE,S1,medical student,complete,4,shared docs,
+VR-26739,2026-06-09 03:46,JP,S3,"marketing studio, 3 people",complete,1,Kumonote,
+VR-26320,2026-06-09 03:53,BR,S2,illustrator,complete,2,,price matters most
+VR-26355,2026-06-09 04:17,BR,S3,"family business, 15 employees",complete,2,Notes app that came with phone,need it in my language
+VR-26117,2026-06-09 04:21,JP,S3,"NGO office, 18",partial,2,shared docs,
+VR-26402,2026-06-09 05:22,MX,S2,illustrator,partial,4,,
+VR-26084,2026-06-09 06:09,FR,S3,"startup, 12 staff",partial,,paper notebook,
+VR-26826,2026-06-09 07:12,FR,S3,"family business, 15 employees",complete,5,spreadsheet,
+VR-26506,2026-06-09 07:30,BR,S3,research group of 7,complete,2,spreadsheet,sync was the problem with my last app
+VR-26379,2026-06-09 09:16,DE,,not currently working,screened_out,,,
+VR-26437,2026-06-09 10:43,JP,S2,"tax advisor, own practice",complete,3,Fudebako,
+VR-26211,2026-06-09 12:02,DE,S1,"undergraduate, engineering",partial,4,Notes app that came with phone,
+VR-26473,2026-06-09 12:29,DE,S2,"sole trader, bookkeeping",complete,2,Notes app that came with phone,too many apps already
+VR-26434,2026-06-09 14:54,FR,,prefer not to say,screened_out,,,
+VR-26194,2026-06-09 16:10,JP,S2,freelance translator,partial,,Kumonote,
+VR-26217,2026-06-09 17:32,BR,S2,illustrator,complete,2,Anotaki,sync was the problem with my last app
+VR-26632,2026-06-09 21:50,DE,S3,"marketing studio, 3 people",complete,5,none,
+VR-26297,2026-06-09 23:30,JP,S2,freelance translator,partial,1,shared docs,
+VR-26064,2026-06-09 23:52,DE,S2,"sole trader, bookkeeping",complete,4,Notiztafel,
+VR-26724,2026-06-10 00:52,DE,S1,nursing student,complete,1,paper notebook,
+VR-26594,2026-06-10 03:18,DE,S3,"marketing studio, 3 people",complete,1,Notes app that came with phone,love the web clipper idea
+VR-26418,2026-06-10 03:38,JP,S2,freelance developer,complete,1,Kumonote,would want handwriting support
+VR-26813,2026-06-10 04:34,JP,S3,"agency, 6 people",complete,1,spreadsheet,
+VR-26143,2026-06-10 05:39,BR,S2,solo UX designer,complete,5,spreadsheet,sync was the problem with my last app
+VR-26613,2026-06-10 06:34,DE,S3,"engineering consultancy, 11",complete,2,none,love the web clipper idea
+VR-26759,2026-06-10 07:48,FR,S1,"undergraduate, engineering",complete,2,office suite notes,team sharing is key for us
+VR-26052,2026-06-10 08:27,DE,S1,PhD candidate,complete,3,none,please support local payment methods
+VR-26182,2026-06-10 08:43,FR,S3,"marketing studio, 3 people",partial,2,none,
+VR-26703,2026-06-10 08:57,JP,S1,"undergraduate, engineering",complete,3,spreadsheet,
+VR-26097,2026-06-10 09:13,DE,S2,"sole trader, bookkeeping",complete,3,spreadsheet,need it in my language
+VR-26666,2026-06-10 10:21,BR,S1,"undergrad, history",complete,2,paper notebook,need offline mode
+VR-26138,2026-06-10 10:24,DE,S1,medical student,complete,4,Notiztafel,
+VR-26256,2026-06-10 11:12,DE,S1,"undergraduate, engineering",complete,5,Blattwerk,
+VR-26645,2026-06-10 12:27,JP,S1,master's student,complete,3,paper notebook,
+VR-26225,2026-06-10 13:11,BR,S1,design school,complete,2,shared docs,
+VR-26411,2026-06-10 15:27,BR,S2,freelance journalist,partial,2,email to self,
+VR-26748,2026-06-10 16:11,DE,S1,"undergrad, history",complete,3,email to self,need it in my language
+VR-26848,2026-06-10 17:26,BR,S1,exchange student,complete,4,Anotaki,
+VR-26202,2026-06-10 17:29,DE,S1,MBA student,complete,2,,
+VR-26609,2026-06-10 18:43,DE,S3,"NGO office, 18",complete,3,paper notebook,
+VR-26810,2026-06-10 20:04,DE,S2,freelance developer,complete,4,,
+VR-26193,2026-06-10 20:10,BR,S3,small law firm (9),complete,5,shared docs,love the web clipper idea
+VR-26181,2026-06-10 20:45,BR,S2,"therapist, private practice",partial,1,Notes app that came with phone,
+VR-26041,2026-06-10 21:06,BR,S2,independent consultant,complete,2,paper notebook,
+VR-26616,2026-06-10 21:45,BR,S1,exchange student,complete,2,Cadernia,please support local payment methods
+VR-26024,2026-06-10 22:27,DE,S2,"tax advisor, own practice",complete,1,Notiztafel,want export to PDF
+VR-26107,2026-06-10 23:11,JP,S2,self-employed architect,complete,3,Fudebako,want export to PDF
+VR-26576,2026-06-11 00:56,BR,S2,self-employed architect,partial,1,none,
+VR-26066,2026-06-11 01:05,BR,S1,"undergrad, history",complete,4,email to self,
+VR-26381,2026-06-11 02:46,JP,S2,illustrator,complete,5,Kumonote,price matters most
+VR-26070,2026-06-11 03:16,BR,S1,nursing student,complete,2,paper notebook,please support local payment methods
+VR-26137,2026-06-11 07:10,BR,S1,"undergraduate, engineering",complete,4,shared docs,need offline mode
+VR-26011,2026-06-11 07:59,JP,S3,cafe chain back office (5),complete,4,Kumonote,need offline mode
+VR-26423,2026-06-11 08:36,JP,S3,"marketing studio, 3 people",complete,2,,too many apps already
+VR-26597,2026-06-11 09:13,JP,S3,small law firm (9),complete,1,Kumonote,too many apps already
+VR-26710,2026-06-11 10:05,BR,S1,nursing student,complete,3,paper notebook,love the web clipper idea
+VR-26424,2026-06-11 10:28,BR,S2,photographer,complete,1,Cadernia,too many apps already
+VR-26811,2026-06-11 10:34,BR,S1,medical student,complete,4,paper notebook,only if cheaper than current tool
+VR-26793,2026-06-11 11:22,DE,S1,medical student,complete,5,Notiztafel,need it in my language
+VR-26535,2026-06-11 12:39,MX,S2,solo UX designer,complete,1,,love the web clipper idea
+VR-26704,2026-06-11 13:41,BR,S3,"NGO office, 18",complete,3,Notes app that came with phone,too many apps already
+VR-26415,2026-06-11 14:12,MX,S1,exchange student,complete,4,WhatsApp notes to self,too many apps already
+VR-26504,2026-06-11 16:58,MX,S1,"undergrad, history",complete,3,paper notebook,want export to PDF
+VR-26775,2026-06-11 18:56,JP,S1,high school senior,partial,3,paper notebook,
+VR-26868,2026-06-11 18:56,BR,S2,illustrator,complete,3,WhatsApp notes to self,team sharing is key for us
+VR-26282,2026-06-11 20:24,DE,S1,medical student,complete,3,Notiztafel,team sharing is key for us
+VR-26572,2026-06-11 21:18,JP,S2,freelance journalist,complete,4,Shiori Works Memo,
+VR-26457,2026-06-11 21:46,JP,S3,"agency, 6 people",partial,3,shared docs,
+VR-26316,2026-06-11 21:58,BR,S2,self-employed architect,partial,2,Cadernia,
+VR-26008,2026-06-12 00:13,JP,S1,design school,partial,4,none,
+VR-26795,2026-06-12 00:14,JP,S3,cafe chain back office (5),complete,4,Notes app that came with phone,want export to PDF
+VR-26490,2026-06-12 00:22,BR,S2,photographer,complete,5,Cadernia,
+VR-26067,2026-06-12 00:58,BR,S2,photographer,partial,3,,
+VR-26354,2026-06-12 01:06,MX,S3,"NGO office, 18",partial,,shared docs,
+VR-26534,2026-06-12 03:31,BR,S1,law student,complete,4,shared docs,too many apps already
+VR-26420,2026-06-12 05:12,JP,S1,high school senior,complete,3,none,need offline mode
+VR-26293,2026-06-12 05:58,DE,S1,"undergrad, history",complete,5,spreadsheet,
+VR-26569,2026-06-12 07:19,DE,S3,"NGO office, 18",complete,5,Notiztafel,love the web clipper idea
+VR-26153,2026-06-12 07:36,BR,S1,"undergrad, history",complete,5,,
+VR-26338,2026-06-12 08:47,DE,S2,illustrator,complete,2,Notes app that came with phone,
+VR-26773,2026-06-12 10:51,MX,S3,research group of 7,partial,1,,
+VR-26442,2026-06-12 11:09,JP,S2,independent consultant,complete,3,Kumonote,
+VR-26711,2026-06-12 11:12,JP,S2,freelance translator,partial,4,Kumonote,
+VR-26112,2026-06-12 11:13,BR,S1,nursing student,complete,3,Anotaki,sync was the problem with my last app
+VR-26555,2026-06-12 13:42,BR,S3,research group of 7,complete,4,Cadernia,
+VR-26439,2026-06-12 13:47,DE,S3,research group of 7,complete,3,email to self,team sharing is key for us
+VR-26604,2026-06-12 13:53,BR,S2,solo UX designer,complete,2,Cadernia,would want handwriting support
+VR-26540,2026-06-12 14:54,DE,S1,law student,complete,1,spreadsheet,need it in my language
+VR-26366,2026-06-12 16:09,MX,S3,"engineering consultancy, 11",complete,3,Notes app that came with phone,team sharing is key for us
+VR-26821,2026-06-12 16:40,DE,S1,design school,complete,4,Notes app that came with phone,love the web clipper idea
+VR-26863,2026-06-12 17:30,BR,S1,design school,complete,4,shared docs,
+VR-26244,2026-06-12 19:32,JP,S1,exchange student,complete,5,shared docs,need offline mode
+VR-26672,2026-06-12 19:45,DE,S1,"undergrad, history",complete,5,paper notebook,need it in my language
+VR-26495,2026-06-12 19:53,BR,S1,MBA student,complete,2,spreadsheet,love the web clipper idea
+VR-26526,2026-06-12 22:15,FR,S1,MBA student,complete,4,,
+VR-26481,2026-06-13 02:39,DE,S2,independent consultant,partial,,,
+VR-26478,2026-06-13 03:46,DE,S2,"tax advisor, own practice",complete,3,Notes app that came with phone,need it in my language
+VR-26288,2026-06-13 04:28,MX,S2,"therapist, private practice",complete,2,WhatsApp notes to self,price matters most
+VR-26835,2026-06-13 04:58,DE,S1,design school,complete,1,Notiztafel,only if cheaper than current tool
+VR-26169,2026-06-13 05:06,DE,S3,"NGO office, 18",complete,4,Notiztafel,sync was the problem with my last app
+VR-26790,2026-06-13 06:34,JP,S1,nursing student,complete,3,none,would want handwriting support
+VR-26794,2026-06-13 06:46,DE,S2,independent consultant,complete,4,Notiztafel,please support local payment methods
+VR-26488,2026-06-13 07:36,BR,S3,dental practice team of 4,partial,2,WhatsApp notes to self,
+VR-26642,2026-06-13 07:50,FR,S1,"undergrad, history",complete,3,email to self,need offline mode
+VR-26532,2026-06-13 08:14,DE,S1,nursing student,complete,5,paper notebook,
+VR-26831,2026-06-13 08:43,FR,S1,nursing student,complete,2,paper notebook,
+VR-26620,2026-06-13 08:51,JP,S2,freelance translator,complete,5,Shiori Works Memo,please support local payment methods
+VR-26712,2026-06-13 08:54,FR,S3,research group of 7,complete,2,Notes app that came with phone,
+VR-26865,2026-06-13 10:22,DE,S3,"startup, 12 staff",partial,3,email to self,
+VR-26313,2026-06-13 10:36,JP,S2,"therapist, private practice",complete,5,spreadsheet,love the web clipper idea
+VR-26792,2026-06-13 10:43,DE,S2,independent consultant,complete,5,paper notebook,want export to PDF
+VR-26802,2026-06-13 12:20,MX,S2,self-employed architect,partial,,email to self,
+VR-26133,2026-06-13 12:22,JP,S3,"NGO office, 18",complete,5,,price matters most
+VR-26427,2026-06-13 13:16,JP,S1,PhD candidate,complete,1,Notes app that came with phone,want export to PDF
+VR-26358,2026-06-13 13:46,DE,S3,"marketing studio, 3 people",complete,1,Notiztafel,
+VR-26528,2026-06-13 15:51,BR,S2,self-employed architect,complete,5,spreadsheet,
+VR-26684,2026-06-13 16:46,MX,S2,"tax advisor, own practice",complete,5,paper notebook,love the web clipper idea
+VR-26726,2026-06-13 18:46,BR,S3,"agency, 6 people",complete,4,spreadsheet,want export to PDF
+VR-26082,2026-06-13 19:01,FR,S3,"marketing studio, 3 people",partial,,Notes app that came with phone,
+VR-26100,2026-06-13 20:28,DE,S1,"undergrad, history",complete,1,none,
+VR-26384,2026-06-13 20:28,DE,S2,solo UX designer,complete,3,paper notebook,love the web clipper idea
+VR-26557,2026-06-13 20:29,BR,S1,exchange student,complete,4,Cadernia,
+VR-26173,2026-06-13 21:18,JP,S1,exchange student,complete,5,Shiori Works Memo,team sharing is key for us
+VR-26687,2026-06-13 21:48,BR,S3,"marketing studio, 3 people",complete,3,none,
+VR-26292,2026-06-14 00:18,JP,S2,freelance journalist,partial,5,none,
+VR-26367,2026-06-14 03:26,BR,S3,"startup, 12 staff",complete,2,Cadernia,team sharing is key for us
+VR-26621,2026-06-14 03:38,BR,S3,dental practice team of 4,complete,3,spreadsheet,
+VR-26118,2026-06-14 03:59,BR,S2,independent consultant,partial,3,,
+VR-26552,2026-06-14 05:39,DE,S3,dental practice team of 4,complete,4,Blattwerk,only if cheaper than current tool
+VR-26722,2026-06-14 06:02,BR,S1,master's student,complete,5,shared docs,want export to PDF
+VR-26290,2026-06-14 07:05,MX,S2,independent consultant,complete,5,Notes app that came with phone,team sharing is key for us
+VR-26870,2026-06-14 08:40,BR,S1,exchange student,complete,4,Anotaki,sync was the problem with my last app
+VR-26596,2026-06-14 09:29,JP,S3,"engineering consultancy, 11",partial,,,
+VR-26164,2026-06-14 09:41,DE,S2,solo UX designer,complete,2,Blattwerk,
+VR-26583,2026-06-14 09:44,BR,S1,PhD candidate,complete,5,email to self,need offline mode
+VR-26265,2026-06-14 09:51,DE,S3,"marketing studio, 3 people",complete,4,Notiztafel,only if cheaper than current tool
+VR-26649,2026-06-14 10:38,BR,S3,"marketing studio, 3 people",partial,3,Anotaki,
+VR-26275,2026-06-14 10:56,BR,S3,"startup, 12 staff",complete,2,spreadsheet,need it in my language
+VR-26482,2026-06-14 12:55,JP,S2,freelance developer,partial,,none,
+VR-26248,2026-06-14 13:06,JP,S3,"family business, 15 employees",complete,5,Shiori Works Memo,
+VR-26846,2026-06-14 13:29,JP,S1,master's student,complete,3,email to self,want export to PDF
+VR-26342,2026-06-14 14:17,JP,S2,freelance developer,complete,3,Shiori Works Memo,
+VR-26636,2026-06-14 14:17,DE,S1,PhD candidate,complete,2,email to self,
+VR-26611,2026-06-14 14:58,JP,S1,high school senior,complete,3,Shiori Works Memo,team sharing is key for us
+VR-26409,2026-06-14 15:33,DE,S2,photographer,complete,5,Notiztafel,
+VR-26520,2026-06-14 19:34,JP,S2,photographer,partial,1,spreadsheet,
+VR-26406,2026-06-14 21:26,FR,S2,freelance developer,partial,3,email to self,
+VR-26554,2026-06-14 22:31,DE,S2,"tax advisor, own practice",complete,3,Notiztafel,love the web clipper idea
+VR-26731,2026-06-14 23:32,BR,S2,independent consultant,partial,2,Cadernia,
+VR-26332,2026-06-15 00:24,MX,S2,"tax advisor, own practice",partial,1,email to self,
+VR-26224,2026-06-15 00:31,BR,,prefer not to say,screened_out,,,
+VR-26691,2026-06-15 00:39,DE,S1,high school senior,complete,5,Notiztafel,please support local payment methods
+VR-26781,2026-06-15 01:43,JP,S2,freelance developer,complete,4,Fudebako,please support local payment methods
+VR-26322,2026-06-15 02:01,BR,S3,dental practice team of 4,complete,1,none,
+VR-26720,2026-06-15 02:02,BR,S2,"sole trader, bookkeeping",complete,3,Cadernia,
+VR-26742,2026-06-15 02:02,DE,S3,cafe chain back office (5),partial,,,
+VR-26733,2026-06-15 02:15,BR,S3,small law firm (9),complete,3,WhatsApp notes to self,only if cheaper than current tool
+VR-26692,2026-06-15 02:17,FR,S1,MBA student,complete,2,,
+VR-26484,2026-06-15 02:33,BR,S3,research group of 7,complete,2,,would want handwriting support
+VR-26210,2026-06-15 03:35,BR,S3,"engineering consultancy, 11",complete,1,Notes app that came with phone,team sharing is key for us
+VR-26562,2026-06-15 03:43,DE,S1,medical student,complete,3,none,please support local payment methods
+VR-26372,2026-06-15 04:49,FR,S2,freelance developer,complete,3,office suite notes,please support local payment methods
+VR-26646,2026-06-15 05:31,BR,S1,high school senior,complete,1,email to self,would want handwriting support
+VR-26627,2026-06-15 05:58,BR,S1,master's student,complete,5,none,want export to PDF
+VR-26591,2026-06-15 06:34,BR,S1,master's student,complete,5,none,
+VR-26669,2026-06-15 06:44,JP,S1,MBA student,partial,3,Shiori Works Memo,
+VR-26694,2026-06-15 07:21,JP,S3,"startup, 12 staff",complete,1,Shiori Works Memo,
+VR-26805,2026-06-15 07:23,JP,S1,"undergrad, history",complete,4,none,only if cheaper than current tool
+VR-26352,2026-06-15 09:13,BR,S2,independent consultant,complete,2,Cadernia,would want handwriting support
+VR-26770,2026-06-15 10:08,JP,S3,dental practice team of 4,partial,5,paper notebook,
+VR-26592,2026-06-15 12:33,BR,S1,"undergraduate, engineering",partial,,paper notebook,
+VR-26493,2026-06-15 12:43,FR,S2,illustrator,complete,3,shared docs,team sharing is key for us
+VR-26069,2026-06-15 15:52,FR,S1,PhD candidate,complete,4,Notes app that came with phone,need it in my language
+VR-26267,2026-06-15 16:08,BR,S3,cafe chain back office (5),complete,3,Anotaki,want export to PDF
+VR-26577,2026-06-15 16:42,BR,S2,freelance developer,complete,1,email to self,would want handwriting support
+VR-26086,2026-06-15 17:54,BR,S2,solo UX designer,complete,3,email to self,would want handwriting support
+VR-26782,2026-06-15 18:18,BR,S1,exchange student,complete,3,paper notebook,want export to PDF
+VR-26757,2026-06-15 18:28,DE,S1,master's student,complete,4,none,
+VR-26499,2026-06-15 18:38,FR,S2,illustrator,complete,4,,too many apps already
+VR-26059,2026-06-15 20:16,BR,S3,research group of 7,complete,4,paper notebook,sync was the problem with my last app
+VR-26438,2026-06-15 20:17,JP,S1,master's student,complete,1,Kumonote,need offline mode
+VR-26433,2026-06-15 21:15,BR,S2,freelance journalist,complete,1,paper notebook,sync was the problem with my last app
+VR-26441,2026-06-15 22:34,DE,S1,nursing student,complete,3,,only if cheaper than current tool
+VR-26658,2026-06-15 23:19,FR,S3,dental practice team of 4,complete,3,paper notebook,team sharing is key for us
+VR-26470,2026-06-16 00:09,JP,S1,high school senior,complete,1,none,need offline mode
+VR-26195,2026-06-16 00:39,JP,S2,"tax advisor, own practice",complete,1,shared docs,
+VR-26701,2026-06-16 00:56,MX,S1,"undergrad, history",complete,2,Notes app that came with phone,
+VR-26184,2026-06-16 01:41,JP,S2,illustrator,complete,2,Shiori Works Memo,too many apps already
+VR-26460,2026-06-16 04:19,BR,S1,MBA student,complete,2,shared docs,need it in my language
+VR-26800,2026-06-16 05:51,BR,S1,"undergrad, history",complete,2,Cadernia,only if cheaper than current tool
+VR-26606,2026-06-16 06:12,DE,S3,dental practice team of 4,complete,3,Blattwerk,please support local payment methods
+VR-26074,2026-06-16 07:15,JP,S1,law student,partial,1,email to self,
+VR-26862,2026-06-16 07:55,FR,S2,"therapist, private practice",complete,3,email to self,only if cheaper than current tool
+VR-26661,2026-06-16 09:40,MX,S1,"undergrad, history",complete,4,,
+VR-26049,2026-06-16 09:50,FR,S2,"therapist, private practice",partial,,email to self,
+VR-26743,2026-06-16 10:58,BR,S1,medical student,partial,1,shared docs,
+VR-26539,2026-06-16 11:26,JP,S3,"engineering consultancy, 11",partial,4,Fudebako,
+VR-26515,2026-06-16 12:49,JP,S1,nursing student,complete,2,,
+VR-26585,2026-06-16 14:31,BR,S2,freelance developer,complete,2,email to self,want export to PDF
+VR-26735,2026-06-16 14:42,MX,S3,"agency, 6 people",complete,2,,price matters most
+VR-26403,2026-06-16 15:42,DE,S2,self-employed architect,complete,1,shared docs,need it in my language
+VR-26859,2026-06-16 15:44,FR,S2,"sole trader, bookkeeping",complete,2,email to self,
+VR-26207,2026-06-16 17:07,BR,S2,illustrator,complete,5,email to self,only if cheaper than current tool
+VR-26114,2026-06-16 18:34,BR,S2,"therapist, private practice",complete,5,WhatsApp notes to self,
+VR-26511,2026-06-16 19:51,DE,S1,design school,complete,5,spreadsheet,sync was the problem with my last app
+VR-26291,2026-06-16 19:55,DE,S1,master's student,complete,5,office suite notes,need offline mode
+VR-26866,2026-06-16 22:19,JP,S2,"tax advisor, own practice",complete,2,,would want handwriting support
+VR-26006,2026-06-16 23:14,DE,S3,"family business, 15 employees",complete,4,shared docs,need it in my language
+VR-26869,2026-06-17 00:26,BR,S1,law student,complete,4,Anotaki,love the web clipper idea
+VR-26847,2026-06-17 00:44,DE,S3,cafe chain back office (5),complete,3,paper notebook,
+VR-26351,2026-06-17 02:01,BR,S3,"NGO office, 18",complete,1,Anotaki,only if cheaper than current tool
+VR-26198,2026-06-17 02:40,BR,S2,"therapist, private practice",complete,2,,sync was the problem with my last app
+VR-26238,2026-06-17 02:53,JP,S3,"family business, 15 employees",complete,2,shared docs,
+VR-26705,2026-06-17 02:55,DE,S2,photographer,complete,2,Notes app that came with phone,
+VR-26347,2026-06-17 03:27,DE,S3,"family business, 15 employees",complete,4,shared docs,please support local payment methods
+VR-26463,2026-06-17 04:00,JP,S3,dental practice team of 4,complete,4,Fudebako,
+VR-26312,2026-06-17 05:00,DE,S2,independent consultant,complete,5,shared docs,too many apps already
+VR-26698,2026-06-17 06:52,FR,S1,"undergraduate, engineering",complete,3,shared docs,sync was the problem with my last app
+VR-26392,2026-06-17 08:05,JP,S1,"undergrad, history",complete,3,Kumonote,
+VR-26741,2026-06-17 10:19,BR,,retired,screened_out,,,
+VR-26590,2026-06-17 10:25,BR,S3,dental practice team of 4,complete,3,Cadernia,team sharing is key for us
+VR-26815,2026-06-17 11:08,BR,S2,freelance developer,partial,3,spreadsheet,
+VR-26593,2026-06-17 12:04,JP,S1,exchange student,partial,,email to self,
+VR-26765,2026-06-17 14:12,JP,S3,dental practice team of 4,partial,,email to self,
+VR-26364,2026-06-17 14:45,FR,S3,"startup, 12 staff",complete,2,none,
+VR-26095,2026-06-17 16:48,MX,S1,law student,partial,5,shared docs,
+VR-26261,2026-06-17 16:59,JP,S2,illustrator,complete,3,,
+VR-26301,2026-06-17 19:34,DE,S3,research group of 7,complete,3,email to self,only if cheaper than current tool
+VR-26020,2026-06-17 19:43,BR,,prefer not to say,screened_out,,,
+VR-26345,2026-06-17 20:07,JP,S3,research group of 7,complete,2,Shiori Works Memo,
+VR-26199,2026-06-17 20:43,DE,S1,PhD candidate,complete,3,Notes app that came with phone,would want handwriting support
+VR-26298,2026-06-17 21:52,MX,S2,"tax advisor, own practice",complete,2,shared docs,
+VR-26816,2026-06-17 22:30,FR,S1,law student,complete,3,Notes app that came with phone,love the web clipper idea
+VR-26578,2026-06-18 01:07,JP,S1,medical student,complete,3,email to self,want export to PDF
+VR-26285,2026-06-18 01:16,JP,S1,high school senior,partial,3,Shiori Works Memo,
+VR-26019,2026-06-18 04:02,MX,S1,law student,complete,5,email to self,only if cheaper than current tool
+VR-26749,2026-06-18 05:12,FR,S2,freelance translator,complete,1,,sync was the problem with my last app
+VR-26551,2026-06-18 05:48,MX,S1,nursing student,complete,3,spreadsheet,
+VR-26083,2026-06-18 06:09,JP,S1,high school senior,complete,3,none,
+VR-26844,2026-06-18 06:23,MX,S1,PhD candidate,complete,4,email to self,sync was the problem with my last app
+VR-26860,2026-06-18 06:32,BR,S2,illustrator,complete,4,spreadsheet,please support local payment methods
+VR-26459,2026-06-18 07:45,FR,S3,"engineering consultancy, 11",complete,1,Notes app that came with phone,
+VR-26056,2026-06-18 09:08,BR,S1,law student,complete,5,Cadernia,need offline mode
+VR-26431,2026-06-18 10:17,DE,S2,photographer,complete,3,Notes app that came with phone,need offline mode
+VR-26584,2026-06-18 10:51,DE,S2,solo UX designer,complete,2,spreadsheet,please support local payment methods
+VR-26494,2026-06-18 11:17,DE,S1,design school,complete,3,shared docs,want export to PDF
+VR-26751,2026-06-18 12:26,JP,S3,research group of 7,complete,4,Fudebako,only if cheaper than current tool
+VR-26212,2026-06-18 12:51,BR,S1,exchange student,complete,2,Notes app that came with phone,love the web clipper idea
+VR-26791,2026-06-18 13:22,MX,,retired,screened_out,,,
+VR-26662,2026-06-18 13:46,BR,S2,freelance developer,partial,3,Cadernia,
+VR-26479,2026-06-18 14:28,JP,S2,freelance translator,complete,4,shared docs,
+VR-26341,2026-06-18 17:19,BR,S2,illustrator,partial,2,Anotaki,
+VR-26675,2026-06-18 17:52,MX,S1,master's student,complete,3,spreadsheet,please support local payment methods
+VR-26085,2026-06-18 19:20,DE,S2,freelance translator,partial,,spreadsheet,
+VR-26568,2026-06-18 20:39,BR,S1,exchange student,complete,3,shared docs,
+VR-26229,2026-06-18 22:13,BR,S2,"therapist, private practice",complete,4,Cadernia,would want handwriting support
+VR-26758,2026-06-18 23:38,DE,S2,self-employed architect,complete,2,Notiztafel,
+VR-26856,2026-06-19 03:55,JP,S2,freelance journalist,complete,1,paper notebook,price matters most
+VR-26529,2026-06-19 03:59,DE,S3,"agency, 6 people",complete,3,none,
+VR-26706,2026-06-19 04:32,JP,S3,dental practice team of 4,complete,5,paper notebook,
+VR-26843,2026-06-19 04:42,JP,S1,law student,complete,1,,love the web clipper idea
+VR-26145,2026-06-19 05:02,JP,S2,freelance journalist,complete,3,paper notebook,want export to PDF
+VR-26262,2026-06-19 08:51,FR,S3,research group of 7,complete,4,paper notebook,sync was the problem with my last app
+VR-26651,2026-06-19 09:20,BR,S1,MBA student,complete,5,,would want handwriting support
+VR-26055,2026-06-19 10:28,DE,S1,MBA student,complete,5,Notiztafel,
+VR-26471,2026-06-19 11:43,DE,S1,nursing student,partial,,spreadsheet,
+VR-26635,2026-06-19 12:51,JP,S3,cafe chain back office (5),complete,3,paper notebook,price matters most
+VR-26607,2026-06-19 15:03,BR,S2,solo UX designer,complete,5,Cadernia,sync was the problem with my last app
+VR-26696,2026-06-19 17:13,FR,,prefer not to say,screened_out,,,
+VR-26357,2026-06-19 17:19,JP,S1,law student,complete,2,email to self,
+VR-26048,2026-06-19 20:38,BR,S1,MBA student,complete,1,Anotaki,price matters most
+VR-26654,2026-06-19 22:01,DE,,retired,screened_out,,,
+VR-26839,2026-06-19 23:18,DE,S1,nursing student,complete,5,paper notebook,please support local payment methods
+VR-26525,2026-06-20 00:28,BR,S1,nursing student,complete,2,,would want handwriting support
+VR-26152,2026-06-20 02:07,BR,S1,"undergraduate, engineering",complete,5,email to self,would want handwriting support
+VR-26663,2026-06-20 03:07,JP,S3,"marketing studio, 3 people",complete,4,none,
+VR-26571,2026-06-20 05:11,JP,S1,medical student,complete,2,spreadsheet,sync was the problem with my last app
+VR-26063,2026-06-20 08:06,DE,S2,freelance translator,complete,3,spreadsheet,
+VR-26324,2026-06-20 08:58,BR,S3,"startup, 12 staff",complete,1,email to self,
+VR-26363,2026-06-20 12:09,FR,S1,design school,complete,4,none,need it in my language
+VR-26714,2026-06-20 12:18,BR,S1,high school senior,complete,4,Notes app that came with phone,only if cheaper than current tool
+VR-26496,2026-06-20 12:45,DE,S3,cafe chain back office (5),complete,2,paper notebook,too many apps already
+VR-26472,2026-06-20 13:00,BR,S1,law student,complete,4,shared docs,would want handwriting support
+VR-26365,2026-06-20 13:57,DE,S2,freelance journalist,complete,5,,need it in my language
+VR-26140,2026-06-20 14:04,MX,S2,"tax advisor, own practice",complete,2,,
+VR-26186,2026-06-20 14:19,JP,S2,independent consultant,complete,2,Shiori Works Memo,
+VR-26716,2026-06-20 14:23,FR,,retired,screened_out,,,
+VR-26633,2026-06-20 15:00,BR,S3,cafe chain back office (5),complete,3,Cadernia,
+VR-26136,2026-06-20 16:33,BR,S2,independent consultant,partial,3,Cadernia,
+VR-26203,2026-06-20 19:47,DE,S1,"undergraduate, engineering",complete,3,none,price matters most
+VR-26147,2026-06-20 21:07,DE,S1,PhD candidate,complete,3,none,team sharing is key for us
+VR-26054,2026-06-20 21:58,DE,S3,"engineering consultancy, 11",complete,5,office suite notes,sync was the problem with my last app
+VR-26527,2026-06-20 22:55,JP,S2,freelance translator,complete,5,,
+VR-26394,2026-06-21 01:44,MX,S1,master's student,complete,5,paper notebook,sync was the problem with my last app
+VR-26641,2026-06-21 03:44,DE,S2,freelance translator,complete,2,email to self,price matters most
+VR-26717,2026-06-21 04:01,DE,S3,"NGO office, 18",complete,1,Notiztafel,
+VR-26171,2026-06-21 05:10,JP,S3,small law firm (9),complete,5,Kumonote,
+VR-26617,2026-06-21 07:49,DE,S2,freelance journalist,complete,5,Notiztafel,
+VR-26130,2026-06-21 13:01,JP,S1,master's student,complete,1,Notes app that came with phone,need offline mode
+VR-26695,2026-06-21 14:55,DE,S1,medical student,complete,5,paper notebook,team sharing is key for us
+VR-26271,2026-06-21 15:28,DE,S1,design school,partial,,spreadsheet,
+VR-26517,2026-06-21 15:29,BR,S2,"tax advisor, own practice",complete,2,WhatsApp notes to self,please support local payment methods
+VR-26668,2026-06-21 16:02,JP,S3,"family business, 15 employees",complete,5,Kumonote,
+VR-26061,2026-06-21 16:19,DE,S1,law student,complete,3,shared docs,too many apps already
+VR-26206,2026-06-21 16:43,JP,S1,nursing student,complete,5,Shiori Works Memo,sync was the problem with my last app
+VR-26823,2026-06-21 17:53,JP,S2,freelance translator,complete,3,,sync was the problem with my last app
+VR-26369,2026-06-21 19:26,DE,S3,small law firm (9),complete,1,Notiztafel,too many apps already
+VR-26399,2026-06-21 20:08,DE,S1,nursing student,complete,2,Notiztafel,
+VR-26864,2026-06-21 20:22,MX,S1,high school senior,complete,4,email to self,please support local payment methods
+VR-26595,2026-06-22 01:06,JP,S1,MBA student,complete,1,Kumonote,
+VR-26697,2026-06-22 01:16,FR,S1,medical student,complete,4,,need it in my language
+VR-26561,2026-06-22 04:08,BR,S1,law student,complete,5,Cadernia,want export to PDF
+VR-26017,2026-06-22 06:20,BR,S2,independent consultant,partial,3,Cadernia,
+VR-26072,2026-06-22 07:38,JP,S2,"sole trader, bookkeeping",complete,4,Kumonote,sync was the problem with my last app
+VR-26311,2026-06-22 08:00,JP,S2,illustrator,complete,4,shared docs,team sharing is key for us
+VR-26637,2026-06-22 08:16,JP,S1,"undergraduate, engineering",complete,3,email to self,need it in my language
+VR-26042,2026-06-22 08:29,BR,S1,exchange student,complete,5,none,need it in my language
+VR-26043,2026-06-22 09:15,BR,S2,self-employed architect,complete,4,Anotaki,
+VR-26163,2026-06-22 09:19,MX,S2,freelance translator,complete,3,WhatsApp notes to self,only if cheaper than current tool
+VR-26096,2026-06-22 09:26,BR,S1,high school senior,complete,4,shared docs,
+VR-26756,2026-06-22 09:32,BR,S2,self-employed architect,complete,2,email to self,would want handwriting support
+VR-26830,2026-06-22 10:14,FR,S2,freelance journalist,complete,5,none,sync was the problem with my last app
+VR-26397,2026-06-22 10:39,JP,S1,exchange student,complete,2,,
+VR-26432,2026-06-22 10:41,BR,S3,"NGO office, 18",complete,2,Cadernia,team sharing is key for us
+VR-26501,2026-06-22 11:29,BR,S2,self-employed architect,complete,5,email to self,
+VR-26574,2026-06-22 13:28,JP,S2,"tax advisor, own practice",complete,3,none,would want handwriting support
+VR-26124,2026-06-22 14:07,DE,S1,"undergrad, history",complete,3,paper notebook,please support local payment methods
+VR-26483,2026-06-22 14:16,JP,S1,exchange student,complete,2,shared docs,would want handwriting support
+VR-26167,2026-06-22 15:00,DE,S3,cafe chain back office (5),complete,2,office suite notes,want export to PDF
+VR-26300,2026-06-22 16:00,DE,S2,photographer,complete,4,paper notebook,
+VR-26849,2026-06-22 17:06,FR,S2,"therapist, private practice",complete,3,,please support local payment methods
+VR-26319,2026-06-22 17:24,FR,S2,"tax advisor, own practice",complete,5,,too many apps already
+VR-26608,2026-06-22 17:58,JP,S2,self-employed architect,partial,,shared docs,
+VR-26242,2026-06-22 18:30,DE,S2,independent consultant,complete,5,paper notebook,please support local payment methods
+VR-26258,2026-06-22 18:42,DE,S1,high school senior,partial,5,shared docs,
+VR-26837,2026-06-22 21:41,DE,S2,freelance translator,partial,,shared docs,
+VR-26750,2026-06-23 00:15,DE,S1,MBA student,complete,3,Notes app that came with phone,
+VR-26029,2026-06-23 00:23,BR,S1,PhD candidate,complete,3,shared docs,
+VR-26277,2026-06-23 00:42,DE,S3,"marketing studio, 3 people",complete,2,paper notebook,
+VR-26446,2026-06-23 04:27,DE,S2,illustrator,complete,2,Notiztafel,team sharing is key for us
+VR-26683,2026-06-23 04:43,JP,S1,nursing student,complete,4,Notes app that came with phone,please support local payment methods
+VR-26241,2026-06-23 07:03,JP,S3,small law firm (9),complete,2,Kumonote,
+VR-26110,2026-06-23 09:30,JP,S2,independent consultant,complete,4,Fudebako,
+VR-26388,2026-06-23 09:31,DE,S3,"NGO office, 18",complete,2,email to self,need offline mode
+VR-26235,2026-06-23 10:50,MX,S1,master's student,complete,3,,sync was the problem with my last app
+VR-26673,2026-06-23 11:38,BR,S1,MBA student,complete,3,Anotaki,
+VR-26430,2026-06-23 14:30,DE,S3,"NGO office, 18",complete,3,office suite notes,would want handwriting support
+VR-26141,2026-06-23 16:23,MX,S1,design school,complete,5,WhatsApp notes to self,price matters most
+VR-26857,2026-06-23 16:23,MX,S3,"NGO office, 18",complete,3,WhatsApp notes to self,
+VR-26144,2026-06-23 16:49,BR,S2,photographer,complete,2,spreadsheet,too many apps already
+VR-26331,2026-06-23 17:46,JP,S2,photographer,complete,2,spreadsheet,
+VR-26213,2026-06-23 22:06,FR,S1,design school,complete,5,,
+VR-26264,2026-06-23 22:19,BR,S2,freelance developer,partial,3,none,
+VR-26191,2026-06-23 23:13,BR,S2,freelance developer,complete,4,Anotaki,
+VR-26822,2026-06-23 23:43,BR,S1,"undergraduate, engineering",complete,2,Anotaki,need offline mode
+VR-26407,2026-06-24 00:46,DE,S3,"marketing studio, 3 people",complete,2,,
+VR-26652,2026-06-24 01:53,JP,S1,medical student,partial,2,Kumonote,
+VR-26037,2026-06-24 02:15,JP,S2,"sole trader, bookkeeping",complete,5,Kumonote,sync was the problem with my last app
+VR-26509,2026-06-24 02:18,FR,S1,nursing student,complete,2,Notes app that came with phone,
+VR-26625,2026-06-24 02:40,DE,S1,exchange student,partial,3,Notes app that came with phone,
+VR-26222,2026-06-24 04:18,MX,S1,design school,complete,2,WhatsApp notes to self,please support local payment methods
+VR-26832,2026-06-24 06:14,DE,,retired,screened_out,,,
+VR-26575,2026-06-24 07:31,FR,S3,"agency, 6 people",partial,,email to self,
+VR-26129,2026-06-24 11:37,DE,S1,PhD candidate,complete,2,Blattwerk,
+VR-26412,2026-06-24 12:40,DE,S3,"NGO office, 18",complete,2,Notiztafel,team sharing is key for us
+VR-26190,2026-06-24 13:41,DE,S2,freelance translator,partial,2,Notiztafel,
+VR-26510,2026-06-24 15:20,DE,S2,"therapist, private practice",complete,4,shared docs,
+VR-26753,2026-06-24 15:40,JP,S1,medical student,complete,3,Kumonote,too many apps already
+VR-26500,2026-06-24 15:55,BR,S2,"tax advisor, own practice",complete,1,Anotaki,need offline mode
+VR-26233,2026-06-24 17:01,FR,S2,freelance translator,complete,4,paper notebook,only if cheaper than current tool
+VR-26032,2026-06-24 17:27,DE,S3,"marketing studio, 3 people",complete,3,,
+VR-26346,2026-06-24 18:07,JP,S2,photographer,complete,3,paper notebook,need it in my language
+VR-26451,2026-06-24 21:02,BR,S2,"tax advisor, own practice",complete,2,shared docs,
+VR-26296,2026-06-24 21:15,BR,S3,small law firm (9),complete,3,spreadsheet,
+VR-26016,2026-06-24 23:32,BR,S2,"tax advisor, own practice",partial,3,paper notebook,
+VR-26176,2026-06-25 00:04,JP,S3,"family business, 15 employees",complete,5,Notes app that came with phone,love the web clipper idea
+VR-26197,2026-06-25 00:53,DE,S3,research group of 7,complete,3,Notiztafel,
+VR-26098,2026-06-25 01:30,DE,,prefer not to say,screened_out,,,
+VR-26619,2026-06-25 01:51,JP,S2,illustrator,complete,5,spreadsheet,please support local payment methods
+VR-26690,2026-06-25 02:26,JP,S1,exchange student,complete,4,,only if cheaper than current tool
+VR-26353,2026-06-25 03:28,JP,S3,research group of 7,complete,5,Notes app that came with phone,love the web clipper idea
+VR-26586,2026-06-25 05:48,DE,S2,photographer,partial,,Notes app that came with phone,
+VR-26655,2026-06-25 06:08,JP,S3,"marketing studio, 3 people",complete,3,paper notebook,would want handwriting support
+VR-26769,2026-06-25 06:16,JP,S1,design school,complete,3,none,
+VR-26429,2026-06-25 06:58,BR,S2,solo UX designer,complete,3,Notes app that came with phone,please support local payment methods
+VR-26165,2026-06-25 07:10,BR,S2,solo UX designer,partial,,Notes app that came with phone,
+VR-26092,2026-06-25 08:38,BR,S3,research group of 7,complete,2,Notes app that came with phone,
+VR-26391,2026-06-25 09:38,BR,S3,"NGO office, 18",partial,4,paper notebook,
+VR-26219,2026-06-25 09:58,BR,S3,small law firm (9),complete,2,Cadernia,love the web clipper idea
+VR-26582,2026-06-25 10:10,BR,S3,small law firm (9),complete,3,Cadernia,
+VR-26226,2026-06-25 12:09,JP,S3,"marketing studio, 3 people",complete,3,,
+VR-26487,2026-06-25 13:50,JP,S2,solo UX designer,complete,2,paper notebook,
+VR-26234,2026-06-25 14:00,DE,S3,cafe chain back office (5),complete,2,Notiztafel,only if cheaper than current tool
+VR-26631,2026-06-25 14:16,DE,S1,master's student,complete,3,Notiztafel,want export to PDF
+VR-26232,2026-06-25 14:25,JP,S1,"undergraduate, engineering",complete,3,Notes app that came with phone,
+VR-26105,2026-06-25 14:59,DE,S1,design school,partial,1,Blattwerk,
+VR-26776,2026-06-25 15:03,MX,S2,self-employed architect,partial,1,shared docs,
+VR-26030,2026-06-25 16:53,JP,S1,"undergraduate, engineering",complete,3,paper notebook,too many apps already
+VR-26158,2026-06-25 19:12,DE,S2,self-employed architect,complete,3,Notes app that came with phone,team sharing is key for us
+VR-26228,2026-06-25 19:13,DE,S3,research group of 7,complete,3,shared docs,
+VR-26622,2026-06-25 19:16,MX,S1,law student,complete,3,shared docs,
+VR-26559,2026-06-25 19:25,FR,S3,"marketing studio, 3 people",complete,4,none,too many apps already
+VR-26249,2026-06-25 20:17,JP,S2,freelance developer,complete,2,Fudebako,only if cheaper than current tool
+VR-26382,2026-06-25 22:14,MX,S2,photographer,complete,5,email to self,
+VR-26132,2026-06-25 22:31,MX,S2,self-employed architect,complete,1,paper notebook,need it in my language
+VR-26201,2026-06-25 22:49,DE,S1,"undergraduate, engineering",complete,3,shared docs,
+VR-26333,2026-06-26 00:40,JP,S1,"undergraduate, engineering",partial,4,Notes app that came with phone,
+VR-26104,2026-06-26 01:41,BR,S1,medical student,complete,4,Anotaki,too many apps already
+VR-26135,2026-06-26 02:16,DE,S1,nursing student,complete,3,,would want handwriting support
+VR-26537,2026-06-26 02:26,BR,S1,exchange student,complete,2,Notes app that came with phone,
+VR-26677,2026-06-26 03:49,MX,S3,"engineering consultancy, 11",complete,2,shared docs,sync was the problem with my last app
+VR-26134,2026-06-26 04:14,DE,S3,cafe chain back office (5),complete,2,email to self,please support local payment methods
+VR-26700,2026-06-26 04:26,MX,S1,"undergraduate, engineering",complete,5,Notes app that came with phone,need offline mode
+VR-26416,2026-06-26 04:41,BR,S1,law student,complete,3,spreadsheet,would want handwriting support
+VR-26523,2026-06-26 05:15,FR,S1,PhD candidate,partial,5,email to self,
+VR-26318,2026-06-26 07:29,FR,S1,MBA student,complete,5,office suite notes,please support local payment methods
+VR-26647,2026-06-26 08:06,BR,S3,"marketing studio, 3 people",complete,4,email to self,please support local payment methods
+VR-26236,2026-06-26 08:42,BR,S1,nursing student,complete,5,paper notebook,would want handwriting support
+VR-26538,2026-06-26 09:09,MX,S1,MBA student,complete,5,,please support local payment methods
+VR-26156,2026-06-26 10:12,BR,S1,nursing student,complete,2,email to self,sync was the problem with my last app
+VR-26044,2026-06-26 10:16,BR,S1,medical student,partial,3,paper notebook,
+VR-26073,2026-06-26 10:54,DE,S1,master's student,complete,3,Notiztafel,want export to PDF
+VR-26196,2026-06-26 11:21,JP,S1,design school,complete,3,,too many apps already
+VR-26116,2026-06-26 11:48,JP,S1,"undergrad, history",complete,1,none,love the web clipper idea
+VR-26046,2026-06-26 13:21,BR,S2,photographer,complete,1,WhatsApp notes to self,
+VR-26268,2026-06-26 15:05,DE,S1,medical student,complete,3,shared docs,love the web clipper idea
+VR-26819,2026-06-26 15:07,DE,S1,MBA student,complete,3,Blattwerk,
+VR-26444,2026-06-26 16:18,DE,S1,master's student,complete,5,Blattwerk,price matters most
+VR-26786,2026-06-26 17:58,JP,S3,"marketing studio, 3 people",complete,1,Shiori Works Memo,
+VR-26306,2026-06-26 18:06,BR,S2,"tax advisor, own practice",partial,2,Anotaki,
+VR-26449,2026-06-26 23:36,JP,S2,photographer,complete,1,Kumonote,
+VR-26725,2026-06-26 23:36,JP,S2,solo UX designer,partial,3,Kumonote,
+VR-26356,2026-06-27 00:15,FR,S3,"engineering consultancy, 11",complete,2,office suite notes,too many apps already
+VR-26467,2026-06-27 01:08,JP,S1,"undergraduate, engineering",complete,3,none,
+VR-26113,2026-06-27 01:13,JP,,not currently working,screened_out,,,
+VR-26303,2026-06-27 02:05,FR,S3,"agency, 6 people",complete,4,,would want handwriting support
+VR-26127,2026-06-27 03:00,BR,S3,small law firm (9),complete,3,email to self,please support local payment methods
+VR-26050,2026-06-27 03:56,BR,S1,MBA student,complete,2,Cadernia,would want handwriting support
+VR-26149,2026-06-27 04:25,BR,S2,freelance journalist,partial,,WhatsApp notes to self,
+VR-26208,2026-06-27 05:57,DE,S3,research group of 7,complete,2,office suite notes,
+VR-26745,2026-06-27 05:58,BR,S1,medical student,complete,3,,too many apps already
+VR-26639,2026-06-27 06:23,MX,S3,"agency, 6 people",complete,3,WhatsApp notes to self,need offline mode
+VR-26161,2026-06-27 07:21,DE,S1,"undergrad, history",complete,3,paper notebook,would want handwriting support
+VR-26516,2026-06-27 07:22,DE,S1,PhD candidate,complete,4,email to self,team sharing is key for us
+VR-26840,2026-06-27 07:48,JP,S3,"marketing studio, 3 people",complete,1,Shiori Works Memo,
+VR-26035,2026-06-27 07:50,DE,S2,freelance developer,complete,2,shared docs,
+VR-26638,2026-06-27 07:54,JP,S1,"undergraduate, engineering",complete,1,Fudebako,
+VR-26058,2026-06-27 08:54,BR,S1,law student,partial,5,Cadernia,
+VR-26025,2026-06-27 10:26,JP,S1,PhD candidate,partial,,none,
+VR-26450,2026-06-27 11:38,BR,S1,nursing student,complete,1,Anotaki,please support local payment methods
+VR-26648,2026-06-27 12:24,BR,S1,MBA student,partial,2,,
+VR-26718,2026-06-27 13:54,BR,S3,dental practice team of 4,complete,5,paper notebook,
+VR-26350,2026-06-27 14:07,BR,S2,freelance journalist,complete,2,Cadernia,please support local payment methods
+VR-26003,2026-06-27 14:58,MX,S3,cafe chain back office (5),complete,2,email to self,
+VR-26809,2026-06-27 15:55,MX,S2,"sole trader, bookkeeping",partial,,paper notebook,
+VR-26223,2026-06-27 16:04,DE,S2,photographer,complete,4,email to self,need it in my language
+VR-26766,2026-06-27 16:07,DE,S2,illustrator,partial,3,Notiztafel,
+VR-26521,2026-06-27 17:57,BR,S2,self-employed architect,complete,4,none,team sharing is key for us
+VR-26377,2026-06-27 19:22,DE,S2,solo UX designer,complete,3,Notiztafel,please support local payment methods
+VR-26730,2026-06-27 21:08,BR,S1,nursing student,complete,3,Notes app that came with phone,please support local payment methods
+VR-26615,2026-06-28 02:39,DE,S1,nursing student,complete,4,none,team sharing is key for us
+VR-26656,2026-06-28 02:46,DE,S1,medical student,complete,5,Notes app that came with phone,only if cheaper than current tool
+VR-26360,2026-06-28 03:26,FR,S2,photographer,complete,3,Notes app that came with phone,want export to PDF
+VR-26157,2026-06-28 04:38,DE,S1,"undergraduate, engineering",complete,4,Blattwerk,love the web clipper idea
+VR-26715,2026-06-28 05:11,JP,S3,"startup, 12 staff",complete,5,Notes app that came with phone,team sharing is key for us
+VR-26650,2026-06-28 05:39,JP,S1,high school senior,complete,4,email to self,please support local payment methods
+VR-26040,2026-06-28 05:59,DE,S3,"engineering consultancy, 11",complete,2,none,
+VR-26081,2026-06-28 06:03,JP,S1,medical student,complete,3,,want export to PDF
+VR-26400,2026-06-28 06:10,JP,S2,self-employed architect,complete,4,Kumonote,would want handwriting support
+VR-26252,2026-06-28 08:05,BR,S3,"agency, 6 people",complete,3,Anotaki,price matters most
+VR-26824,2026-06-28 08:17,JP,S2,independent consultant,partial,2,none,
+VR-26204,2026-06-28 10:02,FR,S1,nursing student,complete,3,spreadsheet,
+VR-26188,2026-06-28 11:04,JP,S2,freelance developer,complete,3,none,
+VR-26426,2026-06-28 11:42,JP,S3,research group of 7,complete,2,Kumonote,price matters most
+VR-26477,2026-06-28 13:34,DE,S2,solo UX designer,complete,3,Blattwerk,need it in my language
+VR-26270,2026-06-28 14:22,DE,S3,"marketing studio, 3 people",partial,1,,
+VR-26447,2026-06-28 14:54,DE,S1,"undergrad, history",complete,5,Notes app that came with phone,price matters most
+VR-26310,2026-06-28 15:40,BR,S2,"tax advisor, own practice",partial,2,,
+VR-26349,2026-06-28 18:27,BR,S3,"agency, 6 people",complete,5,spreadsheet,love the web clipper idea
+VR-26255,2026-06-28 19:38,MX,,prefer not to say,screened_out,,,
+VR-26106,2026-06-28 19:54,BR,S2,freelance translator,complete,1,Cadernia,team sharing is key for us
+VR-26486,2026-06-28 20:16,JP,S1,nursing student,complete,5,Kumonote,sync was the problem with my last app
+VR-26736,2026-06-28 21:59,FR,S3,cafe chain back office (5),complete,3,shared docs,need offline mode
+VR-26380,2026-06-28 22:32,BR,S1,law student,partial,4,shared docs,
+VR-26151,2026-06-28 22:58,BR,S1,MBA student,partial,,Cadernia,
+VR-26413,2026-06-28 23:38,BR,S1,master's student,complete,2,Cadernia,want export to PDF
+VR-26440,2026-06-29 00:21,JP,S3,"agency, 6 people",complete,5,Shiori Works Memo,
+VR-26610,2026-06-29 01:10,JP,S3,"family business, 15 employees",complete,4,paper notebook,
+VR-26623,2026-06-29 02:15,BR,S3,"startup, 12 staff",complete,3,,
+VR-26257,2026-06-29 03:15,BR,S1,design school,partial,,paper notebook,
+VR-26466,2026-06-29 04:22,DE,S1,master's student,complete,4,office suite notes,price matters most
+VR-26088,2026-06-29 05:28,BR,S1,exchange student,complete,5,,want export to PDF
+VR-26247,2026-06-29 06:10,FR,S2,solo UX designer,complete,3,shared docs,
+VR-26033,2026-06-29 08:30,DE,S1,master's student,complete,2,office suite notes,only if cheaper than current tool
+VR-26183,2026-06-29 08:51,MX,S1,PhD candidate,partial,,paper notebook,
+VR-26814,2026-06-29 09:29,DE,S1,"undergraduate, engineering",complete,5,spreadsheet,too many apps already
+VR-26512,2026-06-29 09:41,BR,S2,"tax advisor, own practice",complete,3,paper notebook,need offline mode
+VR-26026,2026-06-29 11:25,JP,S1,design school,complete,2,spreadsheet,need it in my language
+VR-26462,2026-06-29 11:28,JP,S1,"undergraduate, engineering",complete,4,Kumonote,love the web clipper idea
+VR-26007,2026-06-29 12:54,DE,S2,independent consultant,complete,5,Notiztafel,
+VR-26239,2026-06-29 14:08,FR,S3,"startup, 12 staff",complete,4,,love the web clipper idea
+VR-26763,2026-06-29 22:32,BR,S2,illustrator,complete,4,Notes app that came with phone,price matters most
+VR-26389,2026-06-29 23:35,JP,S3,"engineering consultancy, 11",complete,5,spreadsheet,sync was the problem with my last app
+VR-26373,2026-06-29 23:52,JP,S3,small law firm (9),complete,5,shared docs,would want handwriting support
+VR-26102,2026-06-29 23:58,MX,S1,high school senior,complete,2,paper notebook,need offline mode
+VR-26755,2026-06-30 01:02,JP,S2,freelance journalist,partial,2,,
+VR-26425,2026-06-30 01:31,DE,S1,"undergrad, history",partial,1,paper notebook,
+VR-26505,2026-06-30 02:39,BR,S2,freelance developer,complete,3,spreadsheet,too many apps already
+VR-26777,2026-06-30 02:59,BR,S1,MBA student,complete,4,none,would want handwriting support
+VR-26671,2026-06-30 03:57,BR,S2,freelance journalist,partial,5,paper notebook,
+VR-26395,2026-06-30 07:53,MX,S2,freelance translator,complete,3,none,need offline mode
+VR-26547,2026-06-30 08:15,BR,S1,high school senior,complete,1,Notes app that came with phone,
+VR-26680,2026-06-30 08:46,JP,S1,high school senior,complete,3,Notes app that came with phone,
+VR-26618,2026-06-30 09:01,FR,S1,design school,complete,1,Notes app that came with phone,sync was the problem with my last app
+VR-26361,2026-06-30 09:34,JP,,retired,screened_out,,,
+VR-26307,2026-06-30 11:47,BR,S2,freelance developer,complete,5,spreadsheet,
+VR-26280,2026-06-30 13:14,JP,S2,"tax advisor, own practice",complete,3,spreadsheet,
+VR-26485,2026-06-30 14:25,DE,S1,"undergrad, history",complete,5,Notes app that came with phone,want export to PDF
+VR-26541,2026-06-30 14:35,DE,S1,medical student,partial,2,spreadsheet,
+VR-26546,2026-06-30 14:39,JP,S2,solo UX designer,complete,4,Kumonote,
+VR-26727,2026-06-30 15:13,BR,S1,master's student,partial,5,Anotaki,
+VR-26664,2026-06-30 16:36,DE,S1,PhD candidate,partial,3,spreadsheet,
+VR-26867,2026-06-30 17:00,BR,S3,"NGO office, 18",complete,1,shared docs,
+VR-26587,2026-06-30 20:10,BR,,prefer not to say,screened_out,,,
+VR-26729,2026-06-30 21:34,BR,S2,self-employed architect,partial,2,WhatsApp notes to self,
+VR-26160,2026-06-30 22:38,BR,S3,dental practice team of 4,complete,5,email to self,team sharing is key for us
+VR-26166,2026-07-01 00:29,DE,S2,solo UX designer,complete,2,Notiztafel,would want handwriting support
+VR-26465,2026-07-01 00:32,JP,S3,"family business, 15 employees",complete,5,spreadsheet,
+VR-26634,2026-07-01 01:00,DE,S3,small law firm (9),complete,3,none,need offline mode
+VR-26445,2026-07-01 01:47,DE,S1,MBA student,complete,3,none,only if cheaper than current tool
+VR-26858,2026-07-01 01:56,BR,S2,freelance translator,complete,4,WhatsApp notes to self,please support local payment methods
+VR-26015,2026-07-01 05:30,JP,S2,"sole trader, bookkeeping",complete,4,none,would want handwriting support
+VR-26601,2026-07-01 06:20,JP,S3,cafe chain back office (5),complete,5,Notes app that came with phone,would want handwriting support
+VR-26728,2026-07-01 07:00,DE,S3,research group of 7,complete,3,Notes app that came with phone,
+VR-26603,2026-07-01 07:19,DE,S2,photographer,complete,2,Notiztafel,would want handwriting support
+VR-26419,2026-07-01 10:18,BR,S1,design school,complete,5,shared docs,
+VR-26702,2026-07-01 13:23,BR,S3,cafe chain back office (5),complete,2,paper notebook,
+VR-26243,2026-07-01 13:55,BR,S2,illustrator,partial,3,none,
+VR-26544,2026-07-01 14:13,JP,S3,"agency, 6 people",complete,4,email to self,
+VR-26286,2026-07-01 14:24,JP,S3,"family business, 15 employees",complete,2,Shiori Works Memo,price matters most
+VR-26588,2026-07-01 15:30,BR,S1,exchange student,complete,2,Cadernia,only if cheaper than current tool
+VR-26667,2026-07-01 19:02,DE,S1,"undergraduate, engineering",complete,1,Notiztafel,
+VR-26027,2026-07-01 20:19,JP,S2,"tax advisor, own practice",complete,5,Fudebako,want export to PDF
+VR-26192,2026-07-01 20:20,JP,S2,independent consultant,complete,3,Fudebako,would want handwriting support
+VR-26370,2026-07-01 22:34,BR,S3,"NGO office, 18",complete,2,email to self,please support local payment methods
+VR-26579,2026-07-02 00:55,FR,S3,"family business, 15 employees",complete,2,shared docs,please support local payment methods
+VR-26111,2026-07-02 01:33,JP,S2,self-employed architect,complete,4,Notes app that came with phone,please support local payment methods
+VR-26685,2026-07-02 02:47,FR,S1,high school senior,partial,,spreadsheet,
+VR-26531,2026-07-02 02:50,BR,S2,"tax advisor, own practice",partial,2,none,
+VR-26022,2026-07-02 03:47,JP,S1,medical student,complete,4,email to self,
+VR-26323,2026-07-02 03:50,BR,S1,nursing student,partial,3,shared docs,
+VR-26339,2026-07-02 06:44,DE,S2,freelance translator,complete,3,Notiztafel,please support local payment methods
+VR-26566,2026-07-02 06:46,JP,S1,medical student,complete,4,shared docs,need offline mode
+VR-26514,2026-07-02 07:41,JP,S2,freelance developer,complete,3,none,price matters most
+VR-26278,2026-07-02 10:07,DE,S3,dental practice team of 4,partial,2,none,
+VR-26699,2026-07-02 11:47,JP,S3,"engineering consultancy, 11",complete,3,Fudebako,
+VR-26120,2026-07-02 16:04,JP,S1,design school,complete,4,shared docs,price matters most
+VR-26825,2026-07-02 16:54,BR,S2,solo UX designer,complete,4,WhatsApp notes to self,too many apps already
+VR-26080,2026-07-02 17:16,BR,S2,freelance journalist,complete,1,,
+VR-26168,2026-07-02 18:36,JP,S3,"NGO office, 18",complete,1,shared docs,
+VR-26047,2026-07-02 19:01,BR,S2,illustrator,complete,3,spreadsheet,only if cheaper than current tool
+VR-26820,2026-07-02 19:48,BR,S1,law student,complete,4,email to self,team sharing is key for us
+VR-26125,2026-07-02 20:42,JP,S3,"startup, 12 staff",complete,1,Fudebako,too many apps already
+VR-26480,2026-07-02 22:30,DE,S2,"tax advisor, own practice",complete,3,paper notebook,need offline mode
+VR-26747,2026-07-02 23:07,DE,S3,small law firm (9),complete,3,paper notebook,
+VR-26851,2026-07-03 00:40,JP,S1,"undergrad, history",complete,3,Kumonote,team sharing is key for us
+VR-26057,2026-07-03 02:15,BR,S1,nursing student,complete,4,Cadernia,
+VR-26266,2026-07-03 02:54,DE,S2,photographer,complete,5,office suite notes,need offline mode
+VR-26387,2026-07-03 07:45,FR,S1,high school senior,partial,3,none,
+VR-26150,2026-07-03 10:07,JP,S1,nursing student,complete,3,Notes app that came with phone,
+VR-26760,2026-07-03 10:16,DE,S1,design school,complete,3,,want export to PDF
+VR-26269,2026-07-03 10:26,DE,S2,self-employed architect,complete,2,spreadsheet,
+VR-26344,2026-07-03 12:35,JP,S1,"undergrad, history",complete,5,email to self,sync was the problem with my last app
+VR-26764,2026-07-03 14:14,JP,S2,independent consultant,complete,2,spreadsheet,sync was the problem with my last app
+VR-26378,2026-07-03 16:51,DE,S2,photographer,complete,5,none,too many apps already
+VR-26328,2026-07-03 17:19,JP,S1,master's student,complete,4,shared docs,
+VR-26417,2026-07-03 17:28,BR,S1,"undergrad, history",complete,4,paper notebook,
+VR-26772,2026-07-03 18:23,JP,S3,dental practice team of 4,complete,4,Notes app that came with phone,sync was the problem with my last app
+VR-26455,2026-07-03 18:45,JP,S2,freelance developer,complete,4,Kumonote,only if cheaper than current tool
+VR-26599,2026-07-03 20:47,BR,S2,photographer,complete,1,,team sharing is key for us
+VR-26564,2026-07-03 23:05,DE,S2,illustrator,partial,3,spreadsheet,
+VR-26744,2026-07-04 00:39,BR,S3,"NGO office, 18",complete,3,WhatsApp notes to self,would want handwriting support
+VR-26214,2026-07-04 00:54,BR,S1,master's student,complete,4,paper notebook,please support local payment methods
+VR-26004,2026-07-04 01:00,BR,S3,"family business, 15 employees",complete,3,Notes app that came with phone,need offline mode
+VR-26774,2026-07-04 03:52,DE,S1,"undergrad, history",partial,,office suite notes,
+VR-26605,2026-07-04 04:56,DE,S1,design school,complete,5,Notes app that came with phone,price matters most
+VR-26246,2026-07-04 06:38,JP,S1,law student,partial,,Kumonote,
+VR-26468,2026-07-04 09:11,FR,S3,small law firm (9),complete,3,shared docs,sync was the problem with my last app
+VR-26390,2026-07-04 10:35,BR,S2,illustrator,complete,2,Cadernia,team sharing is key for us
+VR-26305,2026-07-04 11:07,BR,S1,medical student,complete,5,Notes app that came with phone,
+VR-26383,2026-07-04 11:30,DE,S3,"engineering consultancy, 11",complete,3,none,
+VR-26077,2026-07-04 11:40,FR,S2,freelance journalist,complete,5,office suite notes,
+VR-26808,2026-07-04 12:22,JP,S2,"sole trader, bookkeeping",complete,2,Fudebako,need it in my language
+VR-26254,2026-07-04 12:52,BR,S3,"marketing studio, 3 people",complete,5,,
+VR-26200,2026-07-04 14:51,MX,S3,"engineering consultancy, 11",complete,3,none,would want handwriting support
+VR-26508,2026-07-04 16:50,BR,S2,independent consultant,complete,3,Anotaki,need it in my language
+VR-26122,2026-07-04 18:04,JP,S2,self-employed architect,complete,3,shared docs,
+VR-26530,2026-07-04 18:55,DE,S3,"family business, 15 employees",complete,2,spreadsheet,love the web clipper idea
+VR-26598,2026-07-04 20:32,DE,S2,freelance translator,complete,1,Notiztafel,team sharing is key for us
+VR-26068,2026-07-04 22:41,BR,S1,nursing student,complete,4,spreadsheet,please support local payment methods
+VR-26148,2026-07-04 22:46,BR,S2,freelance journalist,complete,3,Anotaki,
+VR-26614,2026-07-05 00:20,BR,S2,"tax advisor, own practice",partial,4,email to self,
+VR-26142,2026-07-05 00:54,BR,S3,"marketing studio, 3 people",complete,2,WhatsApp notes to self,price matters most
+VR-26580,2026-07-05 02:35,BR,S2,freelance developer,complete,2,shared docs,too many apps already
+VR-26178,2026-07-05 02:45,BR,S3,cafe chain back office (5),complete,3,shared docs,
+VR-26624,2026-07-05 02:45,DE,S1,law student,complete,4,paper notebook,only if cheaper than current tool
+VR-26410,2026-07-05 05:06,JP,S3,"NGO office, 18",complete,2,Fudebako,sync was the problem with my last app
+VR-26172,2026-07-05 05:31,MX,S1,PhD candidate,complete,4,none,team sharing is key for us
+VR-26216,2026-07-05 05:39,JP,S3,"agency, 6 people",complete,2,Notes app that came with phone,sync was the problem with my last app
+VR-26304,2026-07-05 06:03,MX,S1,master's student,partial,,WhatsApp notes to self,
+VR-26732,2026-07-05 07:31,MX,S3,"startup, 12 staff",complete,3,shared docs,want export to PDF
+VR-26283,2026-07-05 09:54,BR,S1,"undergraduate, engineering",complete,5,email to self,
+VR-26245,2026-07-05 11:24,FR,S1,design school,complete,2,none,price matters most
+VR-26640,2026-07-05 12:49,MX,S2,independent consultant,complete,3,spreadsheet,
+VR-26436,2026-07-05 13:50,JP,S2,freelance translator,complete,4,spreadsheet,
+VR-26315,2026-07-05 13:54,DE,S2,independent consultant,complete,2,office suite notes,
+VR-26674,2026-07-05 15:17,BR,S2,freelance translator,complete,3,WhatsApp notes to self,need offline mode
+VR-26034,2026-07-05 17:17,FR,S1,MBA student,complete,4,none,team sharing is key for us
+VR-26682,2026-07-05 18:00,BR,S3,"marketing studio, 3 people",complete,2,Cadernia,need it in my language
+VR-26513,2026-07-05 18:35,JP,S2,"therapist, private practice",complete,4,Notes app that came with phone,
+VR-26240,2026-07-05 19:09,DE,S3,"agency, 6 people",complete,2,paper notebook,need it in my language
+VR-26474,2026-07-05 20:12,DE,S1,"undergraduate, engineering",complete,2,office suite notes,need offline mode
+VR-26121,2026-07-05 20:51,BR,S3,dental practice team of 4,complete,3,Notes app that came with phone,only if cheaper than current tool
+VR-26861,2026-07-05 21:25,JP,S2,"therapist, private practice",complete,5,spreadsheet,love the web clipper idea
+VR-26404,2026-07-05 22:38,BR,S3,"marketing studio, 3 people",complete,1,none,
+VR-26179,2026-07-06 01:41,FR,S3,dental practice team of 4,complete,1,email to self,
+VR-26707,2026-07-06 02:43,JP,S2,independent consultant,complete,1,Kumonote,want export to PDF
+VR-26841,2026-07-06 06:37,BR,S3,"engineering consultancy, 11",partial,3,paper notebook,
+VR-26221,2026-07-06 07:11,BR,S2,illustrator,complete,2,spreadsheet,would want handwriting support
+VR-26253,2026-07-06 07:37,DE,S2,photographer,partial,3,,
+VR-26818,2026-07-06 13:14,BR,S3,dental practice team of 4,complete,3,,
+VR-26175,2026-07-06 14:03,DE,S1,MBA student,complete,3,Notiztafel,love the web clipper idea
+VR-26723,2026-07-06 15:12,BR,S2,"tax advisor, own practice",partial,,email to self,
+VR-26492,2026-07-06 15:53,BR,S2,freelance translator,complete,4,email to self,
+VR-26665,2026-07-06 16:23,MX,S1,master's student,complete,3,none,want export to PDF
+VR-26542,2026-07-06 17:45,DE,S1,exchange student,complete,3,paper notebook,team sharing is key for us
+VR-26078,2026-07-06 18:09,BR,S3,"NGO office, 18",partial,2,none,
+VR-26817,2026-07-06 18:53,DE,S1,master's student,complete,5,Blattwerk,
+VR-26740,2026-07-06 20:59,JP,S2,self-employed architect,complete,3,paper notebook,need it in my language
+VR-26464,2026-07-06 21:13,JP,S2,"sole trader, bookkeeping",complete,5,Fudebako,need offline mode
+VR-26657,2026-07-06 22:26,MX,,prefer not to say,screened_out,,,
+VR-26550,2026-07-06 23:25,FR,S2,illustrator,complete,2,paper notebook,price matters most
+VR-26629,2026-07-06 23:56,DE,S3,"family business, 15 employees",complete,3,Notiztafel,sync was the problem with my last app
+VR-26023,2026-07-07 01:25,DE,S1,nursing student,partial,3,spreadsheet,
+VR-26693,2026-07-07 02:50,BR,S3,"engineering consultancy, 11",complete,2,Cadernia,sync was the problem with my last app
+VR-26556,2026-07-07 04:58,JP,S2,"therapist, private practice",partial,,shared docs,
+VR-26626,2026-07-07 05:04,JP,S1,medical student,complete,5,spreadsheet,too many apps already
+VR-26833,2026-07-07 06:59,BR,S1,design school,partial,3,Cadernia,
+VR-26018,2026-07-07 08:08,JP,S3,"startup, 12 staff",complete,1,Notes app that came with phone,need it in my language
+VR-26170,2026-07-07 08:16,DE,S1,law student,complete,4,Notiztafel,want export to PDF
+VR-26101,2026-07-07 09:57,BR,S1,exchange student,partial,5,Cadernia,
+VR-26231,2026-07-07 10:24,BR,S1,master's student,complete,3,paper notebook,
+VR-26259,2026-07-07 11:51,BR,S1,"undergrad, history",complete,5,Anotaki,
+VR-26309,2026-07-07 13:04,JP,S1,master's student,complete,3,Notes app that came with phone,need offline mode
+VR-26428,2026-07-07 13:50,DE,S2,self-employed architect,complete,4,Notes app that came with phone,sync was the problem with my last app
+VR-26079,2026-07-07 13:54,JP,S2,freelance journalist,complete,3,Kumonote,too many apps already
+VR-26754,2026-07-07 14:02,JP,S1,exchange student,partial,,shared docs,
+VR-26489,2026-07-07 14:56,MX,,retired,screened_out,,,
+VR-26279,2026-07-07 16:59,BR,S2,"tax advisor, own practice",complete,4,Notes app that came with phone,would want handwriting support
+VR-26334,2026-07-07 18:13,BR,S3,research group of 7,complete,3,email to self,price matters most
+VR-26187,2026-07-07 18:15,BR,S1,MBA student,complete,4,shared docs,
+VR-26628,2026-07-07 21:30,JP,S3,"family business, 15 employees",complete,3,Kumonote,love the web clipper idea
+VR-26799,2026-07-07 23:36,BR,S3,research group of 7,complete,1,none,too many apps already
+VR-26039,2026-07-08 00:53,BR,S1,nursing student,complete,2,none,
+VR-26768,2026-07-08 02:41,JP,S3,"engineering consultancy, 11",complete,4,Kumonote,team sharing is key for us
+VR-26009,2026-07-08 02:49,DE,S1,high school senior,complete,4,shared docs,would want handwriting support
+VR-26853,2026-07-08 03:13,JP,S3,research group of 7,complete,3,none,please support local payment methods
+VR-26362,2026-07-08 04:17,JP,,retired,screened_out,,,
+VR-26804,2026-07-08 04:25,FR,S2,freelance translator,complete,2,,team sharing is key for us
+VR-26785,2026-07-08 05:20,DE,S2,"therapist, private practice",complete,2,none,need offline mode
+VR-26075,2026-07-08 06:00,DE,S1,master's student,complete,2,Notes app that came with phone,love the web clipper idea
+VR-26386,2026-07-08 06:58,MX,S3,"agency, 6 people",complete,5,paper notebook,
+VR-26123,2026-07-08 09:40,BR,S2,freelance developer,complete,4,none,
+VR-26273,2026-07-08 11:51,JP,S1,"undergrad, history",complete,2,Shiori Works Memo,please support local payment methods
+VR-26600,2026-07-08 12:10,MX,S1,medical student,complete,2,none,love the web clipper idea
+VR-26103,2026-07-08 12:53,DE,S3,small law firm (9),complete,2,office suite notes,
+VR-26787,2026-07-08 12:58,JP,S1,nursing student,complete,2,email to self,sync was the problem with my last app
+VR-26260,2026-07-08 15:07,JP,S1,design school,complete,2,paper notebook,would want handwriting support
+VR-26209,2026-07-08 15:10,BR,S3,"family business, 15 employees",complete,2,spreadsheet,only if cheaper than current tool
+VR-26688,2026-07-08 16:07,DE,S2,"tax advisor, own practice",complete,2,shared docs,price matters most
+VR-26454,2026-07-08 16:24,BR,S1,MBA student,complete,4,none,
+VR-26237,2026-07-08 18:00,MX,S1,MBA student,complete,5,shared docs,
+VR-26491,2026-07-09 00:13,JP,S3,"marketing studio, 3 people",complete,4,Kumonote,
+VR-26435,2026-07-09 01:38,JP,S3,"startup, 12 staff",complete,2,Fudebako,
+VR-26507,2026-07-09 05:14,JP,S2,photographer,complete,5,shared docs,want export to PDF
+VR-26522,2026-07-09 05:37,JP,S1,PhD candidate,complete,3,Fudebako,
+VR-26250,2026-07-09 05:50,JP,S1,MBA student,complete,3,spreadsheet,sync was the problem with my last app
+VR-26783,2026-07-09 06:38,BR,S2,freelance translator,complete,1,Anotaki,want export to PDF
+VR-26475,2026-07-09 08:51,DE,S3,small law firm (9),partial,5,paper notebook,
+VR-26012,2026-07-09 09:36,JP,S2,solo UX designer,complete,4,Shiori Works Memo,sync was the problem with my last app
+VR-26570,2026-07-09 09:50,DE,S1,nursing student,complete,1,spreadsheet,would want handwriting support
+VR-26071,2026-07-09 10:12,JP,S1,master's student,complete,5,Shiori Works Memo,
+VR-26109,2026-07-09 10:49,MX,,retired,screened_out,,,
+VR-26139,2026-07-09 12:25,JP,S1,master's student,complete,1,Notes app that came with phone,would want handwriting support
+VR-26498,2026-07-09 13:57,JP,S1,high school senior,complete,3,Shiori Works Memo,want export to PDF
+VR-26368,2026-07-09 13:59,DE,S2,"sole trader, bookkeeping",partial,1,,
+VR-26581,2026-07-09 14:08,DE,S3,"startup, 12 staff",complete,5,paper notebook,need it in my language
+VR-26842,2026-07-09 16:02,BR,S2,freelance translator,complete,3,,
+VR-26051,2026-07-09 16:41,JP,,prefer not to say,screened_out,,,
+VR-26251,2026-07-09 17:44,JP,S1,master's student,complete,3,spreadsheet,
+VR-26458,2026-07-09 17:46,JP,S1,nursing student,complete,3,email to self,want export to PDF
+VR-26659,2026-07-09 18:51,JP,S3,"startup, 12 staff",complete,2,spreadsheet,please support local payment methods
+VR-26476,2026-07-09 19:05,JP,S3,"startup, 12 staff",complete,4,Notes app that came with phone,want export to PDF
+VR-26284,2026-07-09 19:36,BR,S2,photographer,complete,5,Cadernia,want export to PDF
+VR-26518,2026-07-09 20:39,DE,S3,small law firm (9),complete,2,shared docs,
+VR-26686,2026-07-09 21:00,FR,S2,freelance journalist,partial,3,spreadsheet,
+VR-26801,2026-07-09 21:12,DE,S2,"therapist, private practice",complete,4,paper notebook,
+VR-26010,2026-07-09 22:36,BR,S1,"undergraduate, engineering",complete,3,email to self,
+VR-26612,2026-07-09 22:40,BR,S1,nursing student,complete,3,none,please support local payment methods
+VR-26189,2026-07-09 23:24,DE,S2,illustrator,complete,1,office suite notes,sync was the problem with my last app
+VR-26788,2026-07-09 23:30,BR,S1,law student,complete,3,shared docs,need offline mode
+VR-26798,2026-07-09 23:57,JP,S2,solo UX designer,complete,3,none,please support local payment methods
+VR-26734,2026-07-10 00:27,DE,S2,illustrator,complete,3,email to self,need offline mode
+VR-26797,2026-07-10 01:34,BR,S1,law student,complete,5,Cadernia,too many apps already
+VR-26421,2026-07-10 03:42,FR,S1,high school senior,complete,5,spreadsheet,
+VR-26327,2026-07-10 04:07,DE,S1,law student,complete,5,email to self,please support local payment methods
+VR-26602,2026-07-10 04:37,BR,S3,cafe chain back office (5),complete,3,email to self,only if cheaper than current tool
+VR-26263,2026-07-10 04:59,DE,S1,"undergraduate, engineering",complete,3,email to self,price matters most
+VR-26375,2026-07-10 05:00,FR,S1,"undergrad, history",complete,2,office suite notes,
+VR-26005,2026-07-10 08:58,DE,,retired,screened_out,,,
+VR-26630,2026-07-10 10:09,BR,S2,solo UX designer,complete,3,email to self,only if cheaper than current tool
+VR-26021,2026-07-10 10:14,JP,S3,"family business, 15 employees",complete,5,none,
+VR-26565,2026-07-10 10:51,BR,S3,small law firm (9),complete,3,Cadernia,only if cheaper than current tool
+VR-26560,2026-07-10 11:11,BR,S1,design school,complete,4,Notes app that came with phone,too many apps already
+VR-26422,2026-07-10 11:23,JP,S3,"engineering consultancy, 11",complete,2,Fudebako,
+VR-26076,2026-07-10 11:26,DE,S2,independent consultant,complete,1,spreadsheet,need offline mode
+VR-26553,2026-07-10 11:38,FR,S3,"agency, 6 people",complete,2,email to self,
+VR-26838,2026-07-10 12:43,DE,S1,"undergrad, history",complete,4,Notiztafel,
+VR-26321,2026-07-10 14:02,DE,S1,PhD candidate,complete,1,none,
+VR-26681,2026-07-10 14:13,JP,S3,"engineering consultancy, 11",complete,2,spreadsheet,
+VR-26385,2026-07-10 14:45,BR,S1,"undergraduate, engineering",complete,3,Cadernia,too many apps already
+VR-26115,2026-07-10 15:54,BR,S2,independent consultant,complete,5,spreadsheet,need it in my language
+VR-26028,2026-07-10 16:32,DE,S1,medical student,complete,3,shared docs,team sharing is key for us
+VR-26337,2026-07-10 18:07,JP,S1,master's student,partial,5,Kumonote,
+VR-26159,2026-07-11 00:53,DE,S2,"therapist, private practice",complete,4,,too many apps already
+VR-26737,2026-07-11 01:13,BR,S1,exchange student,complete,2,Anotaki,
+VR-26013,2026-07-11 01:47,BR,S1,nursing student,complete,3,paper notebook,sync was the problem with my last app
+VR-26099,2026-07-11 02:56,BR,S1,design school,complete,4,paper notebook,sync was the problem with my last app
+VR-26060,2026-07-11 03:56,DE,S2,freelance journalist,complete,1,shared docs,need offline mode
+VR-26854,2026-07-11 04:12,DE,S1,exchange student,complete,4,spreadsheet,too many apps already
+VR-26329,2026-07-11 05:12,BR,S2,freelance translator,complete,3,,need offline mode
+VR-26469,2026-07-11 05:25,DE,,prefer not to say,screened_out,,,
+VR-26643,2026-07-11 06:28,MX,S3,"engineering consultancy, 11",complete,4,none,would want handwriting support
+VR-26093,2026-07-11 06:34,DE,S2,"tax advisor, own practice",complete,3,Notes app that came with phone,only if cheaper than current tool
+VR-26845,2026-07-11 07:26,BR,S1,"undergrad, history",complete,5,,please support local payment methods
+VR-26503,2026-07-11 08:23,DE,S2,"sole trader, bookkeeping",complete,4,none,
+VR-26761,2026-07-11 09:16,DE,S3,"family business, 15 employees",complete,3,spreadsheet,
+VR-26220,2026-07-11 09:33,JP,S3,"startup, 12 staff",partial,1,,
+VR-26738,2026-07-11 09:37,DE,S1,PhD candidate,complete,1,Notiztafel,sync was the problem with my last app
+VR-26836,2026-07-11 10:11,DE,S1,exchange student,complete,3,Notiztafel,
+VR-26374,2026-07-11 14:34,BR,S2,"therapist, private practice",complete,5,email to self,want export to PDF
+VR-26281,2026-07-11 18:13,BR,S3,cafe chain back office (5),complete,4,none,want export to PDF
+VR-26779,2026-07-11 20:03,MX,S1,MBA student,partial,3,shared docs,
+VR-26563,2026-07-11 20:55,MX,S1,"undergraduate, engineering",complete,5,WhatsApp notes to self,
+VR-26644,2026-07-11 22:19,FR,S1,medical student,complete,2,paper notebook,love the web clipper idea
+VR-26215,2026-07-12 01:24,JP,S1,medical student,complete,3,,
+VR-26396,2026-07-12 02:20,DE,S2,self-employed architect,complete,4,Blattwerk,team sharing is key for us
+VR-26162,2026-07-12 03:16,JP,,not currently working,screened_out,,,
+VR-26443,2026-07-12 03:19,JP,S1,"undergraduate, engineering",complete,4,Shiori Works Memo,please support local payment methods
+VR-26401,2026-07-12 05:14,JP,S3,cafe chain back office (5),complete,5,email to self,love the web clipper idea
+VR-26154,2026-07-12 06:12,JP,S3,"agency, 6 people",complete,2,Kumonote,
+VR-26771,2026-07-12 06:38,JP,S3,"NGO office, 18",complete,1,Kumonote,love the web clipper idea
+VR-26308,2026-07-12 07:58,BR,S3,"engineering consultancy, 11",partial,1,email to self,
+VR-26524,2026-07-12 09:02,JP,S2,"therapist, private practice",complete,4,none,need offline mode
+VR-26038,2026-07-12 09:16,DE,S3,"agency, 6 people",complete,5,none,
+VR-26299,2026-07-12 09:24,MX,S2,freelance developer,complete,4,Notes app that came with phone,
+VR-26089,2026-07-12 09:49,BR,S2,freelance developer,complete,5,none,
+VR-26276,2026-07-12 10:16,DE,S1,high school senior,complete,1,none,sync was the problem with my last app
+VR-26502,2026-07-12 11:03,MX,S3,"marketing studio, 3 people",partial,,none,
+VR-26031,2026-07-12 12:30,JP,S2,freelance journalist,complete,4,email to self,want export to PDF
+VR-26014,2026-07-12 12:50,BR,S1,MBA student,complete,5,shared docs,too many apps already
+VR-26128,2026-07-12 13:37,MX,S1,law student,complete,3,spreadsheet,too many apps already
+VR-26340,2026-07-12 13:49,BR,S1,"undergrad, history",complete,4,none,
+VR-26294,2026-07-12 14:02,MX,S1,"undergrad, history",partial,,email to self,
+VR-26679,2026-07-12 15:46,BR,S1,nursing student,complete,2,spreadsheet,
+VR-26784,2026-07-12 16:30,FR,S1,law student,partial,,none,
+VR-26719,2026-07-12 17:43,JP,S1,"undergraduate, engineering",complete,1,,need offline mode
+VR-26708,2026-07-12 17:54,DE,S3,cafe chain back office (5),complete,4,none,need it in my language
+VR-26359,2026-07-12 18:21,JP,S2,freelance translator,complete,3,Kumonote,
+VR-26807,2026-07-12 19:01,JP,S3,research group of 7,complete,4,shared docs,need it in my language
+VR-26452,2026-07-12 19:21,BR,S2,"therapist, private practice",complete,4,Cadernia,price matters most
+VR-26497,2026-07-12 19:51,BR,S1,medical student,complete,4,spreadsheet,
+VR-26543,2026-07-12 21:15,BR,S1,nursing student,complete,3,Notes app that came with phone,love the web clipper idea
+VR-26589,2026-07-12 21:37,MX,S1,exchange student,complete,2,none,need offline mode
+VR-26289,2026-07-12 22:34,DE,S3,"marketing studio, 3 people",complete,1,Notiztafel,price matters most
+VR-26062,2026-07-12 22:54,DE,S2,"tax advisor, own practice",complete,4,paper notebook,price matters most
+VR-26326,2026-07-12 23:38,JP,S1,"undergraduate, engineering",complete,3,Notes app that came with phone,would want handwriting support
+VR-26414,2026-07-13 02:54,BR,S2,solo UX designer,partial,,Cadernia,
+VR-26180,2026-07-13 03:02,JP,S1,"undergraduate, engineering",complete,3,email to self,too many apps already
+VR-26448,2026-07-13 03:22,BR,S1,nursing student,complete,4,email to self,
+VR-26376,2026-07-13 06:00,DE,S2,illustrator,complete,5,paper notebook,team sharing is key for us
+VR-26548,2026-07-13 09:13,JP,S1,"undergraduate, engineering",complete,4,shared docs,
+VR-26653,2026-07-13 09:13,BR,S3,research group of 7,complete,3,Cadernia,
+VR-26545,2026-07-13 10:03,JP,S1,high school senior,partial,2,Kumonote,
+VR-26806,2026-07-13 10:55,JP,S1,high school senior,complete,3,,need offline mode
+VR-26371,2026-07-13 12:05,MX,S2,freelance developer,complete,3,WhatsApp notes to self,need it in my language
+VR-26536,2026-07-13 12:55,JP,S1,master's student,complete,2,Kumonote,need offline mode
+VR-26855,2026-07-13 12:58,DE,S1,design school,complete,1,Blattwerk,please support local payment methods
+VR-26834,2026-07-13 16:55,DE,S1,exchange student,complete,3,email to self,too many apps already
+VR-26767,2026-07-13 18:45,BR,S2,independent consultant,complete,2,paper notebook,team sharing is key for us
+VR-26343,2026-07-13 18:57,JP,S2,self-employed architect,complete,4,shared docs,
+VR-26325,2026-07-13 19:11,BR,S3,dental practice team of 4,partial,,,
+VR-26227,2026-07-13 19:20,FR,S2,"therapist, private practice",complete,5,office suite notes,price matters most
+VR-26398,2026-07-13 20:12,JP,S3,"agency, 6 people",partial,2,,
+VR-26348,2026-07-13 20:21,MX,,not currently working,screened_out,,,
+VR-26131,2026-07-13 22:08,BR,S2,independent consultant,partial,5,none,
+VR-26272,2026-07-14 01:21,FR,S1,"undergrad, history",partial,2,Notes app that came with phone,
+VR-26108,2026-07-14 01:58,JP,S3,small law firm (9),partial,2,none,
+VR-26456,2026-07-14 01:59,DE,S3,research group of 7,complete,2,shared docs,love the web clipper idea
+VR-26065,2026-07-14 02:55,DE,S2,photographer,complete,3,shared docs,price matters most
+VR-26678,2026-07-14 02:57,DE,S3,"NGO office, 18",complete,3,Blattwerk,sync was the problem with my last app
+VR-26789,2026-07-14 04:17,BR,S1,master's student,partial,3,shared docs,
+VR-26408,2026-07-14 05:24,MX,S2,independent consultant,complete,2,Notes app that came with phone,need offline mode
+VR-26573,2026-07-14 05:51,JP,S2,solo UX designer,complete,3,spreadsheet,love the web clipper idea
+VR-26335,2026-07-14 06:45,BR,S1,"undergraduate, engineering",complete,5,WhatsApp notes to self,want export to PDF
+VR-26746,2026-07-14 08:24,BR,S2,"therapist, private practice",complete,5,none,need it in my language
+VR-26185,2026-07-14 09:08,BR,S2,freelance translator,complete,2,WhatsApp notes to self,
+VR-26094,2026-07-14 09:42,JP,S1,law student,complete,5,paper notebook,only if cheaper than current tool
+VR-26752,2026-07-14 10:56,BR,S1,"undergrad, history",complete,2,Cadernia,
+VR-26036,2026-07-14 10:57,DE,S2,illustrator,complete,4,Notiztafel,only if cheaper than current tool
+VR-26336,2026-07-14 11:42,DE,S3,"startup, 12 staff",partial,1,Notiztafel,
+VR-26205,2026-07-14 12:09,JP,S3,"marketing studio, 3 people",complete,3,email to self,need offline mode
+VR-26812,2026-07-14 13:49,FR,S1,design school,complete,1,office suite notes,
+VR-26218,2026-07-14 14:05,FR,S2,"sole trader, bookkeeping",complete,2,spreadsheet,
+VR-26302,2026-07-14 14:17,MX,S3,"startup, 12 staff",complete,2,,
+VR-26174,2026-07-14 16:11,FR,S1,nursing student,complete,4,spreadsheet,team sharing is key for us
+VR-26001,2026-07-14 17:22,BR,S2,photographer,complete,3,paper notebook,price matters most
+VR-26558,2026-07-14 17:36,FR,,prefer not to say,screened_out,,,
+VR-26676,2026-07-14 17:43,DE,S2,"sole trader, bookkeeping",complete,1,office suite notes,want export to PDF
+VR-26002,2026-07-14 18:35,MX,S1,"undergrad, history",complete,2,none,
+VR-26670,2026-07-14 19:12,BR,S1,"undergrad, history",complete,2,email to self,
+VR-26090,2026-07-14 20:19,DE,S1,master's student,complete,3,Notiztafel,sync was the problem with my last app
+VR-26778,2026-07-14 21:17,JP,S2,illustrator,complete,1,none,price matters most
+VR-26119,2026-07-15 00:01,DE,,retired,screened_out,,,
+VR-26828,2026-07-15 01:37,FR,S1,law student,partial,,spreadsheet,
+VR-26803,2026-07-15 02:56,BR,S2,freelance journalist,complete,4,shared docs,sync was the problem with my last app
+VR-26314,2026-07-15 04:39,DE,S3,research group of 7,complete,3,Notiztafel,
+VR-26393,2026-07-15 04:52,FR,S2,"tax advisor, own practice",complete,2,shared docs,too many apps already
+VR-26660,2026-07-15 09:14,BR,S2,freelance translator,complete,1,Cadernia,team sharing is key for us
+VR-26709,2026-07-15 09:44,DE,,retired,screened_out,,,
+VR-26850,2026-07-15 09:45,DE,S1,PhD candidate,complete,1,email to self,
+VR-26713,2026-07-15 10:51,BR,S2,"tax advisor, own practice",partial,3,Cadernia,
+VR-26549,2026-07-15 12:00,BR,S2,freelance developer,partial,3,WhatsApp notes to self,
+VR-26762,2026-07-15 12:56,JP,S2,freelance translator,complete,5,Kumonote,
+VR-26461,2026-07-15 12:58,DE,,retired,screened_out,,,
+VR-26087,2026-07-15 14:05,BR,S2,"tax advisor, own practice",complete,2,spreadsheet,
+VR-26533,2026-07-15 18:16,DE,S2,photographer,partial,4,none,
+VR-26053,2026-07-15 20:33,JP,S3,"marketing studio, 3 people",partial,5,paper notebook,
+VR-26295,2026-07-15 23:23,BR,S1,law student,complete,3,spreadsheet,want export to PDF
+VR-26317,2026-07-16 01:18,DE,S1,medical student,partial,,Notiztafel,
+VR-26287,2026-07-16 02:08,JP,S1,PhD candidate,complete,4,Notes app that came with phone,need it in my language
+VR-26519,2026-07-16 02:12,BR,S3,"startup, 12 staff",complete,3,Notes app that came with phone,

@@ -1,0 +1,12 @@
+Deal: Ellery Rail Services
+Owner: Marisol Ibe
+Result: Closed lost, 2026-05-08
+Competitor chosen: Kettleridge BI
+
+Ellery maintains rolling stock for three train operators. They wanted internal dashboards for 25 engineers AND to show each operator a live maintenance dashboard inside Ellery's customer portal.
+
+The portal part is what sank us. Our embedded dashboards need every portal viewer to be a named Ferrowind user with a seat, and we could not white-label the login. Kettleridge Embed does anonymous embedding with their own auth token and no Kettleridge branding.
+
+On price: our per-seat price came up once in the first call, their IT manager asked about it, but by the end he said they would have paid our rate for the 25 engineers if we could do the portal embedding properly.
+
+Reason: missing feature, white-label embedding without per-viewer login.

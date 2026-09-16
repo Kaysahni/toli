@@ -1,0 +1,29 @@
+RECORDING A MANUAL CHECK
+Category: Payroll
+Last updated: 2024-07-30
+Written by: Gus Amberley
+
+Sometimes you pay someone outside of Halvard, for example by writing a check from your own checkbook when an employee needs money on a day Halvard isn't running payroll. Halvard needs to know about that payment so taxes, year-to-date totals and reports stay correct. That's what "Record a manual check" is for.
+
+Recording a manual check does NOT move any money. It only tells Halvard that a payment already happened.
+
+HOW TO RECORD IT
+
+1. Go to Payroll and click the three dots next to "Run payroll."
+2. Choose "Record manual check."
+3. Pick the employee.
+4. Enter the check date (the date you handed over the check) and the check number if you have one.
+5. Enter gross earnings by type (regular, overtime, bonus, etc.).
+6. Enter the taxes and deductions you took out. If you didn't withhold anything, click "Calculate for me" and Halvard will fill in what should have been withheld, then you can adjust the net amount on the check to match.
+7. Click "Save manual check."
+
+THINGS TO KNOW
+
+- Taxes on manual checks: Halvard collects and pays the tax amounts you entered. They're pulled from your bank account with the next payroll Halvard runs.
+- Net pay must match the check. If the net shown in Halvard doesn't match what you wrote on the paper check, fix it before saving. Year-end totals depend on it.
+- Editing: you can edit or delete a manual check until the next payroll is processed. After that, contact support.
+- Contractors: manual payments to contractors are recorded the same way, but there are no taxes to enter.
+
+EXAMPLE
+
+Rosa's car broke down and she asked for $600 on a Tuesday. You wrote her check #1142 for $600 net. In Halvard you record a manual check dated that Tuesday, click "Calculate for me," and Halvard shows gross pay of $781.25 with $181.25 in taxes. You save it, and $181.25 in taxes will be collected with your next regular payroll.

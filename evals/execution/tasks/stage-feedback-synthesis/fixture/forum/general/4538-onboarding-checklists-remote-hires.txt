@@ -1,0 +1,17 @@
+Thread: How do you handle onboarding checklists for remote hires?
+Category: General
+Original post by ffrost_tamsin (People Lead, Tamsin Labs), August 12, 2026
+
+We are hiring our first fully remote team (6 people in three countries) and I want an onboarding checklist that does not assume anyone walks into an office. What do you include? Laptop shipping, accounts, buddy assignment... what else?
+
+Reply from lwalsh_galloway (HR Administrator, Galloway Print Works), August 12, 2026
+We have a separate checklist template for remote. The main additions: shipping confirmation task for IT, a video welcome from their manager in week 1, and a check-in task on day 30 and day 60. Pinmoor lets you assign each task to a different owner which helps a lot.
+
+Reply from ffrost_tamsin, August 13, 2026
+The day 30 and 60 check-ins are a good idea. Do you make those tasks due relative to start date?
+
+Reply from lwalsh_galloway, August 13, 2026
+Yes, relative due dates. Set them to 30 and 60 days after start date in the template.
+
+Reply from ffrost_tamsin, August 14, 2026
+Perfect, thank you.

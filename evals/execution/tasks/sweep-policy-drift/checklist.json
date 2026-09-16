@@ -1,0 +1,187 @@
+{
+  "id": "sweep-policy-drift",
+  "company": "Calloway Ridge Credit Union",
+  "category": "sweep",
+  "held_out": false,
+  "summary": "Find every non-canonical document that contradicts the 2026 travel and expense policy or the remote work policy; a good answer lists the 11 drifted statements with file, wrong text and the canonical rule, and does not report stricter department rules, dated superseded emails, contractor terms or other decoys.",
+  "findings": [
+    {
+      "id": "F1",
+      "what": "Handbook section 7 gives the old meals per diem of $55 per day; canonical is $65 ($85 high-cost).",
+      "evidence": [
+        {"file": "handbook/07-travel-and-business-expenses.md", "quote": "you receive a meals and incidentals allowance of $55 per day while traveling"},
+        {"file": "hr/canonical/travel-and-expense-policy-2026.md", "quote": "| Standard locations | $65 |"}
+      ],
+      "counts_if": "Names handbook section 7 (travel and business expenses) as stating a $55 per diem where policy says $65."
+    },
+    {
+      "id": "F2",
+      "what": "HR FAQ says receipts are only needed for expenses over $50; canonical requires an itemized receipt for any expense of $30 or more.",
+      "evidence": [
+        {"file": "hr/hr-faq.md", "quote": "You only need to keep receipts for expenses over $50."},
+        {"file": "hr/canonical/travel-and-expense-policy-2026.md", "quote": "An itemized receipt is required for any single expense of $30 or more."}
+      ],
+      "counts_if": "Names the HR FAQ receipt answer ($50) as conflicting with the $30 receipt threshold."
+    },
+    {
+      "id": "F3",
+      "what": "Manager guide says employees have 60 days to submit expense reports; canonical deadline is 30 calendar days.",
+      "evidence": [
+        {"file": "hr/manager-guide.md", "quote": "Employees have 60 days from the end of a trip to submit their report in Clearline"},
+        {"file": "hr/canonical/travel-and-expense-policy-2026.md", "quote": "Submit expense reports in Clearline within 30 calendar days after the end of the trip"}
+      ],
+      "counts_if": "Names the manager guide's 60-day submission window as conflicting with the 30-day deadline."
+    },
+    {
+      "id": "F4",
+      "what": "Member Services wiki lets team leads and supervisors approve reports up to $1,000 alone; canonical allows a manager alone only up to $500, and a department may not set more generous rules.",
+      "evidence": [
+        {"file": "wiki/member-services.md", "quote": "**Team leads and supervisors can approve reports up to $1,000 on their own.**"},
+        {"file": "hr/canonical/travel-and-expense-policy-2026.md", "quote": "| Up to $500 | Direct manager |"}
+      ],
+      "counts_if": "Names the Member Services $1,000 single-approver limit as drift (more generous than the $500 manager limit), not as an allowed departmental rule."
+    },
+    {
+      "id": "F5",
+      "what": "Handbook Appendix C lists the Connectivity Allowance as $75 per month (the rejected proposal); canonical stipend is $50 per month. Handbook section 9 points to Appendix C for the amount.",
+      "evidence": [
+        {"file": "handbook/appendix-c-allowances-and-stipends.md", "quote": "| Connectivity Allowance | Employees with an approved hybrid or fully remote arrangement | $75 per month |"},
+        {"file": "handbook/09-remote-and-hybrid-work.md", "quote": "See Appendix C for the current amount."},
+        {"file": "hr/canonical/remote-work-policy-2026.md", "quote": "receive a connectivity stipend of $50 per month"}
+      ],
+      "counts_if": "Names handbook Appendix C as stating $75 per month where policy says $50."
+    },
+    {
+      "id": "F6",
+      "what": "IT wiki says items bought with the home office allowance are Credit Union assets that must be returned on leaving; canonical says they belong to the employee and need not be returned.",
+      "evidence": [
+        {"file": "wiki/information-technology.md", "quote": "When you leave the Credit Union, they must be returned along with your laptop, monitor and headset."},
+        {"file": "hr/canonical/remote-work-policy-2026.md", "quote": "Items bought with the allowance belong to the employee and do not need to be returned when the employee leaves."}
+      ],
+      "counts_if": "Names the IT wiki's requirement to return home office allowance purchases as conflicting with the policy."
+    },
+    {
+      "id": "F7",
+      "what": "Handbook section 9 says the Credit Union will give at least two weeks' notice to change or end a remote arrangement; canonical requires at least 30 calendar days' written notice.",
+      "evidence": [
+        {"file": "handbook/09-remote-and-hybrid-work.md", "quote": "your manager will give you at least two weeks' notice in writing"},
+        {"file": "hr/canonical/remote-work-policy-2026.md", "quote": "by giving the employee at least 30 calendar days' written notice"}
+      ],
+      "counts_if": "Names handbook section 9's two weeks' notice as conflicting with 30 days' notice."
+    },
+    {
+      "id": "F8",
+      "what": "Finance Operations wiki sets the Clearline L2 ceiling at $5,000, and the manager guide says department heads approve up to the L2 ceiling without the CFO. Together, reports between $2,500 and $5,000 skip CFO approval; canonical requires the CFO above $2,500.",
+      "evidence": [
+        {"file": "wiki/finance-operations.md", "quote": "L2 ceiling: $5,000"},
+        {"file": "hr/manager-guide.md", "quote": "Department heads approve at L2 and can sign off on anything up to the L2 ceiling without involving the CFO."},
+        {"file": "hr/canonical/travel-and-expense-policy-2026.md", "quote": "| Over $2,500 | Direct manager, department head and Chief Financial Officer |"}
+      ],
+      "counts_if": "Reports that the $5,000 L2 ceiling (Finance Operations wiki, and/or the manager guide relying on it) means department heads approve up to $5,000 without the CFO, versus the $2,500 CFO threshold."
+    },
+    {
+      "id": "F9",
+      "what": "Marketing wiki says hybrid staff only need to be in the office one day a week; canonical minimum is two days, and departments may not require fewer.",
+      "evidence": [
+        {"file": "wiki/marketing.md", "quote": "Marketing hybrid folks only need to be in the office one day a week"},
+        {"file": "hr/canonical/remote-work-policy-2026.md", "quote": "Hybrid employees must work in the office at least two days each week."}
+      ],
+      "counts_if": "Names the Marketing wiki's one office day per week as conflicting with the two-day minimum."
+    },
+    {
+      "id": "F10",
+      "what": "Facilities wiki gives mileage at 58.5 cents a mile; canonical rate is $0.62 per mile.",
+      "evidence": [
+        {"file": "wiki/facilities.md", "quote": "Mileage between branches is reimbursed at 58.5 cents a mile."},
+        {"file": "hr/canonical/travel-and-expense-policy-2026.md", "quote": "Mileage is reimbursed at $0.62 per mile."}
+      ],
+      "counts_if": "Names the Facilities wiki mileage rate (58.5 cents) as conflicting with 62 cents."
+    },
+    {
+      "id": "F11",
+      "what": "New hire orientation speaker notes tell new hires they can request remote work after their first 60 days; canonical requires completing the 90-day introductory period.",
+      "evidence": [
+        {"file": "hr/onboarding/new-hire-orientation-speaker-notes.txt", "quote": "once you're past your first 60 days, if your role is eligible and your manager agrees"},
+        {"file": "hr/canonical/remote-work-policy-2026.md", "quote": "They have completed the 90-day introductory period."}
+      ],
+      "counts_if": "Names the orientation speaker notes' 60-day remote eligibility as conflicting with the 90-day introductory period."
+    }
+  ],
+  "exclusions": [
+    {
+      "id": "X1",
+      "what": "Branch Operations requires hybrid back office staff in the office at least three days a week.",
+      "evidence": [{"file": "wiki/branch-operations.md", "quote": "**In Branch Operations, hybrid staff are in the office at least three days a week.**"}],
+      "why_not": "The remote work policy lets departments require more in-office days than the two-day minimum; stricter is allowed."
+    },
+    {
+      "id": "X2",
+      "what": "Commercial Lending requires expense reports within 10 business days.",
+      "evidence": [{"file": "wiki/commercial-lending.md", "quote": "**Commercial Lending staff must submit expense reports within 10 business days of returning from a trip.**"}],
+      "why_not": "Shorter than the 30-day deadline; section 3 of the expense policy allows stricter departmental rules."
+    },
+    {
+      "id": "X3",
+      "what": "Internal Audit caps lodging at $175 per night everywhere.",
+      "evidence": [{"file": "wiki/internal-audit.md", "quote": "**Internal Audit lodging cap: $175 per night in all locations, including high-cost cities.**"}],
+      "why_not": "Lower than the $210 / $290 caps; a stricter departmental rule is permitted."
+    },
+    {
+      "id": "X4",
+      "what": "November 2024 Finance email announcing 2025 rates ($55 per diem, $25 receipts, 60 days, $750 manager approval, 60 cents mileage).",
+      "evidence": [{"file": "announcements/2024-11-18-travel-rates-for-2025.eml", "quote": "Meals and incidentals per diem: $55 per full travel day"}],
+      "why_not": "A dated announcement of the superseded 2025 rates under policy version 3.2, replaced by version 4.0; not a current document telling employees the rules."
+    },
+    {
+      "id": "X5",
+      "what": "March 2025 HR email announcing a $40 stipend and two weeks' notice to end a hybrid arrangement.",
+      "evidence": [{"file": "announcements/2025-03-04-new-connectivity-stipend.eml", "quote": "the Credit Union can end a hybrid arrangement with two weeks' notice"}],
+      "why_not": "Dated announcement of policy version 1.1, superseded by version 2.0 effective January 2026."
+    },
+    {
+      "id": "X6",
+      "what": "Contractor Engagement Guide lists different meal, lodging, mileage, receipt, submission and approval terms.",
+      "evidence": [{"file": "hr/contractors/contractor-engagement-guide.md", "quote": "| Receipts | Required for every expense over $75 |"}],
+      "why_not": "Both canonical policies exclude independent contractors; their terms come from engagement agreements."
+    },
+    {
+      "id": "X7",
+      "what": "Struck-through $25 receipt threshold on the Finance Operations wiki.",
+      "evidence": [{"file": "wiki/finance-operations.md", "quote": "~~Receipts are needed for anything $25 and up.~~"}],
+      "why_not": "Already struck through and corrected on the same page to the $30 threshold."
+    },
+    {
+      "id": "X8",
+      "what": "Manager guide mentions managers could approve up to $750.",
+      "evidence": [{"file": "hr/manager-guide.md", "quote": "until the end of 2025, a direct manager could approve reports up to $750 alone"}],
+      "why_not": "Explicitly historical, and the guide says that limit no longer applies."
+    },
+    {
+      "id": "X9",
+      "what": "Meeting notes discussing raising the connectivity stipend to $75.",
+      "evidence": [{"file": "hr/meeting-notes/2026-02-17-hr-finance-policy-sync.md", "quote": "Decision: no change. $50 stays."}],
+      "why_not": "Internal notes of a proposal that was rejected; they confirm the $50 amount. (The drift is Appendix C, F5.)"
+    },
+    {
+      "id": "X10",
+      "what": "Handbook section 13 and HR FAQ ask for two weeks' notice of resignation.",
+      "evidence": [{"file": "handbook/13-leave-and-time-off.md", "quote": "We ask employees who resign to give at least two weeks' notice"}],
+      "why_not": "Resignation notice by the employee is not covered by either canonical policy; it is not the 30-day remote arrangement notice."
+    },
+    {
+      "id": "X11",
+      "what": "Tuition Assistance Program requires grade reports within 60 days.",
+      "evidence": [{"file": "hr/tuition-assistance-program.md", "quote": "Submit your grade report and paid invoice in Harbor within 60 days after the course ends."}],
+      "why_not": "A separate program, explicitly not travel or business expenses; the 30-day expense deadline does not apply."
+    }
+  ],
+  "answer": null,
+  "mistakes_that_matter": [
+    "Reporting a stricter departmental rule (Branch Operations three office days, Commercial Lending 10 business days, Internal Audit $175 cap) as drift, which would lead HR to loosen valid controls.",
+    "Treating the Member Services $1,000 approval limit as an allowed departmental rule, leaving an approval control weaker than policy.",
+    "Missing the $5,000 L2 ceiling, so reports between $2,500 and $5,000 keep bypassing the CFO.",
+    "Stating the wrong canonical value as the correction (for example telling owners the stipend is $75 or the notice is two weeks).",
+    "Flagging contractor terms or dated superseded emails as documents to rewrite.",
+    "Quoting text that does not appear in the named file."
+  ]
+}

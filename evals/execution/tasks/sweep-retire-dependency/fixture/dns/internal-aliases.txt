@@ -1,0 +1,38 @@
+; tsw.internal short aliases
+; Maintained by Platform Networking. Change via ticket in NET queue, not by hand.
+; Format: alias  TTL  type  target
+; Short names exist because some older tools cannot handle our long FQDNs.
+;
+; export generated 2026-09-08 08:12 UTC from zone tsw.internal
+
+$ORIGIN tsw.internal.
+
+; ---- core platform ----
+geo             300   CNAME  geo.core.tesselwick.internal.
+tiles           300   CNAME  tiles.core.tesselwick.internal.
+auth            300   CNAME  auth.tesselwick.internal.
+rc2             300   CNAME  routecalc.core.tesselwick.internal.
+legs            300   CNAME  routecalc.core.tesselwick.internal.
+; 2026-03-04 NET-2291: legs repointed from routecalc-v1.core.tesselwick.internal to the v2 host (A. Sundqvist)
+pathfinder-old  3600  CNAME  routecalc-v1.core.tesselwick.internal.
+qe1             3600  CNAME  routecalc-v1.core.tesselwick.internal.
+rcache          300   CNAME  routecache.core.tesselwick.internal.
+
+; ---- data ----
+pgyard          300   CNAME  pg-yard-primary.data.tesselwick.internal.
+pgfin-ro        300   CNAME  pg-finance-replica.data.tesselwick.internal.
+dwh             300   CNAME  warehouse.data.tesselwick.internal.
+kafka           300   CNAME  kafka-a1.stream.tesselwick.internal.
+
+; ---- ops hosts ----
+batch1          600   CNAME  ops-batch-01.ops.tesselwick.internal.
+batch2          600   CNAME  ops-batch-02.ops.tesselwick.internal.
+rep1            600   CNAME  reporting-01.ops.tesselwick.internal.
+edge3           600   CNAME  edge-sync-03.ops.tesselwick.internal.
+
+; ---- tools ----
+dispatch        300   CNAME  dispatch.tools.tesselwick.internal.
+grafana         300   CNAME  grafana.tools.tesselwick.internal.
+wiki            300   CNAME  wiki.tools.tesselwick.internal.
+
+; removed 2025-11-20: oldwms (WMS 6 cutover complete)

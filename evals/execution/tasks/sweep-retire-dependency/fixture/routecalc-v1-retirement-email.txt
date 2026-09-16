@@ -1,0 +1,26 @@
+From: Anneli Farstad <anneli.farstad@tesselwick.example>
+To: eng-all@tesselwick.example
+Cc: Kasper Nyholm <kasper.nyholm@tesselwick.example>
+Date: Mon, 7 Sep 2026 09:41:12 +0200
+Subject: RouteCalc v1 goes away on 20 October
+
+Hi all,
+
+Reminder that RouteCalc v1 will be switched off on Tuesday 20 October. The old
+node pool it runs on is being returned at the end of October, so the date
+cannot move.
+
+Most of you moved to v2 last year, thank you. The request log on v1 still shows
+traffic every day, though, and a lot of it comes from shared IPs (batch hosts,
+the partner allowlist range) so I cannot tell from the logs alone who it is.
+
+Platform is putting together the list of what still depends on v1 so we can
+contact owners directly. If you already know you are still on v1, reply to me
+and save us the digging.
+
+Things that will stop working on the 20th:
+- the routecalc-v1 hostname and anything pointing at it
+- v1 API keys
+- new rows in the v1 results tables in the warehouse
+
+Anneli

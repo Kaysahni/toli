@@ -1,0 +1,12 @@
+# crontab export
+# host: ops-batch-02.ops.tesselwick.internal
+# user: svc-yard
+# exported: 2026-09-07 06:00 UTC by cron-inventory
+# owner: Yard Systems
+MAILTO=yard-oncall@tesselwick.example
+
+*/15 * * * * /opt/tesselwick/jobs/door_sensor_heartbeat.sh
+0 23 * * * /opt/tesselwick/jobs/export_door_utilisation.py --hubs all
+30 5 * * 1 /opt/tesselwick/jobs/weekly_yard_report.py --email yard-leads@tesselwick.example
+0 7 * * * /opt/tesselwick/bin/certrenew --quiet >> /var/log/tw/certrenew.log 2>&1
+# 45 2 * * * /opt/tesselwick/jobs/trailer_age_audit.py   (paused until the new fleet register is live)

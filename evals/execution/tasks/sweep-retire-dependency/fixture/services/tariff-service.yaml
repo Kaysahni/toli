@@ -1,0 +1,21 @@
+# tariff-service
+# Source of truth for contract and spot tariffs.
+# Team: Finance Engineering. Runbook: see month-end tariff close.
+service: tariff-service
+image: registry.tesselwick.internal/finance/tariff-service:6.0.3
+replicas: 3
+runtime: python3.11
+requirements:
+  tw-routing-client: 3.4.1
+  sqlalchemy: 2.0.30
+  fastapi: 0.111.0
+env:
+  DB_DSN: vault:kv/prod/tariff-service#dsn
+  DISTANCE_SOURCE: routecalc
+  RC_TIMEOUT_SECONDS: "10"
+  SPOT_MARKUP_DEFAULT_PCT: "11"
+  CURRENCY_BASE: EUR
+endpoints:
+  - GET /api/tariffs
+  - GET /api/tariffs/{lane}
+  - POST /api/tariffs/import

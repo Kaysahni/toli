@@ -1,0 +1,32 @@
+service: invoice-builder
+owner: Finance Engineering
+oncall: fin-eng-oncall
+image: registry.tesselwick.internal/finance/invoice-builder:7.2.9
+
+schedule:
+  daily_close_utc: "01:15"
+  retry_failed_after_minutes: 45
+
+sources:
+  shipments_db: pg-finance-replica.data.tesselwick.internal:5432/shipments
+  tariffs: http://tariff-service.finance.svc:8080/api/tariffs
+  # routing_url: https://routecalc-v1.core.tesselwick.internal/quote
+  routing_url: https://routecalc.core.tesselwick.internal/v2/quote
+  fx_rates: http://fx-rates.finance.svc:8080/latest
+
+output:
+  pdf_bucket: s3://tw-invoices-prod
+  erp_export_topic: finance.invoice.issued
+
+rounding:
+  mode: half_even
+  currency_precision:
+    EUR: 2
+    SEK: 2
+    NOK: 2
+    GBP: 2
+
+surcharges:
+  fuel: from_tariff
+  detention: from_yard_events
+  toll: pass_through

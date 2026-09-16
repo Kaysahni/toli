@@ -1,0 +1,46 @@
+# Travel Desk preferred hotel list
+# Maintained by: Marisol Quennell (Travel Desk)
+# Refreshed: 2026-08-17 for fall conference season
+# Rates are negotiated corporate rates per night, before taxes, standard room.
+
+high_cost_locations:
+  port_averill:
+    - name: Averill Harbor Inn
+      address: 40 Wharf Street, Port Averill, KE
+      corporate_rate: 249
+      notes: walking distance to the Port Averill branch
+    - name: Meridian Court Hotel
+      address: 1120 Lantern Avenue, Port Averill, KE
+      corporate_rate: 279
+      notes: Kendry Credit Union League seminar venue in October
+  hollins_bay:
+    - name: Bayline Suites
+      address: 7 Pier Road, Hollins Bay, OS
+      corporate_rate: 265
+      notes: contact center conference block available through Sept 30
+  dunmere:
+    - name: The Dunmere Station Hotel
+      address: 2 Station Square, Dunmere, OS
+      corporate_rate: 238
+
+standard_locations:
+  tamsworth:
+    - name: Quarryside Lodge
+      address: 88 Linden Street, Tamsworth, KE
+      corporate_rate: 159
+      notes: for new hires and trainees attending Teller Academy
+  callow_falls:
+    - name: Falls Crossing Inn
+      address: 310 Mill Road, Callow Falls, KE
+      corporate_rate: 142
+  ashgrove:
+    - name: Ashgrove Motor Lodge
+      address: 1501 Route 9, Ashgrove, OS
+      corporate_rate: 119
+      notes: basic, but clean and closest to the Ashgrove branch
+  wexley:
+    - name: Wexley Commons Hotel
+      address: 55 Commons Way, Wexley, KE
+      corporate_rate: 189
+
+# Removed 2026-08-17: Pinecrest Hotel, Tamsworth (closed for renovation until spring 2027)

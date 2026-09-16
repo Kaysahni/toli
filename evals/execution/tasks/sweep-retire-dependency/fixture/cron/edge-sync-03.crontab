@@ -1,0 +1,9 @@
+# crontab export
+# host: edge-sync-03.ops.tesselwick.internal (depot edge box, Haskvik)
+# user: root
+# exported: 2026-09-07 06:00 UTC by cron-inventory
+# owner: Warehouse Tech
+*/5 * * * * /usr/local/bin/sync-scanner-configs
+0 2 * * * /usr/local/bin/rotate-local-logs
+30 2 * * * /usr/local/bin/push-label-printer-stats http://warehouse-sync.warehouse.svc:8080/printers
+@reboot /usr/local/bin/wait-for-network && /usr/local/bin/sync-scanner-configs

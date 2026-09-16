@@ -1,0 +1,1 @@
+Nightly statement emails did not go out on September 3. What happened, start to finish, and what was the root cause? I have the post-incident review with ops and the retail banking lead tomorrow and need a timeline I can defend, so please back each step with what the logs actually show. Everything I pulled is in this folder.

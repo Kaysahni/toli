@@ -1,0 +1,227 @@
+REVOLVING CREDIT FACILITY AGREEMENT
+
+DATED 14 SEPTEMBER 2023
+
+BETWEEN
+
+BRACKENFORD HOLDINGS, INC.
+as Borrower
+
+THE ENTITIES LISTED IN PART 1 OF SCHEDULE A
+as Original Guarantors
+
+and
+
+MERROW BANK N.A.
+as Lender
+
+CAL$40,000,000 COMMITTED REVOLVING CREDIT FACILITY
+
+Execution version. Prepared by Ferrier Lodge & Quint, counsel to the Lender.
+
+
+THIS AGREEMENT is dated 14 September 2023 and made between:
+
+(1) BRACKENFORD HOLDINGS, INC., a corporation incorporated under the laws of the State of Calder with registered office at 400 Pellam Street, Port Ellery (the "Borrower");
+
+(2) THE SUBSIDIARIES of the Borrower listed in Part 1 of Schedule A as original guarantors (together with the Borrower, the "Obligors" and each an "Obligor"; the subsidiaries together the "Original Guarantors"); and
+
+(3) MERROW BANK N.A., acting through its Corporate Banking office at 1 Exchange Row, Ashworth (the "Lender").
+
+IT IS AGREED as follows:
+
+
+ARTICLE I
+DEFINITIONS AND INTERPRETATION
+
+Section 1.01 Definitions. In this Agreement:
+
+"Availability Period" means the period from and including the date of this Agreement to and including the date falling one month prior to the Termination Date.
+
+"Available Commitment" means the Commitment minus the aggregate principal amount of all outstanding Loans, adjusted for any Loans to be made or repaid on or before the proposed Utilisation Date.
+
+"Business Day" means a day (other than a Saturday or Sunday) on which banks are open for general business in Ashworth.
+
+"Commitment" means CAL$40,000,000, to the extent not cancelled, reduced or transferred under this Agreement.
+
+"Consolidated EBITDA" means, in respect of any Relevant Period, the consolidated operating profit of the Group before taxation, before deducting Consolidated Finance Charges, before taking into account any exceptional or extraordinary items, and before deducting depreciation and amortisation, in each case as determined from the most recent financial statements delivered under Section 7.01.
+
+"Consolidated Total Net Debt" means, at any time, the aggregate amount of all obligations of members of the Group for or in respect of Borrowings at that time less cash and cash equivalents held by members of the Group.
+
+"Default" means an Event of Default or any event or circumstance specified in Article IX which would (with the expiry of a grace period, the giving of notice, the making of any determination or any combination of them) be an Event of Default.
+
+"Group" means the Borrower and each of its Subsidiaries for the time being.
+
+"Interest Period" means, in relation to a Loan, the period determined in accordance with Section 4.02.
+
+"Loan" means a loan made or to be made under the Facility or the principal amount outstanding for the time being of that loan.
+
+"Margin" means the rate per annum determined in accordance with Section 4.03.
+
+"Reference Rate" means the Calder Overnight Funding Rate as published by the Calder Monetary Authority for the relevant day, and if that rate is less than zero, the Reference Rate shall be deemed to be zero.
+
+"Repeating Representations" means each of the representations set out in Sections 6.01 to 6.06.
+
+"Termination Date" means the date falling sixty (60) months after the date of this Agreement.
+
+"Utilisation Request" means a notice substantially in the form set out in Schedule B.
+
+
+ARTICLE II
+THE FACILITY
+
+Section 2.01 The Facility. Subject to the terms of this Agreement, the Lender makes available to the Borrower a revolving credit facility in an aggregate amount equal to the Commitment.
+
+Section 2.02 Purpose. The Borrower shall apply all amounts borrowed by it under the Facility towards the general corporate and working capital purposes of the Group, including the refinancing of the Borrower's existing facilities with Stannard Commercial Bank and the funding of capital expenditure at the Group's cold storage facilities. The Lender is not bound to monitor or verify the application of any amount borrowed.
+
+
+ARTICLE III
+UTILISATION
+
+Section 3.01 Delivery of a Utilisation Request. The Borrower may utilise the Facility by delivery to the Lender of a duly completed Utilisation Request not later than 11:00 a.m. three (3) Business Days before the proposed Utilisation Date.
+
+Section 3.02 Completion. Each Utilisation Request is irrevocable and will not be regarded as duly completed unless (a) the proposed Utilisation Date is a Business Day within the Availability Period; (b) the currency and amount of the Utilisation comply with Section 3.03; and (c) the proposed Interest Period complies with Section 4.02. Only one Loan may be requested in each Utilisation Request.
+
+Section 3.03 Amount. The amount of the proposed Loan must be a minimum of CAL$1,000,000 and an integral multiple of CAL$250,000 or, if less, the Available Commitment. The Borrower may not deliver a Utilisation Request if as a result of the proposed Utilisation more than ten (10) Loans would be outstanding.
+
+Section 3.04 Conditions Precedent. The Borrower may not deliver the first Utilisation Request unless the Lender has received all of the documents and other evidence listed in Schedule D in form and substance satisfactory to the Lender. The Lender shall be obliged to make a Loan only if on the date of the Utilisation Request and on the proposed Utilisation Date (a) in the case of a Rollover Loan, no Event of Default is continuing or would result from the proposed Loan, and, in the case of any other Loan, no Default is continuing or would result from the proposed Loan; and (b) the Repeating Representations are true in all material respects.
+
+
+ARTICLE IV
+REPAYMENT, INTEREST AND INTEREST PERIODS
+
+Section 4.01 Repayment. The Borrower shall repay each Loan on the last day of its Interest Period. All outstanding Loans shall be repaid in full on the Termination Date. Without prejudice to the Borrower's obligation to repay the full amount of each Loan on its repayment date, where one or more new Loans are to be made available on the same day that a maturing Loan is due to be repaid, the amounts shall be netted as provided in the Utilisation Request (a "Rollover Loan").
+
+Section 4.02 Interest Periods. The Borrower shall select an Interest Period for a Loan in the Utilisation Request for that Loan. Subject to this Section, the Borrower may select an Interest Period of one, three or six months or any other period agreed between the Borrower and the Lender. An Interest Period for a Loan shall not extend beyond the Termination Date. If an Interest Period would otherwise end on a day which is not a Business Day, that Interest Period will instead end on the next Business Day in that calendar month (if there is one) or the preceding Business Day (if there is not).
+
+Section 4.03 Calculation of Interest. The rate of interest on each Loan for each day during each Interest Period is the percentage rate per annum which is the aggregate of the applicable Margin and the Reference Rate for that day, compounded in arrears in accordance with the methodology set out in Schedule E. The Margin shall be determined by reference to the ratio of Consolidated Total Net Debt to Consolidated EBITDA ("Leverage") shown in the most recent Compliance Certificate:
+
+    Leverage                                   Margin (% p.a.)
+    Greater than 2.75:1                        2.60
+    Greater than 2.25:1 but not above 2.75:1   2.25
+    Greater than 1.75:1 but not above 2.25:1   1.95
+    1.75:1 or less                             1.70
+
+Until delivery of the Compliance Certificate for the Relevant Period ending 31 December 2023 the Margin shall be 2.25 per cent per annum. While an Event of Default is continuing the Margin shall be the highest rate in the table above.
+
+Section 4.04 Payment of Interest. The Borrower shall pay accrued interest on each Loan on the last day of each Interest Period and, if the Interest Period is longer than three months, on the dates falling at three-monthly intervals after the first day of the Interest Period.
+
+Section 4.05 Default Interest. If an Obligor fails to pay any amount payable by it on its due date, interest shall accrue on the overdue amount from the due date up to the date of actual payment at a rate which is two (2) per cent per annum higher than the rate which would have been payable if the overdue amount had constituted a Loan for successive Interest Periods of one month.
+
+
+ARTICLE V
+PREPAYMENT AND CANCELLATION
+
+Section 5.02 Change of Control. If any person or group of persons acting in concert gains control of the Borrower: (a) the Borrower shall promptly notify the Lender upon becoming aware of that event; (b) the Lender shall not be obliged to fund a Utilisation; and (c) the Lender may, by not less than ten (10) Business Days' notice to the Borrower, cancel the Commitment and declare all outstanding Loans, together with accrued interest, immediately due and payable.
+
+Section 5.03 Voluntary Cancellation. The Borrower may, if it gives the Lender not less than five (5) Business Days' prior notice, cancel the whole or any part (being a minimum amount of CAL$2,500,000) of the Available Commitment. Any cancellation under this Section shall reduce the Commitment rateably.
+
+Section 5.04 Voluntary Prepayment. The Borrower may, if it gives the Lender not less than three (3) Business Days' prior notice, prepay the whole or any part of a Loan (but, if in part, being an amount that reduces the amount of the Loan by a minimum amount of CAL$500,000). No prepayment fee is payable, but the Borrower shall pay any Break Costs incurred where a prepayment is made other than on the last day of an Interest Period.
+
+Section 5.05 Restrictions. Any notice of cancellation or prepayment given by any Party under this Article V shall be irrevocable and shall specify the date or dates upon which the relevant cancellation or prepayment is to be made and the amount of that cancellation or prepayment. The Borrower may not reborrow any part of the Facility which is cancelled. Amounts prepaid may, subject to the other terms of this Agreement, be reborrowed.
+
+
+ARTICLE VI
+REPRESENTATIONS
+
+Each Obligor makes the representations and warranties set out in this Article VI to the Lender on the date of this Agreement, and the Repeating Representations are deemed repeated on the date of each Utilisation Request, each Utilisation Date and the first day of each Interest Period.
+
+Section 6.01 Status. It is a corporation or company, duly incorporated and validly existing under the law of its jurisdiction of incorporation, and it has the power to own its assets and carry on its business as it is being conducted.
+
+Section 6.02 Binding Obligations. The obligations expressed to be assumed by it in this Agreement are legal, valid, binding and enforceable obligations, subject to general principles of equity and insolvency laws.
+
+Section 6.03 Non-conflict. The entry into and performance by it of this Agreement do not conflict with any law or regulation applicable to it, its constitutional documents, or any agreement or instrument binding upon it or any of its assets in a manner that has or is reasonably likely to have a Material Adverse Effect.
+
+Section 6.04 Power and Authority. It has the power to enter into, perform and deliver, and has taken all necessary action to authorise its entry into, performance and delivery of, this Agreement.
+
+Section 6.05 Governing Law and Enforcement. The choice of the laws of the State of Calder as the governing law of this Agreement will be recognised and enforced in its jurisdiction of incorporation.
+
+Section 6.06 No Default. No Event of Default is continuing or might reasonably be expected to result from the making of any Utilisation.
+
+Section 6.08 Financial Statements. Its audited consolidated financial statements for the financial year ended 31 December 2022 were prepared in accordance with generally accepted accounting principles in Calder consistently applied and give a true and fair view of its consolidated financial condition as at that date.
+
+
+ARTICLE VII
+INFORMATION UNDERTAKINGS
+
+Section 7.01 Financial Statements. The Borrower shall supply to the Lender (a) as soon as they are available, but in any event within one hundred and twenty (120) days after the end of each of its financial years, its audited consolidated financial statements for that financial year; and (b) as soon as they are available, but in any event within forty-five (45) days after the end of each financial quarter, its unaudited consolidated financial statements for that financial quarter.
+
+Section 7.02 Compliance Certificate. The Borrower shall supply to the Lender, with each set of financial statements delivered under Section 7.01, a Compliance Certificate setting out (in reasonable detail) computations as to compliance with Section 8.01.
+
+Section 7.04 Notification of Default. Each Obligor shall notify the Lender of any Default (and the steps, if any, being taken to remedy it) promptly upon becoming aware of its occurrence.
+
+
+ARTICLE VIII
+FINANCIAL COVENANTS AND GENERAL UNDERTAKINGS
+
+Section 8.01 Financial Condition. The Borrower shall ensure that (a) Leverage in respect of any Relevant Period shall not exceed 3.25:1; and (b) the ratio of Consolidated EBITDA to Consolidated Finance Charges in respect of any Relevant Period shall not be less than 4.00:1. The financial covenants shall be tested by reference to each of the financial statements delivered under Section 7.01 and each Compliance Certificate.
+
+Section 8.02 Negative Pledge. No Obligor shall (and the Borrower shall ensure that no other member of the Group will) create or permit to subsist any security over any of its assets, other than (a) liens arising by operation of law in the ordinary course of trading; (b) any security over goods and documents of title arising in the ordinary course of letter of credit transactions; (c) security securing indebtedness the principal amount of which (when aggregated with the principal amount of any other indebtedness which has the benefit of security given by any member of the Group other than under paragraphs (a) and (b)) does not exceed CAL$6,000,000.
+
+
+ARTICLE IX
+EVENTS OF DEFAULT
+
+Each of the events or circumstances set out in this Article IX is an Event of Default.
+
+Section 9.01 Non-payment. An Obligor does not pay on the due date any amount payable pursuant to this Agreement at the place and in the currency in which it is expressed to be payable unless its failure to pay is caused by administrative or technical error and payment is made within three (3) Business Days of its due date.
+
+Section 9.02 Financial Covenants. Any requirement of Section 8.01 is not satisfied.
+
+Section 9.03 Other Obligations. An Obligor does not comply with any provision of this Agreement (other than those referred to in Sections 9.01 and 9.02) unless the failure to comply is capable of remedy and is remedied within twenty (20) Business Days of the earlier of the Lender giving notice to the Borrower and the Borrower becoming aware of the failure to comply.
+
+Section 9.05 Insolvency and Insolvency Proceedings. A member of the Group is unable or admits inability to pay its debts as they fall due, suspends making payments on any of its debts, or any corporate action, legal proceedings or other procedure or step is taken in relation to the suspension of payments, a moratorium of any indebtedness, winding-up, dissolution, administration or reorganisation of any Obligor.
+
+Section 9.07 Acceleration. On and at any time after the occurrence of an Event of Default which is continuing, the Lender may by notice to the Borrower (a) cancel the Commitment, whereupon it shall immediately be cancelled; (b) declare that all or part of the Loans, together with accrued interest and all other amounts accrued or outstanding under this Agreement, be immediately due and payable; and/or (c) declare that all or part of the Loans be payable on demand.
+
+
+ARTICLE X
+FEES, COSTS AND MISCELLANEOUS
+
+Section 10.01 Commitment Fee. The Borrower shall pay to the Lender a fee computed at the rate of thirty-five (35) per cent of the applicable Margin on the Available Commitment for the Availability Period, payable quarterly in arrears.
+
+Section 10.02 Arrangement Fee. The Borrower shall pay to the Lender an arrangement fee of CAL$300,000 on the date of this Agreement.
+
+Section 10.03 Notices. Any communication to be made under or in connection with this Agreement shall be made in writing and may be made by letter or by electronic mail. The address for the Borrower is 400 Pellam Street, Port Ellery, marked for the attention of the Group Treasurer. The address for the Lender is 1 Exchange Row, Ashworth, marked for the attention of Relationship Director, Corporate Banking (currently Alistair Penhaligon).
+
+Section 10.05 Governing Law and Jurisdiction. This Agreement and any non-contractual obligations arising out of or in connection with it are governed by the laws of the State of Calder. The courts of Ashworth County have exclusive jurisdiction to settle any dispute arising out of or in connection with this Agreement.
+
+
+SCHEDULE A: THE ORIGINAL PARTIES
+
+Part 1: Original Guarantors
+
+    Name                                        Registration no.
+    Brackenford Distribution Ltd.               CAL-C-0881245
+    Brackenford Cold Stores Ltd.                CAL-C-0902311
+    Tarrow Gate Cross-Dock Ltd.                 CAL-C-1100432
+    Brackenford Property Holdings LLC           CAL-L-0077619
+
+
+SCHEDULE B: FORM OF UTILISATION REQUEST (omitted from this copy, see executed bundle, tab 4)
+
+SCHEDULE C: FORM OF COMPLIANCE CERTIFICATE (omitted from this copy, see executed bundle, tab 5)
+
+SCHEDULE D: CONDITIONS PRECEDENT (omitted from this copy, see executed bundle, tab 6)
+
+SCHEDULE E: COMPOUNDING METHODOLOGY (omitted from this copy)
+
+
+SIGNATURES
+
+THE BORROWER
+BRACKENFORD HOLDINGS, INC.
+By: Marguerite Okonjo-Hale
+Title: Chief Financial Officer
+
+THE ORIGINAL GUARANTORS
+For and on behalf of each Original Guarantor listed in Part 1 of Schedule A
+By: Marguerite Okonjo-Hale
+Title: Director
+
+THE LENDER
+MERROW BANK N.A.
+By: Alistair Penhaligon
+Title: Relationship Director, Corporate Banking
+By: Ngozi Farrant
+Title: Head of Credit, Mid-Market

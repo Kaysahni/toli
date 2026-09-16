@@ -1,0 +1,178 @@
+{
+  "id": "sweep-vendor-dpa",
+  "company": "Orrinfield Health",
+  "category": "sweep",
+  "held_out": true,
+  "summary": "Review 22 active and terminated vendor agreements (with exhibits, schedules and 6 amendments) against Orrinfield's 2026 vendor data standard; a good answer lists the 8 active agreements that still fail a requirement, names the requirement and quotes the failing clause and file, and does not report cured, out-of-scope or terminated items.",
+  "findings": [
+    {
+      "id": "F1",
+      "what": "Quillon Telehealth: breach notice clock starts at Quillon's 'confirmation' of an incident, which can take up to 15 business days after first awareness, so notice is not guaranteed within 72 hours of discovery (Requirement 1).",
+      "evidence": [
+        {"file": "contracts/quillon-telehealth-subscription-agreement.md", "quote": "Quillon will notify Customer in writing within seventy-two (72) hours after Quillon has confirmed that a Security Incident has occurred."},
+        {"file": "contracts/quillon-telehealth-subscription-agreement.md", "quote": "Quillon will use commercially reasonable efforts to complete its confirmation process within fifteen (15) business days of first becoming aware of a potential Security Incident."},
+        {"file": "policy/vendor-data-policy-2026.md", "quote": "The clock starts at discovery."}
+      ],
+      "counts_if": "Names Quillon as failing the breach notification requirement because the 72 hours runs from confirmation rather than discovery (the answer must not accept the 72 hour figure at face value)."
+    },
+    {
+      "id": "F2",
+      "what": "Brasswick Lab Informatics: Schedule 3 (a separate file) lists a disaster recovery site in Montreal, Canada holding a nightly copy of the production database with patient results, and the main body binds hosting to Schedule 3 (Requirement 3).",
+      "evidence": [
+        {"file": "contracts/brasswick-schedule-3-hosting.md", "quote": "| Secondary (disaster recovery) | Kestowe Data Centres, Montreal, Quebec, Canada | Nightly replicated copy of production database, including patient results |"},
+        {"file": "contracts/brasswick-lis-services-agreement.md", "quote": "The Supplier shall host Customer Data only at the facilities listed in Schedule 3."}
+      ],
+      "counts_if": "Names Brasswick as failing the US-only storage requirement and cites the Canadian disaster recovery facility in Schedule 3."
+    },
+    {
+      "id": "F3",
+      "what": "Hollin & Marsh Transcription: new subcontractors are disclosed up to 15 days after they start work, not 30 days before (Requirement 2, notice part). The list itself is on the portal and is fine.",
+      "evidence": [
+        {"file": "contracts/hollin-marsh-transcription-agreement.txt", "quote": "Contractor shall inform Client of any new subcontractor that will have access to Client Materials no later than fifteen (15) days after such subcontractor begins performing services."}
+      ],
+      "counts_if": "Names Hollin & Marsh as failing the subprocessor requirement because notice comes after engagement rather than 30 days before."
+    },
+    {
+      "id": "F4",
+      "what": "Imaging archive vendor (Brightwater Radiology Systems, now Pellucid Imaging per the index): Exhibit C, a separate file that does not name the vendor, allows 90 days after the Transition Period to purge images and backups (Requirement 4). The main body defers deletion to Exhibit C.",
+      "evidence": [
+        {"file": "contracts/exhibit-c-transition-services.md", "quote": "Within ninety (90) days after the end of the Transition Period, Vendor will purge all Customer Images and associated metadata from the Archive and its backups and will deliver a certificate of destruction to Customer."},
+        {"file": "contracts/vendor-index.csv", "quote": "Vendor renamed from Brightwater Radiology Systems in 2025; agreement not re-papered"}
+      ],
+      "counts_if": "Names the Brightwater / Pellucid Imaging archive agreement (either name) as failing the 30 day certified deletion requirement, citing the 90 day purge in Exhibit C."
+    },
+    {
+      "id": "F5",
+      "what": "Sablemoor Data Vaulting: the base agreement is US-only, but Amendment No. 2 replaced Section 6.1 to allow a third replica in Frankfurt, Germany (Requirement 3). Requires reading the amendment against the agreement.",
+      "evidence": [
+        {"file": "amendments/sablemoor-amendment-no-2.md", "quote": "Provider will store Customer Data in its data centers in Ashburn, Virginia and Hillsboro, Oregon, and may maintain a third encrypted replica in its facility in Frankfurt, Germany for geographic resiliency."},
+        {"file": "amendments/sablemoor-amendment-no-2.md", "quote": "Section 6.1 of the Agreement is deleted in its entirety and replaced with the following:"}
+      ],
+      "counts_if": "Names Sablemoor as failing the US-only storage requirement because of the Frankfurt replica introduced by Amendment No. 2."
+    },
+    {
+      "id": "F6",
+      "what": "Nettlefield Messaging: the Data Processing Addendum (separate file) makes the subprocessor list available only on written request and promises only 'reasonable advance notice' of changes (Requirement 2, both parts).",
+      "evidence": [
+        {"file": "contracts/nettlefield-data-processing-addendum.md", "quote": "Nettlefield will provide a list of its current Sub-processors to Customer upon written request."},
+        {"file": "contracts/nettlefield-data-processing-addendum.md", "quote": "Nettlefield will give Customer reasonable advance notice of any intended addition or replacement of Sub-processors."}
+      ],
+      "counts_if": "Names Nettlefield as failing the subprocessor requirement, citing the on-request list and/or the lack of a 30 day notice period in the DPA."
+    },
+    {
+      "id": "F7",
+      "what": "Greyloft Technology Partners: production data is deleted and certified within 30 days (shortened to 20 by amendment), but backup media is only overwritten through a 180 day rotation, so backups are not deleted within 30 days (Requirement 4). The amendment does not touch Section 12.3.",
+      "evidence": [
+        {"file": "contracts/greyloft-managed-it-services-agreement.md", "quote": "Backup media containing Client Data will not be selectively erased but will be overwritten in the normal course of Provider's backup rotation, which is currently one hundred eighty (180) days."},
+        {"file": "amendments/greyloft-amendment-scope-and-offboarding.md", "quote": "3.1 Section 12.2 of the Agreement is deleted in its entirety and replaced with the following:"}
+      ],
+      "counts_if": "Names Greyloft as failing the deletion requirement because of the 180 day backup rotation, and does not treat the amendment as curing it."
+    },
+    {
+      "id": "F8",
+      "what": "Wrenfold Patient Payments: Exhibit A (at the end of the main file) hosts patient account records in Dublin, Ireland as well as Dallas (Requirement 3). The First Amendment fixed the breach notice clause but did not touch hosting.",
+      "evidence": [
+        {"file": "contracts/wrenfold-payment-services-agreement.md", "quote": "Patient account and payment records are hosted in Wrenfold's processing centers in Dallas, Texas and Dublin, Ireland."}
+      ],
+      "counts_if": "Names Wrenfold as failing the US-only storage requirement because of the Dublin processing center in Exhibit A."
+    }
+  ],
+  "exclusions": [
+    {
+      "id": "X1",
+      "what": "Ostrander Pharmacy Connect Section 7.4: subprocessor list on request and only 10 days notice.",
+      "evidence": [
+        {"file": "contracts/ostrander-eprescribing-agreement.md", "quote": "Ostrander will provide Customer at least ten (10) days' notice before engaging a new Subprocessor."},
+        {"file": "amendments/ostrander-amendment-1.md", "quote": "Ostrander will maintain a current list of Subprocessors at https://legal.ostrander.example/subprocessors and will provide Customer at least thirty (30) days' prior written notice before any new or replacement Subprocessor processes Customer Data."}
+      ],
+      "why_not": "Amendment No. 1 (April 7, 2026) replaced Section 7.4 with a published list and 30 days prior notice, so the agreement as amended complies."
+    },
+    {
+      "id": "X2",
+      "what": "Kellbrook Survey Co. Section 10.3: destruction within 120 days and confirmation only on request.",
+      "evidence": [
+        {"file": "contracts/kellbrook-patient-survey-agreement.md", "quote": "Within one hundred twenty (120) days after termination, Kellbrook will destroy all Patient Contact Files and will confirm destruction in writing upon Orrinfield's request."},
+        {"file": "amendments/kellbrook-amendment-2025.md", "quote": "Within thirty (30) days after termination, Kellbrook will destroy all Patient Contact Files, including backup copies, and will deliver a written certification of destruction to Orrinfield."}
+      ],
+      "why_not": "The November 2025 amendment (signed as Kellbrook Research Group LLC, the contracting entity per the index) replaced Section 10.3 with a compliant 30 day certified destruction clause."
+    },
+    {
+      "id": "X3",
+      "what": "Lindqvist Workforce Scheduling: 10 business day breach notice.",
+      "evidence": [
+        {"file": "contracts/lindqvist-scheduling-saas-agreement.md", "quote": "For a Security Incident affecting only Workforce Data, Lindqvist will notify Customer within ten (10) business days of discovery."},
+        {"file": "contracts/lindqvist-scheduling-saas-agreement.md", "quote": "For a Security Incident involving Patient Data, Lindqvist will notify Customer within forty-eight (48) hours of discovery."}
+      ],
+      "why_not": "The longer window applies only to Workforce Data, which is not Patient Data; the policy allows longer notice for incidents not involving Patient Data, and Patient Data incidents get 48 hours."
+    },
+    {
+      "id": "X4",
+      "what": "Mercator Dictation Services: 30 day notice of unauthorized disclosure.",
+      "evidence": [
+        {"file": "contracts/mercator-dictation-agreement.md", "quote": "Mercator shall notify Customer of any unauthorized disclosure of Protected Health Information within thirty (30) days after discovery."},
+        {"file": "contracts/vendor-index.csv", "quote": "Terminated for convenience effective 2026-02-28; data deletion certificate received 2026-03-19"}
+      ],
+      "why_not": "The vendor is terminated and data deletion is certified, so there is no renewal and the policy says terminated agreements with deleted data need no amendment."
+    },
+    {
+      "id": "X5",
+      "what": "Wrenfold breach notice of ten days in the main body.",
+      "evidence": [
+        {"file": "contracts/wrenfold-payment-services-agreement.md", "quote": "6.4 Wrenfold shall notify Client of any Security Breach affecting Client Data within ten (10) days of discovery."},
+        {"file": "amendments/wrenfold-first-amendment.md", "quote": "\"6.4 Wrenfold shall notify Client of any Security Breach affecting Client Data without undue delay and in no event later than forty-eight (48) hours after discovery.\""}
+      ],
+      "why_not": "The First Amendment replaced Clause 6.4 with 48 hours from discovery. Wrenfold is still non-compliant, but only on storage location (F8); reporting the breach clause as a current gap is wrong."
+    },
+    {
+      "id": "X6",
+      "what": "Tallowmere Systems: mention of a Canadian replica.",
+      "evidence": [
+        {"file": "contracts/tallowmere-ehr-hosting-msa.md", "quote": "4.2 **Retirement of Prior Replica.** Tallowmere confirms that the Canadian replica maintained under the Prior Agreement was decommissioned on January 15, 2026, and that no Customer Data remains outside the United States."}
+      ],
+      "why_not": "Historical: the replica belonged to the superseded 2021 agreement and was decommissioned before the current agreement took effect."
+    },
+    {
+      "id": "X7",
+      "what": "Marrowby Health Analytics: data stored in Toronto.",
+      "evidence": [
+        {"file": "contracts/marrowby-analytics-license.md", "quote": "(c) De-identified Datasets may be stored and processed in Marrowby's research environment in Toronto, Ontario."}
+      ],
+      "why_not": "Only de-identified data goes to Toronto, and the policy says de-identified data under PRV-114 is not Patient Data; all identifiable data and backups stay in the US."
+    },
+    {
+      "id": "X8",
+      "what": "Harrowgate Answering Service: agents in the Philippines.",
+      "evidence": [
+        {"file": "contracts/harrowgate-answering-service-agreement.md", "quote": "Overnight overflow calls may be handled by Harrowgate agents located in Cebu, Philippines, who access the call platform through a virtual desktop and cannot download or store any Patient Data locally."}
+      ],
+      "why_not": "The policy's storage requirement is about where data is stored; remote access from abroad is governed by a separate procedure and is not a violation while data stays in US data centers, as the agreement states."
+    },
+    {
+      "id": "X9",
+      "what": "Veldt Clinical Staffing: files kept in Vancouver.",
+      "evidence": [
+        {"file": "contracts/veldt-clinical-staffing-agreement.md", "quote": "Clinician credentialing files, which contain Workforce Data only, are maintained in Veldt's credentialing center in Vancouver, British Columbia."}
+      ],
+      "why_not": "Credentialing files hold Workforce Data only, which the policy excludes from Patient Data; Patient Data and backups are stored only in the US."
+    },
+    {
+      "id": "X10",
+      "what": "Policy history: the 2023 guidelines allowed five business day breach notice and subprocessor disclosure on request.",
+      "evidence": [
+        {"file": "policy/vendor-data-policy-2026.md", "quote": "The 2023 guidelines recommended, but did not require, breach notice within five business days, subprocessor disclosure on request, and deletion \"within a commercially reasonable period.\""}
+      ],
+      "why_not": "Superseded guidance; it is not a standard to measure against and does not make any agreement compliant."
+    }
+  ],
+  "answer": null,
+  "mistakes_that_matter": [
+    "Missing any of the 8 non-compliant agreements, which would let a non-compliant renewal go through",
+    "Clearing Wrenfold because its amendment fixed breach notice, while the Dublin hosting remains",
+    "Clearing Greyloft because its amendment shortened production deletion, while the 180 day backup rotation remains",
+    "Clearing Sablemoor by reading only the base agreement and not Amendment No. 2",
+    "Clearing Brasswick or the imaging archive agreement by reading only the main body and not the separate Schedule 3 or Exhibit C",
+    "Accepting Quillon's '72 hours' at face value when the clock starts at confirmation",
+    "Sending owners to renegotiate cured clauses (Ostrander, Kellbrook, Wrenfold breach notice), out-of-scope items (Lindqvist workforce notice, Marrowby de-identified data, Veldt credentialing, Harrowgate offshore access) or the terminated Mercator agreement",
+    "Quoting clause text that does not appear in the files or attributing a clause to the wrong file"
+  ]
+}

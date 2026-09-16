@@ -1,0 +1,15 @@
+dag_id: fuel_surcharge_backfill
+owner: commercial-analytics
+schedule: "0 23 * * 0"
+retries: 2
+retry_delay_minutes: 20
+params:
+  lookback_days: 7
+  batch_size: 400
+  distance_source: http://qe1.tsw.internal/quote/bulk
+  distance_timeout_seconds: 120
+  diesel_index_table: finance.diesel_index_weekly
+  output_table: reports.fuel_surcharge_actual_vs_quoted
+  slack_channel: "#commercial-analytics"
+connections:
+  warehouse: dwh_commercial_rw

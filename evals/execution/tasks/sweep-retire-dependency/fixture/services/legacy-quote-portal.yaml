@@ -1,0 +1,17 @@
+# legacy-quote-portal
+# The old self-service quote page for small shippers (quotes.tesselwick.example/classic).
+# owner: Web Team. Kept alive only for a handful of accounts that have not moved to the customer app.
+app:
+  name: legacy-quote-portal
+  image: registry.tesselwick.internal/web/legacy-quote-portal:0.31.7
+  port: 3000
+  replicas: 1
+session:
+  store: redis://redis-web.cache.tesselwick.internal:6379/2
+  ttl_minutes: 60
+quote_engine:
+  endpoint: https://routecalc-v1.core.tesselwick.internal/quote
+  api_key: vault:kv/prod/legacy-quote-portal#rc_key
+  currency_default: SEK
+branding:
+  logo: /static/tw-logo-2019.svg

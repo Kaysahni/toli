@@ -1,0 +1,19 @@
+BRISKLANE RELEASE NOTES (excerpt)
+
+v8.14  (2026-07-29)
+  * Waterfall and funnel chart types
+  * Dataset lineage view shows upstream tables for each column
+  * Fixed: Postgres connector dropped timestamp precision below milliseconds
+
+v8.13  (2026-07-08)
+  * Report subscriptions can be paused by the subscriber
+  * Editors can duplicate a dashboard into another folder in one step
+  * Fixed: comment notifications sent twice when a viewer was mentioned in a reply
+
+v8.12  (2026-06-17)
+  * New role: Data steward (Professional and Enterprise)
+  * Improved accessibility: all chart tooltips reachable by keyboard
+
+v8.11  (2026-05-27)
+  * Alert conditions support "is missing" for late-arriving data
+  * Fixed: CSV export ignored the dashboard's number format

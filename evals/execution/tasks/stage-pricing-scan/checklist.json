@@ -1,0 +1,372 @@
+{
+  "id": "stage-pricing-scan",
+  "company": "Ferrowind Analytics",
+  "category": "staged",
+  "held_out": false,
+  "summary": "Build a current pricing comparison of six competitors (model, entry price on a normalized basis, seat vs usage, free tier, annual discount) and recommend whether Ferrowind should drop per-seat pricing, grounded in correct loss-reason counts from the 18 deal notes.",
+  "findings": [
+    {
+      "id": "F1",
+      "what": "Quillmark Insights: per-seat (every user including viewers), free tier for up to 3 users, entry paid plan Team at $30 per user per month billed monthly or $24 billed annually, 20% annual discount.",
+      "evidence": [
+        {
+          "file": "competitors/quillmark/pricing-2026-06-02.md",
+          "quote": "**$30** per user / month, billed monthly"
+        },
+        {
+          "file": "competitors/quillmark/pricing-2026-06-02.md",
+          "quote": "or **$24** per user / month when you pay annually (save 20%)"
+        },
+        {
+          "file": "competitors/quillmark/pricing-2026-06-02.md",
+          "quote": "- Up to 3 users"
+        }
+      ],
+      "counts_if": "Answer lists Quillmark as per-seat with a free tier (3 users), entry of $30/user/month monthly (or $24 annual-billed, labeled as such), and a 20% annual discount. Must not give $19 as the current price."
+    },
+    {
+      "id": "F2",
+      "what": "Tallowbeam moved from per-seat to usage pricing (rows scanned) effective August 1, 2026, per a blog post newer than the February pricing snapshot. Entry is Launch at $150 per month; no per-person charge; still no free plan (14-day trial); annual discount unchanged at 15%, which requires the older snapshot to know.",
+      "evidence": [
+        {
+          "file": "competitors/tallowbeam/blog-2026-07-14-pricing-that-grows-with-your-data.md",
+          "quote": "Starting August 1, 2026, new Tallowbeam workspaces are billed on rows scanned, not on seats."
+        },
+        {
+          "file": "competitors/tallowbeam/blog-2026-07-14-pricing-that-grows-with-your-data.md",
+          "quote": "- **Launch:** $150 per month, includes 40 million rows scanned each month"
+        },
+        {
+          "file": "competitors/tallowbeam/blog-2026-07-14-pricing-that-grows-with-your-data.md",
+          "quote": "If you pay annually, you still get the same discount you get today."
+        },
+        {
+          "file": "competitors/tallowbeam/pricing-snapshot-2026-02-10.md",
+          "quote": "\"Pay annually and save 15% on any plan.\""
+        },
+        {
+          "file": "competitors/tallowbeam/changelog.md",
+          "quote": "2026-08-01  Billing: usage-based plans are live for all new workspaces. Seat plans remain for existing customers until renewal."
+        }
+      ],
+      "counts_if": "Answer states Tallowbeam is now usage-based (rows scanned), not per-seat, with entry $150/month, no free tier, and 15% annual discount. Reporting Tallowbeam as per-seat at $25 or $40 fails this finding."
+    },
+    {
+      "id": "F3",
+      "what": "Sorrelgate Data retired its free Community plan on 2026-06-30 (changelog), so it has no free tier today even though the April snapshot and a May blog post say Community is free and here to stay. Model is hybrid: platform fee with included seats plus per-seat charges; entry Growth at $400/month including 5 seats, extra seats $35; annual discount is two months free (about 17%).",
+      "evidence": [
+        {
+          "file": "competitors/sorrelgate/changelog-2026-q2.md",
+          "quote": "**Plans:** The Community plan has been retired."
+        },
+        {
+          "file": "competitors/sorrelgate/pricing-page-2026-04-20.md",
+          "quote": "$400 / month"
+        },
+        {
+          "file": "competitors/sorrelgate/pricing-page-2026-04-20.md",
+          "quote": "* Additional seats: $35 per seat per month"
+        },
+        {
+          "file": "competitors/sorrelgate/pricing-page-2026-04-20.md",
+          "quote": "> Pay yearly and get two months free on Growth or Scale."
+        }
+      ],
+      "counts_if": "Answer says Sorrelgate has no free tier (Community removed/retired), and describes pricing as a platform fee with included seats plus per-seat add-ons (hybrid or seat-based), entry $400/month with 5 seats, and annual discount of two months free (roughly 16 to 17%)."
+    },
+    {
+      "id": "F4",
+      "what": "Brisklane Metrics quotes yearly prices: Essentials $468 per editor per year is $39 per editor per month billed annually, versus $45 month to month (about 13% annual discount). Charges only editors; viewers unlimited and free. No free plan (21-day trial).",
+      "evidence": [
+        {
+          "file": "competitors/brisklane/pricing-2026-05-11.md",
+          "quote": "$468 per editor / year"
+        },
+        {
+          "file": "competitors/brisklane/pricing-2026-05-11.md",
+          "quote": "Prefer monthly? Essentials is available month to month at $45 per editor. Professional is annual only."
+        },
+        {
+          "file": "competitors/brisklane/pricing-2026-05-11.md",
+          "quote": "No free plan. Try any plan free for 21 days."
+        },
+        {
+          "file": "competitors/brisklane/pricing-2026-05-11.md",
+          "quote": "  - Unlimited viewers"
+        }
+      ],
+      "counts_if": "Answer normalizes Brisklane's entry price to about $39 per editor per month (annual) and/or $45 monthly, not $468 per month; says it is per editor seat with free viewers; no free tier; annual discount roughly 13%."
+    },
+    {
+      "id": "F5",
+      "what": "Obsidra is usage-based (compute credits, unlimited users). Its headline $180/month for Launch is billed annually; the monthly-billed price is $225, so the annual discount is 20%. Free Sandbox tier exists (1 user, 10 GB processed per month).",
+      "evidence": [
+        {
+          "file": "competitors/obsidra/pricing-snapshot-2026-05-28.md",
+          "quote": "\\* Prices shown are per month, billed annually. Monthly billing: Launch $225/month, Scale $900/month."
+        },
+        {
+          "file": "competitors/obsidra/pricing-snapshot-2026-05-28.md",
+          "quote": "**Sandbox: $0**"
+        },
+        {
+          "file": "competitors/obsidra/pricing-snapshot-2026-05-28.md",
+          "quote": "400 compute credits per month. Unlimited users. Scheduled reports, alerts, 20 connectors."
+        }
+      ],
+      "counts_if": "Answer says Obsidra is usage/credit based with unlimited users, entry $180/month billed annually or $225/month billed monthly (basis made explicit and consistent with other competitors), has a free Sandbox tier, and 20% annual discount. Presenting $180 as a monthly-billed price alongside monthly-billed competitor prices fails."
+    },
+    {
+      "id": "F6",
+      "what": "Kettleridge BI workspace plans remain per-user (every member and guest billed), entry Team $18 per user per month, 10% annual discount, free Personal plan for 1 user. The August 2026 usage-based change applies only to the separate Embed product.",
+      "evidence": [
+        {
+          "file": "competitors/kettleridge/pricing-2026-07-01.md",
+          "quote": "$18 per user per month."
+        },
+        {
+          "file": "competitors/kettleridge/pricing-2026-07-01.md",
+          "quote": "Save 10% when billed annually."
+        },
+        {
+          "file": "competitors/kettleridge/blog-2026-08-19-embed-usage-pricing.md",
+          "quote": "No. Workspace plans (Personal, Team and Business) are not changing and are still priced per user."
+        }
+      ],
+      "counts_if": "Answer lists Kettleridge as per-user/per-seat with entry $18/user/month, 10% annual discount, and a free tier (Personal, 1 user). Must not say Kettleridge moved to usage pricing for its core product."
+    },
+    {
+      "id": "F7",
+      "what": "Ferrowind's current pricing charges a full seat for every named user including view-only users ($55 per seat monthly, $46 annual on Standard), with no free plan and no viewer seat offered today.",
+      "evidence": [
+        {
+          "file": "internal/pricing-2026.md",
+          "quote": "Every named user, including view-only users, needs a seat."
+        },
+        {
+          "file": "internal/pricing-2026.md",
+          "quote": "| Standard   | $55 per seat per month   | $46 per seat per month         |"
+        }
+      ],
+      "counts_if": "Answer states Ferrowind charges per seat for all users including viewers (Standard $55 monthly / $46 annual) as the baseline for the comparison or recommendation."
+    },
+    {
+      "id": "F8",
+      "what": "Seven of the eleven lost deals were lost primarily on seat price: Arvelo Logistics, Sunmere Hotels, Greyfield Components, Halden Mutual, Picton Veterinary Partners, Westray Outdoor, Carrow Street Media. In every one the complaint was paying a seat for occasional or view-only users.",
+      "evidence": [
+        {
+          "file": "winloss/2026-08-arvelo-logistics.md",
+          "quote": "Lost on price: seat cost for occasional users."
+        },
+        {
+          "file": "winloss/sunmere-hotels-loss-review.md",
+          "quote": "Loss reason: seat pricing. Specifically paying per person for light users."
+        },
+        {
+          "file": "winloss/greyfield-components.txt",
+          "quote": "Reason: seat price (per-seat charges for view-only users)."
+        },
+        {
+          "file": "winloss/2026-08-22-halden-mutual.md",
+          "quote": "Seat price for occasional users."
+        },
+        {
+          "file": "winloss/picton-vet-partners.yaml",
+          "quote": "reason_primary: pricing_seats"
+        },
+        {
+          "file": "winloss/westray-outdoor-callnotes.txt",
+          "quote": "REASON: seat pricing / paying per head for seasonal, occasional users"
+        },
+        {
+          "file": "winloss/carrow-street-media.md",
+          "quote": "Loss reason: seat pricing (per-seat charges for a large pool of occasional viewers)."
+        }
+      ],
+      "counts_if": "Answer counts 7 losses citing seat price (naming them or clearly counting them), and ideally notes they concern occasional or view-only users. A count of 8 (Quarrydown included) or counting Maplethorn or Pellam & Rourke does not count."
+    },
+    {
+      "id": "F9",
+      "what": "Three losses were on missing features: Nightjar Biotech (RLS on Standard), Ellery Rail Services (white-label embedding), and Quarrydown Credit Union, which was first logged as seat price but reclassified to missing audit log export in a later update. One further loss (Bellhaven Foods) was an in-house build, neither price nor features.",
+      "evidence": [
+        {
+          "file": "winloss/nightjar-biotech-lost.md",
+          "quote": "Reason: missing feature (RLS on Standard tier)."
+        },
+        {
+          "file": "winloss/2026-05-ellery-rail.txt",
+          "quote": "Reason: missing feature, white-label embedding without per-viewer login."
+        },
+        {
+          "file": "winloss/quarrydown-credit-union.md",
+          "quote": "Reclassifying: missing feature (audit log export on Standard). Not a seat price loss."
+        },
+        {
+          "file": "winloss/bellhaven-foods.yaml",
+          "quote": "loss_reason: build_in_house"
+        }
+      ],
+      "counts_if": "Answer counts 3 feature losses including Quarrydown as a feature loss (not seat price), and does not count Bellhaven as a price or feature loss."
+    },
+    {
+      "id": "F10",
+      "what": "Six of the seven seat-price losses went to competitors that do not charge a seat for every user: Tallowbeam (2, after its usage switch), Obsidra (2), Brisklane (2, free viewers). The seventh (Picton) went to Sorrelgate, whose platform fee includes 5 seats with cheaper extra seats. The pure per-seat competitors Quillmark and Kettleridge only beat Ferrowind on features.",
+      "evidence": [
+        {
+          "file": "winloss/greyfield-components.txt",
+          "quote": "With Brisklane they pay for the 8 editors only; the other 150 are free viewers."
+        },
+        {
+          "file": "winloss/sunmere-hotels-loss-review.md",
+          "quote": "Result: lost to Obsidra."
+        },
+        {
+          "file": "winloss/2026-08-22-halden-mutual.md",
+          "quote": "**Date:** 2026-08-22 | **AE:** Theo Brandt | **SE:** Sione Latu | **Winner:** Tallowbeam"
+        }
+      ],
+      "counts_if": "Answer connects the seat-price losses to competitors with usage pricing or free/included viewers (at least naming Tallowbeam, Obsidra and Brisklane as the winners of those deals)."
+    }
+  ],
+  "exclusions": [
+    {
+      "id": "X1",
+      "what": "Tallowbeam's February snapshot and November 2025 blog describe per-seat pricing ($25 Starter, $40 Pro).",
+      "evidence": [
+        {
+          "file": "competitors/tallowbeam/pricing-snapshot-2026-02-10.md",
+          "quote": "| Pro     | $40 per seat per month        | unlimited     | hourly refresh, alerting, API access   |"
+        }
+      ],
+      "why_not": "Superseded by the July 14 2026 blog post and August 1 changelog entry: new workspaces are billed on rows scanned."
+    },
+    {
+      "id": "X2",
+      "what": "Sorrelgate's Community free plan in the April snapshot, and the May blog post saying Community is here to stay.",
+      "evidence": [
+        {
+          "file": "competitors/sorrelgate/blog-2026-05-06-community-is-here-to-stay.md",
+          "quote": "So let me be direct: we love Community, and we have no plans to change it."
+        }
+      ],
+      "why_not": "The 2026-06-30 changelog entry retired Community; Sorrelgate has no free tier now."
+    },
+    {
+      "id": "X3",
+      "what": "Kettleridge moving to usage-based pricing.",
+      "evidence": [
+        {
+          "file": "competitors/kettleridge/blog-2026-08-19-embed-usage-pricing.md",
+          "quote": "So starting today, **Kettleridge Embed is priced by monthly active embedded viewers**:"
+        }
+      ],
+      "why_not": "Applies only to the separate Embed product; workspace plans remain per user."
+    },
+    {
+      "id": "X4",
+      "what": "Quillmark Team at $19 per user.",
+      "evidence": [
+        {
+          "file": "competitors/quillmark/blog-2026-05-19-three-years.md",
+          "quote": "When we launched in 2023, Team cost $19 per user per month, and we had no free plan at all."
+        }
+      ],
+      "why_not": "Historical 2023 price; current Team price is $30 monthly or $24 annual."
+    },
+    {
+      "id": "X5",
+      "what": "Brisklane entry price of $468 compared directly with monthly prices, or Obsidra $180 treated as a monthly-billed price.",
+      "evidence": [
+        {
+          "file": "competitors/brisklane/pricing-2026-05-11.md",
+          "quote": "$468 per editor / year"
+        },
+        {
+          "file": "competitors/obsidra/pricing-snapshot-2026-05-28.md",
+          "quote": "**Launch: $180/month\\***"
+        }
+      ],
+      "why_not": "Brisklane's figure is per year ($39/month annual, $45 monthly); Obsidra's is annual-billed ($225 monthly-billed). Unnormalized comparison is wrong."
+    },
+    {
+      "id": "X6",
+      "what": "Quarrydown Credit Union counted as a seat-price loss.",
+      "evidence": [
+        {
+          "file": "winloss/quarrydown-credit-union.md",
+          "quote": "| Reason (initial) | Price: seats |"
+        }
+      ],
+      "why_not": "The 2026-07-10 update in the same note reclassifies it as a missing-feature loss (audit log export)."
+    },
+    {
+      "id": "X7",
+      "what": "Maplethorn Retail counted as a seat-price loss because they flinched at 140 seats.",
+      "evidence": [
+        {
+          "file": "winloss/maplethorn-retail-stalled.md",
+          "quote": "Closed: 2026-05-02 (no decision)"
+        }
+      ],
+      "why_not": "No decision caused by a merger-related purchasing freeze, not a loss on price."
+    },
+    {
+      "id": "X8",
+      "what": "Pellam & Rourke seat objection counted as evidence of a price loss.",
+      "evidence": [
+        {
+          "file": "winloss/pellam-rourke-closed-won.txt",
+          "quote": "The objection: seats."
+        }
+      ],
+      "why_not": "The deal was won; the objection was overcome."
+    },
+    {
+      "id": "X9",
+      "what": "Feature mentions inside seat-price losses (Halden Mutual alerting, Arvelo alerting) counted as feature losses, or used to argue losses are feature-driven.",
+      "evidence": [
+        {
+          "file": "winloss/2026-08-22-halden-mutual.md",
+          "quote": "They did mention they liked Tallowbeam's week-over-week alerting, which is newer than ours."
+        }
+      ],
+      "why_not": "The notes say explicitly these were not deciding factors; the primary reason was seat price."
+    },
+    {
+      "id": "X10",
+      "what": "Ferrowind's $15 viewer seat, or the old $49 Standard price, reported as current Ferrowind pricing.",
+      "evidence": [
+        {
+          "file": "internal/pricing-2026.md",
+          "quote": "- Q3 2025: we piloted a $15 \"viewer seat\" with 9 customers. The pilot ended in December 2025 and those customers moved to full seats at renewal. No viewer seat is offered today."
+        }
+      ],
+      "why_not": "Historical pilot and prior pricing; not offered today."
+    },
+    {
+      "id": "X11",
+      "what": "Bellhaven Foods or Fenwick Hollow counted as price or feature losses.",
+      "evidence": [
+        {
+          "file": "winloss/fenwick-hollow.txt",
+          "quote": "CLOSED: no decision, champion left. No competitor involved as far as I know. Might be worth following Rosa to her new company."
+        }
+      ],
+      "why_not": "Bellhaven was an in-house build with pricing called reasonable; Fenwick Hollow was no decision after the champion left."
+    }
+  ],
+  "answer": {
+    "value": "Yes: Ferrowind should stop charging a full seat for every user. Move off pure per-seat pricing to usage-based pricing or a hybrid that charges builders/editors (or a platform fee) and makes view-only or occasional users free or near free.",
+    "derivation": "Of 11 losses in the deal notes, 7 were on seat price and only 3 on missing features (Quarrydown reclassified from price to feature), plus 1 in-house build. All 7 seat-price losses were about paying a seat for occasional or view-only users, which Ferrowind's pricing requires (every named user including viewers needs a seat). Six went to competitors that do not charge every user a seat: Tallowbeam (now usage-based since August 2026), Obsidra (credits, unlimited users) and Brisklane (free viewers). The seventh went to Sorrelgate, whose platform fee includes 5 seats with cheaper extra seats. The two pure per-seat competitors, Quillmark and Kettleridge, only won on features. The market has moved the same way: 2 of 6 competitors are usage-based, 1 charges editors only, 1 is a hybrid platform fee.",
+    "counts_if": "Recommends moving away from charging every user a seat (full usage pricing or a hybrid with free/cheap viewers both count), and cites that seat-price losses (7) outnumber feature losses (3) and that those losses involved occasional/view-only users going to usage or free-viewer competitors. A recommendation to keep per-seat pricing because losses are feature-driven does not count. Mentioning feature gaps (RLS, audit log export, embedding) as a secondary fix is fine."
+  },
+  "mistakes_that_matter": [
+    "Reporting Tallowbeam as per-seat ($25 or $40 per seat), missing its move to usage pricing.",
+    "Saying Sorrelgate still has a free Community tier.",
+    "Comparing Brisklane's $468 per year or Obsidra's annual-billed $180 against monthly-billed prices without normalizing.",
+    "Saying Kettleridge moved its core product to usage pricing.",
+    "Miscounting loss reasons, especially counting Quarrydown as a seat-price loss or counting no-decision and won deals as losses.",
+    "Recommending Ferrowind keep per-seat pricing on the grounds that losses are mainly about missing features.",
+    "Inventing competitor prices, deals or quotes not present in the files."
+  ]
+}

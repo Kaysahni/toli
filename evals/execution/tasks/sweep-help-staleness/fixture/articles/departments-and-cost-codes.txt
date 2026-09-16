@@ -1,0 +1,14 @@
+Departments and cost codes
+Updated 2026-01-29 by Joaquin Pellerin
+
+Use departments to group people (Kitchen, Front of house, Admin). Use cost codes when you need to split one person's pay across projects, jobs or grant funding.
+
+Add a department: Settings > Company > Departments > Add. Then assign people from Team > Directory, or select several people in the directory and use Edit department.
+
+Add cost codes: Settings > Company > Cost codes > Add. Give each a short code (like GR-204) and a description.
+
+Splitting pay: when entering hours in Payroll, click the split icon next to an employee's hours and allocate hours to cost codes. Salaried employees can be split by percentage instead.
+
+Reports: Payroll summary, Tax liability and Deductions by type can all be grouped by department or cost code using the "Group by" menu.
+
+Note: changing someone's department only affects payrolls that haven't been processed yet. Past payrolls keep the department they had at the time.

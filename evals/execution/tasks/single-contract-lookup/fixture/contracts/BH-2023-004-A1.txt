@@ -1,0 +1,80 @@
+AMENDMENT NO. 1 TO MASTER SERVICES AGREEMENT
+
+Agreement reference: BH-2023-004
+Amendment effective date: January 1, 2024
+
+PARTIES
+
+Brackenford Holdings, Inc. ("Customer")
+Kestrel Freight Services, Inc. ("Kestrel")
+
+BACKGROUND
+
+(A) Customer and Kestrel are parties to a Master Services Agreement dated March 1, 2023 (the "Agreement").
+
+(B) Following the annual rate review requested by Kestrel under Section 6.3 of the Agreement, the parties have agreed revised linehaul rates and a revised fuel surcharge table. The parties also wish to add the Millbrook yard as a pickup location and to clarify detention recording.
+
+(C) Capitalized terms used but not defined in this Amendment have the meanings given in the Agreement.
+
+THE PARTIES AGREE AS FOLLOWS:
+
+1. LINEHAUL RATES
+
+1.1 The linehaul rate table in Schedule B is deleted and replaced with the following table, effective for all Shipments picked up on or after January 1, 2024:
+
+  Lane                                   Dry van (per load)   Reefer (per load)
+  Port Ellery DC to Ashworth             $  640               $  815
+  Port Ellery DC to Dunlow               $  410               $  530
+  Port Ellery DC to Halden Cross         $1,180               $1,495
+  Ashworth to Tamsin Bay                 $  920               $1,160
+  Dunlow cold store to Port Ellery DC    $  395               $  515
+  Millbrook yard to Port Ellery DC       $  560               $  705
+  Millbrook yard to Halden Cross         $1,040               $1,310
+
+1.2 Rates for lanes not listed above will be quoted per load and confirmed on the rate confirmation for that Shipment.
+
+2. FUEL SURCHARGE
+
+2.1 The fuel surcharge table in Schedule B is replaced as follows. The surcharge is a percentage of linehaul and is reset every Monday by reference to the Calder Diesel Retail Index.
+
+  Index price per gallon      Surcharge
+  Below $3.00                 0.0%
+  $3.00 to $3.49              6.5%
+  $3.50 to $3.99              11.0%
+  $4.00 to $4.49              15.5%
+  $4.50 to $4.99              20.0%
+  $5.00 and above             20.0% plus 1.0% for each $0.10 above $5.00
+
+2.2 If the Calder Diesel Retail Index is not published for a given week, the surcharge for the prior week continues to apply.
+
+3. MILLBROOK YARD
+
+3.1 The yard located at 22 Quarry Lane, Millbrook, Calder, which Customer's Affiliate acquired in 2023, is added as a pickup and drop location for all SOWs that list "Customer facilities."
+
+3.2 Kestrel drivers at the Millbrook yard must check in at the gatehouse and must not idle trailers in the east lot, which is shared with a neighboring tenant.
+
+4. DETENTION RECORDING
+
+Section 6.6 of the Agreement is amended by adding the following sentence at the end: "Arrival time is the time the driver checks in with the facility gatehouse or shipping office, not the time the truck enters the property."
+
+5. NO OTHER CHANGES
+
+Except as set out in this Amendment, the Agreement remains unchanged and in full force and effect. If there is a conflict between this Amendment and the Agreement, this Amendment controls.
+
+6. COUNTERPARTS
+
+This Amendment may be signed in counterparts and by electronic signature.
+
+SIGNED
+
+BRACKENFORD HOLDINGS, INC.
+By:    /s/ Theodora Lindqvist
+Name:  Theodora Lindqvist
+Title: Chief Operating Officer
+Date:  December 14, 2023
+
+KESTREL FREIGHT SERVICES, INC.
+By:    /s/ Delphine Okafor
+Name:  Delphine Okafor
+Title: Vice President, Commercial
+Date:  December 18, 2023

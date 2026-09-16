@@ -1,0 +1,207 @@
+time=2026-09-02T01:30:02.250Z level=info component=main msg="stmt-render 4.18.2 starting" pid=39880 host=bat-app04
+time=2026-09-02T01:30:03.543Z level=info component=config msg="loaded /etc/stmt-render/render.yaml" profile=nightly
+time=2026-09-02T01:30:03.688Z level=info component=config msg="outbound target" broker=lanternq://lq-2.jvb.internal:5672 queue=stmt.email.send on_abort=purge_outbound
+time=2026-09-02T01:30:04.358Z level=warn component=template msg="template footer_v6 is deprecated, footer_v7 available" template=retail_monthly
+time=2026-09-02T01:30:05.711Z level=info component=batch msg="batch opened" batch=B-20260902 accounts=41790 source=STMT_EXTRACT
+time=2026-09-02T01:30:09.239Z level=info component=publisher msg="connected to broker" conn=stmt-render@bat-app04:50912
+time=2026-09-02T01:30:15.306Z level=info component=batch msg="progress" batch=B-20260902 rendered=500 published=491
+time=2026-09-02T01:31:18.111Z level=info component=batch msg="progress" batch=B-20260902 rendered=1000 published=992
+time=2026-09-02T01:32:23.979Z level=info component=batch msg="progress" batch=B-20260902 rendered=1500 published=1493
+time=2026-09-02T01:33:31.223Z level=info component=batch msg="progress" batch=B-20260902 rendered=2000 published=1992
+time=2026-09-02T01:34:34.239Z level=info component=batch msg="progress" batch=B-20260902 rendered=2500 published=2492
+time=2026-09-02T01:35:37.138Z level=info component=batch msg="progress" batch=B-20260902 rendered=3000 published=2998
+time=2026-09-02T01:36:43.155Z level=info component=batch msg="progress" batch=B-20260902 rendered=3500 published=3494
+time=2026-09-02T01:37:47.722Z level=info component=batch msg="progress" batch=B-20260902 rendered=4000 published=3996
+time=2026-09-02T01:38:53.955Z level=info component=batch msg="progress" batch=B-20260902 rendered=4500 published=4498
+time=2026-09-02T01:39:57.239Z level=info component=batch msg="progress" batch=B-20260902 rendered=5000 published=4994
+time=2026-09-02T01:41:03.246Z level=info component=batch msg="progress" batch=B-20260902 rendered=5500 published=5499
+time=2026-09-02T01:41:47.804Z level=warn component=jvm msg="GC pause exceeded 200ms" pause_ms=211 heap_used_pct=59
+time=2026-09-02T01:42:09.712Z level=info component=batch msg="progress" batch=B-20260902 rendered=6000 published=5993
+time=2026-09-02T01:43:15.788Z level=info component=batch msg="progress" batch=B-20260902 rendered=6500 published=6492
+time=2026-09-02T01:44:22.880Z level=info component=batch msg="progress" batch=B-20260902 rendered=7000 published=6997
+time=2026-09-02T01:45:24.751Z level=info component=batch msg="progress" batch=B-20260902 rendered=7500 published=7496
+time=2026-09-02T01:46:30.055Z level=info component=batch msg="progress" batch=B-20260902 rendered=8000 published=7997
+time=2026-09-02T01:47:36.847Z level=info component=batch msg="progress" batch=B-20260902 rendered=8500 published=8496
+time=2026-09-02T01:48:39.498Z level=info component=batch msg="progress" batch=B-20260902 rendered=9000 published=8995
+time=2026-09-02T01:49:45.679Z level=info component=batch msg="progress" batch=B-20260902 rendered=9500 published=9494
+time=2026-09-02T01:50:47.478Z level=info component=batch msg="progress" batch=B-20260902 rendered=10000 published=9997
+time=2026-09-02T01:51:56.983Z level=info component=batch msg="progress" batch=B-20260902 rendered=10500 published=10496
+time=2026-09-02T01:52:58.152Z level=info component=batch msg="progress" batch=B-20260902 rendered=11000 published=10992
+time=2026-09-02T01:54:03.942Z level=info component=batch msg="progress" batch=B-20260902 rendered=11500 published=11494
+time=2026-09-02T01:55:10.549Z level=info component=batch msg="progress" batch=B-20260902 rendered=12000 published=11993
+time=2026-09-02T01:56:12.850Z level=info component=batch msg="progress" batch=B-20260902 rendered=12500 published=12499
+time=2026-09-02T01:57:22.258Z level=info component=batch msg="progress" batch=B-20260902 rendered=13000 published=12991
+time=2026-09-02T01:58:24.302Z level=info component=batch msg="progress" batch=B-20260902 rendered=13500 published=13497
+time=2026-09-02T01:59:28.495Z level=info component=batch msg="progress" batch=B-20260902 rendered=14000 published=13993
+time=2026-09-02T02:00:36.170Z level=info component=batch msg="progress" batch=B-20260902 rendered=14500 published=14494
+time=2026-09-02T02:01:42.005Z level=info component=batch msg="progress" batch=B-20260902 rendered=15000 published=14991
+time=2026-09-02T02:02:43.478Z level=info component=batch msg="progress" batch=B-20260902 rendered=15500 published=15495
+time=2026-09-02T02:03:47.285Z level=info component=batch msg="progress" batch=B-20260902 rendered=16000 published=15998
+time=2026-09-02T02:04:52.141Z level=info component=batch msg="progress" batch=B-20260902 rendered=16500 published=16492
+time=2026-09-02T02:05:58.715Z level=info component=batch msg="progress" batch=B-20260902 rendered=17000 published=16993
+time=2026-09-02T02:07:05.523Z level=info component=batch msg="progress" batch=B-20260902 rendered=17500 published=17499
+time=2026-09-02T02:08:09.854Z level=info component=batch msg="progress" batch=B-20260902 rendered=18000 published=17993
+time=2026-09-02T02:09:12.980Z level=info component=batch msg="progress" batch=B-20260902 rendered=18500 published=18500
+time=2026-09-02T02:10:21.879Z level=info component=batch msg="progress" batch=B-20260902 rendered=19000 published=18998
+time=2026-09-02T02:11:25.260Z level=info component=batch msg="progress" batch=B-20260902 rendered=19500 published=19498
+time=2026-09-02T02:12:28.686Z level=info component=batch msg="progress" batch=B-20260902 rendered=20000 published=19995
+time=2026-09-02T02:13:32.191Z level=info component=batch msg="progress" batch=B-20260902 rendered=20500 published=20493
+time=2026-09-02T02:14:41.618Z level=info component=batch msg="progress" batch=B-20260902 rendered=21000 published=20994
+time=2026-09-02T02:15:46.933Z level=info component=batch msg="progress" batch=B-20260902 rendered=21500 published=21495
+time=2026-09-02T02:16:51.093Z level=info component=batch msg="progress" batch=B-20260902 rendered=22000 published=22000
+time=2026-09-02T02:17:53.308Z level=info component=batch msg="progress" batch=B-20260902 rendered=22500 published=22499
+time=2026-09-02T02:18:58.482Z level=info component=batch msg="progress" batch=B-20260902 rendered=23000 published=22997
+time=2026-09-02T02:20:07.828Z level=info component=batch msg="progress" batch=B-20260902 rendered=23500 published=23499
+time=2026-09-02T02:21:07.013Z level=info component=batch msg="progress" batch=B-20260902 rendered=24000 published=23994
+time=2026-09-02T02:22:17.412Z level=info component=batch msg="progress" batch=B-20260902 rendered=24500 published=24499
+time=2026-09-02T02:23:20.040Z level=info component=batch msg="progress" batch=B-20260902 rendered=25000 published=25000
+time=2026-09-02T02:24:24.764Z level=info component=batch msg="progress" batch=B-20260902 rendered=25500 published=25492
+time=2026-09-02T02:25:30.944Z level=info component=batch msg="progress" batch=B-20260902 rendered=26000 published=25994
+time=2026-09-02T02:26:36.031Z level=info component=batch msg="progress" batch=B-20260902 rendered=26500 published=26493
+time=2026-09-02T02:27:37.787Z level=info component=batch msg="progress" batch=B-20260902 rendered=27000 published=26991
+time=2026-09-02T02:28:43.001Z level=info component=batch msg="progress" batch=B-20260902 rendered=27500 published=27500
+time=2026-09-02T02:29:49.576Z level=info component=batch msg="progress" batch=B-20260902 rendered=28000 published=27997
+time=2026-09-02T02:30:56.602Z level=info component=batch msg="progress" batch=B-20260902 rendered=28500 published=28492
+time=2026-09-02T02:32:00.976Z level=info component=batch msg="progress" batch=B-20260902 rendered=29000 published=28992
+time=2026-09-02T02:32:30.542Z level=warn component=jvm msg="GC pause exceeded 200ms" pause_ms=219 heap_used_pct=63
+time=2026-09-02T02:33:03.750Z level=info component=batch msg="progress" batch=B-20260902 rendered=29500 published=29493
+time=2026-09-02T02:34:11.723Z level=info component=batch msg="progress" batch=B-20260902 rendered=30000 published=29998
+time=2026-09-02T02:35:16.288Z level=info component=batch msg="progress" batch=B-20260902 rendered=30500 published=30496
+time=2026-09-02T02:36:21.023Z level=info component=batch msg="progress" batch=B-20260902 rendered=31000 published=30997
+time=2026-09-02T02:37:22.561Z level=info component=batch msg="progress" batch=B-20260902 rendered=31500 published=31497
+time=2026-09-02T02:38:30.087Z level=info component=batch msg="progress" batch=B-20260902 rendered=32000 published=31993
+time=2026-09-02T02:39:37.354Z level=info component=batch msg="progress" batch=B-20260902 rendered=32500 published=32495
+time=2026-09-02T02:40:39.119Z level=info component=batch msg="progress" batch=B-20260902 rendered=33000 published=32999
+time=2026-09-02T02:41:45.223Z level=info component=batch msg="progress" batch=B-20260902 rendered=33500 published=33495
+time=2026-09-02T02:42:51.819Z level=info component=batch msg="progress" batch=B-20260902 rendered=34000 published=33999
+time=2026-09-02T02:43:57.527Z level=info component=batch msg="progress" batch=B-20260902 rendered=34500 published=34494
+time=2026-09-02T02:45:00.275Z level=info component=batch msg="progress" batch=B-20260902 rendered=35000 published=34998
+time=2026-09-02T02:46:05.328Z level=info component=batch msg="progress" batch=B-20260902 rendered=35500 published=35492
+time=2026-09-02T02:47:10.467Z level=info component=batch msg="progress" batch=B-20260902 rendered=36000 published=35992
+time=2026-09-02T02:48:13.853Z level=info component=batch msg="progress" batch=B-20260902 rendered=36500 published=36495
+time=2026-09-02T02:49:17.370Z level=info component=batch msg="progress" batch=B-20260902 rendered=37000 published=36993
+time=2026-09-02T02:50:23.193Z level=info component=batch msg="progress" batch=B-20260902 rendered=37500 published=37499
+time=2026-09-02T02:51:32.458Z level=info component=batch msg="progress" batch=B-20260902 rendered=38000 published=38000
+time=2026-09-02T02:52:35.246Z level=info component=batch msg="progress" batch=B-20260902 rendered=38500 published=38493
+time=2026-09-02T02:53:39.779Z level=info component=batch msg="progress" batch=B-20260902 rendered=39000 published=38994
+time=2026-09-02T02:54:47.390Z level=info component=batch msg="progress" batch=B-20260902 rendered=39500 published=39491
+time=2026-09-02T02:55:52.795Z level=info component=batch msg="progress" batch=B-20260902 rendered=40000 published=39997
+time=2026-09-02T02:56:55.415Z level=info component=batch msg="progress" batch=B-20260902 rendered=40500 published=40493
+time=2026-09-02T02:57:57.074Z level=info component=batch msg="progress" batch=B-20260902 rendered=41000 published=40996
+time=2026-09-02T02:59:04.899Z level=info component=batch msg="progress" batch=B-20260902 rendered=41500 published=41494
+time=2026-09-02T02:59:42.831Z level=warn component=jvm msg="GC pause exceeded 200ms" pause_ms=247 heap_used_pct=72
+time=2026-09-02T03:02:31.002Z level=info component=batch msg="progress" batch=B-20260902 rendered=41790 published=41790
+time=2026-09-02T03:02:33.086Z level=info component=batch msg="batch completed" batch=B-20260902 published=41790 skipped_no_email=73 state=COMPLETED
+time=2026-09-02T03:02:34.649Z level=info component=main msg="exit 0"
+time=2026-09-03T01:30:02.452Z level=info component=main msg="stmt-render 4.18.2 starting" pid=40517 host=bat-app04
+time=2026-09-03T01:30:03.542Z level=info component=config msg="loaded /etc/stmt-render/render.yaml" profile=nightly
+time=2026-09-03T01:30:03.840Z level=info component=config msg="outbound target" broker=lanternq://lq-2.jvb.internal:5672 queue=stmt.email.send on_abort=purge_outbound
+time=2026-09-03T01:30:04.848Z level=warn component=template msg="template footer_v6 is deprecated, footer_v7 available" template=retail_monthly
+time=2026-09-03T01:30:05.721Z level=info component=batch msg="batch opened" batch=B-20260903 accounts=41862 source=STMT_EXTRACT
+time=2026-09-03T01:30:09.482Z level=info component=publisher msg="connected to broker" conn=stmt-render@bat-app04:51344
+time=2026-09-03T01:31:30.530Z level=info component=batch msg="progress" batch=B-20260903 rendered=500 published=500
+time=2026-09-03T01:32:13.786Z level=info component=batch msg="account skipped" reason="no deliverable email on file" acct=****6266
+time=2026-09-03T01:32:31.060Z level=info component=batch msg="progress" batch=B-20260903 rendered=1000 published=1000
+time=2026-09-03T01:33:12.312Z level=info component=batch msg="account skipped" reason="no deliverable email on file" acct=****6309
+time=2026-09-03T01:33:31.591Z level=info component=batch msg="progress" batch=B-20260903 rendered=1500 published=1500
+time=2026-09-03T01:34:32.121Z level=info component=batch msg="progress" batch=B-20260903 rendered=2000 published=2000
+time=2026-09-03T01:35:32.651Z level=info component=batch msg="progress" batch=B-20260903 rendered=2500 published=2500
+time=2026-09-03T01:36:33.182Z level=info component=batch msg="progress" batch=B-20260903 rendered=3000 published=3000
+time=2026-09-03T01:37:33.712Z level=info component=batch msg="progress" batch=B-20260903 rendered=3500 published=3500
+time=2026-09-03T01:38:34.242Z level=info component=batch msg="progress" batch=B-20260903 rendered=4000 published=4000
+time=2026-09-03T01:39:00.862Z level=info component=batch msg="account skipped" reason="no deliverable email on file" acct=****9469
+time=2026-09-03T01:39:34.773Z level=info component=batch msg="progress" batch=B-20260903 rendered=4500 published=4500
+time=2026-09-03T01:40:35.303Z level=info component=batch msg="progress" batch=B-20260903 rendered=5000 published=5000
+time=2026-09-03T01:41:06.355Z level=warn component=signer msg="PDF signing latency high" p95_ms=2810 hsm=hsm-a.jvb.internal
+time=2026-09-03T01:43:23.293Z level=info component=batch msg="progress" batch=B-20260903 rendered=5500 published=5500
+time=2026-09-03T01:44:40.701Z level=warn component=signer msg="hsm-a returned 503 maintenance, failing over" target=hsm-b.jvb.internal
+time=2026-09-03T01:44:52.187Z level=info component=signer msg="signing via hsm-b" p95_ms=1960
+time=2026-09-03T01:46:55.550Z level=info component=batch msg="account skipped" reason="no deliverable email on file" acct=****0480
+time=2026-09-03T01:47:25.344Z level=info component=batch msg="progress" batch=B-20260903 rendered=6000 published=6000
+time=2026-09-03T01:51:27.394Z level=info component=batch msg="progress" batch=B-20260903 rendered=6500 published=6500
+time=2026-09-03T01:55:29.444Z level=info component=batch msg="progress" batch=B-20260903 rendered=7000 published=7000
+time=2026-09-03T01:57:48.902Z level=info component=signer msg="PDF signing latency normal" p95_ms=118 hsm=hsm-b.jvb.internal
+time=2026-09-03T01:58:19.377Z level=info component=batch msg="progress" batch=B-20260903 rendered=7500 published=7500
+time=2026-09-03T01:59:10.639Z level=info component=batch msg="progress" batch=B-20260903 rendered=8000 published=8000
+time=2026-09-03T02:00:01.901Z level=info component=batch msg="progress" batch=B-20260903 rendered=8500 published=8500
+time=2026-09-03T02:00:53.163Z level=info component=batch msg="progress" batch=B-20260903 rendered=9000 published=9000
+time=2026-09-03T02:01:44.425Z level=info component=batch msg="progress" batch=B-20260903 rendered=9500 published=9500
+time=2026-09-03T02:02:35.687Z level=info component=batch msg="progress" batch=B-20260903 rendered=10000 published=10000
+time=2026-09-03T02:03:26.949Z level=info component=batch msg="progress" batch=B-20260903 rendered=10500 published=10500
+time=2026-09-03T02:04:18.211Z level=info component=batch msg="progress" batch=B-20260903 rendered=11000 published=11000
+time=2026-09-03T02:05:09.473Z level=info component=batch msg="progress" batch=B-20260903 rendered=11500 published=11500
+time=2026-09-03T02:06:00.735Z level=info component=batch msg="progress" batch=B-20260903 rendered=12000 published=12000
+time=2026-09-03T02:06:08.815Z level=info component=batch msg="account skipped" reason="no deliverable email on file" acct=****3871
+time=2026-09-03T02:06:51.997Z level=info component=batch msg="progress" batch=B-20260903 rendered=12500 published=12500
+time=2026-09-03T02:07:43.259Z level=info component=batch msg="progress" batch=B-20260903 rendered=13000 published=13000
+time=2026-09-03T02:08:26.749Z level=info component=batch msg="account skipped" reason="no deliverable email on file" acct=****6666
+time=2026-09-03T02:08:34.521Z level=info component=batch msg="progress" batch=B-20260903 rendered=13500 published=13500
+time=2026-09-03T02:09:25.783Z level=info component=batch msg="progress" batch=B-20260903 rendered=14000 published=14000
+time=2026-09-03T02:10:17.045Z level=info component=batch msg="progress" batch=B-20260903 rendered=14500 published=14500
+time=2026-09-03T02:11:08.307Z level=info component=batch msg="progress" batch=B-20260903 rendered=15000 published=15000
+time=2026-09-03T02:11:59.569Z level=info component=batch msg="progress" batch=B-20260903 rendered=15500 published=15500
+time=2026-09-03T02:12:09.982Z level=warn component=template msg="font fallback used for glyph" font="JVB Sans" glyph=U+20B9 acct=****8830
+time=2026-09-03T02:12:50.831Z level=info component=batch msg="progress" batch=B-20260903 rendered=16000 published=16000
+time=2026-09-03T02:13:42.093Z level=info component=batch msg="progress" batch=B-20260903 rendered=16500 published=16500
+time=2026-09-03T02:14:33.355Z level=info component=batch msg="progress" batch=B-20260903 rendered=17000 published=17000
+time=2026-09-03T02:15:24.617Z level=info component=batch msg="progress" batch=B-20260903 rendered=17500 published=17500
+time=2026-09-03T02:16:15.879Z level=info component=batch msg="progress" batch=B-20260903 rendered=18000 published=18000
+time=2026-09-03T02:17:07.141Z level=info component=batch msg="progress" batch=B-20260903 rendered=18500 published=18500
+time=2026-09-03T02:17:58.403Z level=info component=batch msg="progress" batch=B-20260903 rendered=19000 published=19000
+time=2026-09-03T02:18:49.665Z level=info component=batch msg="progress" batch=B-20260903 rendered=19500 published=19500
+time=2026-09-03T02:19:40.927Z level=info component=batch msg="progress" batch=B-20260903 rendered=20000 published=20000
+time=2026-09-03T02:20:32.189Z level=info component=batch msg="progress" batch=B-20260903 rendered=20500 published=20500
+time=2026-09-03T02:21:23.451Z level=info component=batch msg="progress" batch=B-20260903 rendered=21000 published=21000
+time=2026-09-03T02:22:14.713Z level=info component=batch msg="progress" batch=B-20260903 rendered=21500 published=21500
+time=2026-09-03T02:23:05.975Z level=info component=batch msg="progress" batch=B-20260903 rendered=22000 published=22000
+time=2026-09-03T02:23:57.237Z level=info component=batch msg="progress" batch=B-20260903 rendered=22500 published=22500
+time=2026-09-03T02:24:48.499Z level=info component=batch msg="progress" batch=B-20260903 rendered=23000 published=23000
+time=2026-09-03T02:25:29.101Z level=info component=batch msg="account skipped" reason="no deliverable email on file" acct=****3686
+time=2026-09-03T02:25:39.761Z level=info component=batch msg="progress" batch=B-20260903 rendered=23500 published=23500
+time=2026-09-03T02:26:31.023Z level=info component=batch msg="progress" batch=B-20260903 rendered=24000 published=24000
+time=2026-09-03T02:27:22.285Z level=info component=batch msg="progress" batch=B-20260903 rendered=24500 published=24500
+time=2026-09-03T02:28:13.547Z level=info component=batch msg="progress" batch=B-20260903 rendered=25000 published=25000
+time=2026-09-03T02:28:13.666Z level=info component=batch msg="account skipped" reason="no deliverable email on file" acct=****8439
+time=2026-09-03T02:29:04.809Z level=info component=batch msg="progress" batch=B-20260903 rendered=25500 published=25500
+time=2026-09-03T02:29:56.071Z level=info component=batch msg="progress" batch=B-20260903 rendered=26000 published=26000
+time=2026-09-03T02:30:47.333Z level=info component=batch msg="progress" batch=B-20260903 rendered=26500 published=26500
+time=2026-09-03T02:31:38.595Z level=info component=batch msg="progress" batch=B-20260903 rendered=27000 published=27000
+time=2026-09-03T02:32:09.450Z level=info component=batch msg="account skipped" reason="no deliverable email on file" acct=****8795
+time=2026-09-03T02:32:29.857Z level=info component=batch msg="progress" batch=B-20260903 rendered=27500 published=27500
+time=2026-09-03T02:33:21.119Z level=info component=batch msg="progress" batch=B-20260903 rendered=28000 published=28000
+time=2026-09-03T02:34:12.381Z level=info component=batch msg="progress" batch=B-20260903 rendered=28500 published=28500
+time=2026-09-03T02:35:03.643Z level=info component=batch msg="progress" batch=B-20260903 rendered=29000 published=29000
+time=2026-09-03T02:35:54.905Z level=info component=batch msg="progress" batch=B-20260903 rendered=29500 published=29500
+time=2026-09-03T02:36:46.168Z level=info component=batch msg="progress" batch=B-20260903 rendered=30000 published=30000
+time=2026-09-03T02:37:37.430Z level=info component=batch msg="progress" batch=B-20260903 rendered=30500 published=30500
+time=2026-09-03T02:38:28.692Z level=info component=batch msg="progress" batch=B-20260903 rendered=31000 published=31000
+time=2026-09-03T02:39:19.954Z level=info component=batch msg="progress" batch=B-20260903 rendered=31500 published=31500
+time=2026-09-03T02:40:11.216Z level=info component=batch msg="progress" batch=B-20260903 rendered=32000 published=32000
+time=2026-09-03T02:41:02.478Z level=info component=batch msg="progress" batch=B-20260903 rendered=32500 published=32500
+time=2026-09-03T02:41:53.740Z level=info component=batch msg="progress" batch=B-20260903 rendered=33000 published=33000
+time=2026-09-03T02:42:45.002Z level=info component=batch msg="progress" batch=B-20260903 rendered=33500 published=33500
+time=2026-09-03T02:43:36.264Z level=info component=batch msg="progress" batch=B-20260903 rendered=34000 published=34000
+time=2026-09-03T02:44:27.526Z level=info component=batch msg="progress" batch=B-20260903 rendered=34500 published=34500
+time=2026-09-03T02:45:18.788Z level=info component=batch msg="progress" batch=B-20260903 rendered=35000 published=35000
+time=2026-09-03T02:46:10.050Z level=info component=batch msg="progress" batch=B-20260903 rendered=35500 published=35500
+time=2026-09-03T02:47:01.312Z level=info component=batch msg="progress" batch=B-20260903 rendered=36000 published=36000
+time=2026-09-03T02:47:14.019Z level=warn component=publisher msg="broker blocked connection" reason="resource alarm: memory" conn=stmt-render@bat-app04:51344
+time=2026-09-03T02:47:15.101Z level=info component=batch msg="render workers paused, outbound buffer full" batch=B-20260903 rendered=36114 published=36114
+time=2026-09-03T02:57:13.448Z level=warn component=publisher msg="publish still blocked" blocked_for=10m batch=B-20260903 published=36114 remaining=5748
+time=2026-09-03T03:07:13.027Z level=warn component=publisher msg="publish still blocked" blocked_for=20m batch=B-20260903 published=36114 remaining=5748
+time=2026-09-03T03:17:13.372Z level=warn component=publisher msg="publish still blocked" blocked_for=30m batch=B-20260903 published=36114 remaining=5748
+time=2026-09-03T03:27:13.075Z level=warn component=publisher msg="publish still blocked" blocked_for=40m batch=B-20260903 published=36114 remaining=5748
+time=2026-09-03T03:37:13.979Z level=warn component=publisher msg="publish still blocked" blocked_for=50m batch=B-20260903 published=36114 remaining=5748
+time=2026-09-03T03:43:19.287Z level=warn component=jvm msg="GC pause exceeded 200ms" pause_ms=364 heap_used_pct=65
+time=2026-09-03T03:44:28.846Z level=warn component=jvm msg="GC pause exceeded 200ms" pause_ms=371 heap_used_pct=62
+time=2026-09-03T03:47:13.827Z level=warn component=publisher msg="publish still blocked" blocked_for=60m batch=B-20260903 published=36114 remaining=5748
+time=2026-09-03T03:57:13.704Z level=warn component=publisher msg="publish still blocked" blocked_for=70m batch=B-20260903 published=36114 remaining=5748
+time=2026-09-03T04:07:13.644Z level=warn component=publisher msg="publish still blocked" blocked_for=80m batch=B-20260903 published=36114 remaining=5748
+time=2026-09-03T04:17:13.646Z level=warn component=publisher msg="publish still blocked" blocked_for=90m batch=B-20260903 published=36114 remaining=5748
+time=2026-09-03T04:25:59.330Z level=warn component=jvm msg="GC pause exceeded 200ms" pause_ms=348 heap_used_pct=61
+time=2026-09-03T04:27:13.205Z level=warn component=publisher msg="publish still blocked" blocked_for=100m batch=B-20260903 published=36114 remaining=5748
+time=2026-09-03T04:28:05.673Z level=warn component=jvm msg="GC pause exceeded 200ms" pause_ms=289 heap_used_pct=61
+time=2026-09-03T04:30:00.412Z level=warn component=main msg="SIGTERM received, aborting batch"
+time=2026-09-03T04:30:02.403Z level=info component=batch msg="on_abort=purge_outbound: requesting purge of stmt.email.send" batch=B-20260903
+time=2026-09-03T04:30:04.006Z level=error component=batch msg="batch failed" batch=B-20260903 state=FAILED reason=terminated published=36114 purged=36114 delivered_confirmed=0
+time=2026-09-03T04:30:06.907Z level=info component=main msg="exit 143"

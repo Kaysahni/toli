@@ -1,0 +1,60 @@
+id,submitted,company,contact,cancellation_effective,tenure_months,primary_reason,anything_we_could_have_done
+701,2026-07-11,Redcott Auto Group,yusra.achterberg@redcottauto.example,2026-07-31,17,Price,Found a cheaper option that covers the basics.
+702,2026-07-11,Netherridge Hospitality,ulrich.achterberg@netherridgehospitality.example,2026-07-24,54,Product issues,"Reports timing out, could not get data for our board."
+703,2026-07-12,Gorsebury Veterinary Group,gus.jovanovic@gorseburyveterinary.example,2026-07-29,25,Missing features,
+704,2026-07-14,Redmont Orthodontics,oskar.keane@redmontorthodontics.example,2026-07-26,14,Missing features,International employees are not supported well enough.
+705,2026-07-17,Rushgrove Veterinary Group,ulrich.drummond@rushgroveveterinary.example,2026-07-26,42,Product issues,We were fixing PTO balances by hand every pay period.
+706,2026-07-19,Fernbrook Brewing Co,yusra.jovanovic@fernbrookbrewing.example,2026-07-30,7,Business changes,We closed two locations and no longer need a full HR platform.
+707,2026-07-19,Ebbridge Charter Schools,nell.ilves@ebbridgecharter.example,2026-07-31,20,Other,
+708,2026-07-22,Pendale Cabinetry,odette.thorne@pendalecabinetry.example,2026-08-03,40,Switched provider,Our accounting software vendor launched an HR add-on we get at a discount.
+709,2026-07-25,Quillbeck Builders,rhea.esposito@quillbeckbuilders.example,2026-08-11,53,Business changes,Headcount dropped below 40 after restructuring.
+710,2026-07-25,Moorworth Orthodontics,quentin.lindahl@moorworthorthodontics.example,2026-08-13,48,Switched provider,Our broker recommended a PEO for better health plan rates.
+711,2026-07-25,Yarrbury Staffing,emeka.okonjo@yarrburystaffing.example,2026-08-13,50,Business changes,
+712,2026-07-29,Yarrworth Physical Therapy,bram.vasquez@yarrworthphysical.example,2026-08-01,31,Other,Going back to spreadsheets while we figure out our needs.
+713,2026-07-29,Bellfield Cabinetry,nils.rasmussen@bellfieldcabinetry.example,2026-08-01,46,Business changes,Business closed.
+714,2026-07-30,Netherworth Family Medicine,mateus.novak@netherworthfamily.example,2026-08-15,47,Business changes,"Acquisition closed in July, moving everyone to the buyer's platform."
+715,2026-08-01,Gildstead Orthodontics,alma.esposito@gildsteadorthodontics.example,2026-08-04,8,Switched provider,Part-time accruals never calculated correctly.
+716,2026-08-01,Belldale Clinics,leonie.sarkisian@belldaleclinics.example,2026-08-10,26,Missing features,We expanded to the UK and Mexico and needed one system for all countries.
+717,2026-08-01,Pemthorpe Marine Supply,farah.zamora@pemthorpemarine.example,2026-08-07,8,Switched provider,Moved to a PEO that bundles HR software with benefits.
+718,2026-08-02,Chilmont Family Medicine,maribel.ueda@chilmontfamily.example,2026-08-14,33,Missing features,We needed shift scheduling built in.
+719,2026-08-04,Coldbrook Dental,nell.kowalczyk@coldbrookdental.example,2026-08-17,21,Switched provider,We could not risk another bad payroll file.
+720,2026-08-05,Maplewick Printing,rosalind.achterberg@maplewickprinting.example,2026-08-16,30,Not using it enough,
+721,2026-08-08,Ashcott Hardware,yolanda.keane@ashcotthardware.example,2026-08-15,53,Other,Our HR director who chose Pinmoor left and her replacement prefers another tool.
+722,2026-08-09,Farrcombe Precision Parts,pilar.zamora@farrcombeprecision.example,2026-08-21,42,Missing features,No scheduling for our restaurant staff.
+723,2026-08-09,Gorsemont Veterinary Group,yolanda.thorne@gorsemontveterinary.example,2026-08-25,45,Price,Renewal quote was higher than we budgeted.
+724,2026-08-10,Northford Community Bank,emeka.farouk@northfordcommunity.example,2026-08-18,30,Switched provider,
+725,2026-08-10,Inglebrook Pharmacy,gus.boateng@inglebrookpharmacy.example,2026-08-19,22,Switched provider,
+726,2026-08-10,Fernmere Veterinary Group,callum.hakimi@fernmereveterinary.example,2026-08-18,24,Product issues,Mobile app logouts made clock in unusable.
+727,2026-08-11,Kestmont Property Management,tomasz.vasquez@kestmontproperty.example,2026-08-26,37,Business changes,
+728,2026-08-12,Blackhollow Home Health,saoirse.lindahl@blackhollowhome.example,2026-08-16,17,Business changes,
+729,2026-08-14,Holmere Credit Union,maribel.novak@holmerecredit.example,2026-08-23,8,Business changes,Layoffs. Nothing to do with the product.
+730,2026-08-15,Foxbury Engineering,frida.baptiste@foxburyengineering.example,2026-08-23,39,Other,"No complaints, just a budget cut."
+731,2026-08-15,Larkmere Builders,tova.keane@larkmerebuilders.example,2026-08-25,36,Business changes,We were acquired and the parent company uses its own HR system.
+732,2026-08-16,Yarrford Physical Therapy,gus.jankowski@yarrfordphysical.example,2026-08-29,15,Other,Budget cuts across all software.
+733,2026-08-16,Vantgrove Pet Hospitals,jolene.farouk@vantgrovepet.example,2026-08-25,16,Product issues,Ledgerline integration errors every other pay period.
+734,2026-08-17,Foxhaven Brewing Co,lorcan.carmody@foxhavenbrewing.example,2026-08-22,9,Business changes,Went from 180 employees to 60.
+735,2026-08-17,Vantford Outfitters,mateus.gallagher@vantfordoutfitters.example,2026-08-27,15,Business changes,"Seasonal business, we will probably come back next spring."
+736,2026-08-18,Holhollow Community Bank,uma.jankowski@holhollowcommunity.example,2026-09-01,41,Product issues,Review cycle tool was too inflexible for how we run reviews.
+737,2026-08-19,Draydale Precision Parts,tomasz.boateng@draydaleprecision.example,2026-09-04,52,Other,Thanks for the help over the years.
+738,2026-08-20,Pemgate Family Medicine,wade.jovanovic@pemgatefamily.example,2026-09-03,47,Missing features,
+739,2026-08-22,Stanfield Landscaping,adaeze.holm@stanfieldlandscaping.example,2026-09-02,55,Missing features,Could not model our union contract rules for seniority and leave.
+740,2026-08-23,Brackbrook Logistics,vesna.pradhan@brackbrooklogistics.example,2026-08-30,50,Switched provider,Time off balances were wrong for months and employees lost trust.
+741,2026-08-23,Yarrgrove Law Group,adaeze.boateng@yarrgrovelaw.example,2026-09-05,34,Switched provider,PEO pricing was cheaper once benefits were included.
+742,2026-08-24,Thistlebury Manufacturing,stellan.yilmaz@thistleburymanufacturing.example,2026-08-27,28,Business changes,Company is winding down operations.
+743,2026-08-26,Moorfield Bakeries,carys.eklund@moorfieldbakeries.example,2026-09-07,29,Business changes,New owners standardized on their HRIS.
+744,2026-08-27,Yarrcott Precision Parts,yusra.fairley@yarrcottprecision.example,2026-09-13,32,Price,Too expensive for our size.
+745,2026-08-30,Vantbrook Foods,emeka.lindahl@vantbrookfoods.example,2026-09-15,16,Product issues,Payroll Bridge problems since July were the final straw.
+746,2026-08-31,Penfield Engineering,kasimir.vasquez@penfieldengineering.example,2026-09-17,7,Other,
+747,2026-09-01,Gildhollow Hospitality,lorcan.achterberg@gildhollowhospitality.example,2026-09-18,26,Switched provider,"Consolidating vendors, went with a bigger suite."
+748,2026-09-02,Kestmere Dermatology,wade.carmody@kestmeredermatology.example,2026-09-08,48,Not using it enough,Managers did not adopt it.
+749,2026-09-03,Drayridge Transit,xavi.cespedes@drayridgetransit.example,2026-09-20,22,Other,New VP of People brought her previous vendor with her.
+750,2026-09-05,Wynbeck Marine Supply,wade.jovanovic@wynbeckmarine.example,2026-09-10,9,Other,
+751,2026-09-05,Hawworth Family Medicine,hana.baptiste@hawworthfamily.example,2026-09-13,27,Switched provider,Our hourly staff could not stay signed in to the mobile app.
+752,2026-09-05,Wynford Law Group,emeka.keane@wynfordlaw.example,2026-09-15,34,Not using it enough,Never finished implementation after our HR manager left.
+753,2026-09-08,Ebbbeck Property Management,wade.eklund@ebbbeckproperty.example,2026-09-21,53,Not using it enough,We only used the directory and time off requests.
+754,2026-09-12,Northhaven Senior Care,idris.farouk@northhavensenior.example,2026-09-22,37,Missing features,
+755,2026-09-14,Maplecott Staffing,ulrich.achterberg@maplecottstaffing.example,2026-09-20,47,Product issues,Reporting did not scale to our headcount.
+756,2026-09-14,Quillshaw Printing,saoirse.sarkisian@quillshawprinting.example,2026-09-19,38,Other,
+757,2026-09-14,Hawdale Landscaping,vesna.fairley@hawdalelandscaping.example,2026-09-25,52,Other,Pinmoor was fine.
+758,2026-09-14,Quillstead Clinics,oskar.drummond@quillsteadclinics.example,2026-09-20,23,Product issues,The payroll export kept breaking and our payroll provider is not something we can change.
+759,2026-09-14,Foxcombe Charter Schools,frida.yilmaz@foxcombecharter.example,2026-09-28,57,Product issues,Lost submitted self reviews when we had to restart a cycle.

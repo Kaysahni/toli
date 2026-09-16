@@ -1,0 +1,13 @@
+department,headcount_with_laptops,laptop_model,purchase_quarter,refresh_due,status
+Branch Operations (back office),34,Corvane 14 G3,2022-Q3,2026-Q3,in progress
+Commercial Lending,12,Corvane 14 G3,2022-Q4,2026-Q4,scheduled
+Consumer Lending,21,Corvane 14 G4,2023-Q2,2027-Q2,not due
+Member Services,58,Corvane 14 G4,2023-Q1,2027-Q1,not due
+Finance,16,Corvane 14 G4,2024-Q1,2028-Q1,not due
+Human Resources,9,Corvane 14 G4,2024-Q1,2028-Q1,not due
+Information Technology,22,Corvane 14 G5,2025-Q2,2029-Q2,not due
+Internal Audit,6,Corvane 14 G3,2022-Q3,2026-Q3,in progress
+Marketing,11,Corvane 14 G5,2025-Q3,2029-Q3,not due
+Compliance,8,Corvane 14 G4,2023-Q4,2027-Q4,not due
+Executive Office,7,Corvane 14 G5,2025-Q1,2029-Q1,not due
+Facilities,5,Corvane 14 G3,2022-Q4,2026-Q4,scheduled

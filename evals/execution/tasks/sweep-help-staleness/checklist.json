@@ -1,0 +1,313 @@
+{
+  "id": "sweep-help-staleness",
+  "company": "Halvard Payroll",
+  "category": "sweep",
+  "held_out": false,
+  "summary": "Find every help center article made stale by the January to March 2026 releases, quoting the stale text and giving the replacement; a good answer lists the 11 stale articles across 7 changes and does not flag the reverted SMS change, historical mentions, untouched plan tiers, regular payrolls, annual filings or the future timesheet import deprecation.",
+  "findings": [
+    {
+      "id": "F1",
+      "what": "add-a-new-employee.md tells admins to go to People > Add person; the January release renamed People to Team and Add person to Add team member.",
+      "evidence": [
+        {
+          "file": "articles/add-a-new-employee.md",
+          "quote": "1. From the left sidebar, go to **People > Add person**."
+        },
+        {
+          "file": "releases/2026-01-release-notes.md",
+          "quote": "- People > Add person is now Team > Add team member"
+        }
+      ],
+      "counts_if": "Names add-a-new-employee.md, quotes or clearly identifies the People > Add person step, and says it should be Team > Add team member (January 2026 rename)."
+    },
+    {
+      "id": "F2",
+      "what": "rehiring-a-former-employee.md has a screenshot caption (deep in the article) showing the People menu with Former employees selected; now Team > Past members.",
+      "evidence": [
+        {
+          "file": "articles/rehiring-a-former-employee.md",
+          "quote": "*Screenshot: the People menu expanded, with Former employees selected and the Rehire button highlighted on a profile.*"
+        },
+        {
+          "file": "releases/2026-01-release-notes.md",
+          "quote": "- People > Former employees is now Team > Past members"
+        }
+      ],
+      "counts_if": "Names rehiring-a-former-employee.md, identifies the screenshot caption referencing People / Former employees, and says it is now Team > Past members (screenshot needs retaking or caption updating)."
+    },
+    {
+      "id": "F3",
+      "what": "compare-plans.md plan table lists 25 custom earning types for Core; February raised Core to 40.",
+      "evidence": [
+        {
+          "file": "articles/compare-plans.md",
+          "quote": "| Custom earning types | 10 | 25 | Unlimited |"
+        },
+        {
+          "file": "releases/2026-02-release-notes.md",
+          "quote": "Core plans can now create up to 40 custom earning types, up from 25."
+        }
+      ],
+      "counts_if": "Names compare-plans.md and says the Core custom earning types value should be 40 (not 25), without saying Starter's 10 must change."
+    },
+    {
+      "id": "F4",
+      "what": "connect-tallyworks.md is a setup guide for Tallyworks Connect, which is the old name of the BrightBooks sync removed in February (alias only in deprecations.md).",
+      "evidence": [
+        {
+          "file": "articles/connect-tallyworks.md",
+          "quote": "Tallyworks Connect sends a journal entry to your Tallyworks company file every time a payroll is paid, so your books match your payroll without manual entry."
+        },
+        {
+          "file": "releases/deprecations.md",
+          "quote": "| BrightBooks sync | Tallyworks Connect (the partner's name before its 2024 rebrand) | Removed | 2026-02-10 | Quillfield integration, or Reports > General ledger export |"
+        }
+      ],
+      "counts_if": "Names connect-tallyworks.md as stale because the integration (Tallyworks Connect = BrightBooks sync) was removed on 2026-02-10, and gives the replacement: Quillfield integration or the General ledger export. Article should be retired or rewritten."
+    },
+    {
+      "id": "F5",
+      "what": "month-end-close-checklist.md step 9 (deep in a long article) tells bookkeepers to confirm journal entries synced in Tallyworks; that sync no longer exists.",
+      "evidence": [
+        {
+          "file": "articles/month-end-close-checklist.md",
+          "quote": "If you use the accounting integration, open Tallyworks and confirm that a journal entry posted for every payroll in the month, dated on its pay date."
+        },
+        {
+          "file": "releases/deprecations.md",
+          "quote": "**BrightBooks sync.** The partner shut down its third party connection program, so we could not keep the sync running."
+        }
+      ],
+      "counts_if": "Names month-end-close-checklist.md, identifies the Tallyworks sync step, and says the sync was removed (replace with Quillfield or the General ledger export)."
+    },
+    {
+      "id": "F6",
+      "what": "run-an-off-cycle-payroll.md says off-cycle payrolls go straight to processing after Submit; February added a required approval by a Payroll approver (or self-approval by email for single-admin accounts).",
+      "evidence": [
+        {
+          "file": "articles/run-an-off-cycle-payroll.md",
+          "quote": "Once you click Submit the payroll goes straight to processing, and funds are debited from your account the same way as a regular payroll."
+        },
+        {
+          "file": "releases/2026-02-release-notes.md",
+          "quote": "After you click **Submit**, the run moves to **Awaiting approval**, and a team member with the **Payroll approver** permission must approve it."
+        }
+      ],
+      "counts_if": "Names run-an-off-cycle-payroll.md and says off-cycle runs now go to Awaiting approval and need a Payroll approver (or emailed self-approval for sole admins) before processing."
+    },
+    {
+      "id": "F7",
+      "what": "paying-bonuses.md comparison table says an off-cycle bonus payroll goes straight to processing after Submit; it now needs approval.",
+      "evidence": [
+        {
+          "file": "articles/paying-bonuses.md",
+          "quote": "| What happens after you click Submit | Goes straight to processing | Goes straight to processing |"
+        },
+        {
+          "file": "releases/2026-02-release-notes.md",
+          "quote": "Regular scheduled payrolls are not affected and still go straight to processing when submitted."
+        }
+      ],
+      "counts_if": "Names paying-bonuses.md, identifies the table row, and says the off-cycle column must say it needs approval (the regular payroll column is still correct)."
+    },
+    {
+      "id": "F8",
+      "what": "quarterly-tax-filings.md says quarterly filings wait for admin approval of the filing summary and are submitted on the due date (held if unapproved); March changed this to automatic submission 5 business days before the due date with no approval wait.",
+      "evidence": [
+        {
+          "file": "articles/quarterly-tax-filings.md",
+          "quote": "**3. We submit on the due date.** Halvard submits each approved return on the agency due date."
+        },
+        {
+          "file": "articles/quarterly-tax-filings.md",
+          "quote": "**2. You review and approve.**"
+        },
+        {
+          "file": "releases/2026-03-release-notes.md",
+          "quote": "Filings no longer wait for approval."
+        }
+      ],
+      "counts_if": "Names quarterly-tax-filings.md and says both parts are stale: filings are now submitted automatically 5 business days before the due date, and no longer wait for (or are held for) approval. Mentioning that corrections are allowed until the submission date is optional."
+    },
+    {
+      "id": "F9",
+      "what": "direct-deposit-timing.txt gives a 5:00 pm PT submission cutoff; February moved it to 3:00 pm PT.",
+      "evidence": [
+        {
+          "file": "articles/direct-deposit-timing.txt",
+          "quote": "  - Submit by Wednesday at 5:00 pm PT"
+        },
+        {
+          "file": "articles/direct-deposit-timing.txt",
+          "quote": "Short answer: submit your payroll by 5:00 pm Pacific time, two banking days before payday, and your team gets paid on payday."
+        },
+        {
+          "file": "releases/2026-02-release-notes.md",
+          "quote": "the daily cutoff for submitting a direct deposit payroll moves from 5:00 pm PT to **3:00 pm PT**, still two banking days before payday."
+        }
+      ],
+      "counts_if": "Names direct-deposit-timing.txt, identifies the 5:00 pm PT cutoff as stale including the example line '- Submit by Wednesday at 5:00 pm PT' (the Short answer line may be cited as well), and says the cutoff is now 3:00 pm PT (two banking days unchanged). Mentioning the 5:30 pm example is a plus, not required."
+    },
+    {
+      "id": "F10",
+      "what": "2026-bank-holiday-payroll-calendar.md table header says Submit by (5:00 pm PT); now 3:00 pm PT.",
+      "evidence": [
+        {
+          "file": "articles/2026-bank-holiday-payroll-calendar.md",
+          "quote": "| Holiday | Date | Affected Friday payday | Submit by (5:00 pm PT) |"
+        },
+        {
+          "file": "releases/2026-02-release-notes.md",
+          "quote": "Payrolls submitted after 3:00 pm PT are processed the next banking day, which can push pay dates back."
+        }
+      ],
+      "counts_if": "Names 2026-bank-holiday-payroll-calendar.md and says the table's submit-by time should be 3:00 pm PT."
+    },
+    {
+      "id": "F11",
+      "what": "set-up-two-step-verification.md (updated January 22, 2026) says SMS codes are no longer supported; March restored SMS as a method.",
+      "evidence": [
+        {
+          "file": "articles/set-up-two-step-verification.md",
+          "quote": "**Important:** As of January 2026, text message (SMS) codes are no longer supported for two-step verification."
+        },
+        {
+          "file": "releases/2026-03-release-notes.md",
+          "quote": "Admins who were moved off SMS in February can switch back under"
+        }
+      ],
+      "counts_if": "Names set-up-two-step-verification.md and says SMS was restored in March 2026 so the article should list text message as a supported method again (authenticator still recommended)."
+    }
+  ],
+  "exclusions": [
+    {
+      "id": "X1",
+      "what": "cant-sign-in.md describes text message verification codes as a working method.",
+      "evidence": [
+        {
+          "file": "articles/cant-sign-in.md",
+          "quote": "**Text message:** Codes come from a short code, not a regular phone number."
+        },
+        {
+          "file": "releases/2026-03-release-notes.md",
+          "quote": "TEXT MESSAGE CODES ARE BACK"
+        }
+      ],
+      "why_not": "The January SMS removal was reversed in March, so an article saying SMS works matches the current product."
+    },
+    {
+      "id": "X2",
+      "what": "payroll-deadlines-faq.md mentions the old 5:00 pm PT cutoff.",
+      "evidence": [
+        {
+          "file": "articles/payroll-deadlines-faq.md",
+          "quote": "Until the February 10, 2026 release, the cutoff was 5:00 pm PT."
+        }
+      ],
+      "why_not": "Historical mention; the article already states the current 3:00 pm PT cutoff."
+    },
+    {
+      "id": "X3",
+      "what": "custom-earning-types.md says Starter allows up to 10 custom earning types.",
+      "evidence": [
+        {
+          "file": "articles/custom-earning-types.md",
+          "quote": "If you're on the Starter plan, you can create up to 10 custom earning types."
+        },
+        {
+          "file": "releases/2026-02-release-notes.md",
+          "quote": "Starter and Plus limits are unchanged."
+        }
+      ],
+      "why_not": "The February limit change only affected Core; the Starter limit is still 10. (Likewise the 10 and Unlimited cells in compare-plans.md are correct.)"
+    },
+    {
+      "id": "X4",
+      "what": "upload-timesheets-csv.md documents the classic timesheet CSV import, which is on the deprecation schedule.",
+      "evidence": [
+        {
+          "file": "articles/upload-timesheets-csv.md",
+          "quote": "Upload hours from a CSV file (classic import)"
+        },
+        {
+          "file": "releases/deprecations.md",
+          "quote": "| Classic timesheet CSV import | Timesheet upload (legacy) | Scheduled | 2026-10-15 | Timesheet importer under Payroll > Import hours |"
+        }
+      ],
+      "why_not": "Removal is scheduled for October 15, 2026 and the feature is still fully supported, so the article is not stale yet."
+    },
+    {
+      "id": "X5",
+      "what": "run-a-regular-payroll.md says submitted payrolls go straight to processing.",
+      "evidence": [
+        {
+          "file": "articles/run-a-regular-payroll.md",
+          "quote": "Regular payrolls go straight to processing once submitted."
+        },
+        {
+          "file": "releases/2026-02-release-notes.md",
+          "quote": "Regular scheduled payrolls are not affected and still go straight to processing when submitted."
+        }
+      ],
+      "why_not": "The approval step applies only to off-cycle payrolls."
+    },
+    {
+      "id": "X6",
+      "what": "annual-tax-filings.md says annual filings wait for approval and are submitted near the due date.",
+      "evidence": [
+        {
+          "file": "articles/annual-tax-filings.md",
+          "quote": "If a summary isn't approved by the due date, we'll hold it and keep reminding you."
+        },
+        {
+          "file": "releases/2026-03-release-notes.md",
+          "quote": "Annual filings are unchanged."
+        }
+      ],
+      "why_not": "The March filing change covers quarterly filings only."
+    },
+    {
+      "id": "X7",
+      "what": "getting-around-halvard.md mentions the People menu.",
+      "evidence": [
+        {
+          "file": "articles/getting-around-halvard.md",
+          "quote": "If you've been with us a while, you might remember this menu as People; it was renamed Team in January 2026 and nothing else about it changed."
+        }
+      ],
+      "why_not": "Historical mention explaining the rename; the article uses the current Team name."
+    },
+    {
+      "id": "X8",
+      "what": "paying-bonuses.md regular payroll column says bonus payrolls go straight to processing.",
+      "evidence": [
+        {
+          "file": "articles/paying-bonuses.md",
+          "quote": "| What happens after you click Submit | Goes straight to processing | Goes straight to processing |"
+        }
+      ],
+      "why_not": "Only the off-cycle column is stale; flagging the regular payroll option (Option A) as needing approval would be wrong."
+    },
+    {
+      "id": "X9",
+      "what": "cant-sign-in.md mentions a Former employee access link on the sign in page.",
+      "evidence": [
+        {
+          "file": "articles/cant-sign-in.md",
+          "quote": "Use the **Former employee access** link on the sign in page and verify with your date of birth and the last four digits of your ID number."
+        }
+      ],
+      "why_not": "This is a sign in page link for people whose employer left Halvard, not the renamed People > Former employees menu, so the January rename does not make it stale."
+    }
+  ],
+  "answer": null,
+  "mistakes_that_matter": [
+    "Flagging articles that describe SMS two-step verification as available (the January removal was reverted in March), which would lead support to remove correct instructions.",
+    "Missing set-up-two-step-verification.md because it was updated after the January release, leaving customers told SMS is unsupported.",
+    "Telling readers the 5:00 pm PT cutoff still applies, or 'fixing' it to anything other than 3:00 pm PT, which causes late paychecks.",
+    "Adding an approval step to regular payroll articles, or omitting it from off-cycle articles.",
+    "Saying quarterly filings still wait for approval, or applying the automatic 5 business day submission to annual filings.",
+    "Changing the Starter custom earning type limit, or missing that Tallyworks Connect is the removed BrightBooks sync.",
+    "Marking the classic timesheet import article for removal now, before its October 15, 2026 retirement."
+  ]
+}

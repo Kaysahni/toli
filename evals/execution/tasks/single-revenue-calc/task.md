@@ -1,0 +1,1 @@
+Finance needs our Q2 net revenue from EU customers, in USD, after credit notes, for the board pack going out tomorrow. The invoice export, the customer list and the pricing notes are all in the folder. Can you work out the number to the cent and show me how you got there?

@@ -1,0 +1,235 @@
+{
+  "id": "stage-market-entry",
+  "company": "Varnholt",
+  "category": "staged",
+  "held_out": false,
+  "summary": "Recommend Germany, Brazil or Japan for the next launch against the brief's three criteria; a good answer shows Germany fails on a later in-country storage ordinance, Japan fails payback once Kumonote's free plan triggers the free-plan scenario, and Brazil passes all three after removing a double-counted help center line, so Brazil is recommended.",
+  "findings": [
+    {
+      "id": "F1",
+      "what": "Contribution margin for payback math is the current Finance figure of 70%, not the older 64% used in Slack and old decks",
+      "evidence": [
+        {"file": "brief.md", "quote": "The margin is whatever Finance has set for new-market planning."},
+        {"file": "finance/new-market-planning-assumptions.md", "quote": "**New-market contribution margin: 70%.**"}
+      ],
+      "counts_if": "Answer uses 70% in the payback calculations (or payback figures consistent with 70%)."
+    },
+    {
+      "id": "F2",
+      "what": "Germany payback passes: entry cost US$318,400; 4,300 subscribers x US$8.10 x 70% = about US$24,381 per month; payback about 13.1 months. No direct German competitor has a free plan (Notiztafel and Blattwerk offer trials only), so the base case applies.",
+      "evidence": [
+        {"file": "germany/localization-estimate-de.yaml", "quote": "total_one_time: 318400"},
+        {"file": "germany/market-research-germany.md", "quote": "| Paying Plus subscribers | 4,300 |"},
+        {"file": "germany/competitors/notiztafel.md", "quote": "We do not offer a permanent free plan."}
+      ],
+      "counts_if": "Answer gives Germany a payback of roughly 13 months (13.0 to 13.1) and says it passes the payback criterion."
+    },
+    {
+      "id": "F3",
+      "what": "Germany fails the storage criterion: counsel's 17 June 2026 update (forwarded by the GC as an addendum to the March memo) reports the CAVV ordinance, adopted 11 June 2026 and effective 1 January 2027, requiring in-scope providers (over 10,000 German users; Varnholt plans about 60,000) to store German users' content in Germany. The March memo's 'no requirement' conclusion is withdrawn.",
+      "evidence": [
+        {"file": "germany/legal/fwd-hosting-rule-update.eml.txt", "quote": "In-scope providers must store the content data of users resident in Germany on servers physically located in Germany."},
+        {"file": "germany/legal/fwd-hosting-rule-update.eml.txt", "quote": "The ordinance takes effect on 1 January 2027."},
+        {"file": "germany/legal/fwd-hosting-rule-update.eml.txt", "quote": "Our earlier conclusion that the existing EU hosting region is sufficient is therefore withdrawn for any launch in Germany."}
+      ],
+      "counts_if": "Answer states Germany has an adopted in-country storage requirement (effective 2027) from the June update and therefore fails criterion 2."
+    },
+    {
+      "id": "F4",
+      "what": "Germany segments pass 2 of 3 on completed survey responses: students 33/80 = 41.3%, independent professionals 23/60 = 38.3% reachable; small teams 11/50 = 22.0% not reachable (contrary to Feldhaus's 3 of 3 view).",
+      "evidence": [
+        {"file": "brief.md", "quote": "Only completed responses count."},
+        {"file": "survey/codebook.md", "quote": "4 = probably would pay"}
+      ],
+      "counts_if": "Answer says Germany reaches 2 of 3 segments (students and independent professionals, not small teams), with shares near 41%, 38% and 22%."
+    },
+    {
+      "id": "F5",
+      "what": "Brazil's cost estimate double counts the help center: line 1 (Lusofona quote LT-2291, US$64,000) already covers all 412 help center articles, and line 2 adds help center translation again for US$55,000. Corrected entry cost is US$250,000, not US$305,000.",
+      "evidence": [
+        {"file": "brazil/localization-estimate-brazil.md", "quote": "| 2 | Help center translation, all 412 articles | Lusófona Traduções | 55,000 |"},
+        {"file": "brazil/vendor-quote-lusofona-LT-2291.txt", "quote": "Fixed fee for Lot A and Lot B together: USD 64,000.00"},
+        {"file": "brazil/vendor-quote-lusofona-LT-2291.txt", "quote": "All 412 help center articles as exported by the client on 20 May 2026"}
+      ],
+      "counts_if": "Answer identifies the help center double count and uses a corrected Brazil entry cost of US$250,000."
+    },
+    {
+      "id": "F6",
+      "what": "Brazil payback passes once corrected: 4,700 subscribers x US$4.60 x 70% = about US$15,134 per month; US$250,000 / 15,134 = about 16.5 months (the uncorrected US$305,000 would give about 20.2 months and fail). No direct Brazilian competitor currently has a free plan, so base case applies.",
+      "evidence": [
+        {"file": "brazil/market-research-brazil.md", "quote": "| Paying Plus subscribers | 4,700 |"},
+        {"file": "brazil/competitors/cadernia.md", "quote": "There is no free plan."},
+        {"file": "brazil/competitors/anotaki.md", "quote": "Our free plan was discontinued on 30 November 2025."}
+      ],
+      "counts_if": "Answer gives Brazil a payback of about 16.5 months and says it passes the payback criterion."
+    },
+    {
+      "id": "F7",
+      "what": "Brazil has no in-country storage requirement: current law permits foreign hosting, and Bill PL 4.117/2025 was archived and never adopted.",
+      "evidence": [
+        {"file": "brazil/legal-memo-brazil.md", "quote": "**Conclusion on data location: no in-country storage requirement applies to Varnholt.**"}
+      ],
+      "counts_if": "Answer says Brazil passes criterion 2 (no storage requirement)."
+    },
+    {
+      "id": "F8",
+      "what": "Brazil segments pass 2 of 3 on completed responses: students 47/90 = 52.2%, independent professionals 26/70 = 37.1% reachable; small teams 10/55 = 18.2% not. This settles the segment Mirante called 'unclear'.",
+      "evidence": [
+        {"file": "brazil/market-research-brazil.md", "quote": "We could not call this segment either way without survey data."},
+        {"file": "brief.md", "quote": "Only completed responses count."}
+      ],
+      "counts_if": "Answer says Brazil reaches students and independent professionals (about 52% and 37%) but not small teams (about 18%), so 2 of 3 passes."
+    },
+    {
+      "id": "F9",
+      "what": "Japan's direct competitor Kumonote launched Kumonote Free on 22 July 2026 (unlimited notes, sync across all devices). The Kumonote pricing profile saying 'Free plan: none' is a February 2026 snapshot and is out of date. So the free-plan scenario applies to Japan.",
+      "evidence": [
+        {"file": "japan/competitors/kumonote-blog-2026-07-22.md", "quote": "Starting today, **Kumonote Free** is available to everyone in Japan."},
+        {"file": "japan/competitors/kumonote-blog-2026-07-22.md", "quote": "- **Sync across all your devices.** Phone, tablet, computer and web."},
+        {"file": "brief.md", "quote": "If a direct competitor in that country offers a free plan that includes unlimited notes and sync across devices, use the report's free-plan scenario instead, because that is the case where our conversion assumptions break."}
+      ],
+      "counts_if": "Answer notes Kumonote now has a qualifying free plan (per the July 2026 blog post, newer than the pricing snapshot) and uses Japan's free-plan scenario."
+    },
+    {
+      "id": "F10",
+      "what": "Japan payback fails under the free-plan scenario: 3,000 subscribers x US$7.20 x 70% = US$15,120 per month; US$336,000 / 15,120 = about 22.2 months (base case would be about 12.8).",
+      "evidence": [
+        {"file": "japan/market-research-japan.md", "quote": "Paying Plus subscribers, month 12     5,200           3,000"},
+        {"file": "japan/localization-estimate-japan.md", "quote": "$127,000 + $95,000 + $64,000 + $50,000 = **$336,000**"}
+      ],
+      "counts_if": "Answer gives Japan a payback of about 22 months and says it fails the payback criterion."
+    },
+    {
+      "id": "F11",
+      "what": "Japan has no in-country storage requirement; the cross-border transfer consent rule is a disclosure obligation, not a storage rule.",
+      "evidence": [
+        {"file": "japan/legal-memo-japan.md", "quote": "Japanese law does not require Varnholt to store Japanese users' content in Japan."}
+      ],
+      "counts_if": "Answer says Japan passes criterion 2."
+    },
+    {
+      "id": "F12",
+      "what": "Japan segments pass 2 of 3 on completed responses: independent professionals 29/65 = 44.6% and small teams 28/60 = 46.7% reachable; students 20/70 = 28.6% not reachable (contrary to Kasumi's interview view that students are easiest).",
+      "evidence": [
+        {"file": "japan/market-research-japan.md", "quote": "We expect students to be the easiest segment to reach, especially through university co-op stores and study communities."},
+        {"file": "brief.md", "quote": "The research agencies' qualitative views on segments are useful color but the survey decides."}
+      ],
+      "counts_if": "Answer says Japan reaches independent professionals and small teams but not students (about 29%), so 2 of 3 passes."
+    }
+  ],
+  "exclusions": [
+    {
+      "id": "X1",
+      "what": "Germany's March legal memo saying there is no in-country storage requirement",
+      "evidence": [{"file": "germany/legal-memo-germany.md", "quote": "(a) No. As of the date of this memo, there is no German statute or regulation that requires a provider of a note-taking or document storage service for consumers and small businesses to store user content on servers located in Germany."}],
+      "why_not": "Superseded by counsel's 17 June 2026 update forwarded as an addendum; the CAVV ordinance now requires storage in Germany from 1 January 2027."
+    },
+    {
+      "id": "X2",
+      "what": "Brazil's stated total entry cost of US$305,000 and the resulting ~20 to 22 month payback (including Haruki's Slack calculation)",
+      "evidence": [
+        {"file": "brazil/localization-estimate-brazil.md", "quote": "| | **Total one-time entry cost** | | **305,000** |"},
+        {"file": "notes/slack-export-growth-next-market.txt", "quote": "[2026-06-12 15:49] haruki.b: Brazil looks out tbh"}
+      ],
+      "why_not": "The total double counts the help center (already inside the US$64,000 Lusofona fixed fee) and Haruki also used the retired 64% margin."
+    },
+    {
+      "id": "X3",
+      "what": "Kumonote pricing profile stating it has no free plan",
+      "evidence": [{"file": "japan/competitors/kumonote.md", "quote": "**Free plan: none.** New users get a 30-day trial of Premium."}],
+      "why_not": "February 2026 snapshot; Kumonote launched a free plan on 22 July 2026."
+    },
+    {
+      "id": "X4",
+      "what": "Shiori Works free plan in Japan treated as the free-plan trigger",
+      "evidence": [{"file": "japan/competitors/shiori-works.md", "quote": "Category: office and collaboration suite (documents, spreadsheets, chat, calendar, and a \"Memo\" module). Not a dedicated note app."}],
+      "why_not": "The brief counts only dedicated note-taking apps as direct competitors; office suites do not count. (Japan's trigger comes from Kumonote instead.)"
+    },
+    {
+      "id": "X5",
+      "what": "Anotaki's free plan (or Cadernia's old free tier) triggering Brazil's free-plan treatment",
+      "evidence": [
+        {"file": "brazil/competitors/anotaki.md", "quote": "The free plan (Anotaki Grátis) was their main acquisition engine from 2020 to 2025."},
+        {"file": "brazil/competitors/cadernia.md", "quote": "They ended it in 2021."}
+      ],
+      "why_not": "Both free plans were discontinued; no direct Brazilian competitor offers one now, and Mirante has no free-plan scenario to apply anyway."
+    },
+    {
+      "id": "X6",
+      "what": "Brazil Bill PL 4.117/2025 as an in-country storage requirement",
+      "evidence": [{"file": "brazil/legal-memo-brazil.md", "quote": "It is not law and nothing in it binds Varnholt."}],
+      "why_not": "Archived proposal, never adopted; the brief excludes proposals, and Varnholt is below its threshold anyway."
+    },
+    {
+      "id": "X7",
+      "what": "Japan's cross-border transfer consent rule, or Brazil's encarregado appointment, treated as failing the storage criterion",
+      "evidence": [
+        {"file": "japan/legal-memo-japan.md", "quote": "This is a disclosure and consent obligation. It does not restrict where data is stored."},
+        {"file": "brazil/legal-memo-brazil.md", "quote": "Varnholt must appoint a data protection officer (encarregado) whose contact details are published in Portuguese."}
+      ],
+      "why_not": "The brief says consent wording, registration and representatives do not fail criterion 2."
+    },
+    {
+      "id": "X8",
+      "what": "Using the 64% contribution margin",
+      "evidence": [
+        {"file": "notes/slack-export-growth-next-market.txt", "quote": "[2026-05-12 10:02] rasmus.ol: reminder that new market models should use 64% contribution margin until I say otherwise"}
+      ],
+      "why_not": "Finance's planning page (22 July 2026) sets 70% and says not to reuse 64%. At 64% Brazil's corrected payback is about 18.07 months and would wrongly fail."
+    },
+    {
+      "id": "X9",
+      "what": "Counting partial survey responses (Brazil independent professionals would drop to 29/95 = 30.5% and fail)",
+      "evidence": [{"file": "survey/codebook.md", "quote": "answered Q7 and then quit, often right after the price question."}],
+      "why_not": "The brief says only completed responses count; on completed responses Brazil independent professionals are 37.1%."
+    },
+    {
+      "id": "X10",
+      "what": "Using the non-free-plan downside cases for payback: Germany's macro downside (3,600 subscribers) or Brazil's currency downside (US$4.05 price)",
+      "evidence": [
+        {"file": "germany/market-research-germany.md", "quote": "In that case we project **3,600 paying subscribers at month 12**."},
+        {"file": "brazil/market-research-brazil.md", "quote": "the USD price would fall to about **US$4.05**, with subscriber numbers unchanged."}
+      ],
+      "why_not": "The brief says other downside cases are context only; only the free-plan scenario replaces the base case. (Brazil at US$4.05 would give about 18.8 months and wrongly fail.)"
+    },
+    {
+      "id": "X11",
+      "what": "Agency qualitative segment calls used as the verdict (Feldhaus 3 of 3 for Germany; Mirante 1 clear of 3 for Brazil; Kasumi students easiest in Japan)",
+      "evidence": [{"file": "germany/market-research-germany.md", "quote": "We consider all three segments reachable in Germany."}],
+      "why_not": "The brief says the survey decides segment reachability."
+    },
+    {
+      "id": "X12",
+      "what": "Japan's high support ticket volume (localization requests) as a reason to pick Japan",
+      "evidence": [{"file": "notes/growth-weekly-2026-08-10.md", "quote": "Wiebke: interesting, not a criterion, Ilse was explicit."}],
+      "why_not": "The brief states support volume is not a criterion."
+    },
+    {
+      "id": "X13",
+      "what": "Notiztafel's 14-day trial or Blattwerk's 2024 Austria free tier test as a German free plan",
+      "evidence": [
+        {"file": "germany/competitors/notiztafel.md", "quote": "**Try any plan free for 14 days.** No card required."},
+        {"file": "germany/competitors/blattwerk.md", "quote": "It was pulled after two months and never came to Germany."}
+      ],
+      "why_not": "A trial is not a permanent free plan and the Blattwerk test ended and was never in Germany; Germany's base case stands (and it has no free-plan scenario)."
+    },
+    {
+      "id": "X14",
+      "what": "France (or FR/MX survey rows) as a candidate",
+      "evidence": [{"file": "notes/france-quick-look.md", "quote": "France: quick look (not on the FY2027 shortlist)"}],
+      "why_not": "The brief fixes the shortlist to Germany, Brazil and Japan."
+    }
+  ],
+  "answer": {
+    "value": "Brazil",
+    "derivation": "Germany: payback about 13.1 months (318,400 / (4,300 x 8.10 x 0.70)), segments 2 of 3, but fails storage because the June 2026 counsel update reports the adopted CAVV ordinance requiring in-Germany storage from 1 January 2027. Japan: storage passes and segments 2 of 3, but Kumonote launched a qualifying free plan on 22 July 2026, so the free-plan scenario applies: 336,000 / (3,000 x 7.20 x 0.70) = about 22.2 months, fails payback. Brazil: removing the double-counted US$55,000 help center line gives US$250,000; 250,000 / (4,700 x 4.60 x 0.70) = about 16.5 months, passes; no storage requirement (bill archived); completed survey responses give students 52.2% and independent professionals 37.1%, so 2 of 3. Brazil is the only country meeting all three criteria, so no tie-break is needed. A skim that misses the traps (March memo, February Kumonote snapshot, US$305,000 total) has Germany and Japan both passing and Brazil failing payback, and the tie-break on shortest payback would pick Japan (about 12.8 months).",
+    "counts_if": "Answer recommends Brazil, and states that Germany fails on the in-country storage ordinance and Japan fails on payback because of Kumonote's free plan, with Brazil's payback computed on the corrected US$250,000 cost."
+  },
+  "mistakes_that_matter": [
+    "Recommending Japan (misses Kumonote Free; base-case payback of about 12.8 months is not the applicable case)",
+    "Recommending Germany or calling it compliant on storage (misses the June 2026 CAVV update, which would force a German hosting build after launch)",
+    "Rejecting Brazil on payback using the uncorrected US$305,000 total, the 64% margin, or the currency downside price",
+    "Rejecting Brazil on segments by counting partial survey responses or relying on Mirante's qualitative 'unclear' call",
+    "Reporting payback or survey figures not supported by the files"
+  ]
+}

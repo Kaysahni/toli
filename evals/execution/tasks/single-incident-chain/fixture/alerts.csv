@@ -1,0 +1,22 @@
+alert_id,alert_name,severity,service,resource,fired_at_utc,resolved_at_utc,resolution,summary
+A-77101,RelayCertExpiry,warning,mail-relay,mx-relay01,2026-08-19 09:00:00,2026-09-03 01:10:05,auto,server TLS certificate expires in 28 days
+A-77288,AtmJournalGap,warning,atm-network,atm-HF-02,2026-08-30 04:12:09,2026-08-30 04:40:51,auto,journal upload missing for 1 cycle
+A-77290,LanternqDiskAdvisory,info,message-queue,lq-1,2026-08-30 00:05:00,2026-08-30 06:12:00,auto,disk free 13.0 GiB below advisory 15 GiB
+A-77297,LanternqMgmtCertExpiry,warning,message-queue,lq-2,2026-08-30 06:00:00,,open,management listener certificate expires in 45 days
+A-77301,OnlineBankingLatencyP95,warning,online-banking,web-edge,2026-08-31 13:22:40,2026-08-31 13:31:02,auto,p95 page latency 2.9s over 2.5s
+A-77306,PosGatewayRebootLoop,critical,payments,gw-pos-b,2026-09-01 02:41:17,2026-09-01 03:02:55,manual,gateway failed POST after firmware update (CHG-4455)
+A-77311,LanternqDiskAdvisory,info,message-queue,lq-1,2026-09-01 00:05:00,2026-09-01 06:09:00,auto,disk free 12.6 GiB below advisory 15 GiB
+A-77316,BranchLinkDown,critical,branch-network,br-caddon-mills,2026-09-01 15:47:30,2026-09-01 16:20:12,manual,primary WAN link down; failed over to LTE
+A-77322,LanternqDiskAdvisory,info,message-queue,lq-1,2026-09-02 00:05:00,2026-09-02 06:14:00,auto,disk free 12.4 GiB below advisory 15 GiB
+A-77323,RelaySpoolDiskHigh,warning,mail-relay,mx-relay01,2026-09-02 03:18:45,2026-09-02 03:41:10,auto,/var/spool/quillmail above 80%
+A-77330,CardAuthConsumerLag,warning,message-queue,cards.auth.events,2026-09-02 17:05:12,2026-09-02 17:09:40,auto,consumer lag above 500 messages
+A-77335,LanternqPeerUnreachable,critical,message-queue,lq-3,2026-09-02 23:48:32,2026-09-02 23:51:10,auto,cluster peer lq-3 missed heartbeats for 30s
+A-77336,LanternqDiskAdvisory,info,message-queue,lq-1,2026-09-03 00:05:00,2026-09-03 06:11:00,auto,disk free 12.1 GiB below advisory 15 GiB
+A-77338,RendererSigningLatencyHigh,warning,statement-renderer,bat-app04,2026-09-03 01:41:30,2026-09-03 01:58:30,auto,PDF signing p95 above 1500 ms
+A-77339,NotifyDeadLetterNonEmpty,warning,message-queue,notify.email.dlq,2026-09-03 01:52:40,,open,dead letter queue depth above 0
+A-77340,SchedulerJobFailed,warning,batch-scheduler,GL_RECON,2026-09-03 02:00:44,2026-09-03 02:49:48,auto,job GL_RECON rc=2 (retry succeeded)
+A-77341,LanternqMemoryAlarm,critical,message-queue,lq-2,2026-09-03 02:47:20,2026-09-03 04:30:10,auto,memory high watermark reached; publishers blocked
+A-77343,RelaySpoolDiskHigh,warning,mail-relay,mx-relay01,2026-09-03 03:20:00,2026-09-03 03:42:30,auto,/var/spool/quillmail above 80%
+A-77344,SchedulerJobMaxRuntime,critical,batch-scheduler,STMT_NIGHTLY,2026-09-03 04:30:01,2026-09-03 08:12:31,manual,job STMT_NIGHTLY exceeded maxrun and was terminated
+A-77345,StatementBatchFailed,critical,statement-renderer,B-20260903,2026-09-03 04:30:05,,open,statement batch ended in state FAILED
+A-77346,AtmJournalGap,warning,atm-network,atm-WB-07,2026-09-03 05:02:44,2026-09-03 05:31:09,auto,journal upload missing for 1 cycle

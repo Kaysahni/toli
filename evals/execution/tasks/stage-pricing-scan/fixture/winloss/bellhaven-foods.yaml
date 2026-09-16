@@ -1,0 +1,24 @@
+record_type: deal_closeout
+account_name: Bellhaven Foods
+account_segment: mid_market
+deal_owner: Jonas Veld
+closed_on: 2026-07-30
+result: lost
+lost_to: none (internal build)
+quoted:
+  plan: pro
+  billing: annual
+  seats: 35
+loss_reason: build_in_house
+comments:
+  - author: jonas.veld
+    text: >
+      New VP of Data joined Bellhaven in June from a big-tech background and
+      decided to build dashboards in-house with an open-source notebook
+      stack on their existing warehouse. No commercial vendor won. He was
+      polite about our product and said pricing was reasonable; his view is
+      that his team should own the whole stack.
+  - author: nadia.kurz
+    text: >
+      Agree with the reason code. Worth a check-in in 9 to 12 months, these
+      builds often stall.

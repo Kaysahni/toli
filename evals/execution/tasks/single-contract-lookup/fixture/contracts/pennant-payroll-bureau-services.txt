@@ -1,0 +1,166 @@
+PENNANT PAYROLL BUREAU
+Bureau Services Terms, Client Schedule and Acceptance
+
+Client:              Brackenford Holdings, Inc. (and group employing entities listed in Part 2)
+Client address:      400 Pellam Street, Port Ellery
+Bureau:              Pennant Payroll Bureau Ltd., 71 Market Row, Dunleigh
+Schedule ref:        PPB/CS/3391
+Services commence:   first payroll for pay date 25 July 2019
+Schedule date:       30 May 2019
+Revised:             Part 3 fees updated 1 January 2023 (see note at end)
+
+
+PART 1. SERVICES
+
+1.1  Pennant will run payroll for the Client's employees as follows:
+       Monthly salaried payroll, paid on the 25th (or previous working day)
+       Weekly hourly payroll (warehouse and transport staff), paid Fridays
+     Pennant will calculate gross pay, statutory deductions, pension
+     contributions, voluntary deductions and net pay using data supplied
+     by the Client.
+
+1.2  Pennant will produce and deliver electronic payslips through its
+     employee portal, a payment file in the Client's bank format, and
+     a payroll journal mapped to the Client's general ledger codes.
+
+1.3  Pennant will prepare and file periodic employer returns with the
+     Calder Revenue Department and make pension scheme submissions,
+     using filing credentials authorised by the Client.
+
+1.4  Year end: Pennant will issue annual employee tax statements and
+     the employer annual reconciliation by the statutory deadlines.
+
+1.5  Starters and leavers: Pennant will process starters and leavers
+     notified by the cut-off, including final pay calculations based on
+     figures supplied by the Client. Pennant does not calculate holiday
+     entitlement; the Client supplies accrued holiday balances.
+
+1.6  Not included: time and attendance, HR advice, employment law
+     advice, benefits administration beyond payroll deductions,
+     expense claims processing, or garnishment disputes. These may be
+     quoted separately.
+
+
+PART 2. EMPLOYING ENTITIES AND HEADCOUNT (at schedule date)
+
+     Brackenford Holdings, Inc.            monthly      118
+     Brackenford Distribution Ltd.         monthly       46
+     Brackenford Distribution Ltd.         weekly       212
+     Brackenford Cold Stores Ltd.          weekly        57
+     Tarrow Gate Cross-Dock Ltd.           weekly        39
+
+
+PART 3. FEES (as revised 1 January 2023)
+
+     Set up (one-off, paid 2019)                        CAL$ 4,500.00
+     Monthly payroll, per payslip                       CAL$     5.10
+     Weekly payroll, per payslip                        CAL$     2.35
+     Minimum monthly charge                             CAL$ 1,900.00
+     Starter or leaver                                  CAL$     9.00 each
+     Off-cycle payment (per run, up to 10 payees)       CAL$    85.00
+     Year end processing, per employee                  CAL$     3.20
+     Retrospective recalculation (hourly)               CAL$    72.00
+     Additional report development (hourly)             CAL$    90.00
+
+     Fees are invoiced monthly in arrears and payable by direct debit
+     14 days after invoice. Pennant may review fees once in each
+     calendar year, effective 1 January, on 60 days' written notice.
+     If an increase exceeds 6%, the Client may end these terms
+     without penalty by notice given before the increase takes effect.
+
+
+PART 4. CLIENT OBLIGATIONS AND CUT-OFFS
+
+4.1  Monthly payroll input (changes, overtime, starters, leavers,
+     absences) must reach Pennant by 12:00 on the 15th of the month.
+     Weekly payroll input must reach Pennant by 10:00 on Tuesday.
+
+4.2  The Client must approve the payroll preview within one working
+     day of receipt. Pennant will not release the payment file
+     without approval by an authorised signatory listed in Part 6.
+
+4.3  The Client is responsible for funding net pay into its own bank
+     account and for releasing the payment file to its bank.
+
+4.4  The Client is responsible for the accuracy of data it provides.
+     Pennant will correct its own calculation errors free of charge,
+     including any penalties or interest charged by the Calder Revenue
+     Department as a direct result.
+
+
+PART 5. GENERAL TERMS
+
+5.1  Data. Pennant processes employee personal information as a
+     processor on the Client's instructions. Data is hosted in Calder.
+     Pennant will notify the Client of any personal information breach
+     within 48 hours of becoming aware of it.
+
+5.2  Security. Access to the Pennant portal requires two-factor
+     authentication. Pennant will provide its annual independent
+     controls report on request.
+
+5.3  Business continuity. Pennant maintains a secondary processing
+     site at Wickham Fold and tests failover twice a year. If Pennant
+     is unable to process a payroll on time, it will, at the Client's
+     option, repeat the previous period's net pay figures so employees
+     are paid, and reconcile in the next period.
+
+5.4  Liability. Pennant's liability for any claim is limited to the
+     fees paid in the 12 months before the claim, except for its
+     obligations under 4.4 and 5.1, where the limit is CAL$1,000,000.
+     Neither party is liable for indirect or consequential loss.
+
+5.5  Term. These terms run from the commencement date until ended by
+     either party under 5.6 or 5.7.
+
+5.6  Ending by notice. Either party may end these terms by giving
+     not less than three (3) full calendar months' written notice,
+     expiring at the end of a calendar month. Where notice would
+     expire within six weeks before 31 December, Pennant may require
+     the Client to keep the service in place until the year end
+     processing in 1.4 for that year has been completed.
+
+5.7  Ending for breach. Either party may end these terms immediately
+     by written notice if the other commits a serious breach which is
+     not put right within 21 days of written notice. Failure by Pennant
+     to deliver a correct payment file by the pay date on two or more
+     occasions in any rolling 6 month period, where the failure is not
+     caused by the Client, counts as a serious breach.
+
+5.8  Exit. On ending, Pennant will supply payroll history reports and
+     year-to-date figures for each employee in CSV format, free of
+     charge, within 10 working days. Pennant will keep payroll records
+     for the statutory retention period and then securely delete them.
+
+5.9  Notices. Notices must be in writing to the addresses at the top
+     of this document. For the Client, notices go to the Group Financial
+     Controller.
+
+5.10 Law. State of Calder law applies. The courts of Ashworth County
+     have jurisdiction.
+
+
+PART 6. AUTHORISED SIGNATORIES (payroll approval)
+
+     Group Financial Controller       Anneliese Brookhart
+     Payroll and Reward Manager       Tomasz Ellingworth
+     Chief Financial Officer          (any holder of the role)
+
+
+PART 7. ACCEPTANCE
+
+     For Pennant Payroll Bureau Ltd.:
+         Signed:  R. Mbeki-Sutherland
+         Role:    Client Services Director
+         Date:    30 May 2019
+
+     For Brackenford Holdings, Inc. (for itself and the entities in Part 2):
+         Signed:  A. Brookhart
+         Role:    Group Financial Controller
+         Date:    4 June 2019
+
+
+Note on revision: Part 3 fees were updated by letter dated 24 October 2022
+(increase of 4.8%, below the 6% threshold). No other terms were changed.
+Headcount in Part 2 is as at the original schedule date and is not
+updated; billing uses actual payslip counts.

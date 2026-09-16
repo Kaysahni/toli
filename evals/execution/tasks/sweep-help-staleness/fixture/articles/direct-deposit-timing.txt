@@ -1,0 +1,43 @@
+When will my employees get paid? (Direct deposit timing)
+
+Last updated: 2025-10-15
+Written by: Priyanka Venkataraman
+
+Short answer: submit your payroll by 5:00 pm Pacific time, two banking days before payday, and your team gets paid on payday.
+
+---
+
+HOW IT WORKS
+
+Direct deposit moves money through the banking network, which only processes on banking days (Monday to Friday, excluding bank holidays). Halvard needs two banking days to debit your account and deliver the funds to your employees' banks.
+
+Example with a Friday payday:
+  - Submit by Wednesday at 5:00 pm PT
+  - Your account is debited Thursday
+  - Employees see funds Friday morning (most banks post by 9am local time)
+
+If you submit on Wednesday at 5:30 pm PT, we treat it as submitted Thursday, and the pay date moves to Monday.
+
+---
+
+WHAT IF PAYDAY IS A BANK HOLIDAY?
+
+Pay dates that fall on a bank holiday move to the previous banking day by default. That means your submission deadline moves a day earlier too. The Run payroll page always shows the exact deadline for the payroll you're working on.
+
+---
+
+WHAT ABOUT NEW EMPLOYEES?
+
+The first direct deposit to a new bank account goes through the same two day timing. There is no extra waiting period, but a typo in an account number will cause the deposit to be returned, usually 2 to 4 banking days later. We'll email you if that happens.
+
+---
+
+WHY DID ONE EMPLOYEE GET PAID LATER?
+
+Some banks (particularly smaller credit unions and some online banks) post incoming deposits later in the day. Funds are sent on time, so the employee should ask their bank when they post direct deposits.
+
+---
+
+NEED FASTER?
+
+On Plus, you can turn on next day direct deposit under Settings > Payroll > Funding. That shortens the timing to one banking day. It isn't available on Starter or Core.

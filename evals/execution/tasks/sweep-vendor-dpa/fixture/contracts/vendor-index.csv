@@ -1,0 +1,23 @@
+vendor,service_category,agreement_file,effective_date,current_term_end,status,business_owner,risk_tier,amendments_on_file,notes
+Tallowmere Systems,EHR hosting,tallowmere-ehr-hosting-msa.md; tallowmere-exhibit-b-data-protection.md,2026-02-01,2031-01-31,Active,R. Castellanos (IT Applications),1,,Replaced 2021 hosting agreement
+Quillon Telehealth,Virtual visits platform,quillon-telehealth-subscription-agreement.md,2024-04-01,2027-03-31,Active,M. Adeyemi (Digital Care),1,,
+Brasswick Lab Informatics,Laboratory information system,brasswick-lis-services-agreement.md; brasswick-schedule-3-hosting.md,2023-09-04,2029-03-31,Active,T. Villanueva (Lab Services),1,,Initial term is 5 years from go-live (targeted 2024-03-31)
+Hollin & Marsh Transcription,Medical transcription,hollin-marsh-transcription-agreement.txt,2021-04-19,2027-04-18,Active,J. Whitcombe (HIM),2,,Volume down 40% since ambient dictation pilot
+Pellucid Imaging,Imaging archive (VNA),imaging-archive-services-agreement.md; exhibit-c-transition-services.md,2020-09-01,2027-08-31,Active,S. Fairbairn (Radiology),1,,Vendor renamed from Brightwater Radiology Systems in 2025; agreement not re-papered
+Sablemoor Data Vaulting,Offsite backup,sablemoor-backup-services-agreement.md,2022-03-14,2027-03-14,Active,R. Castellanos (IT Infrastructure),1,2,
+Nettlefield Messaging,Appointment reminders,nettlefield-messaging-order-form.md; nettlefield-data-processing-addendum.md,2024-03-01,2027-02-28,Active,L. Brandt (Patient Access),2,,
+Greyloft Technology Partners,Managed IT services,greyloft-managed-it-services-agreement.md,2023-08-14,2027-08-13,Active,R. Castellanos (IT Infrastructure),1,1,Auto-renewed August 2026 for 1 year
+Wrenfold Patient Payments,Patient billing and payments,wrenfold-payment-services-agreement.md,2022-04-11,2028-04-10,Active,P. Oyelaran (Revenue Cycle),1,1,
+Ostrander Pharmacy Connect,E-prescribing,ostrander-eprescribing-agreement.md,2023-08-01,2027-07-31,Active,K. Doherty (Pharmacy),1,1,
+Kellbrook Survey Co.,Patient experience surveys,kellbrook-patient-survey-agreement.md,2022-03-03,2027-03-02,Active,A. Mirza (Quality),3,1,Contracting entity is Kellbrook Research Group LLC
+Lindqvist Workforce Scheduling,Clinician scheduling,lindqvist-scheduling-saas-agreement.md,2024-03-01,2027-02-28,Active,H. Osei (Nursing Operations),2,,
+Mercator Dictation Services,Mobile dictation,mercator-dictation-agreement.md,2019-06-18,2026-02-28,Terminated,J. Whitcombe (HIM),2,,Terminated for convenience effective 2026-02-28; data deletion certificate received 2026-03-19
+Corvane Revenue Partners,Billing and coding,corvane-revenue-cycle-agreement.md,2022-07-01,2028-06-30,Active,P. Oyelaran (Revenue Cycle),1,,
+Fennimore Specimen Courier,Specimen transport,fennimore-courier-services-agreement.md,2023-07-06,2027-07-05,Active,T. Villanueva (Lab Services),3,,
+Ashgrove Secure Shredding,Records destruction,ashgrove-records-destruction-agreement.md,2025-03-01,2027-02-28,Active,J. Whitcombe (HIM),3,,
+Tiverton eFax Cloud,Cloud fax,tiverton-efax-terms.md,2024-11-18,2026-11-17,Active,IT Service Desk,2,,Annual plan; auto-renews unless cancelled before renewal date
+Marrowby Health Analytics,Population health analytics,marrowby-analytics-license.md,2025-02-03,2028-02-02,Active,D. Fontaine (Population Health),2,,
+Pinecastle Language Services,Interpreter services,pinecastle-interpreter-services-agreement.md,2021-03-01,2027-02-28,Active,L. Brandt (Patient Access),2,,
+Harrowgate Answering Service,After-hours answering,harrowgate-answering-service-agreement.md,2022-10-01,2026-12-31,Active,L. Brandt (Patient Access),2,,
+Veldt Clinical Staffing,Clinical staffing,veldt-clinical-staffing-agreement.md,2025-04-01,2027-03-31,Active,H. Osei (Nursing Operations),3,,
+Ambry Health Technologies,Patient portal,ambry-patient-portal-agreement.md; ambry-exhibit-d-security.md,2024-02-01,2027-01-31,Active,M. Adeyemi (Digital Care),1,,

@@ -1,0 +1,16 @@
+name: geocoder
+owner: Platform (maps chapter)
+image: registry.tesselwick.internal/platform/geocoder:12.1.0
+replicas: 6
+env:
+  ADDRESS_INDEX_PATH: /data/index/2026-08
+  FALLBACK_PROVIDER: none
+  POSTCODE_FUZZY_MATCH: "true"
+  COUNTRIES: SE,NO,DK,FI,DE,PL
+volumes:
+  - name: address-index
+    claim: geocoder-index-pvc
+    mount: /data/index
+cache:
+  redis: redis-geo.cache.tesselwick.internal:6379/0
+  ttl_hours: 72

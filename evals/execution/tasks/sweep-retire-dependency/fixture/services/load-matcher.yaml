@@ -1,0 +1,21 @@
+# load-matcher: matches open loads to carrier capacity offers
+# owner: Dispatch Platform (Rafaela Monteiro)
+name: load-matcher
+image: registry.tesselwick.internal/dispatch/load-matcher:9.0.4
+replicas: 4
+env:
+  MATCH_RADIUS_KM: "120"
+  MIN_MARGIN_PCT: "6.5"
+  ROUTECALC_BASE_URL: https://routecalc.core.tesselwick.internal/v2
+  ROUTECALC_CLIENT_ID: load-matcher
+  CAPACITY_TOPIC: carrier.capacity.offered
+  LOADS_TOPIC: load.opened
+  MATCH_TOPIC: load.matched
+  PG_DSN: vault:kv/prod/load-matcher#pg_dsn
+probes:
+  readiness: /ready
+  liveness: /live
+autoscale:
+  min: 4
+  max: 12
+  target_cpu: 65

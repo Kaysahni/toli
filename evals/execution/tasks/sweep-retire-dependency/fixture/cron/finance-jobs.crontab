@@ -1,0 +1,16 @@
+# crontab export
+# host: ops-batch-02.ops.tesselwick.internal
+# user: svc-finance
+# exported: 2026-09-07 06:00 UTC by cron-inventory
+# owner: Finance Engineering (Ulla Berg for the business side)
+MAILTO=fin-eng-oncall@tesselwick.example
+TZ=Europe/Stockholm
+
+# fx rates from the central bank feed
+0 17 * * 1-5 /opt/tesselwick/finance/fetch_fx.py
+
+# nightly invoice sanity check (compares invoice totals against tariff-service)
+45 3 * * * /opt/tesselwick/finance/invoice_sanity.py --tariffs http://tariff-service.finance.svc:8080/api/tariffs --threshold-eur 50
+
+# quarterly toll table reminder
+0 9 1 1,4,7,10 * /opt/tesselwick/finance/remind.sh "Check toll tables in RouteCalc v2 are updated for the quarter"

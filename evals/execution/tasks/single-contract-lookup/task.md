@@ -1,0 +1,1 @@
+What notice do we have to give to terminate the Kestrel Freight master services agreement without cause, and by when for a year-end exit? We're looking at moving that freight to another carrier as of December 31, 2026, and I need to tell the COO the latest date we can give notice and what form it has to take. All our agreements are in contracts/, with the index csv alongside.

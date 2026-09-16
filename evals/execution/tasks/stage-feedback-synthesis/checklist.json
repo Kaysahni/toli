@@ -1,0 +1,272 @@
+{
+  "id": "stage-feedback-synthesis",
+  "company": "Pinmoor",
+  "category": "staged",
+  "held_out": true,
+  "summary": "Synthesize Q3 2026 customer feedback across tickets, NPS, churn survey, sales call notes and forum threads into the top problems, each with a correct distinct-customer count and verbatim quotes; a good answer finds the five real themes, ranks them by distinct customers, and does not promote the single-customer upload flood, the staff-only org chart issue, or cross-posted duplicates.",
+  "findings": [
+    {
+      "id": "F1",
+      "what": "Payroll Bridge export to the payroll provider is broken or unreliable since the July 3.14 release (Ledgerline file columns shifted, Tallybook sync mapping error 412 or stuck pending, duplicated or missing rows, wrong earnings codes)",
+      "evidence": [
+        {
+          "file": "tickets.csv",
+          "quote": "Cost center codes are blank in the export file for anyone who transferred departments this quarter."
+        },
+        {
+          "file": "nps-verbatims.csv",
+          "quote": "Would be a 9 but the payroll export to Ledgerline broke twice this summer and I had to fix it by hand."
+        },
+        {
+          "file": "churn-survey.csv",
+          "quote": "The payroll export kept breaking and our payroll provider is not something we can change."
+        },
+        {
+          "file": "sales-calls/2026-07-22-greyloch-qbr.txt",
+          "quote": "Tallybook has kicked back our file twice now with a mapping error, and both times it was the morning payroll was due."
+        },
+        {
+          "file": "forum/integrations/4471-ledgerline-export-columns-moved.md",
+          "quote": "Has anyone else had their Ledgerline export file change layout after the July release?"
+        }
+      ],
+      "counts_if": "Reports this as a top problem and gives a distinct-customer count between 34 and 46 (true count 40), with at least one quote that appears verbatim in the files.",
+      "distinct_customers": 40,
+      "derivation": "Distinct customers = distinct customer companies (account/company name) that raised the theme in any source this quarter, unioned across tickets.csv (company column), nps-verbatims.csv (account_name), churn-survey.csv (company), sales-calls/ (account named in the note) and forum/ (company in each poster's flair, original posts and replies). Multiple contacts or tickets from one company count once; a company raising it in several sources counts once; cross-posted forum duplicates add nothing; Pinmoor staff (pinmoor.example addresses, Pinmoor team or support posters, internal notes) and prospects are not customers. Per source distinct companies: {'churn': 4, 'forum': 7, 'nps': 9, 'sales-calls': 5, 'tickets': 18}; union = 40 (22 tickets). Companies: Bellwick Veterinary Group, Birchway Dental Group, Caldford Garden Centers, Canterfield Logistics, Coldbrook Dental, Coldmont Marine Supply, Copperlane Hotels, Elmhollow Architects, Everleigh Staffing, Galloway Print Works, Glenwick Builders, Gorsecott Precision Parts, Greyloch Manufacturing, Harrowgate Tile Supply, Heronbrook Manufacturing, Inglegrove Orthodontics, Ironstead Garden Centers, Junihaven Title and Escrow, Junihollow Family Medicine, Kelcombe Family Medicine, Larkfield Home Health, Lowmere Insurance Brokers, Lowmont Dermatology, Marisol Home Care, Moorstead Family Medicine, Netherbury Pet Hospitals, Nethergrove Architects, Netherhaven Family Medicine, Nettlefield Brewing, Ostrander Plumbing, Quillstead Clinics, Redgate Auto Group, Rushcott Logistics, Stanworth Orthodontics, Sunderby Clinics, Umberbeck Bakeries, Umberford Auto Group, Vantbrook Foods, Vantgrove Pet Hospitals, Wynmont Dental."
+    },
+    {
+      "id": "F2",
+      "what": "Time Off accrual balances are calculated wrong (part-time and reduced schedules accrue at full time rate, no proration, carryover cap ignored, rehires accruing from original hire date, tiers not applied)",
+      "evidence": [
+        {
+          "file": "tickets.csv",
+          "quote": "Our part-time staff at 24 hours a week are accruing as if they were full time."
+        },
+        {
+          "file": "nps-verbatims.csv",
+          "quote": "Time off balances are wrong for our part-time employees and my team spends hours correcting them."
+        },
+        {
+          "file": "churn-survey.csv",
+          "quote": "Time off balances were wrong for months and employees lost trust."
+        },
+        {
+          "file": "sales-calls/2026-07-30-radleigh-senior-living-renewal-risk.eml.txt",
+          "quote": "My caregivers don't believe any number in that app anymore."
+        },
+        {
+          "file": "forum/time-off/4480-part-time-accruals-full-time-rate.md",
+          "quote": "Our part-timers have about 40% more PTO than they should."
+        }
+      ],
+      "counts_if": "Reports this as a top problem and gives a distinct-customer count between 26 and 34 (true count 30), with at least one quote that appears verbatim in the files.",
+      "distinct_customers": 30,
+      "derivation": "Distinct customers = distinct customer companies (account/company name) that raised the theme in any source this quarter, unioned across tickets.csv (company column), nps-verbatims.csv (account_name), churn-survey.csv (company), sales-calls/ (account named in the note) and forum/ (company in each poster's flair, original posts and replies). Multiple contacts or tickets from one company count once; a company raising it in several sources counts once; cross-posted forum duplicates add nothing; Pinmoor staff (pinmoor.example addresses, Pinmoor team or support posters, internal notes) and prospects are not customers. Per source distinct companies: {'churn': 3, 'forum': 6, 'nps': 7, 'sales-calls': 5, 'tickets': 15}; union = 30 (18 tickets). Companies: Ashgate Garden Centers, Ashhaven Pet Hospitals, Birchway Dental Group, Brackbrook Logistics, Brackcott Foods, Brightwater Charter Network, Carrow Street Bakeries, Chilcombe Community Bank, Coldshaw Brewing Co, Ebbthorpe Dermatology, Everleigh Staffing, Galloway Print Works, Gildstead Orthodontics, Irondale Physical Therapy, Kittering Freight, Mapledale Title and Escrow, Moss & Vane Legal, Northstead Insurance Brokers, Pellam Outdoor Supply, Radleigh Senior Living, Redgate Auto Group, Rushgrove Veterinary Group, Saltshaw Cabinetry, Stanridge Dental, Umbercott Landscaping, Vantfield Veterinary Group, Vantridge Cabinetry, Westmere Retail Group, Wexgate Pharmacy, Wrenfield Pediatrics."
+    },
+    {
+      "id": "F3",
+      "what": "Pinmoor Go mobile app keeps logging users out (sign in required on every open, lock screen or network change, SSO sessions of minutes, face unlock not remembered)",
+      "evidence": [
+        {
+          "file": "tickets.csv",
+          "quote": "Employees have to sign in again every time they open the mobile app to clock in, and it is slowing down shift start."
+        },
+        {
+          "file": "nps-verbatims.csv",
+          "quote": "The app logs our staff out constantly."
+        },
+        {
+          "file": "churn-survey.csv",
+          "quote": "Our hourly staff could not stay signed in to the mobile app."
+        },
+        {
+          "file": "sales-calls/2026-07-16-copperlane-hotels-expansion.md",
+          "quote": "since the summer app update they get logged out whenever they lock their phones"
+        },
+        {
+          "file": "forum/mobile/4502-pinmoor-go-logging-out.md",
+          "quote": "Since updating to app version 5.2 our growers have to sign in every time they open Pinmoor Go."
+        }
+      ],
+      "counts_if": "Reports this as a top problem and gives a distinct-customer count between 20 and 28 (true count 24), with at least one quote that appears verbatim in the files.",
+      "distinct_customers": 24,
+      "derivation": "Distinct customers = distinct customer companies (account/company name) that raised the theme in any source this quarter, unioned across tickets.csv (company column), nps-verbatims.csv (account_name), churn-survey.csv (company), sales-calls/ (account named in the note) and forum/ (company in each poster's flair, original posts and replies). Multiple contacts or tickets from one company count once; a company raising it in several sources counts once; cross-posted forum duplicates add nothing; Pinmoor staff (pinmoor.example addresses, Pinmoor team or support posters, internal notes) and prospects are not customers. Per source distinct companies: {'churn': 2, 'forum': 7, 'nps': 5, 'sales-calls': 6, 'tickets': 13}; union = 24 (16 tickets). Companies: Bramblecote Nurseries, Canterfield Logistics, Coldshaw Brewing Co, Copperlane Hotels, Farrford Physical Therapy, Fernmere Veterinary Group, Gildworth Staffing, Gorsehaven Senior Care, Hawworth Family Medicine, Hollins Park Fitness, Kelhaven Printing, Kittering Freight, Langmont Law Group, Larkdale Printing, Marisol Home Care, Moormont Title and Escrow, Netherhaven Family Medicine, Orwell Bay Seafoods, Pemhaven Hospitality, Penridge Builders, Radleigh Senior Living, Sunderby Clinics, Westmere Retail Group, Wynthorpe Hardware."
+    },
+    {
+      "id": "F4",
+      "what": "Performance review cycles cannot be edited after launch (questions, rating scale and template locked, reviewers cannot be reassigned, cancelling to fix loses submitted responses)",
+      "evidence": [
+        {
+          "file": "tickets.csv",
+          "quote": "Template shows as locked because it is used in an active cycle."
+        },
+        {
+          "file": "nps-verbatims.csv",
+          "quote": "Review cycles are too rigid."
+        },
+        {
+          "file": "churn-survey.csv",
+          "quote": "Review cycle tool was too inflexible for how we run reviews."
+        },
+        {
+          "file": "sales-calls/2026-07-22-greyloch-qbr.txt",
+          "quote": "The template was locked the second we launched, so we either live with the wording or throw away two weeks of responses."
+        },
+        {
+          "file": "forum/performance/4510-edit-review-questions-after-launch.md",
+          "quote": "Do I really have to cancel the whole cycle to change one question?"
+        }
+      ],
+      "counts_if": "Reports this as a top problem and gives a distinct-customer count between 14 and 18 (true count 16), with at least one quote that appears verbatim in the files.",
+      "distinct_customers": 16,
+      "derivation": "Distinct customers = distinct customer companies (account/company name) that raised the theme in any source this quarter, unioned across tickets.csv (company column), nps-verbatims.csv (account_name), churn-survey.csv (company), sales-calls/ (account named in the note) and forum/ (company in each poster's flair, original posts and replies). Multiple contacts or tickets from one company count once; a company raising it in several sources counts once; cross-posted forum duplicates add nothing; Pinmoor staff (pinmoor.example addresses, Pinmoor team or support posters, internal notes) and prospects are not customers. Per source distinct companies: {'churn': 2, 'forum': 4, 'nps': 4, 'sales-calls': 5, 'tickets': 9}; union = 16 (11 tickets). Companies: Aldercrest Schools Foundation, Brightwater Charter Network, Fenwright Engineering, Foxcombe Charter Schools, Gorsehaven Senior Care, Greyloch Manufacturing, Holhollow Community Bank, Hollins Park Fitness, Kelcott Property Management, Lowmont Dermatology, Moormere Marine Supply, Moorstead Family Medicine, Moss & Vane Legal, Netherhaven Family Medicine, Northbrook Engineering, Tamsin Labs."
+    },
+    {
+      "id": "F5",
+      "what": "Insights reports time out or never load for company-wide or large datasets (blank dashboards, 504s, scheduled reports arriving empty)",
+      "evidence": [
+        {
+          "file": "tickets.csv",
+          "quote": "Trying to export the compensation report for all 900 employees gives a 504 error."
+        },
+        {
+          "file": "nps-verbatims.csv",
+          "quote": "Reporting is slow for a company our size."
+        },
+        {
+          "file": "churn-survey.csv",
+          "quote": "Reporting did not scale to our headcount."
+        },
+        {
+          "file": "sales-calls/2026-08-11-westmere-retail-exec-sponsor.md",
+          "quote": "Since the end of July any Insights report that covers the full company runs until it times out."
+        },
+        {
+          "file": "forum/reporting/4519-insights-report-timeouts.md",
+          "quote": "Custom reports that include terminated employees now spin for a few minutes and then show Request timed out."
+        }
+      ],
+      "counts_if": "Reports this as a top problem and gives a distinct-customer count between 11 and 15 (true count 13), with at least one quote that appears verbatim in the files.",
+      "distinct_customers": 13,
+      "derivation": "Distinct customers = distinct customer companies (account/company name) that raised the theme in any source this quarter, unioned across tickets.csv (company column), nps-verbatims.csv (account_name), churn-survey.csv (company), sales-calls/ (account named in the note) and forum/ (company in each poster's flair, original posts and replies). Multiple contacts or tickets from one company count once; a company raising it in several sources counts once; cross-posted forum duplicates add nothing; Pinmoor staff (pinmoor.example addresses, Pinmoor team or support posters, internal notes) and prospects are not customers. Per source distinct companies: {'churn': 2, 'forum': 4, 'nps': 3, 'sales-calls': 4, 'tickets': 6}; union = 13 (9 tickets). Companies: Canterfield Logistics, Copperlane Hotels, Everleigh Staffing, Gilddale Logistics, Ivel River Credit Services, Lowshaw Dermatology, Maplecott Staffing, Netherbrook Landscaping, Netherridge Hospitality, Pemhaven Hospitality, Stonewick Veterinary, Sunderby Clinics, Westmere Retail Group."
+    },
+    {
+      "id": "F6",
+      "what": "Ranking of the themes by distinct customers",
+      "evidence": [],
+      "counts_if": "Presents the themes in an order consistent with distinct customers: Payroll Bridge export to the payroll provider is broken or unreliable since the July 3.14 release (40) > Time Off accrual balances are calculated wrong (30) > Pinmoor Go mobile app keeps logging users out (24) > Performance review cycles cannot be edited after launch (16) > Insights reports time out or never load for company-wide or large datasets (13). Swapping two themes whose true counts differ by 3 or less is acceptable. The benefits document upload issue and the org chart PDF issue must not be ranked among them."
+    }
+  ],
+  "exclusions": [
+    {
+      "id": "X1",
+      "what": "Benefits enrollment document upload failure: 30 tickets, the largest single cluster in tickets.csv",
+      "evidence": [
+        {
+          "file": "tickets.csv",
+          "quote": "Please escalate. This is the 10th ticket we have opened for the benefits upload failure."
+        },
+        {
+          "file": "forum/general/4565-benefits-document-upload-fails.md",
+          "quote": "Support says they can only reproduce it on our tenant."
+        }
+      ],
+      "why_not": "Every ticket, the NPS comment and the forum thread come from one customer, Tollbridge Ceramics (tollbridgeceramics.example addresses). Distinct customers = 1. Ranking it as a top problem by ticket volume is wrong; at most it can be noted as a single-account escalation."
+    },
+    {
+      "id": "X2",
+      "what": "Org chart PDF export cuts off names (12 tickets, 4 NPS comments, a forum thread, a sales call note)",
+      "evidence": [
+        {
+          "file": "tickets.csv",
+          "quote": "Exporting the org chart to PDF cuts off the bottom row of names at the page edge."
+        },
+        {
+          "file": "forum/general/4530-org-chart-pdf-cuts-off-names.md",
+          "quote": "Reproduced in two different browsers on the Alderpoint Sample Co tenant."
+        },
+        {
+          "file": "sales-calls/2026-09-11-moss-vane-legal-checkin.md",
+          "quote": "Harriet did not notice."
+        }
+      ],
+      "why_not": "Raised only by Pinmoor staff: every ticket and NPS response is from a pinmoor.example address on sample or demo tenants, the forum posters are Pinmoor team, and the sales note is the account manager's internal note that the customer did not notice. Zero external customers."
+    },
+    {
+      "id": "X3",
+      "what": "Forum cross-posts that duplicate threads in a second category",
+      "evidence": [
+        {
+          "file": "forum/general/4481-part-time-accruals-full-time-rate.md",
+          "quote": "(Also posted in Time Off, posting here too since that category is quiet.)"
+        },
+        {
+          "file": "forum/general/4503-pinmoor-go-logging-out.md",
+          "quote": "Anyone found a setting for this? Cross-posting from Mobile."
+        },
+        {
+          "file": "forum/integrations/4524-huddlepost-integration-time-off-approvals.md",
+          "quote": "Posting here as well as in Ideas since it is an integration."
+        }
+      ],
+      "why_not": "Each is the same poster and company as the original thread (4480, 4502, 4523). Counting them adds customers or mentions that do not exist; they add zero distinct customers."
+    },
+    {
+      "id": "X4",
+      "what": "Hallam Veterinary Partners complaint about part-time accruals being wrong",
+      "evidence": [
+        {
+          "file": "sales-calls/2026-07-14-hallam-veterinary-discovery.md",
+          "quote": "Their accrual engine does not handle part-time schedules, so every quarter she exports balances to a spreadsheet and fixes them by hand."
+        }
+      ],
+      "why_not": "Hallam is a prospect describing its current vendor Staffory, not a Pinmoor customer reporting a Pinmoor problem. Must not be counted toward the accrual theme."
+    },
+    {
+      "id": "X5",
+      "what": "Quenby Foods payroll export issue",
+      "evidence": [
+        {
+          "file": "sales-calls/2026-07-24-quenby-foods-reviews-upsell.md",
+          "quote": "Abby said the export issue they had back in February was fixed within a week and it has been clean every pay period since."
+        }
+      ],
+      "why_not": "Historical (February, previous quarter) and resolved; Quenby reports the export working this quarter. Not a count toward the payroll export theme."
+    },
+    {
+      "id": "X6",
+      "what": "Lindqvist Architecture mobile sign in problem",
+      "evidence": [
+        {
+          "file": "forum/mobile/4502-pinmoor-go-logging-out.md",
+          "quote": "We saw something similar back in March on the old app and it went away after the 5.0 update."
+        },
+        {
+          "file": "sales-calls/2026-08-27-lindqvist-architecture-checkin.md",
+          "quote": "Paul mentioned the mobile app had a sign in bug a while ago but it has been fine for months."
+        }
+      ],
+      "why_not": "Lindqvist describes a past issue that went away before this quarter. They are not affected by the current mobile logout problem and do not count toward it."
+    },
+    {
+      "id": "X7",
+      "what": "Minor requests that look like themes (Huddlepost chat integration for approvals, dark mode, pricing complaints, slower support responses)",
+      "evidence": [
+        {
+          "file": "forum/ideas/4570-dark-mode.md",
+          "quote": "A dark theme would be easier on the eyes."
+        }
+      ],
+      "why_not": "Each is raised by only a handful of customers (largest non-theme topic, pricing, reaches roughly 6 to 9 distinct customers depending on how broadly it is defined), far below the smallest true theme (13). Listing them as top problems is wrong, though mentioning them as minor is harmless."
+    }
+  ],
+  "answer": null,
+  "mistakes_that_matter": [
+    "Invented or paraphrased-as-verbatim quotes: every quote presented as a customer quote must exist word for word in the files.",
+    "Ranking the benefits document upload issue as a top problem because of ticket volume, when it is one customer (Tollbridge Ceramics).",
+    "Counting tickets or mentions instead of distinct customers, inflating counts for themes where one company filed several tickets or appears in several sources.",
+    "Including Pinmoor staff (pinmoor.example) feedback, such as the org chart PDF issue, as customer demand.",
+    "Double counting forum cross-posts, or counting a prospect's complaint about a competitor (Hallam Veterinary Partners) as a Pinmoor customer problem.",
+    "Missing one of the five real themes, especially one that is spread thinly across several sources rather than concentrated in tickets."
+  ]
+}

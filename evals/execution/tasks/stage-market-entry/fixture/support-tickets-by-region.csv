@@ -1,0 +1,179 @@
+ticket_id,created,region,customer_language,category,subject,plan,status
+T-88101,2026-04-01,APAC-JP,ja,sync,Sync stuck at 94%,Plus,pending
+T-88104,2026-04-02,EMEA-FR,fr,feature_request,Tags inside shared notebooks,Free,solved
+T-88107,2026-04-03,EMEA-DE,de,billing,Can I pay by invoice?,Free,solved
+T-88110,2026-04-04,EMEA-DE,de,feature_request,Dark mode on web,Free,solved
+T-88113,2026-04-06,NA-US,en,feature_request,Export to Markdown,Plus,open
+T-88116,2026-04-07,APAC-JP,ja,sync,Conflict copies keep appearing,Plus,solved
+T-88119,2026-04-07,EMEA-UK,en,sync,Lost edits after offline session,Free,open
+T-88122,2026-04-07,NA-US,en,payments,PayPal instead of card,Free,solved
+T-88125,2026-04-08,NA-US,en,localization,Spellcheck in Spanish notes,Free,solved
+T-88128,2026-04-10,EMEA-DE,de,sync,Lost edits after offline session,Free,pending
+T-88131,2026-04-10,LATAM-BR,pt-BR,feature_request,Handwriting recognition please,Free,solved
+T-88134,2026-04-10,LATAM-BR,pt-BR,localization,Help articles only in English,Plus,solved
+T-88137,2026-04-11,APAC-JP,ja,localization,Help articles only in English,Free,pending
+T-88140,2026-04-11,APAC-JP,ja,localization,Is the app available in my language?,Free,solved
+T-88143,2026-04-11,LATAM-BR,pt-BR,feature_request,Export to Markdown,Free,solved
+T-88146,2026-04-13,EMEA-DE,de,feature_request,Tags inside shared notebooks,Free,solved
+T-88149,2026-04-13,LATAM-BR,pt-BR,billing,Refund for annual plan,Free,pending
+T-88152,2026-04-14,EMEA-FR,fr,sync,Lost edits after offline session,Team,solved
+T-88155,2026-04-14,EMEA-UK,en,localization,Date format shows US style,Plus,solved
+T-88158,2026-04-15,LATAM-BR,pt-BR,localization,Spellcheck ignores my language,Plus,solved
+T-88161,2026-04-17,LATAM-BR,pt-BR,localization,Spellcheck ignores my language,Plus,solved
+T-88164,2026-04-17,LATAM-BR,pt-BR,payments,Pix support?,Team,pending
+T-88167,2026-04-17,NA-US,en,feature_request,Handwriting recognition please,Free,solved
+T-88170,2026-04-18,APAC-JP,ja,billing,Can I pay by invoice?,Free,solved
+T-88173,2026-04-18,APAC-JP,ja,localization,Date format shows US style,Team,pending
+T-88176,2026-04-18,NA-US,en,account,Cannot reset password,Free,solved
+T-88179,2026-04-19,NA-US,en,payments,Apple Pay on web,Free,solved
+T-88182,2026-04-20,EMEA-DE,de,account,Change login email,Free,solved
+T-88185,2026-04-20,NA-US,en,sync,Conflict copies keep appearing,Team,solved
+T-88188,2026-04-21,EMEA-UK,en,localization,Date format shows US style,Plus,solved
+T-88191,2026-04-21,LATAM-BR,pt-BR,sync,Conflict copies keep appearing,Team,pending
+T-88194,2026-04-22,NA-US,en,feature_request,Tags inside shared notebooks,Plus,solved
+T-88197,2026-04-23,EMEA-DE,de,billing,Charged twice this month,Free,open
+T-88200,2026-04-23,LATAM-BR,pt-BR,payments,Boleto option,Plus,solved
+T-88203,2026-04-24,LATAM-BR,pt-BR,localization,Spellcheck ignores my language,Free,pending
+T-88206,2026-04-24,NA-US,en,sync,Sync stuck at 94%,Plus,solved
+T-88209,2026-04-26,EMEA-DE,de,feature_request,Export to Markdown,Free,solved
+T-88212,2026-04-27,EMEA-DE,de,feature_request,Export to Markdown,Plus,solved
+T-88215,2026-04-27,EMEA-FR,fr,feature_request,Dark mode on web,Free,pending
+T-88218,2026-04-28,APAC-JP,ja,payments,Carrier billing,Plus,solved
+T-88221,2026-04-28,EMEA-DE,de,sync,Lost edits after offline session,Free,solved
+T-88224,2026-04-28,LATAM-BR,pt-BR,payments,Boleto option,Plus,pending
+T-88227,2026-04-29,EMEA-DE,de,feature_request,Dark mode on web,Plus,open
+T-88230,2026-04-29,NA-US,en,feature_request,Handwriting recognition please,Team,solved
+T-88233,2026-04-30,APAC-JP,ja,localization,Help articles only in English,Plus,pending
+T-88236,2026-04-30,EMEA-DE,de,account,Merge two accounts,Plus,open
+T-88239,2026-04-30,NA-US,en,sync,Sync stuck at 94%,Plus,solved
+T-88242,2026-05-01,APAC-JP,ja,localization,Is the app available in my language?,Plus,solved
+T-88245,2026-05-01,APAC-JP,ja,localization,Spellcheck ignores my language,Free,solved
+T-88248,2026-05-02,APAC-JP,ja,localization,Keyboard input issue with IME,Team,solved
+T-88251,2026-05-03,NA-US,en,payments,Apple Pay on web,Plus,solved
+T-88254,2026-05-06,NA-US,en,payments,Apple Pay on web,Team,pending
+T-88257,2026-05-07,EMEA-UK,en,account,Merge two accounts,Free,solved
+T-88260,2026-05-07,LATAM-BR,pt-BR,account,Merge two accounts,Plus,solved
+T-88263,2026-05-07,LATAM-BR,pt-BR,feature_request,Calendar integration,Team,open
+T-88266,2026-05-07,LATAM-BR,pt-BR,localization,Date format shows US style,Team,solved
+T-88269,2026-05-08,EMEA-DE,de,payments,SEPA direct debit,Plus,solved
+T-88272,2026-05-09,EMEA-FR,fr,feature_request,Calendar integration,Free,solved
+T-88275,2026-05-11,NA-US,en,billing,Refund for annual plan,Plus,open
+T-88278,2026-05-12,EMEA-DE,de,sync,Sync stuck at 94%,Free,pending
+T-88281,2026-05-13,EMEA-FR,fr,sync,Lost edits after offline session,Plus,open
+T-88284,2026-05-13,NA-US,en,billing,Charged twice this month,Team,pending
+T-88287,2026-05-13,NA-US,en,payments,Apple Pay on web,Team,open
+T-88290,2026-05-15,EMEA-DE,de,sync,Lost edits after offline session,Plus,open
+T-88293,2026-05-16,NA-US,en,account,Change login email,Plus,solved
+T-88296,2026-05-17,APAC-JP,ja,account,Delete my account,Plus,solved
+T-88299,2026-05-19,EMEA-DE,de,feature_request,Tags inside shared notebooks,Free,solved
+T-88302,2026-05-21,APAC-JP,ja,localization,Spellcheck ignores my language,Free,solved
+T-88305,2026-05-22,NA-US,en,payments,PayPal instead of card,Free,pending
+T-88308,2026-05-24,APAC-JP,ja,localization,Is the app available in my language?,Team,solved
+T-88311,2026-05-25,NA-US,en,sync,Lost edits after offline session,Plus,pending
+T-88314,2026-05-26,LATAM-BR,pt-BR,account,Cannot reset password,Free,open
+T-88317,2026-05-27,APAC-JP,ja,payments,Konbini payment option,Plus,open
+T-88320,2026-05-27,NA-US,en,account,Cannot reset password,Plus,pending
+T-88323,2026-05-27,NA-US,en,payments,PayPal instead of card,Team,solved
+T-88326,2026-05-31,EMEA-DE,de,account,Delete my account,Free,open
+T-88329,2026-05-31,EMEA-FR,fr,account,Cannot reset password,Free,pending
+T-88332,2026-05-31,EMEA-UK,en,billing,Can I pay by invoice?,Free,solved
+T-88335,2026-06-01,EMEA-DE,de,billing,VAT number on receipt,Team,open
+T-88338,2026-06-01,EMEA-DE,de,localization,Help articles only in English,Plus,pending
+T-88341,2026-06-03,EMEA-UK,en,sync,Lost edits after offline session,Plus,pending
+T-88344,2026-06-05,LATAM-BR,pt-BR,billing,"Charged in USD, bank added IOF",Team,open
+T-88347,2026-06-06,APAC-JP,ja,sync,Conflict copies keep appearing,Plus,solved
+T-88350,2026-06-08,EMEA-DE,de,sync,Sync stuck at 94%,Free,solved
+T-88353,2026-06-09,APAC-JP,ja,billing,Charged twice this month,Plus,solved
+T-88356,2026-06-09,EMEA-DE,de,account,Delete my account,Plus,solved
+T-88359,2026-06-10,NA-US,en,localization,Spellcheck in Spanish notes,Plus,pending
+T-88362,2026-06-11,APAC-JP,ja,billing,Refund for annual plan,Free,solved
+T-88365,2026-06-11,APAC-JP,ja,feature_request,Calendar integration,Plus,open
+T-88368,2026-06-11,LATAM-BR,pt-BR,payments,Pix support?,Free,solved
+T-88371,2026-06-15,APAC-JP,ja,feature_request,Dark mode on web,Free,open
+T-88374,2026-06-17,APAC-JP,ja,feature_request,Export to Markdown,Plus,solved
+T-88377,2026-06-17,APAC-JP,ja,payments,Konbini payment option,Free,open
+T-88380,2026-06-17,LATAM-BR,pt-BR,payments,Boleto option,Free,pending
+T-88383,2026-06-18,NA-US,en,account,Change login email,Team,pending
+T-88386,2026-06-19,APAC-JP,ja,feature_request,Calendar integration,Team,open
+T-88389,2026-06-20,APAC-JP,ja,localization,Is the app available in my language?,Free,pending
+T-88392,2026-06-21,APAC-JP,ja,payments,Local payment method not accepted,Team,solved
+T-88395,2026-06-22,APAC-JP,ja,feature_request,Export to Markdown,Free,open
+T-88398,2026-06-25,APAC-JP,ja,account,Cannot reset password,Plus,solved
+T-88401,2026-06-25,EMEA-DE,de,billing,Charged twice this month,Plus,open
+T-88404,2026-06-26,EMEA-FR,fr,account,Cannot reset password,Team,solved
+T-88407,2026-06-28,EMEA-DE,de,localization,Date format shows US style,Free,solved
+T-88410,2026-06-29,EMEA-FR,fr,billing,Can I pay by invoice?,Plus,solved
+T-88413,2026-06-29,EMEA-UK,en,feature_request,Dark mode on web,Free,solved
+T-88416,2026-06-29,NA-US,en,account,Change login email,Plus,open
+T-88419,2026-06-30,APAC-JP,ja,localization,Keyboard input issue with IME,Free,solved
+T-88422,2026-07-01,EMEA-DE,de,localization,Date format shows US style,Plus,solved
+T-88425,2026-07-02,EMEA-DE,de,account,Delete my account,Plus,pending
+T-88428,2026-07-03,APAC-JP,ja,localization,Spellcheck ignores my language,Plus,pending
+T-88431,2026-07-03,APAC-JP,ja,payments,Konbini payment option,Plus,solved
+T-88434,2026-07-03,LATAM-BR,pt-BR,localization,Spellcheck ignores my language,Plus,open
+T-88437,2026-07-03,NA-US,en,billing,Refund for annual plan,Free,solved
+T-88440,2026-07-03,NA-US,en,billing,Sales tax on receipt,Free,open
+T-88443,2026-07-05,APAC-JP,ja,sync,Sync stuck at 94%,Free,pending
+T-88446,2026-07-06,APAC-JP,ja,payments,Carrier billing,Free,solved
+T-88449,2026-07-07,EMEA-DE,de,account,Change login email,Plus,open
+T-88452,2026-07-09,APAC-JP,ja,account,Delete my account,Free,solved
+T-88455,2026-07-09,EMEA-UK,en,account,Delete my account,Plus,solved
+T-88458,2026-07-10,APAC-JP,ja,feature_request,Calendar integration,Free,solved
+T-88461,2026-07-10,NA-US,en,localization,Spellcheck in Spanish notes,Free,solved
+T-88464,2026-07-11,EMEA-DE,de,feature_request,Export to Markdown,Plus,solved
+T-88467,2026-07-12,LATAM-BR,pt-BR,sync,Lost edits after offline session,Free,solved
+T-88470,2026-07-14,LATAM-BR,pt-BR,payments,Pix support?,Plus,solved
+T-88473,2026-07-15,EMEA-UK,en,payments,Direct Debit instead of card,Free,pending
+T-88476,2026-07-16,EMEA-UK,en,account,Delete my account,Plus,open
+T-88479,2026-07-17,NA-US,en,localization,Spellcheck in Spanish notes,Plus,solved
+T-88482,2026-07-20,NA-US,en,feature_request,Dark mode on web,Free,solved
+T-88485,2026-07-23,EMEA-DE,de,account,Delete my account,Free,pending
+T-88488,2026-07-25,LATAM-BR,pt-BR,feature_request,Tags inside shared notebooks,Free,solved
+T-88491,2026-07-25,NA-US,en,localization,Spellcheck in Spanish notes,Free,pending
+T-88494,2026-07-26,APAC-JP,ja,sync,Sync stuck at 94%,Team,solved
+T-88497,2026-07-26,EMEA-UK,en,localization,Date format shows US style,Free,solved
+T-88500,2026-07-28,APAC-JP,ja,localization,Date format shows US style,Team,solved
+T-88503,2026-07-28,EMEA-DE,de,billing,VAT number on receipt,Free,solved
+T-88506,2026-07-28,EMEA-DE,de,localization,Is the app available in my language?,Free,solved
+T-88509,2026-07-28,EMEA-UK,en,feature_request,Tags inside shared notebooks,Plus,open
+T-88512,2026-07-29,APAC-JP,ja,localization,Help articles only in English,Plus,solved
+T-88515,2026-08-03,APAC-JP,ja,account,Cannot reset password,Plus,solved
+T-88518,2026-08-04,APAC-JP,ja,localization,Is the app available in my language?,Team,pending
+T-88521,2026-08-04,APAC-JP,ja,sync,Notes not syncing to tablet,Team,pending
+T-88524,2026-08-04,EMEA-FR,fr,sync,Lost edits after offline session,Team,solved
+T-88527,2026-08-04,EMEA-UK,en,account,Change login email,Team,solved
+T-88530,2026-08-04,NA-US,en,localization,Spellcheck in Spanish notes,Free,pending
+T-88533,2026-08-04,NA-US,en,payments,Apple Pay on web,Team,open
+T-88536,2026-08-07,APAC-JP,ja,localization,Keyboard input issue with IME,Plus,solved
+T-88539,2026-08-07,EMEA-UK,en,sync,Lost edits after offline session,Plus,open
+T-88542,2026-08-08,EMEA-DE,de,localization,Is the app available in my language?,Plus,pending
+T-88545,2026-08-08,EMEA-FR,fr,payments,Local payment method not accepted,Team,pending
+T-88548,2026-08-08,LATAM-BR,pt-BR,billing,Charged twice this month,Plus,solved
+T-88551,2026-08-09,APAC-JP,ja,payments,Carrier billing,Team,pending
+T-88554,2026-08-10,APAC-JP,ja,sync,Lost edits after offline session,Free,solved
+T-88557,2026-08-11,EMEA-DE,de,billing,Refund for annual plan,Team,solved
+T-88560,2026-08-11,NA-US,en,billing,Charged twice this month,Team,pending
+T-88563,2026-08-13,EMEA-FR,fr,feature_request,Export to Markdown,Team,solved
+T-88566,2026-08-13,EMEA-UK,en,payments,Direct Debit instead of card,Free,pending
+T-88569,2026-08-13,NA-US,en,localization,Spellcheck in Spanish notes,Team,solved
+T-88572,2026-08-16,APAC-JP,ja,payments,Local payment method not accepted,Free,solved
+T-88575,2026-08-16,LATAM-BR,pt-BR,localization,Is the app available in my language?,Team,pending
+T-88578,2026-08-16,NA-US,en,localization,Spellcheck in Spanish notes,Free,pending
+T-88581,2026-08-17,NA-US,en,sync,Lost edits after offline session,Plus,solved
+T-88584,2026-08-18,EMEA-DE,de,sync,Conflict copies keep appearing,Free,pending
+T-88587,2026-08-18,NA-US,en,billing,Refund for annual plan,Free,solved
+T-88590,2026-08-20,EMEA-FR,fr,billing,Charged twice this month,Free,solved
+T-88593,2026-08-20,LATAM-BR,pt-BR,feature_request,Handwriting recognition please,Plus,solved
+T-88596,2026-08-22,EMEA-DE,de,payments,Local payment method not accepted,Plus,solved
+T-88599,2026-08-22,LATAM-BR,pt-BR,payments,Pix support?,Team,solved
+T-88602,2026-08-23,EMEA-FR,fr,account,Delete my account,Plus,pending
+T-88605,2026-08-23,EMEA-FR,fr,billing,Refund for annual plan,Free,open
+T-88608,2026-08-24,LATAM-BR,pt-BR,feature_request,Export to Markdown,Free,solved
+T-88611,2026-08-24,LATAM-BR,pt-BR,feature_request,Tags inside shared notebooks,Free,pending
+T-88614,2026-08-25,APAC-JP,ja,billing,Refund for annual plan,Free,open
+T-88617,2026-08-25,APAC-JP,ja,payments,Local payment method not accepted,Plus,solved
+T-88620,2026-08-25,EMEA-DE,de,billing,Card declined at renewal,Team,solved
+T-88623,2026-08-25,LATAM-BR,pt-BR,account,Change login email,Plus,solved
+T-88626,2026-08-27,APAC-JP,ja,localization,Is the app available in my language?,Plus,solved
+T-88629,2026-08-29,EMEA-UK,en,billing,Charged twice this month,Free,solved
+T-88632,2026-08-29,NA-US,en,payments,Apple Pay on web,Free,solved

@@ -1,0 +1,15 @@
+# claims-intake
+# Damage and loss claims from shippers. Owned by Claims Engineering (Beatrix Holm).
+service:
+  name: claims-intake
+  image: registry.tesselwick.internal/claims/claims-intake:4.2.0
+  replicas: 2
+config:
+  max_attachments: 12
+  accepted_types: [image/jpeg, image/png, application/pdf]
+  auto_reject_after_days: 60
+  cmr_liability_sdr_per_kg: 8.33
+integrations:
+  shipment_tracker: http://shipment-tracker.dispatch.svc:8080
+  pod_uploader: http://pod-uploader.dispatch.svc:8080
+  insurer_portal: https://claims-bridge.partners.tesselwick.internal/submit

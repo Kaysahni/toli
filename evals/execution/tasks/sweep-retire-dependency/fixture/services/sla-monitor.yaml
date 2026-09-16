@@ -1,0 +1,21 @@
+# sla-monitor: synthetic probes for customer facing and core APIs
+# owner: SRE (Kasper Nyholm)
+probes:
+  - name: customer-app-login
+    url: https://app.tesselwick.example/login
+    interval: 60s
+  - name: partner-quote
+    url: https://api.tesselwick.example/partners/v3/quote/health
+    interval: 60s
+  - name: routecalc-v2
+    url: https://routecalc.core.tesselwick.internal/v2/health
+    interval: 30s
+  - name: geocoder
+    url: https://geo.core.tesselwick.internal/api/health
+    interval: 30s
+  - name: routecache
+    url: https://routecache.core.tesselwick.internal/v1/health
+    interval: 60s
+alerting:
+  consecutive_failures: 3
+  route_to: sre-oncall

@@ -1,0 +1,19 @@
+# crontab export
+# host: reporting-01.ops.tesselwick.internal
+# user: svc-reports
+# exported: 2026-09-07 06:00 UTC by cron-inventory
+# owner: Data Platform (Mateusz Kowalczyk). Host is planned for decommission in 2027-Q1, see tracker.
+SHELL=/bin/bash
+MAILTO=data-platform@tesselwick.example
+
+# warehouse SQL jobs, run through the dwh-run wrapper
+0 6 * * * dwh-run /srv/pipelines/sql/quote_volume_daily.sql
+20 6 * * * dwh-run /srv/pipelines/sql/on_time_delivery.sql
+0 7 * * 1 dwh-run /srv/pipelines/sql/lane_margin_weekly.sql --publish-to sheets:commercial-weekly
+30 7 * * 1 dwh-run /srv/pipelines/sql/carrier_scorecard.sql
+0 8 * * * dwh-run /srv/pipelines/sql/cache_hit_ratio.sql
+15 8 * * * dwh-run /srv/pipelines/sql/driver_hours.sql
+0 9 1 * * dwh-run /srv/pipelines/sql/claims_aging.sql
+
+# housekeeping
+0 3 * * 0 /srv/scripts/vacuum_scratch_schema.sh

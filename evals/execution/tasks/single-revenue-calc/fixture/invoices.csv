@@ -1,0 +1,251 @@
+document_no,date,customer_id,customer_name,region,currency,amount,type,reference
+INV-26140,2026-03-27,C-1009,Vandermolen Horeca BV,EU,EUR,4120.55,invoice,Order 43990
+INV-26141,2026-03-30,C-1027,Harrowgate Catering Group,UK,GBP,6875.00,invoice,Order 47187
+INV-26142,2026-03-31,C-1002,Kochwerk Haldenberg GmbH,EU,EUR,3310.40,invoice,Order 49601
+INV-26143,2026-03-31,C-1003,Pantry & Pike Restaurants,NA,USD,2275.10,invoice,Order 44470
+INV-26144,2026-04-01,C-1025,Aldersgate Pub Company,UK,GBP,8100.53,invoice,Replenishment 49845
+INV-26145,2026-04-02,C-1018,Copper Kettle Diners,NA,USD,3567.17,invoice,Web order 45850
+INV-26146,2026-04-02,C-1024,Pacifica Resort Holdings,LATAM,USD,9055.56,invoice,Replenishment 40339
+INV-26147,2026-04-03,C-1005,Fjordkök Grossist AB,EU,SEK,11717.22,invoice,
+INV-26148,2026-04-03,C-1007,Casa Ortelia Catering,EU,EUR,7674.28,invoice,Standing order
+CN-1810,2026-04-03,C-1009,Vandermolen Horeca BV,EU,EUR,412.06,credit_note,"Short shipment, ref INV-26140"
+INV-26149,2026-04-03,C-1025,Aldersgate Pub Company,UK,GBP,6208.97,invoice,Order 45654
+INV-26150,2026-04-04,C-1002,Kochwerk Haldenberg GmbH,EU,EUR,1290.74,invoice,PO 48972
+INV-26151,2026-04-04,C-1003,Pantry & Pike Restaurants,NA,USD,5230.27,invoice,PO 49080
+INV-26152,2026-04-04,C-1009,Vandermolen Horeca BV,EU,EUR,8066.94,invoice,PO-49236
+INV-26153,2026-04-05,C-1002,Kochwerk Haldenberg GmbH,EU,EUR,1009.09,invoice,Web order 46106
+INV-26154,2026-04-05,C-1021,Adelmar Cruise Provisioning,EU,USD,1064.97,invoice,Web order 47082
+INV-26155,2026-04-05,C-1032,Hautvilliers Hôtellerie,EU,EUR,1373.06,invoice,Replenishment 41435
+INV-26156,2026-04-07,C-1015,Maison Béraud Traiteur,EU,EUR,5413.94,invoice,PO 42142
+INV-26157,2026-04-08,C-1001,Brasserie Lune Verte,EU,EUR,2505.85,invoice,Order 41325
+INV-26158,2026-04-08,C-1024,Pacifica Resort Holdings,LATAM,USD,7485.18,invoice,Web order 46197
+CN-1811,2026-04-09,C-1005,Fjordkök Grossist AB,EU,SEK,585.86,credit_note,"Duplicate billing, ref INV-26147"
+INV-26159,2026-04-09,C-1012,Harbour Lane Hotels plc,UK,GBP,7281.37,invoice,PO-44748
+CN-1812,2026-04-09,C-1024,Pacifica Resort Holdings,LATAM,USD,2263.89,credit_note,"Short shipment, ref INV-26146"
+INV-26160,2026-04-10,C-1005,Fjordkök Grossist AB,EU,SEK,94071.01,invoice,
+INV-26161,2026-04-10,C-1009,Vandermolen Horeca BV,EU,EUR,3912.81,invoice,PO 42703
+INV-26162,2026-04-10,C-1016,Kinsale Quay Kitchens,EU,GBP,8673.72,invoice,Replenishment 40432
+INV-26163,2026-04-11,C-1007,Casa Ortelia Catering,EU,EUR,9450.06,invoice,Standing order
+INV-26164,2026-04-11,C-1017,Sakuragi Food Service,APAC,USD,8377.44,invoice,PO-48370
+INV-26165,2026-04-12,C-1012,Harbour Lane Hotels plc,UK,GBP,584.49,invoice,Order 41983
+INV-26166,2026-04-12,C-1015,Maison Béraud Traiteur,EU,EUR,8670.83,invoice,Replenishment 40532
+INV-26167,2026-04-12,C-1021,Adelmar Cruise Provisioning,EU,USD,3034.33,invoice,Web order 48118
+INV-26168,2026-04-12,C-1029,Rialto Verde Pizzerie,EU,EUR,7182.02,invoice,Web order 49260
+INV-26169,2026-04-13,C-1012,Harbour Lane Hotels plc,UK,GBP,3547.59,invoice,Order 48301
+INV-26170,2026-04-13,C-1014,Redfern Campus Dining,NA,USD,8200.72,invoice,PO-42503
+INV-26171,2026-04-14,C-1029,Rialto Verde Pizzerie,EU,EUR,2147.28,invoice,
+INV-26172,2026-04-15,C-1002,Kochwerk Haldenberg GmbH,EU,EUR,8987.92,invoice,Web order 44995
+INV-26173,2026-04-15,C-1003,Pantry & Pike Restaurants,NA,USD,3999.46,invoice,Standing order
+INV-26174,2026-04-15,C-1003,Pantry & Pike Restaurants,NA,USD,1950.08,invoice,Replenishment 40897
+INV-26175,2026-04-15,C-1007,Casa Ortelia Catering,EU,EUR,4882.27,invoice,Replenishment 49800
+INV-26176,2026-04-15,C-1009,Vandermolen Horeca BV,EU,EUR,2609.43,invoice,Standing order
+INV-26177,2026-04-15,C-1033,Andes Norte Cocinas,LATAM,USD,5065.98,invoice,Standing order
+INV-26178,2026-04-16,C-1003,Pantry & Pike Restaurants,NA,USD,7931.42,invoice,Replenishment 42731
+INV-26179,2026-04-16,C-1009,Vandermolen Horeca BV,EU,EUR,480.12,invoice,
+INV-26180,2026-04-16,C-1030,Stonebridge Care Homes,UK,GBP,1052.62,invoice,Web order 48785
+INV-26181,2026-04-19,C-1007,Casa Ortelia Catering,EU,EUR,3446.70,invoice,PO 41146
+INV-26182,2026-04-20,C-1029,Rialto Verde Pizzerie,EU,EUR,5014.34,invoice,PO 41750
+INV-26183,2026-04-22,C-1001,Brasserie Lune Verte,EU,EUR,6132.98,invoice,
+INV-26184,2026-04-22,C-1003,Pantry & Pike Restaurants,NA,USD,3192.03,invoice,PO 47866
+INV-26185,2026-04-22,C-1004,Molinar Hospitality Group,NA,USD,2969.43,invoice,Standing order
+INV-26186,2026-04-22,C-1005,Fjordkök Grossist AB,EU,SEK,66435.25,invoice,Standing order
+INV-26187,2026-04-22,C-1009,Vandermolen Horeca BV,EU,EUR,2778.12,invoice,Web order 46014
+INV-26188,2026-04-22,C-1014,Redfern Campus Dining,NA,USD,8481.68,invoice,Order 46746
+INV-26189,2026-04-22,C-1029,Rialto Verde Pizzerie,EU,EUR,2202.68,invoice,Web order 41291
+INV-26190,2026-04-22,C-1030,Stonebridge Care Homes,UK,GBP,7982.15,invoice,PO 43177
+INV-26191,2026-04-24,C-1018,Copper Kettle Diners,NA,USD,8078.56,invoice,
+INV-26192,2026-04-24,C-1028,Kowhai Bay Hospitality,APAC,USD,285.41,invoice,
+INV-26193,2026-04-25,C-1009,Vandermolen Horeca BV,EU,EUR,4177.98,invoice,PO 43241
+INV-26194,2026-04-25,C-1012,Harbour Lane Hotels plc,UK,GBP,6817.84,invoice,
+INV-26195,2026-04-25,C-1031,Big Sky Commissary,NA,USD,1910.29,invoice,PO-48369
+INV-26196,2026-04-26,C-1002,Kochwerk Haldenberg GmbH,EU,EUR,1782.31,invoice,
+INV-26197,2026-04-26,C-1012,Harbour Lane Hotels plc,UK,GBP,4949.03,invoice,Replenishment 42786
+INV-26198,2026-04-26,C-1013,Skarvik Storkök AB,EU,SEK,84151.73,invoice,PO 49884
+INV-26199,2026-04-26,C-1014,Redfern Campus Dining,NA,USD,1843.84,invoice,
+INV-26200,2026-04-26,C-1020,Wexmoor School Meals Trust,UK,GBP,710.81,invoice,Order 43058
+INV-26201,2026-04-26,C-1022,Prairie Oak Steakhouses,NA,USD,1643.32,invoice,Standing order
+INV-26202,2026-04-26,C-1023,Lindqvist Bageri,EU,EUR,4875.21,invoice,PO 49704
+CN-1813,2026-04-26,C-1024,Pacifica Resort Holdings,LATAM,USD,3742.59,credit_note,"Returned: wrong size pans, ref INV-26158"
+INV-26203,2026-04-26,C-1027,Harrowgate Catering Group,UK,EUR,1741.18,invoice,
+INV-26204,2026-04-27,C-1009,Vandermolen Horeca BV,EU,EUR,9063.30,invoice,
+INV-26205,2026-04-28,C-1001,Brasserie Lune Verte,EU,EUR,883.94,invoice,Replenishment 48078
+INV-26206,2026-04-28,C-1021,Adelmar Cruise Provisioning,EU,USD,6796.96,invoice,
+INV-26207,2026-04-29,C-1003,Pantry & Pike Restaurants,NA,USD,8351.89,invoice,Replenishment 47356
+INV-26208,2026-04-30,C-1001,Brasserie Lune Verte,EU,EUR,4815.81,invoice,Web order 47567
+INV-26209,2026-04-30,C-1012,Harbour Lane Hotels plc,UK,GBP,3324.60,invoice,Web order 40409
+INV-26210,2026-04-30,C-1017,Sakuragi Food Service,APAC,USD,8346.31,invoice,
+INV-26211,2026-04-30,C-1031,Big Sky Commissary,NA,USD,2240.16,invoice,
+INV-26212,2026-05-01,C-1014,Redfern Campus Dining,NA,USD,3574.34,invoice,PO-47642
+INV-26213,2026-05-01,C-1014,Redfern Campus Dining,NA,USD,5893.58,invoice,PO-40350
+INV-26214,2026-05-02,C-1023,Lindqvist Bageri,EU,EUR,8491.79,invoice,Web order 42282
+INV-26215,2026-05-02,C-1025,Aldersgate Pub Company,UK,GBP,3299.31,invoice,PO-42653
+INV-26216,2026-05-03,C-1003,Pantry & Pike Restaurants,NA,USD,7471.62,invoice,PO-42711
+CN-1814,2026-05-03,C-1003,Pantry & Pike Restaurants,NA,USD,835.19,credit_note,"Returned: wrong size pans, ref INV-26207"
+INV-26217,2026-05-03,C-1010,Northgale Bakeries,NA,USD,5004.16,invoice,
+INV-26218,2026-05-03,C-1030,Stonebridge Care Homes,UK,GBP,2214.49,invoice,Replenishment 46493
+INV-26219,2026-05-04,C-1002,Kochwerk Haldenberg GmbH,EU,EUR,957.48,invoice,Web order 46040
+INV-26220,2026-05-04,C-1007,Casa Ortelia Catering,EU,EUR,4266.17,invoice,PO-40250
+CN-1815,2026-05-04,C-1012,Harbour Lane Hotels plc,UK,GBP,1237.26,credit_note,"Damaged on delivery, ref INV-26197"
+INV-26221,2026-05-05,C-1018,Copper Kettle Diners,NA,USD,1990.91,invoice,Standing order
+INV-26222,2026-05-05,C-1032,Hautvilliers Hôtellerie,EU,EUR,7584.75,invoice,Order 43199
+INV-26223,2026-05-06,C-1005,Fjordkök Grossist AB,EU,SEK,3376.44,invoice,Replenishment 45722
+INV-26224,2026-05-06,C-1008,Bluegum Kitchen Co,APAC,USD,9187.40,invoice,PO 42121
+INV-26225,2026-05-06,C-1011,Osteria Pellandi Srl,EU,EUR,5664.54,invoice,PO-45999
+INV-26226,2026-05-06,C-1022,Prairie Oak Steakhouses,NA,USD,9436.03,invoice,
+INV-26227,2026-05-06,C-1029,Rialto Verde Pizzerie,EU,EUR,3616.35,invoice,Web order 49884
+INV-26228,2026-05-07,C-1005,Fjordkök Grossist AB,EU,SEK,68470.89,invoice,
+INV-26229,2026-05-07,C-1008,Bluegum Kitchen Co,APAC,USD,7521.64,invoice,PO-44499
+INV-26230,2026-05-07,C-1012,Harbour Lane Hotels plc,UK,GBP,6167.84,invoice,Replenishment 42596
+INV-26231,2026-05-07,C-1015,Maison Béraud Traiteur,EU,EUR,6169.57,invoice,
+INV-26232,2026-05-07,C-1016,Kinsale Quay Kitchens,EU,GBP,2179.96,invoice,Replenishment 45026
+INV-26233,2026-05-07,C-1017,Sakuragi Food Service,APAC,USD,872.84,invoice,Order 45305
+INV-26234,2026-05-08,C-1012,Harbour Lane Hotels plc,UK,GBP,5829.58,invoice,Replenishment 48054
+INV-26235,2026-05-08,C-1014,Redfern Campus Dining,NA,USD,8583.79,invoice,PO-48393
+INV-26236,2026-05-08,C-1022,Prairie Oak Steakhouses,NA,USD,3787.06,invoice,Order 44333
+CN-1816,2026-05-08,C-1031,Big Sky Commissary,NA,USD,95.51,credit_note,"Short shipment, ref INV-26195"
+CN-1817,2026-05-09,C-1003,Pantry & Pike Restaurants,NA,USD,319.20,credit_note,"Damaged on delivery, ref INV-26184"
+INV-26237,2026-05-10,C-1003,Pantry & Pike Restaurants,NA,USD,6931.18,invoice,PO-47955
+INV-26238,2026-05-11,C-1005,Fjordkök Grossist AB,EU,SEK,39682.72,invoice,
+INV-26239,2026-05-11,C-1033,Andes Norte Cocinas,LATAM,USD,5214.56,invoice,Order 46390
+INV-26240,2026-05-12,C-1027,Harrowgate Catering Group,UK,EUR,3034.17,invoice,
+INV-26241,2026-05-12,C-1031,Big Sky Commissary,NA,USD,3838.34,invoice,
+INV-26242,2026-05-13,C-1010,Northgale Bakeries,NA,USD,9115.08,invoice,Order 43617
+CN-1818,2026-05-13,C-1031,Big Sky Commissary,NA,USD,112.01,credit_note,"Returned unopened, ref INV-26211"
+INV-26243,2026-05-13,C-1032,Hautvilliers Hôtellerie,EU,EUR,5934.29,invoice,Order 43258
+INV-26244,2026-05-14,C-1009,Vandermolen Horeca BV,EU,EUR,6475.13,invoice,PO-47903
+INV-26245,2026-05-14,C-1010,Northgale Bakeries,NA,USD,2607.55,invoice,
+INV-26246,2026-05-14,C-1013,Skarvik Storkök AB,EU,SEK,13919.60,invoice,Web order 46151
+INV-26247,2026-05-15,C-1003,Pantry & Pike Restaurants,NA,USD,5323.04,invoice,
+CN-1819,2026-05-15,C-1027,Harrowgate Catering Group,UK,EUR,1741.18,credit_note,"Short shipment, ref INV-26203"
+INV-26248,2026-05-16,C-1009,Vandermolen Horeca BV,EU,EUR,2936.24,invoice,Order 41067
+INV-26249,2026-05-16,C-1017,Sakuragi Food Service,APAC,USD,3905.52,invoice,
+INV-26250,2026-05-17,C-1014,Redfern Campus Dining,NA,USD,3540.16,invoice,Web order 44342
+INV-26251,2026-05-17,C-1023,Lindqvist Bageri,EU,EUR,3407.01,invoice,PO 47930
+INV-26252,2026-05-17,C-1027,Harrowgate Catering Group,UK,EUR,2007.38,invoice,Standing order
+INV-26253,2026-05-18,C-1003,Pantry & Pike Restaurants,NA,USD,9464.27,invoice,Standing order
+INV-26254,2026-05-18,C-1009,Vandermolen Horeca BV,EU,EUR,2710.48,invoice,
+INV-26255,2026-05-18,C-1029,Rialto Verde Pizzerie,EU,EUR,6821.32,invoice,Web order 46465
+INV-26256,2026-05-19,C-1027,Harrowgate Catering Group,UK,EUR,8225.75,invoice,Order 48797
+INV-26257,2026-05-19,C-1032,Hautvilliers Hôtellerie,EU,EUR,188.20,invoice,PO-42533
+INV-26258,2026-05-19,C-1033,Andes Norte Cocinas,LATAM,USD,9393.68,invoice,Web order 46533
+INV-26259,2026-05-21,C-1002,Kochwerk Haldenberg GmbH,EU,EUR,3646.28,invoice,
+INV-26260,2026-05-21,C-1009,Vandermolen Horeca BV,EU,EUR,2052.85,invoice,Standing order
+INV-26261,2026-05-21,C-1010,Northgale Bakeries,NA,USD,6460.99,invoice,PO 44460
+INV-26262,2026-05-21,C-1013,Skarvik Storkök AB,EU,SEK,22409.20,invoice,
+INV-26263,2026-05-21,C-1017,Sakuragi Food Service,APAC,USD,3668.66,invoice,PO-41234
+INV-26264,2026-05-21,C-1023,Lindqvist Bageri,EU,EUR,5063.93,invoice,
+INV-26265,2026-05-22,C-1008,Bluegum Kitchen Co,APAC,USD,9388.48,invoice,PO-49743
+INV-26266,2026-05-24,C-1028,Kowhai Bay Hospitality,APAC,USD,7165.36,invoice,PO 43167
+INV-26267,2026-05-25,C-1034,Beacon Hill Test Kitchen,NA,USD,7236.82,invoice,
+INV-26268,2026-05-26,C-1003,Pantry & Pike Restaurants,NA,USD,4960.94,invoice,PO-45072
+INV-26269,2026-05-26,C-1003,Pantry & Pike Restaurants,NA,USD,7614.44,invoice,Standing order
+INV-26270,2026-05-26,C-1007,Casa Ortelia Catering,EU,EUR,3618.83,invoice,PO 40251
+INV-26271,2026-05-26,C-1010,Northgale Bakeries,NA,USD,5210.22,invoice,PO 49070
+INV-26272,2026-05-26,C-1014,Redfern Campus Dining,NA,USD,7974.31,invoice,PO 46618
+INV-26273,2026-05-26,C-1031,Big Sky Commissary,NA,USD,1531.18,invoice,PO 43721
+INV-26274,2026-05-26,C-1033,Andes Norte Cocinas,LATAM,USD,2578.13,invoice,PO-44439
+CN-1820,2026-05-27,C-1009,Vandermolen Horeca BV,EU,EUR,205.29,credit_note,"Returned: wrong size pans, ref INV-26260"
+INV-26275,2026-05-27,C-1019,Grünhof Kantinen AG,EU,EUR,1231.71,invoice,PO-44884
+INV-26276,2026-05-27,C-1029,Rialto Verde Pizzerie,EU,EUR,5179.39,invoice,Order 45859
+INV-26277,2026-05-28,C-1003,Pantry & Pike Restaurants,NA,USD,8305.90,invoice,Order 44079
+INV-26278,2026-05-28,C-1031,Big Sky Commissary,NA,USD,3959.29,invoice,Order 40781
+INV-26279,2026-05-29,C-1023,Lindqvist Bageri,EU,EUR,3519.42,invoice,
+INV-26280,2026-05-29,C-1024,Pacifica Resort Holdings,LATAM,USD,7623.70,invoice,
+INV-26281,2026-05-29,C-1025,Aldersgate Pub Company,UK,GBP,1966.06,invoice,
+INV-26282,2026-05-29,C-1029,Rialto Verde Pizzerie,EU,EUR,2245.54,invoice,PO-43694
+INV-26283,2026-05-29,C-1031,Big Sky Commissary,NA,USD,6373.55,invoice,
+CN-1821,2026-05-30,C-1003,Pantry & Pike Restaurants,NA,USD,415.30,credit_note,"Price adjustment per rebate, ref INV-26277"
+INV-26284,2026-05-30,C-1009,Vandermolen Horeca BV,EU,EUR,4717.99,invoice,
+CN-1822,2026-05-30,C-1033,Andes Norte Cocinas,LATAM,USD,939.37,credit_note,"Returned: wrong size pans, ref INV-26258"
+INV-26285,2026-05-30,C-1034,Beacon Hill Test Kitchen,NA,USD,2459.73,invoice,PO-44399
+INV-26286,2026-05-31,C-1012,Harbour Lane Hotels plc,UK,GBP,5455.58,invoice,Order 44449
+INV-26287,2026-06-01,C-1011,Osteria Pellandi Srl,EU,EUR,2627.36,invoice,PO 40737
+INV-26288,2026-06-01,C-1013,Skarvik Storkök AB,EU,SEK,43236.79,invoice,
+INV-26289,2026-06-01,C-1022,Prairie Oak Steakhouses,NA,USD,7286.35,invoice,
+INV-26290,2026-06-02,C-1029,Rialto Verde Pizzerie,EU,EUR,8254.22,invoice,
+INV-26291,2026-06-03,C-1010,Northgale Bakeries,NA,USD,8702.07,invoice,Order 42398
+CN-1823,2026-06-04,C-1007,Casa Ortelia Catering,EU,EUR,180.94,credit_note,"Price adjustment per rebate, ref INV-26270"
+INV-26292,2026-06-05,C-1012,Harbour Lane Hotels plc,UK,GBP,8963.08,invoice,Replenishment 45378
+INV-26293,2026-06-05,C-1013,Skarvik Storkök AB,EU,SEK,49009.85,invoice,Standing order
+INV-26294,2026-06-05,C-1025,Aldersgate Pub Company,UK,GBP,7116.21,invoice,PO-46283
+INV-26295,2026-06-05,C-1026,Tamsin Row Patisserie,NA,USD,8524.36,invoice,Replenishment 49652
+INV-26296,2026-06-06,C-1009,Vandermolen Horeca BV,EU,EUR,3476.67,invoice,Replenishment 46182
+INV-26297,2026-06-06,C-1014,Redfern Campus Dining,NA,USD,5137.47,invoice,
+INV-26298,2026-06-06,C-1027,Harrowgate Catering Group,UK,EUR,9240.54,invoice,Replenishment 46527
+INV-26299,2026-06-07,C-1009,Vandermolen Horeca BV,EU,EUR,5332.43,invoice,
+INV-26300,2026-06-07,C-1009,Vandermolen Horeca BV,EU,EUR,6465.07,invoice,Standing order
+INV-26301,2026-06-07,C-1010,Northgale Bakeries,NA,USD,5467.22,invoice,PO 40658
+INV-26302,2026-06-07,C-1013,Skarvik Storkök AB,EU,SEK,93897.30,invoice,PO-48477
+INV-26303,2026-06-07,C-1014,Redfern Campus Dining,NA,USD,4339.09,invoice,
+INV-26304,2026-06-07,C-1019,Grünhof Kantinen AG,EU,EUR,3564.30,invoice,PO 44840
+INV-26305,2026-06-08,C-1004,Molinar Hospitality Group,NA,USD,8020.11,invoice,
+INV-26306,2026-06-08,C-1005,Fjordkök Grossist AB,EU,SEK,25819.07,invoice,Web order 45184
+INV-26307,2026-06-09,C-1007,Casa Ortelia Catering,EU,EUR,5983.75,invoice,PO 42974
+INV-26308,2026-06-10,C-1003,Pantry & Pike Restaurants,NA,USD,4704.38,invoice,Order 47894
+INV-26309,2026-06-10,C-1029,Rialto Verde Pizzerie,EU,EUR,5488.26,invoice,Order 43898
+INV-26310,2026-06-11,C-1003,Pantry & Pike Restaurants,NA,USD,3861.50,invoice,PO 40112
+INV-26311,2026-06-11,C-1009,Vandermolen Horeca BV,EU,EUR,5429.89,invoice,
+INV-26312,2026-06-12,C-1017,Sakuragi Food Service,APAC,USD,3446.97,invoice,Order 42831
+INV-26313,2026-06-12,C-1031,Big Sky Commissary,NA,USD,5878.35,invoice,Standing order
+INV-26314,2026-06-13,C-1008,Bluegum Kitchen Co,APAC,USD,8652.77,invoice,Order 40245
+CN-1824,2026-06-13,C-1012,Harbour Lane Hotels plc,UK,GBP,2240.77,credit_note,"Short shipment, ref INV-26292"
+INV-26315,2026-06-13,C-1013,Skarvik Storkök AB,EU,SEK,84710.79,invoice,
+CN-1825,2026-06-13,C-1031,Big Sky Commissary,NA,USD,6373.55,credit_note,"Price adjustment per rebate, ref INV-26283"
+INV-26316,2026-06-14,C-1010,Northgale Bakeries,NA,USD,4647.82,invoice,Web order 45499
+INV-26317,2026-06-14,C-1012,Harbour Lane Hotels plc,UK,GBP,8027.30,invoice,PO-42084
+INV-26318,2026-06-14,C-1012,Harbour Lane Hotels plc,UK,GBP,4500.62,invoice,
+INV-26319,2026-06-14,C-1027,Harrowgate Catering Group,UK,EUR,3119.06,invoice,
+INV-26320,2026-06-15,C-1014,Redfern Campus Dining,NA,USD,4827.91,invoice,
+INV-26321,2026-06-16,C-1022,Prairie Oak Steakhouses,NA,USD,8490.26,invoice,
+INV-26322,2026-06-16,C-1027,Harrowgate Catering Group,UK,EUR,409.42,invoice,
+INV-26323,2026-06-16,C-1029,Rialto Verde Pizzerie,EU,EUR,4955.58,invoice,
+INV-26324,2026-06-18,C-1006,Tallow Street Canteens Ltd,UK,GBP,9321.83,invoice,Order 45834
+INV-26325,2026-06-18,C-1021,Adelmar Cruise Provisioning,EU,USD,9177.75,invoice,Web order 42535
+INV-26326,2026-06-19,C-1009,Vandermolen Horeca BV,EU,EUR,8519.08,invoice,Replenishment 46473
+INV-26327,2026-06-19,C-1009,Vandermolen Horeca BV,EU,EUR,2576.60,invoice,
+INV-26328,2026-06-19,C-1010,Northgale Bakeries,NA,USD,7088.30,invoice,
+INV-26329,2026-06-19,C-1012,Harbour Lane Hotels plc,UK,GBP,4934.29,invoice,
+INV-26330,2026-06-19,C-1024,Pacifica Resort Holdings,LATAM,USD,2505.94,invoice,
+CN-1826,2026-06-20,C-1006,Tallow Street Canteens Ltd,UK,GBP,4660.92,credit_note,"Price adjustment per rebate, ref INV-26324"
+CN-1827,2026-06-21,C-1008,Bluegum Kitchen Co,APAC,USD,4326.39,credit_note,"Duplicate billing, ref INV-26314"
+INV-26331,2026-06-21,C-1015,Maison Béraud Traiteur,EU,EUR,9365.36,invoice,PO-41355
+CN-1828,2026-06-22,C-1025,Aldersgate Pub Company,UK,GBP,3558.11,credit_note,"Price adjustment per rebate, ref INV-26294"
+INV-26332,2026-06-22,C-1026,Tamsin Row Patisserie,NA,USD,3213.69,invoice,
+INV-26333,2026-06-23,C-1009,Vandermolen Horeca BV,EU,EUR,2097.89,invoice,
+INV-26334,2026-06-24,C-1013,Skarvik Storkök AB,EU,SEK,97212.75,invoice,PO-42118
+INV-26335,2026-06-24,C-1022,Prairie Oak Steakhouses,NA,USD,5219.75,invoice,PO 47889
+INV-26336,2026-06-24,C-1023,Lindqvist Bageri,EU,EUR,3349.97,invoice,PO-43651
+INV-26337,2026-06-24,C-1029,Rialto Verde Pizzerie,EU,EUR,1561.80,invoice,PO 45327
+INV-26338,2026-06-24,C-1031,Big Sky Commissary,NA,USD,4181.19,invoice,PO 47389
+INV-26339,2026-06-25,C-1008,Bluegum Kitchen Co,APAC,USD,3693.87,invoice,Standing order
+INV-26340,2026-06-27,C-1011,Osteria Pellandi Srl,EU,EUR,5940.03,invoice,PO 46746
+CN-1829,2026-06-27,C-1013,Skarvik Storkök AB,EU,SEK,84710.79,credit_note,"Returned unopened, ref INV-26315"
+INV-26341,2026-06-27,C-1014,Redfern Campus Dining,NA,USD,455.44,invoice,Order 40799
+INV-26342,2026-06-27,C-1018,Copper Kettle Diners,NA,USD,641.27,invoice,PO-48014
+INV-26343,2026-06-27,C-1034,Beacon Hill Test Kitchen,NA,USD,5310.16,invoice,
+INV-26344,2026-06-28,C-1003,Pantry & Pike Restaurants,NA,USD,7084.87,invoice,Standing order
+INV-26345,2026-06-28,C-1008,Bluegum Kitchen Co,APAC,USD,4503.59,invoice,Order 49824
+INV-26346,2026-06-28,C-1009,Vandermolen Horeca BV,EU,EUR,3173.89,invoice,PO-41958
+INV-26347,2026-06-28,C-1012,Harbour Lane Hotels plc,UK,GBP,8702.94,invoice,Web order 41425
+CN-1830,2026-06-28,C-1015,Maison Béraud Traiteur,EU,EUR,1404.80,credit_note,"Price adjustment per rebate, ref INV-26331"
+INV-26348,2026-06-28,C-1016,Kinsale Quay Kitchens,EU,GBP,7104.51,invoice,PO 45120
+INV-26349,2026-06-28,C-1028,Kowhai Bay Hospitality,APAC,USD,8916.40,invoice,Web order 48505
+INV-26350,2026-06-28,C-1033,Andes Norte Cocinas,LATAM,USD,2981.56,invoice,PO-48581
+INV-26351,2026-06-29,C-1013,Skarvik Storkök AB,EU,SEK,98977.55,invoice,Order 40215
+INV-26352,2026-06-29,C-1024,Pacifica Resort Holdings,LATAM,USD,2891.09,invoice,Replenishment 45975
+INV-26353,2026-06-30,C-1022,Prairie Oak Steakhouses,NA,USD,5413.56,invoice,PO 44363
+INV-26354,2026-06-30,C-1027,Harrowgate Catering Group,UK,EUR,2897.30,invoice,Replenishment 49346
+INV-26355,2026-06-30,C-1028,Kowhai Bay Hospitality,APAC,USD,8708.92,invoice,Replenishment 42057
+INV-26356,2026-06-30,C-1029,Rialto Verde Pizzerie,EU,EUR,6908.33,invoice,PO-49322
+INV-26357,2026-06-30,C-1032,Hautvilliers Hôtellerie,EU,EUR,5265.87,invoice,Order 48393
+INV-26358,2026-07-01,C-1015,Maison Béraud Traiteur,EU,EUR,5288.90,invoice,Order 49662
+INV-26359,2026-07-02,C-1005,Fjordkök Grossist AB,EU,SEK,41250.00,invoice,Order 42080
+INV-26360,2026-07-02,C-1027,Harrowgate Catering Group,UK,EUR,2940.75,invoice,Order 47497
+CN-1831,2026-07-03,C-1007,Casa Ortelia Catering,EU,EUR,1150.00,credit_note,"Returned unopened, ref INV-26307"
+CN-1832,2026-07-03,C-1008,Bluegum Kitchen Co,APAC,USD,554.08,credit_note,"Goodwill credit, ref INV-26339"
+CN-1833,2026-07-03,C-1018,Copper Kettle Diners,NA,USD,32.06,credit_note,"Goodwill credit, ref INV-26342"
+CN-1834,2026-07-03,C-1027,Harrowgate Catering Group,UK,EUR,735.20,credit_note,"Damaged on delivery, ref INV-26354"
+CN-1835,2026-07-04,C-1015,Maison Béraud Traiteur,EU,EUR,793.34,credit_note,"Returned: wrong size pans, ref INV-26358"
+INV-26361,2026-07-06,C-1012,Harbour Lane Hotels plc,UK,GBP,1880.00,invoice,Order 48643
+INV-26362,2026-07-06,C-1019,Grünhof Kantinen AG,EU,EUR,2604.30,invoice,Order 41612
+CN-1836,2026-07-06,C-1029,Rialto Verde Pizzerie,EU,EUR,3454.17,credit_note,"Price adjustment per rebate, ref INV-26356"

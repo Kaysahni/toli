@@ -1,0 +1,19 @@
+category_code,category_name,gl_account,receipt_rule,active,notes
+TRV-AIR,Airfare,61010,policy threshold,Y,economy only
+TRV-HTL,Lodging,61020,always,Y,itemized folio required regardless of amount
+TRV-PDM,Meals per diem,61030,none,Y,calculated by Clearline from trip dates and location
+TRV-MIL,Personal vehicle mileage,61040,none,Y,rate pulled from policy table
+TRV-RNT,Rental car,61050,policy threshold,Y,
+TRV-GND,Taxi / rideshare,61060,policy threshold,Y,
+TRV-PKG,Parking and tolls,61070,policy threshold,Y,
+TRV-MEL,Meals actual cost,61031,policy threshold,N,retired 2021 when per diem introduced
+CNF-REG,Conference registration,62010,always,Y,dept head pre-approval above 1000
+TRN-CRT,Professional certification,62020,always,Y,see handbook appendix C
+MBR-EVT,Member event supplies,63010,policy threshold,Y,use dept p-card where possible
+MBR-FIN,Financial literacy workshop materials,63020,policy threshold,Y,
+HOM-OFC,Home office allowance (one-time),64010,always,Y,fully remote only; max 400
+WEL-RMB,Wellness reimbursement,64020,always,Y,
+OFC-SUP,Office supplies,65010,policy threshold,Y,
+OFC-PST,Postage and courier,65020,policy threshold,Y,
+TEL-MOB,Mobile phone (legacy),66010,always,N,replaced by payroll cell phone allowance 2023
+MSC-OTH,Other business expense,69999,policy threshold,Y,requires detailed description

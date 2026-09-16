@@ -1,0 +1,289 @@
+{
+  "id": "sweep-retire-dependency",
+  "company": "Tesselwick Logistics",
+  "category": "sweep",
+  "held_out": false,
+  "summary": "Find everything that still depends on the RouteCalc v1 API before it is switched off on 20 October 2026, with owner and evidence; a good answer names all nine dependents (reached via direct URL, DNS aliases, library env var, library version default, cron, warehouse table, partner row, manual runbook step and pipeline config) and leaves out the decoys.",
+  "findings": [
+    {
+      "id": "F1",
+      "what": "dock-scheduler service (Yard Systems) calls the v1 host directly for onward leg estimates, deep in its upstreams block",
+      "evidence": [
+        {
+          "file": "services/dock-scheduler.yaml",
+          "quote": "routing_url: https://routecalc-v1.core.tesselwick.internal/quote"
+        }
+      ],
+      "counts_if": "Answer lists dock-scheduler as a v1 dependent."
+    },
+    {
+      "id": "F2",
+      "what": "eta-notifier (Customer Comms) uses the alias pathfinder-old.tsw.internal, which the DNS file defines as a CNAME to the v1 host",
+      "evidence": [
+        {
+          "file": "services/eta-notifier.env",
+          "quote": "ROUTE_HOST=pathfinder-old.tsw.internal"
+        },
+        {
+          "file": "dns/internal-aliases.txt",
+          "quote": "pathfinder-old  3600  CNAME  routecalc-v1.core.tesselwick.internal."
+        }
+      ],
+      "counts_if": "Answer lists eta-notifier as a v1 dependent (ideally explaining the pathfinder-old alias resolves to the v1 host)."
+    },
+    {
+      "id": "F3",
+      "what": "yard-balancer (Yard Systems) uses tw-routing-client 3.1.2 but explicitly sets RC_API_MODE to classic, which the library doc maps to RouteCalc v1",
+      "evidence": [
+        {
+          "file": "services/yard-balancer.yaml",
+          "quote": "RC_API_MODE: classic"
+        },
+        {
+          "file": "runbooks/tw-routing-client.md",
+          "quote": "| `classic` | RouteCalc v1 (`routecalc-v1.core.tesselwick.internal`) |"
+        }
+      ],
+      "counts_if": "Answer lists yard-balancer as a v1 dependent because of RC_API_MODE=classic."
+    },
+    {
+      "id": "F4",
+      "what": "pallet-optimizer (Warehouse Tech) pins tw-routing-client 2.7.1 and does not set RC_API_MODE; releases before 3.0.0 default to classic (v1)",
+      "evidence": [
+        {
+          "file": "services/pallet-optimizer.yaml",
+          "quote": "- tw-routing-client==2.7.1"
+        },
+        {
+          "file": "runbooks/tw-routing-client.md",
+          "quote": "release: versions before 3.0.0 fall back to `classic`, and 3.0.0 or later"
+        }
+      ],
+      "counts_if": "Answer lists pallet-optimizer as a v1 dependent because its pre-3.0 library version defaults to v1 with no RC_API_MODE set."
+    },
+    {
+      "id": "F5",
+      "what": "Weekday cron job pull_spot_rates.py on ops-batch-01 (Network Planning) calls the v1 bulk quote endpoint",
+      "evidence": [
+        {
+          "file": "cron/ops-batch-01.crontab",
+          "quote": "40 3 * * 1-5 /opt/tesselwick/jobs/pull_spot_rates.py --routing https://routecalc-v1.core.tesselwick.internal/quote/bulk"
+        }
+      ],
+      "counts_if": "Answer lists the pull_spot_rates cron job on ops-batch-01 as a v1 dependent."
+    },
+    {
+      "id": "F6",
+      "what": "lane_margin_weekly.sql (Commercial Analytics, run weekly from reporting-01 and published to the commercial weekly sheet) reads routecalc_v1.quote_results, which stops receiving rows at retirement so the report would silently go stale",
+      "evidence": [
+        {
+          "file": "pipelines/sql/lane_margin_weekly.sql",
+          "quote": "FROM routecalc_v1.quote_results AS q"
+        },
+        {
+          "file": "runbooks/routecalc.md",
+          "quote": "but will receive no new rows. Anything reading it will silently report on"
+        }
+      ],
+      "counts_if": "Answer lists lane_margin_weekly.sql (or the weekly lane margin report) as depending on v1 via the routecalc_v1 results table."
+    },
+    {
+      "id": "F7",
+      "what": "Active partner Norrbeck Haulage (P-0090, Partner Integrations) calls the v1 bulk quote endpoint directly from an allowlisted IP range",
+      "evidence": [
+        {
+          "file": "integrations.csv",
+          "quote": "P-0090,Norrbeck Haulage,SE,subcontracted lane pricing,inbound,routecalc-v1.core.tesselwick.internal/quote/bulk (allowlisted IP range),static api key,active"
+        }
+      ],
+      "counts_if": "Answer lists the Norrbeck Haulage partner integration as a v1 dependent."
+    },
+    {
+      "id": "F8",
+      "what": "Month-end tariff close runbook step 4, run manually by Finance Operations analysts, pulls tariff inputs from the v1 tariffs export endpoint",
+      "evidence": [
+        {
+          "file": "runbooks/month-end-tariff-close.md",
+          "quote": "\"https://routecalc-v1.core.tesselwick.internal/tariffs/export?period=$PERIOD\" \\"
+        }
+      ],
+      "counts_if": "Answer lists the month-end tariff close procedure (Finance Operations) as a v1 dependent."
+    },
+    {
+      "id": "F9",
+      "what": "fuel_surcharge_backfill pipeline (Commercial Analytics) sends lane distance batches to qe1.tsw.internal, an alias for the v1 host",
+      "evidence": [
+        {
+          "file": "pipelines/fuel-surcharge-backfill.yaml",
+          "quote": "distance_source: http://qe1.tsw.internal/quote/bulk"
+        },
+        {
+          "file": "dns/internal-aliases.txt",
+          "quote": "qe1             3600  CNAME  routecalc-v1.core.tesselwick.internal."
+        }
+      ],
+      "counts_if": "Answer lists the fuel surcharge backfill pipeline as a v1 dependent."
+    }
+  ],
+  "exclusions": [
+    {
+      "id": "X1",
+      "what": "invoice-builder has a v1 routing_url, but it is commented out and the active line points at v2",
+      "evidence": [
+        {
+          "file": "services/invoice-builder.yaml",
+          "quote": "# routing_url: https://routecalc-v1.core.tesselwick.internal/quote"
+        },
+        {
+          "file": "services/invoice-builder.yaml",
+          "quote": "routing_url: https://routecalc.core.tesselwick.internal/v2/quote"
+        }
+      ],
+      "why_not": "Commented-out config; the service uses v2."
+    },
+    {
+      "id": "X2",
+      "what": "load-matcher runbook describes calling the v1 host, but only historically; the service config uses v2",
+      "evidence": [
+        {
+          "file": "runbooks/load-matcher.md",
+          "quote": "2025 migration it called `https://routecalc-v1.core.tesselwick.internal/quote`"
+        },
+        {
+          "file": "services/load-matcher.yaml",
+          "quote": "ROUTECALC_BASE_URL: https://routecalc.core.tesselwick.internal/v2"
+        }
+      ],
+      "why_not": "Moved to v2 in release 9.0.0; the mention is history (a stale dashboard panel is not a runtime dependency)."
+    },
+    {
+      "id": "X3",
+      "what": "RouteCache v1 consumers: lane-cache-warmer, sla-monitor probe, cache_hit_ratio.sql on routecache_v1.hits, the rcache alias, and partner Lindqvarn Mills",
+      "evidence": [
+        {
+          "file": "services/lane-cache-warmer.env",
+          "quote": "ROUTECACHE_URL=https://routecache.core.tesselwick.internal/v1"
+        },
+        {
+          "file": "pipelines/sql/cache_hit_ratio.sql",
+          "quote": "from routecache_v1.hits"
+        },
+        {
+          "file": "integrations.csv",
+          "quote": "routecache.core.tesselwick.internal/v1/lanes (read only)"
+        },
+        {
+          "file": "runbooks/routecache.md",
+          "quote": "January 2026, so the v1 retirement needs nothing from this team."
+        }
+      ],
+      "why_not": "RouteCache is a different API whose v1 is not being retired, and RouteCache itself already reads from RouteCalc v2."
+    },
+    {
+      "id": "X4",
+      "what": "legacy-quote-portal calls the v1 host directly but is itself being switched off on 2026-09-30, before the v1 retirement",
+      "evidence": [
+        {
+          "file": "services/legacy-quote-portal.yaml",
+          "quote": "endpoint: https://routecalc-v1.core.tesselwick.internal/quote"
+        },
+        {
+          "file": "runbooks/decommission-tracker.md",
+          "quote": "| legacy-quote-portal | web app | Web Team | 2026-09-30 | on track |"
+        }
+      ],
+      "why_not": "Scheduled for decommission before 20 October with 'Do not migrate'; at most a note that it disappears first, not an owner to chase for migration."
+    },
+    {
+      "id": "X5",
+      "what": "route-preview uses the legs.tsw.internal alias, which used to point at the v1 host but was repointed to v2 in March 2026",
+      "evidence": [
+        {
+          "file": "services/route-preview.env",
+          "quote": "LEGS_API=https://legs.tsw.internal/v2/legs"
+        },
+        {
+          "file": "dns/internal-aliases.txt",
+          "quote": "; 2026-03-04 NET-2291: legs repointed from routecalc-v1.core.tesselwick.internal to the v2 host (A. Sundqvist)"
+        }
+      ],
+      "why_not": "The alias currently resolves to the v2 host."
+    },
+    {
+      "id": "X6",
+      "what": "Disabled warm_quotes.sh cron line on ops-batch-01 pointing at v1",
+      "evidence": [
+        {
+          "file": "cron/ops-batch-01.crontab",
+          "quote": "#10 4 * * 1 /opt/tesselwick/jobs/warm_quotes.sh https://routecalc-v1.core.tesselwick.internal/quote/bulk"
+        }
+      ],
+      "why_not": "Commented out since 2026-02-11 and replaced by warm_quotes_v2.sh on v2."
+    },
+    {
+      "id": "X7",
+      "what": "Fjellmark Freight partner row points at v1 but the partner is terminated",
+      "evidence": [
+        {
+          "file": "integrations.csv",
+          "quote": "static api key,terminated 2026-04-30"
+        }
+      ],
+      "why_not": "Partner contract ended in April 2026; no live traffic owner to notify (a leftover firewall rule is already ticketed)."
+    },
+    {
+      "id": "X8",
+      "what": "carrier-onboarding pins an old 2.x tw-routing-client, but explicitly sets RC_API_MODE to current",
+      "evidence": [
+        {
+          "file": "services/carrier-onboarding.yaml",
+          "quote": "- tw-routing-client==2.9.4"
+        },
+        {
+          "file": "services/carrier-onboarding.yaml",
+          "quote": "RC_API_MODE: current"
+        }
+      ],
+      "why_not": "An explicit current mode selects v2 regardless of library version (2.9.0 added the opt-in)."
+    },
+    {
+      "id": "X9",
+      "what": "capacity-forecast has RC_API_MODE classic, but commented out, on library 3.2.0 which defaults to v2",
+      "evidence": [
+        {
+          "file": "services/capacity-forecast.yaml",
+          "quote": "# RC_API_MODE: classic   # only needed for the Q1 old-vs-new distance comparison, removed after sign-off"
+        }
+      ],
+      "why_not": "Commented out; 3.x defaults to current (v2)."
+    },
+    {
+      "id": "X10",
+      "what": "Other routecalc_v1 and v1 mentions that are not consumers: data retention table row, warehouse sources table, quote_volume_daily.sql comment about a removed UNION, new-service checklist",
+      "evidence": [
+        {
+          "file": "pipelines/data-retention.md",
+          "quote": "| routecalc_v1 | 90 days after the API is retired, then dropped | historical quotes are also in the invoices |"
+        },
+        {
+          "file": "pipelines/sql/quote_volume_daily.sql",
+          "quote": "-- 2025-10: removed the UNION with the old API's results table after load-matcher moved over."
+        }
+      ],
+      "why_not": "Documentation or history; quote_volume_daily.sql reads routecalc_v2 only."
+    }
+  ],
+  "answer": null,
+  "mistakes_that_matter": [
+    "Missing a live dependent (especially the alias, library default, SQL table, partner or manual runbook ones), so its owner is not told and it breaks on 20 October",
+    "Reporting RouteCache v1 consumers as affected, sending teams on a pointless migration",
+    "Telling legacy-quote-portal's owner to migrate a service marked do not migrate",
+    "Treating carrier-onboarding or capacity-forecast as affected because of the old library pin or a commented-out classic mode",
+    "Wrong owner for a dependent, so the notice goes to the wrong team"
+  ],
+  "grading_notes": [
+    "F6 owner: either Commercial Analytics (Sofie Dahl, SQL header) or Data Platform (Mateusz Kowalczyk, crontab) is correct.",
+    "F8 owner: either Finance Operations (close rota) or Finance Engineering (engineering support) is correct.",
+    "X4 legacy-quote-portal: listing it with a note that it switches off before v1 is fine. Penalise only an answer that tells its owner to migrate it."
+  ]
+}

@@ -1,0 +1,153 @@
+response_id,submitted_at,respondent_email,account_name,role,score,comment
+NPS-26Q3-0001,2026-08-17T06:12:00Z,hana.keane@northsteadinsurance.example,Northstead Insurance Brokers,HR Admin,6,PTO tracking used to be the best part. Now employees don't trust the balances they see.
+NPS-26Q3-0002,2026-08-17T07:45:00Z,adaeze.jovanovic@nettlefieldbrewing.example,Nettlefield Brewing,People Ops,5,"Integration with our payroll provider is flaky, columns move around."
+NPS-26Q3-0003,2026-08-17T10:53:00Z,pax.cespedes@kelcottproperty.example,Kelcott Property Management,HR Admin,6,
+NPS-26Q3-0004,2026-08-17T11:51:00Z,stellan.jovanovic@herongateengineering.example,Herongate Engineering,People Ops,8,
+NPS-26Q3-0005,2026-08-17T14:10:00Z,pax.boateng@stanridgedental.example,Stanridge Dental,Finance,6,Employees keep asking me why their vacation hours changed.
+NPS-26Q3-0006,2026-08-17T14:34:00Z,zadie.grunwald@redridgecommunity.example,Redridge Community Bank,Payroll,10,
+NPS-26Q3-0007,2026-08-17T16:28:00Z,emeka.yilmaz@ebbmontpharmacy.example,Ebbmont Pharmacy,HR Admin,6,Admin permissions are too coarse.
+NPS-26Q3-0008,2026-08-17T16:33:00Z,adaeze.pradhan@netherhavenfamily.example,Netherhaven Family Medicine,Operations,6,The export file format changed without notice and our accountant was not happy.
+NPS-26Q3-0009,2026-08-18T06:58:00Z,rhea.boateng@mapledaletitle.example,Mapledale Title and Escrow,HR Admin,5,Support takes a day or two to respond now.
+NPS-26Q3-0010,2026-08-18T09:47:00Z,hollis.abernethy@vantfieldveterinary.example,Vantfield Veterinary Group,Owner,4,
+NPS-26Q3-0011,2026-08-18T13:15:00Z,pilar.fairley@northcottpharmacy.example,Northcott Pharmacy,HR Manager,7,We are still learning the system.
+NPS-26Q3-0012,2026-08-18T15:05:00Z,dmitri.okonjo@tarncottmarine.example,Tarncott Marine Supply,HR Admin,8,
+NPS-26Q3-0013,2026-08-18T15:10:00Z,leonie.pradhan@kelcottproperty.example,Kelcott Property Management,Office Manager,6,Response times on tickets have gotten slower.
+NPS-26Q3-0014,2026-08-18T17:04:00Z,yolanda.gallagher@junihaventitle.example,Junihaven Title and Escrow,People Ops,8,Wish there was a chat integration for approvals.
+NPS-26Q3-0015,2026-08-18T18:43:00Z,pilar.thorne@netherthorpephysical.example,Netherthorpe Physical Therapy,Office Manager,4,
+NPS-26Q3-0016,2026-08-18T19:29:00Z,vesna.holm@sunderbyclinics.example,Sunderby Clinics,Office Manager,5,Insights times out on anything company-wide.
+NPS-26Q3-0017,2026-08-19T09:26:00Z,tomasz.hakimi@moormonttitle.example,Moormont Title and Escrow,Owner,10,Document signing saved us a filing cabinet.
+NPS-26Q3-0018,2026-08-19T10:05:00Z,vesna.abernethy@coldshawbrewing.example,Coldshaw Brewing Co,Office Manager,9,Easy to train new managers on.
+NPS-26Q3-0019,2026-08-19T11:46:00Z,frida.ueda@gorseridgestaffing.example,Gorseridge Staffing,Payroll,9,Would recommend to other small nonprofits.
+NPS-26Q3-0020,2026-08-19T12:12:00Z,gwen.abernathy@tollbridgeceramics.example,Tollbridge Ceramics,Owner,2,Benefits upload has been broken for weeks and support cannot fix it.
+NPS-26Q3-0021,2026-08-19T12:19:00Z,lorcan.drummond@westmereretail.example,Westmere Retail Group,Owner,6,"Mobile experience got worse after the update, having to sign in every time is painful."
+NPS-26Q3-0022,2026-08-19T12:20:00Z,oskar.esposito@rushcottlogistics.example,Rushcott Logistics,HR Admin,6,Needs better offline support for remote sites.
+NPS-26Q3-0023,2026-08-19T18:21:00Z,nell.achterberg@langmeretransit.example,Langmere Transit,HR Manager,9,"Clean interface, easy for employees who are not tech savvy."
+NPS-26Q3-0024,2026-08-19T18:37:00Z,maribel.novak@gorsecottprecision.example,Gorsecott Precision Parts,Owner,9,The e-signature feature works well.
+NPS-26Q3-0025,2026-08-19T19:42:00Z,wilhelmina.hakimi@wynmontdental.example,Wynmont Dental,Finance,7,"Setup took longer than we were told, but it has been fine since."
+NPS-26Q3-0026,2026-08-20T08:55:00Z,alma.achterberg@saltshawcabinetry.example,Saltshaw Cabinetry,Finance,10,Implementation was painless.
+NPS-26Q3-0027,2026-08-20T10:02:00Z,vikram.quist@farrfordphysical.example,Farrford Physical Therapy,Office Manager,9,Our CFO likes the cost.
+NPS-26Q3-0028,2026-08-20T12:32:00Z,dmitri.hakimi@herongateengineering.example,Herongate Engineering,People Ops,4,
+NPS-26Q3-0029,2026-08-20T12:41:00Z,leonie.pradhan@kelcottproperty.example,Kelcott Property Management,Office Manager,7,"Good, not great."
+NPS-26Q3-0030,2026-08-20T13:11:00Z,vikram.pradhan@yarrthorpecharter.example,Yarrthorpe Charter Schools,People Ops,8,Reports are useful for our small team.
+NPS-26Q3-0031,2026-08-20T13:13:00Z,mateus.dalca@netherburypet.example,Netherbury Pet Hospitals,HR Admin,5,Renewal pricing conversation was frustrating.
+NPS-26Q3-0032,2026-08-20T13:57:00Z,stellan.dalca@fenwrightengineering.example,Fenwright Engineering,HR Manager,7,Let us change reviewers mid-cycle.
+NPS-26Q3-0033,2026-08-20T13:59:00Z,kalani.kowalczyk@brackgatelogistics.example,Brackgate Logistics,Office Manager,7,Would like more control over notification settings.
+NPS-26Q3-0034,2026-08-20T14:19:00Z,vikram.quist@farrfordphysical.example,Farrford Physical Therapy,Owner,9,Training videos are helpful.
+NPS-26Q3-0035,2026-08-20T15:15:00Z,jolene.jovanovic@inglegroveorthodontics.example,Inglegrove Orthodontics,Owner,7,Love the people directory. Hate that I have to double check every payroll file now.
+NPS-26Q3-0036,2026-08-20T15:59:00Z,frida.vasquez@nethercottpet.example,Nethercott Pet Hospitals,HR Admin,9,
+NPS-26Q3-0037,2026-08-20T16:43:00Z,lorcan.drummond@westmereretail.example,Westmere Retail Group,Operations,4,SSO on the phone is broken for us.
+NPS-26Q3-0038,2026-08-21T07:02:00Z,vesna.holm@sunderbyclinics.example,Sunderby Clinics,People Ops,7,Custom reports are great in theory but they rarely finish for us.
+NPS-26Q3-0039,2026-08-21T10:06:00Z,mateus.jovanovic@junisteadengineering.example,Junistead Engineering,Finance,8,Please add dark mode.
+NPS-26Q3-0040,2026-08-21T13:17:00Z,pax.grunwald@pencombemanufacturing.example,Pencombe Manufacturing,People Ops,4,
+NPS-26Q3-0041,2026-08-21T14:40:00Z,wade.novak@larkfieldhome.example,Larkfield Home Health,Operations,4,
+NPS-26Q3-0042,2026-08-21T14:56:00Z,yusra.novak@bellthorpetransit.example,Bellthorpe Transit,Finance,9,
+NPS-26Q3-0043,2026-08-21T14:59:00Z,frida.quist@coldsteadarchitects.example,Coldstead Architects,Payroll,6,
+NPS-26Q3-0044,2026-08-21T15:07:00Z,tova.jovanovic@ebbthorpedermatology.example,Ebbthorpe Dermatology,Finance,9,Kiosk clock in is reliable.
+NPS-26Q3-0045,2026-08-21T16:06:00Z,uma.pradhan@redgateauto.example,Redgate Auto Group,HR Admin,4,
+NPS-26Q3-0046,2026-08-21T17:22:00Z,frida.quist@larkdaleprinting.example,Larkdale Printing,Finance,10,Very happy.
+NPS-26Q3-0047,2026-08-21T19:19:00Z,jolene.farouk@wexgatepharmacy.example,Wexgate Pharmacy,Office Manager,9,"Our managers actually use it, which is saying something."
+NPS-26Q3-0048,2026-08-21T19:58:00Z,dmitri.okonjo@tarncottmarine.example,Tarncott Marine Supply,HR Admin,8,
+NPS-26Q3-0049,2026-08-22T08:44:00Z,zadie.okonjo@maplebeckdermatology.example,Maplebeck Dermatology,Finance,9,Reliable.
+NPS-26Q3-0050,2026-08-22T10:02:00Z,pax.grunwald@pencombemanufacturing.example,Pencombe Manufacturing,HR Manager,8,
+NPS-26Q3-0051,2026-08-22T11:32:00Z,nell.cespedes@ebbdalelandscaping.example,Ebbdale Landscaping,Owner,9,
+NPS-26Q3-0052,2026-08-22T11:42:00Z,mateus.mbatha@farrshawgarden.example,Farrshaw Garden Centers,HR Admin,10,Employees love having everything in one place.
+NPS-26Q3-0053,2026-08-22T13:49:00Z,nell.jankowski@netherhavenfamily.example,Netherhaven Family Medicine,Operations,10,Better than the last three HR systems I have used.
+NPS-26Q3-0054,2026-08-22T13:54:00Z,wade.novak@larkfieldhome.example,Larkfield Home Health,HR Admin,9,
+NPS-26Q3-0055,2026-08-22T14:40:00Z,xavi.abernethy@gilddalelogistics.example,Gilddale Logistics,Operations,6,"Reports take forever to load with 2,000 employees."
+NPS-26Q3-0056,2026-08-22T16:15:00Z,hana.jovanovic@larkworthclinics.example,Larkworth Clinics,Operations,7,
+NPS-26Q3-0057,2026-08-22T17:22:00Z,yolanda.gallagher@junihaventitle.example,Junihaven Title and Escrow,HR Admin,9,
+NPS-26Q3-0058,2026-08-22T19:31:00Z,bettina.iwasaki@gildworthstaffing.example,Gildworth Staffing,Operations,3,The app logs our staff out constantly. They have mostly given up on it.
+NPS-26Q3-0059,2026-08-22T19:41:00Z,adaeze.hakimi@tarncombepharmacy.example,Tarncombe Pharmacy,HR Manager,4,
+NPS-26Q3-0060,2026-08-23T06:30:00Z,dmitri.eklund@birchwaydental.example,Birchway Dental Group,People Ops,5,Accruals are a mess this quarter.
+NPS-26Q3-0061,2026-08-23T08:16:00Z,pilar.fairley@northcottpharmacy.example,Northcott Pharmacy,Payroll,9,We use maybe half the features but the half we use is great.
+NPS-26Q3-0062,2026-08-23T11:05:00Z,yolanda.whitlock@lowshawdermatology.example,Lowshaw Dermatology,Finance,7,The API docs could use more examples.
+NPS-26Q3-0063,2026-08-23T14:13:00Z,oskar.okonjo@moorgrovedermatology.example,Moorgrove Dermatology,HR Admin,8,Custom fields are flexible enough for us.
+NPS-26Q3-0064,2026-08-23T15:27:00Z,jasper.jovanovic@coldgroveoutfitters.example,Coldgrove Outfitters,Finance,7,The help center articles are out of date in places.
+NPS-26Q3-0065,2026-08-23T16:22:00Z,rhea.cespedes@lowmontdermatology.example,Lowmont Dermatology,Payroll,7,Wish we could customize the employee home page more.
+NPS-26Q3-0066,2026-08-23T17:28:00Z,uma.jankowski@mapleforddermatology.example,Mapleford Dermatology,Payroll,8,Its fine.
+NPS-26Q3-0067,2026-08-23T19:57:00Z,tova.jovanovic@ebbthorpedermatology.example,Ebbthorpe Dermatology,People Ops,10,I recommend Pinmoor to every HR person I know.
+NPS-26Q3-0068,2026-08-24T06:14:00Z,hana.sarkisian@pemhavenhospitality.example,Pemhaven Hospitality,Operations,8,Search in the directory could be smarter about nicknames.
+NPS-26Q3-0069,2026-08-24T06:22:00Z,kasimir.jankowski@fernwickstaffing.example,Fernwick Staffing,Office Manager,9,The mobile app is handy for approving requests on the go.
+NPS-26Q3-0070,2026-08-24T08:05:00Z,maribel.ilves@brackcottfoods.example,Brackcott Foods,Payroll,4,"Prorated accruals do not work, which is a big deal for a company with lots of part-timers."
+NPS-26Q3-0071,2026-08-24T10:07:00Z,kalani.kowalczyk@brackgatelogistics.example,Brackgate Logistics,HR Manager,9,
+NPS-26Q3-0072,2026-08-24T13:10:00Z,kalani.achterberg@kelhavenprinting.example,Kelhaven Printing,Finance,10,"New hire paperwork used to take a day, now it takes an hour."
+NPS-26Q3-0073,2026-08-24T13:29:00Z,callum.gallagher@glenwickbuilders.example,Glenwick Builders,Operations,6,Hard to find some admin settings.
+NPS-26Q3-0074,2026-08-24T14:55:00Z,frida.vasquez@nethercottpet.example,Nethercott Pet Hospitals,Payroll,9,
+NPS-26Q3-0075,2026-08-24T17:59:00Z,dmitri.grunwald@mossand.example,Moss & Vane Legal,HR Manager,6,Review cycles are too rigid. You cannot fix a mistake once the cycle is live.
+NPS-26Q3-0076,2026-08-24T18:02:00Z,zadie.iwasaki@coldgroveoutfitters.example,Coldgrove Outfitters,Owner,6,A bit expensive for a company our size.
+NPS-26Q3-0077,2026-08-24T18:14:00Z,kasimir.whitlock@wynmontdental.example,Wynmont Dental,Office Manager,4,
+NPS-26Q3-0078,2026-08-24T18:21:00Z,adaeze.ilves@langmontlaw.example,Langmont Law Group,Owner,10,"Great customer support team, especially Ruth."
+NPS-26Q3-0079,2026-08-25T13:32:00Z,tomasz.hakimi@moormonttitle.example,Moormont Title and Escrow,Owner,9,"Everything in one place, reasonable price."
+NPS-26Q3-0080,2026-08-25T16:18:00Z,kasimir.whitlock@wynmontdental.example,Wynmont Dental,People Ops,7,Good support team but they could not tell us why the GL export doubled deductions.
+NPS-26Q3-0081,2026-08-25T17:17:00Z,mateus.jovanovic@junisteadengineering.example,Junistead Engineering,HR Manager,10,
+NPS-26Q3-0082,2026-08-25T19:49:00Z,gideon.jankowski@netherhollowlogistics.example,Netherhollow Logistics,Owner,10,Love the onboarding portal for new hires.
+NPS-26Q3-0083,2026-08-26T10:25:00Z,saoirse.achterberg@brackcottfoods.example,Brackcott Foods,People Ops,10,The employee directory is the best I have used.
+NPS-26Q3-0084,2026-08-26T15:34:00Z,ines.jankowski@larkhavenmanufacturing.example,Larkhaven Manufacturing,Office Manager,8,I like it.
+NPS-26Q3-0085,2026-08-26T17:49:00Z,mateus.achterberg@redworthlandscaping.example,Redworth Landscaping,Payroll,6,
+NPS-26Q3-0086,2026-08-27T07:35:00Z,carys.iwasaki@moormeremarine.example,Moormere Marine Supply,HR Manager,9,
+NPS-26Q3-0087,2026-08-27T07:53:00Z,xavi.quist@dunhollowpharmacy.example,Dunhollow Pharmacy,Owner,10,The implementation team was excellent.
+NPS-26Q3-0088,2026-08-27T08:19:00Z,quentin.okonjo@nethergrovearchitects.example,Nethergrove Architects,Operations,4,Tallybook sync failures cost me two late nights this quarter.
+NPS-26Q3-0089,2026-08-27T09:12:00Z,frida.quist@coldsteadarchitects.example,Coldstead Architects,HR Admin,8,"Missing some features compared to bigger platforms, but much simpler."
+NPS-26Q3-0090,2026-08-27T10:06:00Z,leonie.pradhan@kelcottproperty.example,Kelcott Property Management,Payroll,9,Good for mid-size companies like ours.
+NPS-26Q3-0091,2026-08-27T11:57:00Z,adaeze.ilves@langmontlaw.example,Langmont Law Group,Owner,5,Pinmoor Go needs to remember logins. Our warehouse team hates it.
+NPS-26Q3-0092,2026-08-27T14:42:00Z,kasimir.cespedes@farrburytitle.example,Farrbury Title and Escrow,Owner,10,
+NPS-26Q3-0093,2026-08-27T16:11:00Z,mateus.hakimi@kelcombefamily.example,Kelcombe Family Medicine,Payroll,10,
+NPS-26Q3-0094,2026-08-27T18:40:00Z,nell.achterberg@langmeretransit.example,Langmere Transit,Operations,10,
+NPS-26Q3-0095,2026-08-27T19:05:00Z,wilhelmina.zamora@glenworthcabinetry.example,Glenworth Cabinetry,Payroll,9,
+NPS-26Q3-0096,2026-08-27T19:11:00Z,elif.baptiste@netherdaledental.example,Netherdale Dental,HR Admin,10,
+NPS-26Q3-0097,2026-08-28T07:55:00Z,hana.mbatha@lowmontdermatology.example,Lowmont Dermatology,HR Manager,9,Time off requests and approvals are simple and our staff like them.
+NPS-26Q3-0098,2026-08-28T08:02:00Z,marcus.bell@pinmoor.example,Quarry Lane Sample Co,Finance,7,Would be a 9 if org chart printing worked.
+NPS-26Q3-0099,2026-08-28T11:03:00Z,ulrich.rasmussen@calddaleproperty.example,Calddale Property Management,Operations,9,Customer success manager is responsive.
+NPS-26Q3-0100,2026-08-28T12:04:00Z,dana.whitcombe@pinmoor.example,Quarry Lane Sample Co,Owner,8,"Everything is solid except the org chart PDF, which clips names."
+NPS-26Q3-0101,2026-08-28T12:16:00Z,kalani.ilves@gildhavenmarine.example,Gildhaven Marine Supply,Owner,9,Great product.
+NPS-26Q3-0102,2026-08-28T12:32:00Z,idris.rasmussen@northbrookengineering.example,Northbrook Engineering,Operations,8,
+NPS-26Q3-0103,2026-08-28T12:35:00Z,idris.rasmussen@northbrookengineering.example,Northbrook Engineering,Operations,7,Survey tool is basic.
+NPS-26Q3-0104,2026-08-28T13:12:00Z,priya.venkataraman@pinmoor.example,Alderpoint Sample Co,Operations,7,Org chart export needs work.
+NPS-26Q3-0105,2026-08-28T13:24:00Z,stellan.drummond@lowmereinsurance.example,Lowmere Insurance Brokers,People Ops,9,Good value for the price.
+NPS-26Q3-0106,2026-08-28T16:58:00Z,carys.iwasaki@moormeremarine.example,Moormere Marine Supply,Payroll,10,
+NPS-26Q3-0107,2026-08-28T18:21:00Z,frida.ueda@gorseridgestaffing.example,Gorseridge Staffing,HR Admin,8,
+NPS-26Q3-0108,2026-08-29T06:22:00Z,frida.vasquez@nethercottpet.example,Nethercott Pet Hospitals,Office Manager,10,
+NPS-26Q3-0109,2026-08-29T06:37:00Z,oskar.pradhan@stanridgedental.example,Stanridge Dental,HR Admin,10,
+NPS-26Q3-0110,2026-08-29T15:17:00Z,hollis.holm@rushcottlogistics.example,Rushcott Logistics,Payroll,9,
+NPS-26Q3-0111,2026-08-29T15:49:00Z,dmitri.hakimi@herongateengineering.example,Herongate Engineering,HR Admin,7,Solid overall. Some screens feel dated.
+NPS-26Q3-0112,2026-08-29T17:20:00Z,ulrich.iwasaki@caldfordgarden.example,Caldford Garden Centers,Payroll,3,Payroll file errors nearly caused us to underpay staff. Considering alternatives.
+NPS-26Q3-0113,2026-08-30T06:49:00Z,kalani.keane@wynthorpehardware.example,Wynthorpe Hardware,HR Admin,7,"Web app great, mobile app keeps kicking people out."
+NPS-26Q3-0114,2026-08-30T08:49:00Z,wade.novak@larkfieldhome.example,Larkfield Home Health,Finance,7,I would like more integrations with our applicant tracking system.
+NPS-26Q3-0115,2026-08-30T09:13:00Z,wade.drummond@netherburypet.example,Netherbury Pet Hospitals,Owner,3,Fix the payroll export please. That is the only reason for this score.
+NPS-26Q3-0116,2026-08-30T11:18:00Z,hollis.holm@rushcottlogistics.example,Rushcott Logistics,Owner,6,Would be a 9 but the payroll export to Ledgerline broke twice this summer and I had to fix it by hand.
+NPS-26Q3-0117,2026-08-30T13:47:00Z,dmitri.okonjo@tarncottmarine.example,Tarncott Marine Supply,HR Admin,10,Onboarding checklists are great.
+NPS-26Q3-0118,2026-08-30T14:26:00Z,kalani.achterberg@kelhavenprinting.example,Kelhaven Printing,Finance,9,
+NPS-26Q3-0119,2026-08-30T16:30:00Z,mateus.sarkisian@elmhollowarchitects.example,Elmhollow Architects,HR Manager,9,
+NPS-26Q3-0120,2026-08-30T18:33:00Z,pax.cespedes@kelcottproperty.example,Kelcott Property Management,Finance,4,Had to restart our annual reviews because we could not edit the questions.
+NPS-26Q3-0121,2026-08-31T06:06:00Z,leo.fairweather@pinmoor.example,Quarry Lane Sample Co,People Ops,6,"Dogfooding note: org chart PDF export cuts off names, embarrassing in demos."
+NPS-26Q3-0122,2026-08-31T11:29:00Z,stellan.lindahl@heronbrookmanufacturing.example,Heronbrook Manufacturing,Finance,5,Payroll Bridge has been unreliable since July. The rest of the product is solid.
+NPS-26Q3-0123,2026-08-31T11:46:00Z,carys.gallagher@wynmeretitle.example,Wynmere Title and Escrow,Finance,10,Support answered in 10 minutes on a Saturday. Impressed.
+NPS-26Q3-0124,2026-08-31T12:45:00Z,jolene.okonjo@gorsehavensenior.example,Gorsehaven Senior Care,Office Manager,9,
+NPS-26Q3-0125,2026-08-31T13:08:00Z,dmitri.hakimi@herongateengineering.example,Herongate Engineering,HR Manager,9,Our auditors liked the audit log.
+NPS-26Q3-0126,2026-08-31T13:39:00Z,kalani.keane@wynthorpehardware.example,Wynthorpe Hardware,Payroll,8,Would give a 10 if bulk edits were easier.
+NPS-26Q3-0127,2026-08-31T14:33:00Z,yolanda.gallagher@junihaventitle.example,Junihaven Title and Escrow,Payroll,10,We moved from spreadsheets and this is a huge upgrade.
+NPS-26Q3-0128,2026-08-31T16:38:00Z,stellan.carmody@tarncottmarine.example,Tarncott Marine Supply,Owner,5,Price went up more than I expected at renewal.
+NPS-26Q3-0129,2026-08-31T18:01:00Z,adaeze.pradhan@netherhavenfamily.example,Netherhaven Family Medicine,People Ops,5,"Our frontline workers only use mobile, and it forgets them every few minutes."
+NPS-26Q3-0130,2026-08-31T19:13:00Z,farah.okonjo@moorburycredit.example,Moorbury Credit Union,Office Manager,8,Nothing to add.
+NPS-26Q3-0131,2026-09-01T07:42:00Z,yusra.novak@bellthorpetransit.example,Bellthorpe Transit,Office Manager,6,The benefits enrollment flow was confusing for our older employees.
+NPS-26Q3-0132,2026-09-01T08:28:00Z,wade.iwasaki@gallowayprint.example,Galloway Print Works,Owner,7,Fix leave accruals and you would get a 10 from me.
+NPS-26Q3-0133,2026-09-01T09:52:00Z,alma.vasquez@umbersteadtransit.example,Umberstead Transit,Finance,7,
+NPS-26Q3-0134,2026-09-01T11:11:00Z,wade.mbatha@umbercottlandscaping.example,Umbercott Landscaping,Operations,9,It has improved a lot in the last year.
+NPS-26Q3-0135,2026-09-01T13:41:00Z,hollis.holm@everleighstaffing.example,Everleigh Staffing,Owner,6,Reporting is slow for a company our size.
+NPS-26Q3-0136,2026-09-01T15:11:00Z,bettina.hakimi@wynsteadcabinetry.example,Wynstead Cabinetry,Office Manager,9,Easy to use and support is quick.
+NPS-26Q3-0137,2026-09-01T15:45:00Z,jolene.farouk@wexgatepharmacy.example,Wexgate Pharmacy,HR Admin,8,Carryover did not respect our cap. Otherwise happy.
+NPS-26Q3-0138,2026-09-01T19:19:00Z,rhea.boateng@mapledaletitle.example,Mapledale Title and Escrow,Operations,10,
+NPS-26Q3-0139,2026-09-02T07:56:00Z,adaeze.ilves@langmontlaw.example,Langmont Law Group,Finance,6,
+NPS-26Q3-0140,2026-09-02T08:27:00Z,rhea.baptiste@irondalephysical.example,Irondale Physical Therapy,HR Admin,6,
+NPS-26Q3-0141,2026-09-02T11:16:00Z,hana.cespedes@aldercrestschools.example,Aldercrest Schools Foundation,Office Manager,7,Performance module setup is not intuitive and locks you in too early.
+NPS-26Q3-0142,2026-09-02T11:50:00Z,kasimir.yilmaz@ashgategarden.example,Ashgate Garden Centers,Office Manager,4,Time off balances are wrong for our part-time employees and my team spends hours correcting them.
+NPS-26Q3-0143,2026-09-02T19:29:00Z,xavi.quist@dunhollowpharmacy.example,Dunhollow Pharmacy,HR Admin,9,
+NPS-26Q3-0144,2026-09-03T08:17:00Z,frida.quist@larkdaleprinting.example,Larkdale Printing,HR Manager,10,Onboarding new hires is so much smoother than our old system.
+NPS-26Q3-0145,2026-09-03T10:57:00Z,adaeze.thorne@ironsteadgarden.example,Ironstead Garden Centers,Payroll,7,Spanish translations would help our workforce.
+NPS-26Q3-0146,2026-09-03T10:58:00Z,frida.vasquez@nethercottpet.example,Nethercott Pet Hospitals,Operations,8,Shift scheduling would make this a 10.
+NPS-26Q3-0147,2026-09-03T11:29:00Z,ulrich.drummond@moorcombehardware.example,Moorcombe Hardware,Payroll,6,
+NPS-26Q3-0148,2026-09-03T11:41:00Z,hollis.abernethy@vantfieldveterinary.example,Vantfield Veterinary Group,Finance,9,
+NPS-26Q3-0149,2026-09-03T11:45:00Z,maribel.iwasaki@kesthavendermatology.example,Kesthaven Dermatology,Finance,6,Too many emails from the system.
+NPS-26Q3-0150,2026-09-03T14:08:00Z,xavi.quist@dunhollowpharmacy.example,Dunhollow Pharmacy,Operations,8,
+NPS-26Q3-0151,2026-09-03T15:52:00Z,emeka.mbatha@netherhollowlogistics.example,Netherhollow Logistics,Owner,8,Does what we need.
+NPS-26Q3-0152,2026-09-03T16:28:00Z,frida.quist@coldsteadarchitects.example,Coldstead Architects,Payroll,8,Works.

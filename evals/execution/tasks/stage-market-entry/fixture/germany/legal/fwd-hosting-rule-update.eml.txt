@@ -1,0 +1,39 @@
+From: Priya Castellanos <priya.castellanos@varnholt.example>
+To: growth-leads@varnholt.example
+Cc: Rasmus Okafor-Lind <rasmus.ol@varnholt.example>
+Date: Thu, 18 Jun 2026 17:42:09 +0200
+Subject: Fwd: Germany: update to our 9 March memo (storage location)
+
+Team, forwarding the note below from Haverkamp Loewe. Short version: the March memo's hosting conclusion no longer holds. Please treat this as an addendum to that memo and make sure anyone modeling Germany sees it. I have asked them for a cost view of what compliance would take but don't have it yet.
+
+Priya
+
+---------- Forwarded message ----------
+From: Nele Straub <n.straub@haverkamp-loewe.example>
+Date: Wed, 17 Jun 2026 11:05:51 +0200
+Subject: Germany: update to our 9 March memo (storage location)
+To: Priya Castellanos <priya.castellanos@varnholt.example>
+
+Dear Priya,
+
+Further to our memo of 9 March 2026, section 3.1, we write to update our advice on data storage location.
+
+On 11 June 2026 the Federal Government adopted the Ordinance on the Custody of Cloud Workspace Content (Cloud-Arbeitsbereich-Verwahrungsverordnung, "CAVV"), made under the Digital Services Resilience Act. It was published in the Federal Law Gazette on 16 June. We had not expected an ordinance this quickly; the consultation draft was only circulated privately to industry associations in April.
+
+In summary:
+
+- The CAVV applies to providers of cloud-based note, document and workspace services with more than 10,000 registered users resident in Germany. Consumer and business users both count toward the threshold.
+- In-scope providers must store the content data of users resident in Germany on servers physically located in Germany. Backups may be held elsewhere in the EU if encrypted with keys held in Germany.
+- The ordinance takes effect on 1 January 2027. Providers that cross the threshold after that date have six months from crossing it to comply.
+
+Given Varnholt's planning figure of around 60,000 registered German users within the first year, Varnholt would be in scope. Our earlier conclusion that the existing EU hosting region is sufficient is therefore withdrawn for any launch in Germany.
+
+Our other conclusions in the March memo (consumer subscription rules, registration and representative) are unaffected.
+
+We are happy to discuss options, including a German hosting partner.
+
+With kind regards,
+
+Nele Straub
+Rechtsanwältin
+Haverkamp Loewe Rechtsanwälte, Berlin

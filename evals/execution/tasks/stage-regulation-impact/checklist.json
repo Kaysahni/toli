@@ -1,0 +1,333 @@
+{
+  "id": "stage-regulation-impact",
+  "company": "Marlowe Crest Insurance",
+  "category": "staged",
+  "held_out": false,
+  "summary": "Map Norvale HB 2231's six notice requirements (effective January 1, 2027) to Marlowe Crest's Norvale documents: state what each requirement demands, name each document that must change and the non-compliant text, and flag that the secondary notice designee requirement (Section 4(6)) has no process anywhere, while ignoring Kessington documents, the already updated premium change letter, Cottage Basic for the replacement cost rule, the commercial landlord policy, and the nonpayment cancellation timing.",
+  "findings": [
+    {
+      "id": "F1",
+      "what": "Requirement 4(1) non-renewal: the Norvale nonrenewal notice template MC-NR-02 promises only 30 days notice (rule requires 60) and its reason text is the generic underwriting guidelines statement the rule says is not sufficient.",
+      "evidence": [
+        {
+          "file": "templates/letters/MC-NR-02-nonrenewal-notice.md",
+          "quote": "This notice is being mailed to you at least 30 days before your policy expires, so that you have time to arrange other insurance."
+        },
+        {
+          "file": "templates/letters/MC-NR-02-nonrenewal-notice.md",
+          "quote": "Your policy or property no longer meets our underwriting guidelines."
+        },
+        {
+          "file": "templates/letters/MC-NR-02-nonrenewal-notice.md",
+          "quote": "The loss history on this policy no longer meets our underwriting guidelines."
+        },
+        {
+          "file": "regulation/norvale-hb-2231.md",
+          "quote": "A general statement that the policy or property no longer meets the insurer's underwriting guidelines does not satisfy this paragraph."
+        }
+      ],
+      "counts_if": "Names MC-NR-02 as needing change under the non-renewal requirement and says it gives 30 days instead of 60. Full credit also notes the generic underwriting guidelines reason is not a specific reason."
+    },
+    {
+      "id": "F2",
+      "what": "Requirement 4(1) non-renewal: the Norvale Crestline HO-3 policy wording's Nonrenewal condition gives 30 days notice.",
+      "evidence": [
+        {
+          "file": "wordings/crestline-ho3-norvale.md",
+          "quote": "written notice at least 30 days before the expiration date of this policy"
+        }
+      ],
+      "counts_if": "Identifies the Norvale Crestline HO-3 wording (MC-HO3-NV) Nonrenewal condition as needing to change from 30 to 60 days (and ideally to require stated reasons). Citing the Kessington amendatory endorsement instead does not count."
+    },
+    {
+      "id": "F3",
+      "what": "Requirement 4(1) non-renewal: agent training Module 4 tells agents a Norvale customer gets a month's notice of nonrenewal.",
+      "evidence": [
+        {
+          "file": "training/module-04-renewals-and-nonrenewals.md",
+          "quote": "In Norvale, the customer will have a month's notice before the policy ends."
+        }
+      ],
+      "counts_if": "Names agent training Module 4 as stating about a month (30 days) of nonrenewal notice for Norvale, which must become 60 days."
+    },
+    {
+      "id": "F4",
+      "what": "Requirement 4(1) non-renewal, operational: the renewal schedule lets underwriting enter nonrenewal decisions until day 50 before renewal, so notices cannot reach the 60 day minimum. Needs the schedule read against the rule.",
+      "evidence": [
+        {
+          "file": "operations/renewal-offer-schedule.md",
+          "quote": "| 50 | Nonrenewal cutoff: any nonrenewal decision must be entered by this day | Underwriting Services |"
+        },
+        {
+          "file": "operations/renewal-offer-schedule.md",
+          "quote": "Underwriting Services generates them on demand once the nonrenewal decision is entered, and Corvid mails them within 2 business days."
+        }
+      ],
+      "counts_if": "Says the renewal offer schedule's nonrenewal cutoff (day 50) must move earlier (before day 60 plus mailing time) to meet the 60 day notice."
+    },
+    {
+      "id": "F5",
+      "what": "Requirement 4(2) premium increase: although MC-RN-14 was updated, it is mailed inside the renewal offer, which is released 35 days before renewal, short of the 45 days the rule requires. Needs the schedule plus the rule (and the template's own 45 day promise).",
+      "evidence": [
+        {
+          "file": "operations/renewal-offer-schedule.md",
+          "quote": "Renewal offers are released by the batch job 35 days ahead of the renewal effective date."
+        },
+        {
+          "file": "operations/renewal-offer-schedule.md",
+          "quote": "It is released with the renewal offer on day 35 and mailed in the same envelope."
+        },
+        {
+          "file": "templates/letters/MC-RN-14-premium-change-notice.md",
+          "quote": "We are sending you this notice no later than 45 days before your renewal date so that you have time to review your options."
+        }
+      ],
+      "counts_if": "Says the premium change notice goes out with the renewal offer at day 35 (renewal offer schedule / batch timing), so the process must change to mail it at least 45 days before renewal. Saying only that MC-RN-14 needs updating does not count."
+    },
+    {
+      "id": "F6",
+      "what": "Requirement 4(2) premium increase: the website FAQ tells Norvale customers a letter comes only for increases over 15% and at least 30 days before renewal (rule: 10% or more, 45 days, with principal factors).",
+      "evidence": [
+        {
+          "file": "web/faq-export-2026-08.csv",
+          "quote": "If your premium is going up by more than 15% at renewal, we'll send you a letter at least 30 days before your renewal date explaining the change."
+        }
+      ],
+      "counts_if": "Names FAQ-1007 (the 'Will you tell me before my premium goes up?' article) as wrong on threshold (15% vs 10%) and/or timing (30 vs 45 days)."
+    },
+    {
+      "id": "F7",
+      "what": "Requirement 4(3) claim acknowledgment: procedure CP-02 sets the acknowledgment deadline at 15 business days, rule requires 10 business days.",
+      "evidence": [
+        {
+          "file": "claims/CP-02-first-notice-of-loss.md",
+          "quote": "4.2 The acknowledgment must be sent within 15 business days of the date the claim was reported."
+        },
+        {
+          "file": "claims/CP-02-first-notice-of-loss.md",
+          "quote": "4.3 If the acknowledgment has not been sent by business day 12, the timer turns amber and the claim appears on the team lead's exceptions report."
+        }
+      ],
+      "counts_if": "Names CP-02 (First Notice of Loss) as allowing 15 business days where the rule requires 10. Mentioning the ClaimsDesk ACK SLA timer/amber threshold also needing change is a plus, not required."
+    },
+    {
+      "id": "F8",
+      "what": "Requirement 4(3) claim acknowledgment: template MC-CL-01 does not name the assigned adjuster or give a direct phone or email for them, only the general Claims Service Center line; CP-03 confirms adjuster direct contacts are deliberately kept off system letters.",
+      "evidence": [
+        {
+          "file": "templates/letters/MC-CL-01-claim-acknowledgment.md",
+          "quote": "Your claim has been assigned to our claims team, who will be in touch with you soon."
+        },
+        {
+          "file": "claims/CP-03-adjuster-assignment.md",
+          "quote": "Adjusters have individual direct lines and ClaimsDesk email addresses, but these are not printed on system generated letters because adjusters are reassigned frequently."
+        }
+      ],
+      "counts_if": "Says the claim acknowledgment letter (MC-CL-01) must add the assigned adjuster's name and direct phone or email. Also accept if the answer frames it through CP-03's practice of not printing adjuster contacts. Additionally flagging the claims status script's 'do not give out the adjuster's direct line' is acceptable but not required."
+    },
+    {
+      "id": "F9",
+      "what": "Requirement 4(4) claim denial: the Norvale denial template MC-CL-07 gives a 30 day review window (rule: not less than 60), has no Department of Insurance consumer assistance contact, and has no field citing the specific policy provision (only a generic reference to terms, conditions and exclusions).",
+      "evidence": [
+        {
+          "file": "templates/letters/MC-CL-07-claim-denial.md",
+          "quote": "Please send your request in writing within 30 days of the date of this letter to:"
+        },
+        {
+          "file": "templates/letters/MC-CL-07-claim-denial.md",
+          "quote": "Our decision is based on the terms, conditions, and exclusions of your policy."
+        }
+      ],
+      "counts_if": "Names MC-CL-07 (Norvale) and says the 30 day review window must be at least 60 days AND that the Norvale Department of Insurance contact (name, phone, website) is missing. Full credit also notes the missing specific policy provision citation."
+    },
+    {
+      "id": "F10",
+      "what": "Requirement 4(4) claim denial: the Claims Service Center status call script tells denied Norvale callers they have 30 days to request a review.",
+      "evidence": [
+        {
+          "file": "scripts/claims-status-calls.md",
+          "quote": "You'd need to send that request in writing within 30 days of the date on the letter, to the Claims Review Unit."
+        }
+      ],
+      "counts_if": "Names the claims status calls script as stating a 30 day review window that must become at least 60 days."
+    },
+    {
+      "id": "F11",
+      "what": "Requirement 4(5) replacement cost estimate at renewal: the Crestline and Crestline Premier renewal cover letter MC-RN-01 lists the renewal packet contents with no written replacement cost estimate summary, although Crestline Coverage A starts at $150,000 (most Norvale policies are at or above $300,000) and Premier starts at $750,000.",
+      "evidence": [
+        {
+          "file": "templates/letters/MC-RN-01-renewal-cover-letter.md",
+          "quote": "What is in this envelope"
+        },
+        {
+          "file": "operations/product-guide-2026.md",
+          "quote": "About 71% of Norvale Crestline policies carry a Coverage A limit of $300,000 or more."
+        },
+        {
+          "file": "regulation/norvale-hb-2231.md",
+          "quote": "For any policy with a Coverage A limit of $300,000 or more, the insurer shall, at issuance and at each renewal, provide the named insured with a written summary of the replacement cost estimate used to set the Coverage A limit, including the date the estimate was prepared."
+        }
+      ],
+      "counts_if": "Says the Crestline/Premier renewal packet (MC-RN-01 or the renewal offer contents) must add a written replacement cost estimate summary with its date for policies with Coverage A of $300,000 or more."
+    },
+    {
+      "id": "F12",
+      "what": "Requirement 4(5) replacement cost estimate at issuance: agent training Module 3 forbids sharing the RebuildIQ replacement cost estimate with customers, which conflicts with the duty to give a written summary at issuance (the welcome letter MC-NB-01 also includes none).",
+      "evidence": [
+        {
+          "file": "training/module-03-quoting-crestline.md",
+          "quote": "The RebuildIQ report is an internal underwriting worksheet. Do not print it or send it to the customer."
+        }
+      ],
+      "counts_if": "Names agent training Module 3's instruction not to share the RebuildIQ estimate as conflicting with Section 4(5), or otherwise flags that nothing provides the estimate summary at issuance (citing Module 3 or the new business welcome letter MC-NB-01)."
+    },
+    {
+      "id": "F13",
+      "what": "Requirement 4(6) secondary notice designee is missing entirely: no document offers policyholders a designee at issuance or renewal, and no process sends copies of nonrenewal or cancellation notices (including nonpayment cancellations) to a designee. This is a new process (capture, storage, dual mailing), not an edit. Authorized contacts do not satisfy it because they receive no mail.",
+      "evidence": [
+        {
+          "file": "regulation/norvale-hb-2231.md",
+          "quote": "The insurer shall offer each named insured, at issuance and at each renewal, the opportunity to designate one additional person to receive a copy of any notice of non-renewal or notice of cancellation."
+        },
+        {
+          "file": "misc/meeting-notes-2026-06-19-compliance-sync.md",
+          "quote": "Left open, nobody took it."
+        }
+      ],
+      "counts_if": "States that Section 4(6) (secondary notice designee) has no existing document or process and must be built (offer at issuance and renewal, record the designee, send copies of nonrenewal and cancellation notices at the same time). Does not count if the answer says authorized contacts already cover it."
+    }
+  ],
+  "exclusions": [
+    {
+      "id": "X1",
+      "what": "Kessington documents with 30 day nonrenewal notice, 15%/30 day premium letter, and 15 calendar day acknowledgment: the Kessington amendatory endorsement, Kessington renewal notes, Module 7, and FAQ-1011.",
+      "evidence": [
+        {
+          "file": "wordings/crestline-ho3-kessington.md",
+          "quote": "written notice at least 30 days before the expiration date of this policy, stating the reason for nonrenewal"
+        },
+        {
+          "file": "scripts/kessington-renewal-notes.txt",
+          "quote": "Nonrenewal notice in Kessington: 30 days, with reason."
+        },
+        {
+          "file": "training/module-07-kessington-appointment.md",
+          "quote": "| Nonrenewal notice | 30 days, reason must be stated |"
+        },
+        {
+          "file": "web/faq-export-2026-08.csv",
+          "quote": "For homes in Kessington, we mail a nonrenewal notice at least 30 days before your policy expires, and the notice states the reason."
+        }
+      ],
+      "why_not": "HB 2231 applies only to policies delivered or issued for delivery in Norvale; Kessington policies are governed by Kessington law."
+    },
+    {
+      "id": "X2",
+      "what": "Kessington denial letter MC-CL-07-KS and the Kessington Claims Handling Supplement with a 30 day review window and no Norvale Department contact.",
+      "evidence": [
+        {
+          "file": "templates/letters/MC-CL-07-KS-claim-denial-kessington.md",
+          "quote": "within 30 days of the date of this letter."
+        },
+        {
+          "file": "claims/kessington-claims-handling-supplement.md",
+          "quote": "The internal review window in Kessington is 30 days from the date of the denial letter, and this is printed in the template."
+        }
+      ],
+      "why_not": "Kessington only; outside the scope of the Norvale rule."
+    },
+    {
+      "id": "X3",
+      "what": "The current premium change notice template MC-RN-14 (Rev. 2026-08-04) already meets Section 4(2) on its face: 10% trigger, 45 day promise, top rating factors.",
+      "evidence": [
+        {
+          "file": "templates/letters/MC-RN-14-premium-change-notice.md",
+          "quote": "| Revision | Rev. 2026-08-04, updated for Norvale HB 2231 Section 4(2) |"
+        }
+      ],
+      "why_not": "The template was revised after the rule was signed and its content complies. The remaining problem is mailing timing in the renewal offer schedule (F5), not the template text."
+    },
+    {
+      "id": "X4",
+      "what": "The archived 2023 edition of MC-RN-14 with a 20% trigger and 30 day timing.",
+      "evidence": [
+        {
+          "file": "templates/letters/archive/MC-RN-14-premium-change-notice-2023.md",
+          "quote": "SUPERSEDED. Retained for records only. Do not use for new mailings. Replaced by MC-RN-14 (08/26)."
+        }
+      ],
+      "why_not": "Superseded and not in use; nothing to change."
+    },
+    {
+      "id": "X5",
+      "what": "Cottage Basic renewal letter MC-RN-03 includes no replacement cost estimate summary.",
+      "evidence": [
+        {
+          "file": "templates/letters/MC-RN-03-cottage-basic-renewal-letter.md",
+          "quote": "Your new Declarations page and bill are enclosed."
+        },
+        {
+          "file": "operations/product-guide-2026.md",
+          "quote": "**Coverage A:** $40,000 minimum, $275,000 maximum. Homes needing a higher limit must be written on Crestline."
+        }
+      ],
+      "why_not": "Section 4(5) applies only to Coverage A limits of $300,000 or more; Cottage Basic is capped at $275,000, so it never reaches the threshold. (Cottage Basic is still subject to the other requirements through the shared templates and schedules.)"
+    },
+    {
+      "id": "X6",
+      "what": "Commercial Landlord Package nonrenewal condition with 30 days notice.",
+      "evidence": [
+        {
+          "file": "wordings/landlord-commercial-norvale.md",
+          "quote": "we will mail or deliver to the first Named Insured written notice of nonrenewal at least 30 days before the expiration date."
+        }
+      ],
+      "why_not": "The rule excludes commercial property policies, including buildings with five or more residential units; the Landlord Package covers 5 to 40 unit buildings."
+    },
+    {
+      "id": "X7",
+      "what": "10 day notice for cancellation for nonpayment (MC-CX-05 template, HO-3 wording cancellation condition).",
+      "evidence": [
+        {
+          "file": "templates/letters/MC-CX-05-cancellation-nonpayment.md",
+          "quote": "which is at least 10 days after the date of this notice, unless we receive full payment before then."
+        },
+        {
+          "file": "regulation/norvale-hb-2231.md",
+          "quote": "Nothing in this Act changes the time periods for notice of cancellation for nonpayment of premium, which remain governed by Title 31, Section 412 of the Norvale Revised Code."
+        }
+      ],
+      "why_not": "Section 5(a) leaves nonpayment cancellation timing unchanged. (Only the designee copy requirement in 4(6) touches these notices, covered by F13.)"
+    },
+    {
+      "id": "X8",
+      "what": "Authorized contacts procedure presented as already satisfying the secondary notice designee requirement.",
+      "evidence": [
+        {
+          "file": "scripts/authorized-contacts-procedure.md",
+          "quote": "Authorized contacts are not sent any mail or email from us."
+        },
+        {
+          "file": "misc/meeting-notes-2026-06-19-compliance-sync.md",
+          "quote": "Dana thought our authorized contacts might already cover it."
+        }
+      ],
+      "why_not": "Authorized contacts can call in but never receive copies of notices, and they are not offered at issuance and renewal; the designee requirement is unmet."
+    }
+  ],
+  "answer": null,
+  "mistakes_that_matter": [
+    "Reporting that the secondary notice designee requirement is covered by authorized contacts, leaving a required process unbuilt by January 1, 2027.",
+    "Treating MC-RN-14 as fixed and missing that the renewal offer batch still mails it 35 days before renewal.",
+    "Telling the team to change Kessington documents to Norvale standards, which would put Kessington forms out of line with filed Kessington requirements.",
+    "Misstating a requirement's numbers (60 days non-renewal, 10% and 45 days premium increase, 10 business days acknowledgment, at least 60 day review window, $300,000 Coverage A threshold).",
+    "Quoting document text that does not exist in the files."
+  ],
+  "grading_notes": [
+    "F9 extra: CP-05 step 6 ('Set a 45 day diary to check for any response or request for review.') is too short once the review window is at least 60 days; flagging it as a knock-on change is valid, not required.",
+    "F5 extras: MC-RN-01, MC-RN-03 and training Module 4 describe the premium change notice as part of the renewal packet; flagging these as knock-on changes from moving the notice to 45 days is valid, not required.",
+    "F4 extra: noting that 'Premier policies with an open inspection are held until day 45 for underwriter review.' also conflicts with the 60 day nonrenewal notice is valid, not required.",
+    "Context extras: mentioning that Section 7 applies to notices mailed or delivered on or after January 1, 2027, or the PolicyCenter UAT deadline of November 6 and the November 20 freeze, is acceptable and not penalized.",
+    "F8 extra: flagging the claims status script's instruction not to give out the adjuster's direct line is acceptable, not required."
+  ]
+}

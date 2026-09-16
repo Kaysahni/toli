@@ -1,0 +1,69 @@
+# dock-scheduler: assigns inbound trailers to dock doors at cross-dock hubs
+# owner: Yard Systems (lead: Priya Venkataraman)
+# last reviewed: 2026-06-02
+
+service:
+  name: dock-scheduler
+  image: registry.tesselwick.internal/yard/dock-scheduler:4.18.2
+  replicas: 3
+  port: 8443
+
+resources:
+  requests:
+    cpu: 500m
+    memory: 768Mi
+  limits:
+    memory: 1536Mi
+
+database:
+  host: pg-yard-primary.data.tesselwick.internal
+  port: 5432
+  name: dockdb
+  user: dock_scheduler_rw
+  pool_size: 20
+  statement_timeout_ms: 15000
+
+kafka:
+  brokers:
+    - kafka-a1.stream.tesselwick.internal:9093
+    - kafka-a2.stream.tesselwick.internal:9093
+    - kafka-a3.stream.tesselwick.internal:9093
+  consume:
+    - topic: trailer.arrived
+      group: dock-scheduler
+    - topic: door.status
+      group: dock-scheduler
+  produce:
+    - door.assignment
+
+scheduling:
+  slot_minutes: 30
+  lookahead_hours: 18
+  reserve_doors_for_reefer: 2
+  hub_overrides:
+    ORB-XD1:
+      reserve_doors_for_reefer: 4
+    KLV-XD2:
+      slot_minutes: 20
+
+upstreams:
+  geocoder:
+    url: https://geo.core.tesselwick.internal/api/lookup
+    timeout_ms: 800
+  hub_occupancy:
+    url: http://hub-occupancy.yard.svc:8080/occupancy
+    timeout_ms: 500
+  # used to estimate onward leg departure so doors are freed in the right order
+  onward_leg_estimate:
+    routing_url: https://routecalc-v1.core.tesselwick.internal/quote
+    timeout_ms: 2500
+    retries: 2
+
+feature_flags:
+  door_swap_suggestions: true
+  weekend_skeleton_crew_mode: false
+
+observability:
+  metrics_port: 9102
+  log_level: info
+  traces_sample_rate: 0.05

@@ -1,0 +1,30 @@
+# Personal Lines org, as of 2026-07-01 (HRIS export, trimmed)
+president_personal_lines:
+  name: Beatrix Osei-Lindgren
+  reports:
+    - title: VP Claims
+      name: Callum Raghunathan
+      reports:
+        - {title: Director of Claims Operations, name: Rosalind Achterberg}
+        - {title: CAT Response Manager, name: Emeka Varga}
+        - {title: Claims Compliance Manager, name: Priya Castellanos}
+        - {title: Claims Service Center Training Lead, name: Lena Szabo}
+    - title: VP Underwriting
+      name: Hollis Adeyemi-Park
+      reports:
+        - {title: Manager Underwriting Services, name: Fern Kowalczyk}
+        - {title: Policy Operations Manager, name: Marguerite Delacroix-Ansah}
+    - title: VP Product
+      name: Joaquin Mbeki
+      reports:
+        - {title: Product Manager Cottage Basic, name: Ansel Tremblay}
+    - title: VP Customer Care
+      name: Dana Whitcombe
+      reports:
+        - {title: Customer Care Enablement Lead, name: Tobias Nwachukwu}
+        - {title: Service Quality Manager, name: Ingrid Holloway-Baptiste}
+    - title: Director Agency Development
+      name: Solveig Amara
+compliance:
+  chief_compliance_officer: Tomasz Oyelaran
+  general_counsel: Maren Fairweather-Kim

@@ -1,0 +1,25 @@
+# fleet-telemetry-ingest
+# Receives CAN bus and GPS pings from truck gateways (about 40k msgs/min at peak).
+# owner: Fleet Data (Jonas Reinholt)
+service:
+  name: fleet-telemetry-ingest
+  image: registry.tesselwick.internal/fleet/telemetry-ingest:3.7.5
+  replicas: 8
+listen:
+  mqtt: 0.0.0.0:8883
+  http: 0.0.0.0:8080
+auth:
+  mode: mtls
+  ca_bundle: /etc/tw/ca/fleet-gateways.pem
+output:
+  kafka_topic: fleet.telemetry.raw
+  batch_size: 500
+  linger_ms: 50
+drop_rules:
+  - reason: gps_jump
+    max_speed_kmh: 180
+  - reason: stale
+    older_than_minutes: 30
+retention:
+  raw_s3_bucket: s3://tw-telemetry-raw
+  days: 90

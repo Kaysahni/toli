@@ -1,0 +1,19 @@
+# partner-gateway
+# Public edge for partner APIs (api.tesselwick.example). Owned by Partner Integrations.
+gateway:
+  name: partner-gateway
+  image: registry.tesselwick.internal/partners/partner-gateway:8.4.0
+  replicas: 4
+  tls_cert: vault:kv/prod/partner-gateway#tls
+routes:
+  - path: /partners/v3/shipments
+    upstream: http://shipment-tracker.dispatch.svc:8080/api/shipments
+  - path: /partners/v3/quote
+    upstream: https://routecalc.core.tesselwick.internal/v2/quote
+  - path: /partners/v3/pod
+    upstream: http://pod-uploader.dispatch.svc:8080/api/pod
+  - path: /partners/v3/capacity
+    upstream: http://load-matcher.dispatch.svc:8080/api/capacity
+rate_limits:
+  default_rpm: 600
+  burst: 100

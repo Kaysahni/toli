@@ -1,0 +1,39 @@
+# pallet-optimizer
+# Builds load plans (pallet position per trailer) and checks axle weights.
+# Team: Warehouse Tech. Slack: #wt-loadplans. Service lead: Olu Adeyemi.
+
+name: pallet-optimizer
+language: python
+runtime: python3.10
+image: registry.tesselwick.internal/warehouse/pallet-optimizer:1.44.0
+
+build:
+  requirements:
+    - numpy==1.26.4
+    - shapely==2.0.4
+    - tw-routing-client==2.7.1
+    - tw-auth==4.0.2
+    - pydantic==1.10.15
+
+deploy:
+  replicas: 2
+  cpu: "2"
+  memory: 4Gi
+  node_pool: compute-heavy
+
+env:
+  AXLE_LIMIT_PROFILE: eu-standard
+  MAX_STACK_HEIGHT_CM: "240"
+  LOAD_PLAN_BUCKET: s3://tw-loadplans-prod/plans
+  RC_TIMEOUT_SECONDS: "8"
+  # route legs are fetched to order pallets by drop sequence
+  DROP_SEQUENCE_FROM_ROUTE: "true"
+  AUTH_AUDIENCE: pallet-optimizer
+
+healthcheck:
+  path: /healthz
+  interval_seconds: 15
+
+notes: |
+  The 1.40 release moved axle checks in-process. The old axle-check sidecar is
+  gone; if you see references to it in dashboards they are stale.

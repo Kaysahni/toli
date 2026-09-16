@@ -1,0 +1,25 @@
+From: PolicyCenter Release Management <pc-releases@marlowecrest.example>
+To: pl-all@marlowecrest.example
+Date: Mon, 14 Sep 2026 08:02:11 -0500
+Subject: [Change Notice] PolicyCenter 11.4 upgrade, Saturday Sept 26
+Message-ID: <chg-2026-0914-pc114@marlowecrest.example>
+
+Hello all,
+
+PolicyCenter will be upgraded from 11.2 to 11.4 on Saturday, September 26.
+
+Outage window: 6:00 a.m. to 2:00 p.m. Central. The agent portal and the policyholder portal will show a maintenance page during this window. ClaimsDesk is NOT affected.
+
+What changes for users:
+  * New search bar in the header (searches policies, accounts and agents).
+  * Rating Factors comparison screen now shows dollar impact per factor.
+  * Document preview no longer requires a download.
+
+Batch jobs: the renewal batch for September 26 will run at 4:00 p.m. instead of 1:00 a.m. No renewal dates change.
+
+Year end release freeze: no template or batch configuration changes will be deployed between November 20 and January 4. Changes needed for January 1 must be in UAT by November 6.
+
+If you see problems after the upgrade, open a ticket in ServicePoint with category "PolicyCenter 11.4".
+
+Thanks,
+Release Management

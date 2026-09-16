@@ -1,0 +1,15 @@
+WESTRAY OUTDOOR / final call / 2026-07-23 / notes by P. Okonkwo-Hale
+
+on call: Imke Sorensen (Head of eCommerce), Duncan Pryce (Finance), me, Sione
+
+- they are going with Obsidra, confirmed
+- asked why. Duncan: price at their headcount
+- context: 4 analysts, but the plan was to give all 75 store and ecom staff access to daily sales and stock dashboards. most would look during seasonal peaks only
+- our quote: 79 seats Standard annual. Obsidra Launch covers unlimited users for less than a fifth of that
+- Imke said feature-wise she had no complaints, liked our dashboard editor more
+- asked if a smaller rollout (analysts + managers, ~20 seats) would change it. Duncan: no, the point was getting everyone in, they don't want to decide who deserves a license
+- no feature gap raised
+
+REASON: seat pricing / paying per head for seasonal, occasional users
+
+next: none, closed lost

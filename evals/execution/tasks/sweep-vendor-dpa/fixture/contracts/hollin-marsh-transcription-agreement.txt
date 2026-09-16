@@ -1,0 +1,238 @@
+HOLLIN & MARSH TRANSCRIPTION CO.
+PROFESSIONAL TRANSCRIPTION SERVICES AGREEMENT
+
+Agreement No. HMT-2021-0417
+
+This Professional Transcription Services Agreement (the "Agreement") is made
+and entered into as of April 19, 2021 (the "Effective Date") by and between
+Hollin & Marsh Transcription Co., a Wessex Plains corporation with offices at
+88 Cooper Mill Road, Suite 300, Brannock, Wessex Plains ("Contractor"), and
+Orrinfield Medical Group, a division of Orrinfield Health System, Inc., with
+its principal place of business at 2200 Larchmont Parkway, Carrow Falls,
+Wessex Plains ("Client").
+
+RECITALS
+
+Client operates primary care and specialty clinics whose clinicians dictate
+encounter notes, consult letters, and procedure reports. Contractor is in the
+business of converting clinician dictation into typed medical documents.
+Client wishes to engage Contractor, and Contractor wishes to be engaged, on
+the terms below.
+
+NOW, THEREFORE, the parties agree as follows.
+
+1. DEFINITIONS
+
+1.1 "Client Materials" means all audio recordings of dictation submitted by or
+on behalf of Client, all draft and final transcripts produced from those
+recordings, all patient demographic information transmitted with any job, and
+all copies, excerpts, and derivatives of any of the foregoing, in any medium.
+
+1.2 "Turnaround Time" or "TAT" means the elapsed time between the moment a
+dictation file is received in the Contractor platform and the moment the
+completed transcript is delivered to the Client EHR interface queue.
+
+1.3 "Line" means sixty-five (65) characters, including spaces, of delivered
+transcript text, as counted by the Contractor platform.
+
+1.4 "Security Incident" means any actual or reasonably suspected unauthorized
+access to, or use, disclosure, alteration, loss, or destruction of, Client
+Materials.
+
+1.5 "Subcontractor" means any person or entity, other than an employee of
+Contractor, that Contractor engages to perform any part of the Services,
+including independent transcriptionists, quality assurance editors, and
+hosting providers.
+
+2. SERVICES
+
+2.1 Scope. Contractor shall receive dictation from Client clinicians by
+telephone dial-in, the Contractor mobile application, and digital recorder
+upload, and shall transcribe such dictation into final documents formatted to
+Client templates (the "Services").
+
+2.2 Turnaround. Contractor shall meet the following Turnaround Times for at
+least ninety-seven percent (97%) of jobs in each calendar month: STAT jobs,
+two (2) hours; priority jobs, twelve (12) hours; routine jobs, twenty-four
+(24) hours.
+
+2.3 Accuracy. Contractor shall maintain an accuracy rate of not less than
+ninety-eight percent (98%) as measured by Client's monthly random audit of no
+fewer than fifty (50) transcripts. Errors are weighted as critical, major, or
+minor under Client's written audit scoring guide.
+
+2.4 Service Credits. If Contractor fails to meet the TAT or accuracy standards
+in any month, Client shall receive a credit of five percent (5%) of that
+month's fees for each standard missed, up to a maximum of fifteen percent
+(15%). Credits are Client's sole monetary remedy for such failures, but do not
+limit Client's right to terminate under Section 9.
+
+2.5 Personnel. All transcriptionists assigned to Client work shall hold, or be
+supervised by a person holding, a Registered Healthcare Documentation
+Specialist credential or equivalent, and shall complete Contractor's privacy
+training before handling Client Materials.
+
+3. FEES AND PAYMENT
+
+3.1 Rates. Client shall pay Contractor $0.142 per Line for routine jobs and
+$0.171 per Line for STAT and priority jobs. There is no charge for rejected or
+re-dictated jobs.
+
+3.2 Invoices. Contractor shall invoice monthly in arrears. Client shall pay
+undisputed amounts within forty-five (45) days of receipt of a correct
+invoice.
+
+3.3 Rate Adjustments. Contractor may increase rates once per contract year,
+beginning with the second anniversary of the Effective Date, by no more than
+three percent (3%), on at least ninety (90) days written notice.
+
+4. CONFIDENTIALITY AND PRIVACY
+
+4.1 Business Associate Terms. The parties have executed Client's standard
+Business Associate Agreement, which is incorporated by reference. If that
+agreement conflicts with this Agreement regarding the protection of Client
+Materials, the more protective term controls.
+
+4.2 Use Restrictions. Contractor shall use Client Materials only to perform
+the Services. Contractor shall not use Client Materials to train speech
+recognition models, to benchmark products, or for any purpose that benefits
+any other customer.
+
+4.3 Safeguards. Contractor shall encrypt Client Materials in transit and at
+rest, shall restrict access to personnel with a need to know, and shall log
+every access to a transcript or audio file.
+
+5. SECURITY INCIDENTS
+
+5.1 Notice. Contractor shall notify Client's Privacy Office in writing of any
+Security Incident no later than forty-eight (48) hours after Contractor
+discovers the Security Incident. Discovery occurs on the first day the
+Security Incident is known to Contractor or, by exercising reasonable
+diligence, would have been known to any employee, officer, or Subcontractor of
+Contractor.
+
+5.2 Content of Notice. The notice shall describe what is known at the time
+about the nature of the Security Incident, the Client Materials involved, and
+the steps Contractor has taken. Contractor shall supplement the notice as more
+information becomes available and shall cooperate with Client's investigation
+and any notifications Client elects or is required to make.
+
+5.3 Costs. Contractor shall reimburse Client's reasonable costs of breach
+notification, call center support, and credit monitoring to the extent the
+Security Incident was caused by Contractor or its Subcontractors.
+
+6. SUBCONTRACTORS
+
+6.1 Current List. Contractor shall keep a current list of all Subcontractors
+that have access to Client Materials, showing each Subcontractor's name,
+location, and function, posted at all times on the Contractor client portal at
+portal.hollinmarsh.example/client/subcontractors, where Client may view it
+without request.
+
+6.2 New Subcontractors.
+Contractor shall inform Client of any new subcontractor that will have access to Client Materials no later than fifteen (15) days after such subcontractor begins performing services.
+
+6.3 Flow-Down. Contractor shall bind each Subcontractor in writing to
+confidentiality and security obligations at least as protective as those in
+this Agreement, and shall remain responsible for each Subcontractor's acts and
+omissions.
+
+7. DATA LOCATION
+
+7.1 Contractor shall store and host Client Materials, including all backup and
+disaster recovery copies, solely on servers located within the United States.
+As of the Effective Date, Contractor's primary platform operates in
+Contractor's leased facility in Kansas City, Missouri, with backups replicated
+to a facility in Salt Lake City, Utah.
+
+7.2 Contractor shall not relocate the storage of Client Materials to any
+location outside the United States.
+
+8. TERM
+
+8.1 The initial term of this Agreement begins on the Effective Date and
+continues for three (3) years. Thereafter it renews automatically for
+successive one (1) year terms unless either party gives written notice of non-
+renewal at least ninety (90) days before the end of the then-current term.
+
+9. TERMINATION
+
+9.1 For Convenience. Client may terminate this Agreement for convenience on
+sixty (60) days written notice.
+
+9.2 For Cause. Either party may terminate this Agreement if the other party
+materially breaches it and fails to cure within thirty (30) days after written
+notice. Client may terminate immediately if Contractor misses the accuracy
+standard in any three (3) months within a rolling twelve (12) month period.
+
+9.3 Return and Deletion. Within thirty (30) days after this Agreement expires
+or is terminated for any reason, Contractor shall deliver to Client any
+completed transcripts not previously delivered, and shall then permanently
+delete all Client Materials from its systems and the systems of its
+Subcontractors, including all backup copies and archived audio. Within the
+same thirty (30) day period Contractor shall provide Client with a written
+certification, signed by an officer of Contractor, that such deletion has been
+completed.
+
+10. WARRANTIES
+
+10.1 Contractor warrants that the Services will be performed in a professional
+manner consistent with prevailing standards of the medical transcription
+industry and that Contractor holds all licenses required to perform them.
+
+10.2 EXCEPT AS STATED IN THIS SECTION 10, CONTRACTOR MAKES NO OTHER
+WARRANTIES, EXPRESS OR IMPLIED, INCLUDING ANY WARRANTY OF MERCHANTABILITY OR
+FITNESS FOR A PARTICULAR PURPOSE.
+
+11. INDEMNIFICATION AND LIABILITY
+
+11.1 Contractor shall defend, indemnify, and hold harmless Client and its
+officers, employees, and medical staff from third party claims arising from
+Contractor's breach of Sections 4 through 7 or from the negligence or willful
+misconduct of Contractor or its Subcontractors.
+
+11.2 EXCEPT FOR OBLIGATIONS UNDER SECTION 11.1 AND BREACHES OF SECTIONS 4
+THROUGH 7, NEITHER PARTY SHALL BE LIABLE FOR INDIRECT, CONSEQUENTIAL, OR
+PUNITIVE DAMAGES, AND EACH PARTY'S TOTAL LIABILITY SHALL NOT EXCEED THE FEES
+PAID OR PAYABLE IN THE TWELVE (12) MONTHS BEFORE THE CLAIM AROSE.
+
+12. INSURANCE
+
+12.1 Contractor shall maintain, at its own expense, commercial general
+liability insurance of $1,000,000 per occurrence, professional errors and
+omissions insurance of $2,000,000 per claim, and cyber liability insurance of
+$3,000,000 per claim, and shall furnish certificates of insurance on request.
+
+13. GENERAL
+
+13.1 Governing Law. This Agreement is governed by the laws of the State of
+Wessex Plains.
+
+13.2 Notices. Notices shall be in writing and delivered by hand, by overnight
+courier, or by email with confirmation of receipt. Notices to Client shall be
+sent to the attention of the Director of Health Information Management, with a
+copy to privacy@orrinfield.example. Notices to Contractor shall be sent to the
+attention of the President, contracts@hollinmarsh.example.
+
+13.3 Non-Solicitation. During the term and for twelve (12) months after,
+Client shall not directly solicit for employment any transcriptionist who
+performed Services for Client, except through general advertisements.
+
+13.4 Entire Agreement. This Agreement, together with the Business Associate
+Agreement, is the entire agreement of the parties on its subject and may be
+amended only by a writing signed by both parties.
+
+IN WITNESS WHEREOF, the parties have signed this Agreement as of the Effective
+Date.
+
+HOLLIN & MARSH TRANSCRIPTION CO.
+By: /s/ Gertrude A. Hollin
+Name: Gertrude A. Hollin
+Title: President
+Date: April 16, 2021
+
+ORRINFIELD MEDICAL GROUP, A DIVISION OF ORRINFIELD HEALTH SYSTEM, INC.
+By: /s/ Marcus T. Ferrow
+Name: Marcus T. Ferrow
+Title: Vice President, Clinical Operations
+Date: April 19, 2021

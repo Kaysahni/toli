@@ -1,0 +1,13 @@
+service: billing-export
+owner: Finance Engineering
+description: Nightly export of issued invoices and credit notes to the ERP.
+image: registry.tesselwick.internal/finance/billing-export:3.3.0
+schedule: "30 2 * * *"
+source_topic: finance.invoice.issued
+erp:
+  endpoint: https://erp-bridge.finance.tesselwick.internal/import
+  batch_size: 250
+  company_codes: [TW01, TW02, TW05]
+sftp_fallback:
+  host: sftp.erp-host.example
+  path: /inbound/tesselwick

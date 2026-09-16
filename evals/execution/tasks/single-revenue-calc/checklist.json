@@ -1,0 +1,146 @@
+{
+  "id": "single-revenue-calc",
+  "company": "Oxtail Supply",
+  "category": "single",
+  "held_out": true,
+  "summary": "Compute Q2 2026 net revenue from EU customers in USD after credit notes; a good answer gives 493834.22 with the region taken from customers.csv, only rows dated 2026-04-01 to 2026-06-30, credit notes subtracted, and each line converted at the fixed Q2 rates.",
+  "findings": [
+    {
+      "id": "F1",
+      "what": "Credit notes are stored as positive amounts with type credit_note and must be subtracted. Q2 EU credit notes total 12399.78 USD against 506234.00 USD of Q2 EU invoices.",
+      "evidence": [
+        {
+          "file": "pricing-notes.md",
+          "quote": "Credit notes are exported as positive amounts. Subtract them."
+        },
+        {
+          "file": "invoices.csv",
+          "quote": "CN-1810,2026-04-03,C-1009,Vandermolen Horeca BV,EU,EUR,412.06,credit_note"
+        }
+      ],
+      "counts_if": "The answer subtracts credit notes (not ignored, not added), shown by the final number or by an explicit invoice minus credit note derivation."
+    },
+    {
+      "id": "F2",
+      "what": "Harrowgate Catering Group (C-1027) is an EU customer per customers.csv even though every row in invoices.csv still shows region UK. Its Q2 net contribution is 31392.98 USD.",
+      "evidence": [
+        {
+          "file": "customers.csv",
+          "quote": "Region changed from UK to EU on 2026-04-01 when the account moved to the Netherlands subsidiary"
+        },
+        {
+          "file": "pricing-notes.md",
+          "quote": "customers.csv is the master record for region."
+        },
+        {
+          "file": "invoices.csv",
+          "quote": "INV-26203,2026-04-26,C-1027,Harrowgate Catering Group,UK,EUR,1741.18,invoice"
+        }
+      ],
+      "counts_if": "The answer includes Harrowgate Catering Group / C-1027 in EU revenue, or its total matches the correct value."
+    },
+    {
+      "id": "F3",
+      "what": "Only rows dated 2026-04-01 through 2026-06-30 count. 11 EU rows sit just outside the quarter (late March, early July), including a Q2 credit note dated 2026-04-03 against a March invoice that does count.",
+      "evidence": [
+        {
+          "file": "pricing-notes.md",
+          "quote": "Q2 is 1 April to 30 June inclusive."
+        },
+        {
+          "file": "invoices.csv",
+          "quote": "INV-26140,2026-03-27,C-1009,Vandermolen Horeca BV,EU,EUR,4120.55,invoice"
+        },
+        {
+          "file": "invoices.csv",
+          "quote": "CN-1810,2026-04-03,C-1009,Vandermolen Horeca BV,EU,EUR,412.06,credit_note"
+        }
+      ],
+      "counts_if": "The answer excludes the late March and early July rows and includes the 2026-04-03 credit note, or its total matches the correct value."
+    },
+    {
+      "id": "F4",
+      "what": "Non-USD lines (EUR, GBP, SEK) are converted at the fixed Q2 2026 rates (EUR 1.0850, GBP 1.2700, SEK 0.0952 USD per unit), not the Q1 rates, rounding each line to the cent.",
+      "evidence": [
+        {
+          "file": "pricing-notes.md",
+          "quote": "| EUR | 1.0850 |"
+        },
+        {
+          "file": "pricing-notes.md",
+          "quote": "| SEK | 0.0952 |"
+        }
+      ],
+      "counts_if": "The answer converts using the Q2 rates (stated, or evident from a total within the tolerance of the correct value)."
+    }
+  ],
+  "exclusions": [
+    {
+      "id": "X1",
+      "what": "The region column in invoices.csv for C-1027 (shows UK).",
+      "evidence": [
+        {
+          "file": "pricing-notes.md",
+          "quote": "The region column in the invoice export is stamped when the account is created and is not updated if a customer moves."
+        }
+      ],
+      "why_not": "customers.csv is the master for region; filtering on the export column drops an EU customer. Result would be 462441.24."
+    },
+    {
+      "id": "X2",
+      "what": "The Q1 2026 exchange rate table.",
+      "evidence": [
+        {
+          "file": "pricing-notes.md",
+          "quote": "Q1 2026 rates (closed, kept for reference only)"
+        }
+      ],
+      "why_not": "Q1 rates apply to Q1 reporting only. Result with Q1 rates would be 475769.13."
+    },
+    {
+      "id": "X3",
+      "what": "Rows dated 2026-03-27 to 2026-03-31 and 2026-07-01 to 2026-07-06, including July credit notes that reference June invoices.",
+      "evidence": [
+        {
+          "file": "pricing-notes.md",
+          "quote": "A credit note belongs to the quarter of its own date, not the date of the invoice it corrects."
+        }
+      ],
+      "why_not": "Outside Q2. Result if included would be 519655.91."
+    },
+    {
+      "id": "X4",
+      "what": "The volume and loyalty discount rules in pricing-notes.md.",
+      "evidence": [
+        {
+          "file": "pricing-notes.md",
+          "quote": "Amounts in the invoice export are already net of all discounts, so do not apply them again."
+        }
+      ],
+      "why_not": "Discounts are already reflected in the exported amounts; reapplying them understates revenue."
+    },
+    {
+      "id": "X5",
+      "what": "UK region customers, and EU customers billed in GBP or USD being treated as non-EU.",
+      "evidence": [
+        {
+          "file": "customers.csv",
+          "quote": "Bills in GBP at customer request"
+        }
+      ],
+      "why_not": "Region, not billing currency, decides EU membership. UK is its own region and is not EU."
+    }
+  ],
+  "answer": {
+    "value": "493834.22 USD",
+    "derivation": "Filter invoices.csv to customers whose region in customers.csv is EU (including C-1027, shown as UK in the export) and dates 2026-04-01 to 2026-06-30. Native Q2 EU totals: EUR invoices 348340.42, credit notes 3944.27; GBP invoices 17958.19, credit notes 0; SEK invoices 897098.16, credit notes 85296.65; USD invoices 20074.01, credit notes 0. Convert each line at the Q2 rates (EUR 1.0850, GBP 1.2700, SEK 0.0952, USD 1) rounded to the cent: invoices 506234.00 USD minus credit notes 12399.78 USD = 493834.22 USD. Trap results for diagnosis: credit_notes_excluded = 506234.00; credit_notes_added_as_positive = 518633.78; old_region_from_invoice_export = 462441.24; out_of_quarter_rows_included = 519655.91; no_currency_conversion = 1194229.86; q1_rates_used = 475769.13; all_four_main_traps = 1309370.13.",
+    "counts_if": "Answer states 493834.22 USD. Allow up to 1.00 USD difference for converting per currency total instead of per line (that method gives 493834.23). Any of the trap values counts as wrong."
+  },
+  "mistakes_that_matter": [
+    "Ignoring credit notes or adding them as positive revenue (overstates revenue: 506234.00 or 518633.78).",
+    "Using the stale region column in invoices.csv, dropping Harrowgate Catering Group (462441.24).",
+    "Including late March or early July rows (519655.91).",
+    "Summing mixed currencies without conversion (1194229.86) or using Q1 rates (475769.13).",
+    "Reapplying discounts from pricing-notes.md to amounts that are already net."
+  ]
+}

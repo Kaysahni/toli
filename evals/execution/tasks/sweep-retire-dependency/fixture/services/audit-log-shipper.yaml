@@ -1,0 +1,15 @@
+name: audit-log-shipper
+owner: Platform Security
+image: registry.tesselwick.internal/security/audit-log-shipper:1.5.3
+inputs:
+  - type: journald
+  - type: file
+    path: /var/log/tw/audit/*.jsonl
+outputs:
+  - type: s3
+    bucket: s3://tw-audit-logs
+    prefix: prod/
+  - type: kafka
+    topic: security.audit
+buffer:
+  max_mb: 512

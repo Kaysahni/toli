@@ -1,0 +1,146 @@
+VESSEL NETWORKS CORP.
+ENTERPRISE CONNECTIVITY SERVICE ORDER AND TERMS
+
+Customer Contract Ref: BH-2022-020
+Vessel Order No.: VN-ENT-7731-B
+Order Date: March 3, 2022
+
+CUSTOMER: Brackenford Holdings, Inc., 400 Pellam Street, Port Ellery, State of Calder
+BILLING CONTACT: Accounts Payable, ap@brackenford.example
+TECHNICAL CONTACT: Deshawn Mulcahy, Director of Infrastructure
+
+PROVIDER: Vessel Networks Corp., 2100 Lanternwick Avenue, Suite 900, Harlow Cross, State of Calder
+
+------------------------------------------------------------
+PART A. SERVICE ORDER
+------------------------------------------------------------
+
+A1. Sites and Circuits
+
+  Site  Location                                   Service                        Bandwidth   MRC (CAL$)
+  ----  -----------------------------------------  -----------------------------  ----------  ----------
+  S1    400 Pellam Street, Port Ellery (HQ)        Dedicated Internet Access       1 Gbps      1,840.00
+  S1    400 Pellam Street, Port Ellery (HQ)        SD-WAN hub, dual appliance      n/a           620.00
+  S2    Distribution Center, 17 Ferrous Way,
+        Saltmarsh                                  MPLS/SD-WAN spoke               500 Mbps      910.00
+  S3    Cold Storage Facility, 3 Icehouse Lane,
+        Millbrook                                  MPLS/SD-WAN spoke + LTE backup  300 Mbps      780.00
+  S4    Cross-dock, Unit 6 Greywell Trade Park     SD-WAN spoke, broadband         200 Mbps      340.00
+  S1    HQ                                         SIP trunking, 60 channels       n/a           410.00
+
+  Total Monthly Recurring Charges (MRC):                                                     4,900.00
+  Non-Recurring Charges (NRC): Installation waived for S1 to S3; S4 installation 1,250.00
+
+A2. Service Term: 36 months per circuit, beginning on each circuit's Service Start Date.
+
+A3. Target Service Start Dates: S1 and S2 by May 16, 2022; S3 by June 30, 2022; S4 by July 29, 2022.
+
+A4. Special Terms:
+  (1) Vessel will provide a single consolidated invoice for all Sites.
+  (2) Customer may add up to two further spoke sites at the MRC listed for S4 without extending the Service Term of existing circuits.
+  (3) The LTE backup at S3 is included in the S3 MRC up to 50 GB per month; overage billed at CAL$4.00 per GB.
+
+------------------------------------------------------------
+PART B. GENERAL TERMS
+------------------------------------------------------------
+
+B1. HOW THIS WORKS
+
+This Service Order, together with these General Terms and the Service Level Schedule in Part C, forms the contract. If the Service Order and the General Terms conflict, the Service Order wins for the specific circuit it describes.
+
+B2. INSTALLATION AND ACCEPTANCE
+
+Vessel will give Customer at least five business days' notice of installation visits. Customer will provide building access, riser space, power and a demarcation point. A circuit is accepted when Vessel notifies Customer that it is live and Customer does not report a failed test within three business days. The Service Start Date is the acceptance date.
+
+If Vessel misses a Target Service Start Date by more than 45 days for a reason within its control, Customer may cancel that circuit with no charge.
+
+B3. CHARGES AND PAYMENT
+
+MRCs are billed monthly in advance. Usage and overage charges are billed monthly in arrears. Payment is due 30 days from the invoice date. Disputed amounts must be raised in writing within 60 days of the invoice date, and Customer may withhold the disputed portion while the dispute is being worked out in good faith.
+
+Vessel may pass through new government-imposed telecom surcharges. Vessel will not otherwise raise MRCs during a circuit's Service Term.
+
+B4. ACCEPTABLE USE
+
+Customer will not use the services to send unsolicited bulk email, attack other networks, or resell connectivity to third parties. Vessel may suspend a service to stop an active attack originating from Customer's network, and will tell Customer's technical contact as soon as practical.
+
+B5. EQUIPMENT
+
+The SD-WAN appliances and LTE modem remain Vessel's property. Customer will keep them in a clean, powered, climate-controlled space. Customer is responsible for loss or damage to equipment at its sites other than normal wear.
+
+Within 30 days after a circuit ends, Customer will make the equipment available for collection. Equipment not made available is charged at the replacement values in Part C, Table C3.
+
+B6. TERM, RENEWAL, AND TERMINATION
+
+(a) Each circuit runs for its Service Term. After that, it renews month to month at the then-current MRC unless either party gives 60 days' written notice of non-renewal before the end of the Service Term or, during month-to-month renewal, 30 days' written notice.
+
+(b) Customer may terminate a circuit before the end of its Service Term by giving 30 days' written notice and paying an early termination charge equal to 50% of the MRCs remaining in the Service Term for that circuit, plus any unrecovered NRC.
+
+(c) No early termination charge applies if Customer terminates because of chronic outage under Part C, or because Vessel is in material breach and has not cured the breach within 30 days after written notice describing it.
+
+(d) Vessel may terminate a service on 30 days' written notice if Customer has not paid undisputed charges that are more than 60 days overdue.
+
+(e) If Customer relocates a Site within the State of Calder, Vessel will quote a move. If Vessel cannot serve the new location, Customer may terminate the affected circuit without an early termination charge on 60 days' written notice.
+
+B7. LIABILITY
+
+Vessel's total liability in any 12 months is limited to the MRCs paid by Customer in those 12 months. Service credits under Part C are Customer's sole remedy for outages and degraded performance, except for the termination right for chronic outage. Neither party is liable for lost profits, lost data, or indirect damages.
+
+B8. NOTICES
+
+Notices under this contract must be in writing. Notices to Vessel go to Attn: Contracts Administration at the Harlow Cross address. Notices to Customer go to the Technical Contact at the HQ address, with a copy to legal@brackenford.example. Routine operational notices (maintenance windows, ticket updates) may be sent by email to the Technical Contact alone.
+
+B9. OTHER TERMS
+
+Laws of the State of Calder apply, and the state courts sitting in Ashworth County have jurisdiction. Neither party may assign without consent, except to an affiliate or in connection with a merger. Force majeure excuses delay caused by events beyond a party's reasonable control, but does not excuse payment. This contract replaces Vessel's earlier quotation Q-22-0114 dated January 2022.
+
+------------------------------------------------------------
+PART C. SERVICE LEVEL SCHEDULE
+------------------------------------------------------------
+
+C1. Availability Targets
+
+  Service type                    Monthly availability target
+  ------------------------------  ---------------------------
+  Dedicated Internet Access       99.95%
+  MPLS/SD-WAN spoke with backup   99.99%
+  MPLS/SD-WAN spoke, no backup    99.9%
+  SIP trunking                    99.95%
+
+C2. Service Credits
+
+  Availability shortfall below target    Credit (% of circuit MRC)
+  -------------------------------------  -------------------------
+  Up to 0.25 percentage points           5%
+  More than 0.25 up to 1.0 point         15%
+  More than 1.0 point                    30%
+
+Credits must be requested within 45 days after the end of the month in which the shortfall occurred. Planned maintenance notified at least 72 hours in advance, and outages caused by Customer equipment or power, do not count.
+
+Chronic outage: if a circuit misses its availability target in three months out of any rolling six, Customer may terminate that circuit under B6(c) by notice given within 60 days after the third missed month.
+
+C3. Equipment Replacement Values
+
+  SD-WAN hub appliance       CAL$ 6,400 each
+  SD-WAN spoke appliance     CAL$ 2,150 each
+  LTE modem and antenna kit  CAL$ 540
+
+C4. Support
+
+24x7 network operations center reachable at the support line printed on each invoice. Priority 1 tickets (site down): response within 30 minutes, on-site dispatch within 4 hours where remote fixes fail.
+
+------------------------------------------------------------
+ACCEPTED
+------------------------------------------------------------
+
+Vessel Networks Corp.
+By: Ingrid Halvorsen-Bray
+Title: Regional Vice President, Enterprise Sales
+Date: March 3, 2022
+
+Brackenford Holdings, Inc.
+By: Deshawn Mulcahy
+Title: Director of Infrastructure
+Date: March 8, 2022
+
+Approved as to form: M. Castellanos, Legal, 3/7/2022

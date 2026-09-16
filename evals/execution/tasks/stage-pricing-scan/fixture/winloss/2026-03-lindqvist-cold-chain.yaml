@@ -1,0 +1,20 @@
+# CRM export: opportunity closeout
+opportunity: Lindqvist Cold Chain AB, analytics platform
+stage: closed_won
+close_date: 2026-03-27
+owner: aileen.farrow
+amount_annual_usd: 30360
+plan: standard_annual
+seats: 55
+competitors:
+  - Sorrelgate Data
+primary_reason: product_fit
+notes: |
+  Temperature excursion dashboards for 40 refrigerated trucks. They needed
+  sub-hourly refresh from their telemetry warehouse and our streaming
+  connector handled it; Sorrelgate's trial choked on the event volume.
+  Seat count came from the depot leads who all needed their own views.
+  Pricing came up once, their finance lead compared us to Sorrelgate's
+  Scale plan and said it was a wash at 55 seats.
+  Champion: Elin Marsh (Head of Fleet Ops).
+next_steps: onboarding kickoff booked 2026-04-06

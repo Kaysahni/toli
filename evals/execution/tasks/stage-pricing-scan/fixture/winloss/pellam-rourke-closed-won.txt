@@ -1,0 +1,20 @@
+From: Theo Brandt <theo.brandt@ferrowind.example>
+To: deals-won@ferrowind.example
+Date: Thu, 19 Mar 2026 16:02:11 +0000
+Subject: WON: Pellam & Rourke LLP, Pro annual, 32 seats
+
+Team,
+
+Signed this afternoon. Quick notes for the record.
+
+Who: Pellam & Rourke, 4-office law firm. Buyer is the COO, Fran Delacourt. Main use is billable hours and matter profitability by partner.
+
+Competition: they looked at Tallowbeam briefly in January but did not run a trial.
+
+The objection: seats. Fran pushed back hard on paying $79 a head for 32 people, and at one point said they might limit it to the partners only. What turned it around was the annual price plus a 12% multi-year discount (manager approved, Ops has the form). She also realised the associates are the ones who actually use it daily, so cutting them out made no sense.
+
+Why us in the end: RLS so partners only see their own matters, and SSO with their identity provider. Those were must-haves and we had both on Pro.
+
+Next: kickoff 26 March. CS owner is Bea.
+
+Theo

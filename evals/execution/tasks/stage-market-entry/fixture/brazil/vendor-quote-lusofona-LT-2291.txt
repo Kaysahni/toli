@@ -1,0 +1,55 @@
+LUSÓFONA TRADUÇÕES LTDA.
+Rua Voluntários da Pátria, Rio de Janeiro, RJ
+
+COMMERCIAL PROPOSAL
+Quote no.: LT-2291
+Date: 28 May 2026
+Valid until: 31 August 2026
+Client: Varnholt Inc. (attn. Joaquim Ferraz)
+
+1. SCOPE
+
+Translation from English (US) into Portuguese (Brazil), including
+terminology glossary, translation, independent review, and in-context
+linguistic QA.
+
+  Lot A: Application interface
+    iOS, Android, web and desktop string files (approx. 10,900 strings)
+    In-app onboarding and empty states
+    App store listings (both stores)
+    Transactional, billing and account emails (approx. 60 templates)
+    Legal pages: terms of use, privacy notice, subscription terms
+    (translation only; final wording reviewed by client's counsel)
+
+  Lot B: Help center
+    All 412 help center articles as exported by the client on 20 May 2026
+    Article titles, body text, image alt text and navigation labels
+    Up to 25 screenshots recaptured in the localized UI
+
+  Excluded: marketing website, video subtitles, and any content added after the export date (billed per word
+  at the rate in section 4).
+
+2. DELIVERY
+
+  Lot A: 6 weeks from glossary sign-off
+  Lot B: 9 weeks from glossary sign-off, in four batches
+
+3. PRICE
+
+  Fixed fee for Lot A and Lot B together: USD 64,000.00
+  The fee is not split by lot. Payment 40% on signature, 30% on Lot A
+  delivery, 30% on Lot B delivery.
+
+4. ADDITIONAL WORK
+
+  New or changed content after export: USD 0.14 per source word.
+  Rush delivery (under 4 weeks per lot): +25%.
+
+5. TERMS
+
+  Translation memory and glossary are delivered to the client and belong
+  to the client. Confidentiality under the client's standard NDA, signed
+  22 May 2026.
+
+For Lusófona Traduções
+Renata Albuquerque, Commercial Director

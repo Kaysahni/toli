@@ -1,0 +1,18 @@
+# carrier-onboarding
+# Verifies new subcontracted carriers: insurance docs, licence checks, sample lane pricing.
+# Owning team: Partner Integrations. Primary contact: Mikkel Brandt.
+
+component: carrier-onboarding
+image: registry.tesselwick.internal/partners/carrier-onboarding:5.6.1
+python_requirements:
+  - tw-routing-client==2.9.4
+  - tw-auth==4.0.2
+  - requests==2.32.3
+  - pdfminer.six==20231228
+environment:
+  RC_API_MODE: current
+  LICENCE_REGISTRY_URL: https://licence-check.partners.svc:8443/verify
+  INSURANCE_DOC_BUCKET: s3://tw-carrier-docs-prod
+  SAMPLE_LANES: "ORB-KLV,KLV-HSK,HSK-MRV"
+  REVIEW_QUEUE: partners.onboarding.review
+workers: 2

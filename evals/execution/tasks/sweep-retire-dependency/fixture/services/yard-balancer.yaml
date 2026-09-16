@@ -1,0 +1,30 @@
+---
+# Yard balancer. Moves empty trailers between hubs overnight so morning
+# loading is not starved. Owned by Yard Systems, on-call rota "yard-oncall".
+apiVersion: tesselwick.io/v2
+kind: ServiceConfig
+metadata:
+  name: yard-balancer
+  team: yard-systems
+  contact: tomas.eklund@tesselwick.example
+spec:
+  image: registry.tesselwick.internal/yard/yard-balancer:2.3.0
+  schedule_window: "22:00-05:30"
+  runtime: python3.11
+  dependencies:
+    tw-routing-client: "3.1.2"
+    tw-kafka: "1.9.0"
+    ortools: "9.10"
+  env:
+    BALANCER_MAX_MOVES_PER_HUB: "14"
+    BALANCER_EMPTY_TARGET_RATIO: "0.18"
+    HUB_OCCUPANCY_URL: http://hub-occupancy.yard.svc:8080/occupancy
+    RC_API_MODE: classic
+    RC_TIMEOUT_SECONDS: "20"
+    DRIVER_POOL_URL: http://dispatch-console.dispatch.svc:8080/api/drivers/available
+    PG_DSN: vault:kv/prod/yard-balancer#pg_dsn
+  alerts:
+    - name: balancer_run_failed
+      severity: page
+    - name: balancer_moves_below_plan
+      severity: ticket

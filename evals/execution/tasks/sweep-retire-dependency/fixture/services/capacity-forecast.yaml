@@ -1,0 +1,20 @@
+# capacity-forecast
+# Weekly forecast of trailer and driver demand per hub.
+# owner: Network Planning Analytics (Ingrid Solberg)
+service:
+  name: capacity-forecast
+  image: registry.tesselwick.internal/planning/capacity-forecast:2.0.0
+  runtime: python3.11
+  schedule: "0 5 * * 1"
+packages:
+  tw-routing-client: 3.2.0
+  prophet: 1.1.5
+  pandas: 2.2.2
+env:
+  FORECAST_HORIZON_WEEKS: "8"
+  HUBS: ORB-XD1,KLV-XD2,HSK-XD1,MRV-XD1,TRN-XD3
+  WAREHOUSE_DSN: vault:kv/prod/capacity-forecast#warehouse
+  # RC_API_MODE: classic   # only needed for the Q1 old-vs-new distance comparison, removed after sign-off
+  RC_TIMEOUT_SECONDS: "30"
+output:
+  table: planning.capacity_forecast_weekly

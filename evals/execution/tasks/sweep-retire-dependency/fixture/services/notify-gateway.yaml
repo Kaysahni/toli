@@ -1,0 +1,15 @@
+name: notify-gateway
+team: Customer Comms
+image: registry.tesselwick.internal/comms/notify-gateway:2.11.0
+replicas: 2
+providers:
+  sms:
+    primary: smsrelay-nordic
+    fallback: smsrelay-eu
+  email:
+    smtp_host: smtp-out.comms.tesselwick.internal
+    smtp_port: 587
+limits:
+  sms_per_recipient_per_day: 6
+  email_per_recipient_per_day: 20
+templates_repo: git@git.tesselwick.internal:comms/notify-templates.git

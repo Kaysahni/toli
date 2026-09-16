@@ -1,0 +1,41 @@
+LET NEW HIRES FILL IN THEIR OWN DETAILS
+Help Center > Team > Onboarding
+Maintained by: Wren Halloway
+Last reviewed: 2026-02-05
+
+Instead of typing a new employee's address, tax forms and bank details yourself, you can invite them to do it. This is called self-onboarding. It saves you time and keeps sensitive details, like bank account numbers, out of your email.
+
+HOW TO INVITE SOMEONE
+
+1. Team > Add team member.
+2. Enter their name, personal email, start date, job title, pay rate and work location.
+3. Leave "Employee will complete their own details" checked (it's on by default).
+4. Click Send invite.
+
+The new hire gets an email from Halvard with a link. The link is good for 14 days. If it expires, open their profile and click Resend invite.
+
+WHAT THE EMPLOYEE COMPLETES
+
+  - Legal name and preferred name
+  - Home address
+  - Date of birth and taxpayer ID number
+  - Federal and state withholding forms
+  - Direct deposit account(s), or a request for paper checks
+  - Emergency contact
+  - Any documents you've asked them to sign (offer letter, handbook acknowledgment)
+
+WHAT YOU STILL DO
+
+You set pay, job title, work location, department and benefits eligibility. The employee can't change those.
+
+TRACKING PROGRESS
+
+On Home you'll see an "Onboarding" card listing everyone with unfinished steps. Click a name to see exactly what's missing.
+
+If someone's start date is coming up and they haven't finished, you can fill in the missing pieces yourself from their profile. Anything the employee already entered stays as is.
+
+TIPS
+
+  * Use their personal email. A lot of new hires don't have a work email on day one.
+  * Tell them the email is coming. Invites sometimes land in spam folders.
+  * If you need the new hire to upload an ID or certification, add a document request under Settings > Onboarding > Document requests before you send the invite.
