@@ -91,7 +91,7 @@ it every correct refusal looks like the skill doing nothing.
 4. **Dials.** Set all five from `references/dials.md`. Dial 4 is casting: who runs each node, per `references/casting.md`.
 5. **Rewrite.** Convert the ask into node prompts per `references/prompt-rubric.md`. Do not print them unless asked.
 6. **Card.** Print the card. Stop. Wait.
-7. **Run.** On `go`, emit the script and call Workflow. Print the returned run id and scriptPath, in that order, before anything else: the run id is what resume needs, and it is gone once the session is.
+7. **Run.** On `go`, emit the script and call Workflow. On `go but <change>`, see Verbs: the change can move the count into a higher band, which stops again. Print the returned run id and scriptPath, in that order, before anything else: the run id is what resume needs, and it is gone once the session is.
 
 Read the references at the step that names them, not up front. `by-function.md` at step 2, only the section matching the ask's job, when the call is close. `patterns.md` at step 3, `dials.md` and `casting.md` at step 4, `prompt-rubric.md` at step 5.
 
@@ -157,6 +157,38 @@ BAR is the highest-value field. Most bad runs come from a loose definition, not 
 | `prompts` | every node prompt, schema, done-criteria |
 | `cheaper` | 3 cost-cut variants, each with its tradeoff named. One of the three is always the inline baseline: do it in a single pass, and what that loses |
 | `full` | all of the above |
+| `go but <change>` | the card fields the change moved, and nothing else. Then run |
+
+`go but <change>` is not a second approval. Apply the change, reprint only the
+fields that moved with their old value alongside, then run without waiting:
+
+```
+go but drop the EMEA contracts
+
+         6 contracts
+            ├─ read ─ judge ─┐
+            ├─ read ─ judge ─┼─▶ group
+            └─ ...           ┘
+
+COST     12 agents (6 contracts x 2 stages)   was 41
+Run started: 12 agents on the US contract set.
+```
+
+The diagram carries the item count in its first line, so it goes stale whenever
+COST moves, shape or no shape. **If COST moved, reprint the diagram**, or the old
+count sits on screen contradicting the new one. Reprint the SHAPE line itself only
+when the pattern actually changed, since the runner-up reasoning is unaffected by
+scope. A change that moves nothing prints `unchanged` on one line and runs.
+
+The delta is printed text, not a log entry. Recomputing the count and writing it
+to the log is not the work, and never ends the turn on its own: a turn that logs
+a new number without showing it leaves the user looking at the old card.
+
+The exception is the ceiling. A change moves the input set, the input set moves
+the agent count, and the count can land in a higher band than the card was
+approved at. Recompute the band. If the change crosses into one, the Auto-expand
+table applies again and it stops and waits, exactly as if that count had been on
+the first card. Crossing downward never stops.
 
 ## Auto-expand
 
