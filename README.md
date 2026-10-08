@@ -181,6 +181,15 @@ claude plugin marketplace add Kaysahni/toli
 claude plugin install toli@toli
 ```
 
+Every push to `main` is a new version, but Claude Code does not auto-update
+third-party marketplaces unless you ask it to. Turn it on once in `/plugin` →
+**Marketplaces** → toli → **Enable auto-update**, or update by hand:
+
+```bash
+claude plugin marketplace update toli
+claude plugin update toli@toli
+```
+
 Or as a plain skill, for any agent that reads `SKILL.md`:
 
 ```bash

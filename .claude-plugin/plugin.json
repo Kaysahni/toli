@@ -1,7 +1,6 @@
 {
   "name": "toli",
-  "version": "0.1.0",
-  "description": "Shapes a multi-agent run into a one-screen approval card before any agent is spent, and tells you when not to fan out at all.",
+  "description": "Plans a multi-agent run before any agent spends a token: decides whether the work really splits, picks the shape and agent count, and puts it all on one screen you approve.",
   "author": {
     "name": "Kanishk Sahni",
     "url": "https://github.com/Kaysahni"
